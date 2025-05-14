@@ -5,7 +5,7 @@ title: Home
 
 {% include navigation.html %}
 
-# Strategic AI Solutions
+# {{ site.title }}
 
 {{ site.description }}
 
