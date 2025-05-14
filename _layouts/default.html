@@ -3,26 +3,15 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>Strategic AI Solutions</title>
+    <title>{{site.title}}</title>
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700" media="all" />
   </head>
   <body>
+    {% include navigation.html %}
+    <h1>{{ page.title }}</h1>
     <div class="container-lg px-3 my-5 markdown-body">{{ content }}</div>
-    <footer>
-      <!-- Contact info with spam-protected email -->
-
-      <div class="container" style="text-align: left">
-        © 2025 Strategic AI Solutions ([My Full Name] EI) • <a href="#legal-notice">Legal Notice</a>
-        • For any inquiries, contact
-        <script>
-          var user = "contact";
-          var domain = "strategic-ai.eu";
-          document.write('<a href="mailto:' + user + "@" + domain + '">');
-          document.write(user + "@" + domain + "</a>");
-        </script>
-      </div>
-    </footer>
+    {% include footer.html %}
   </body>
 </html>
 
