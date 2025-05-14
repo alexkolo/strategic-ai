@@ -1,1 +1,1 @@
-# strategic-ai.github.io
+# Strategic AI Solutions
