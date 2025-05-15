@@ -97,7 +97,7 @@ a:hover {
 /* --------- call bar ---------- */
 .book-call-btn {
   background-color: #0063fb;
-  color: white;
+  color: white !important;
   border: none;
   border-radius: 999px; /* pill shape */
   padding: 12px 24px;
@@ -105,8 +105,10 @@ a:hover {
   font-weight: bold;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  display: inline-block; /* for padding to apply correctly */
 }
 
 .book-call-btn:hover {
   background-color: #0050c1; /* slightly darker on hover */
+  color: white; /* maintain white on hover too */
 }
