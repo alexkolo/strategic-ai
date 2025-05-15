@@ -11,7 +11,7 @@ text_align: justify
 
 As your dedicated {{ site.my_role }} with over {{ site.n_exp_years }} years of experience applying advanced data analysis & AI principles, I partner with Independent Software Vendors (ISVs) and technology companies to elevate their industrial software solutions. My focus is on integrating advanced, reliable AI capabilities that deliver tangible value to you and your end-users. I bridge the gap between cutting-edge AI methodologies and the practical realities of industrial applications, ensuring solutions are not just innovative, but also robust, scalable, and production-ready.
 
-## <i class="fa fa-support"></i> Areas of Expertise: How I Help Your Software Excel
+## <i class="fa fa-handshake-o"></i> Areas of Expertise: How I Help Your Software Excel
 
 My services are designed to address the specific challenges and opportunities faced by providers of Predictive Maintenance (PdM), Condition Monitoring (CM), Asset Performance Management (APM), and Industrial IoT (IIoT) analytics software:
 
