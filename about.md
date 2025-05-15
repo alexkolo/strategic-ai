@@ -1,7 +1,7 @@
 ---
 layout: default
 title: About Me
-font_family: "Franklin Gothic Medium"
+font_family: "Montserrat"
 text_align: justify
 toc: true
 ---
