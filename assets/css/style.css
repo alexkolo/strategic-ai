@@ -69,14 +69,21 @@ a:not(.book-call-btn):hover {
 /* --------- navigation bar ---------- */
 .navbar {
   list-style: none;
-  padding: 12px 0; /* Add vertical padding */
+  padding: 12px 1rem;
   margin: 0;
   display: flex;
-  align-items: center; /* <-- this aligns all items vertically */
-  gap: 30px; /* horizontal spacing between items */
+  flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
+  gap: clamp(10px, 4vw, 30px); /* responsive horizontal spacing */
   background-color: #f8f8f8;
-  font-size: 125%; /* increases font size by 25% */
+  font-size: 125%;
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    font-size: 100%; /* smaller font on narrow screens */
+  }
 }
 
 .navbar li {
@@ -88,6 +95,7 @@ a:not(.book-call-btn):hover {
   color: #333;
   font-weight: bold;
   padding: 8px 12px;
+  line-height: 1.2; /* ensure tight but readable vertical layout */
   transition: color 0.3s ease, background-color 0.3s ease;
 }
 
