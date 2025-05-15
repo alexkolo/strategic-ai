@@ -63,3 +63,33 @@ a:hover {
   width: 150px; /* Adjust as desired */
   margin-bottom: 20px;
 }
+
+/* navigation bar  */
+.navbar {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 10px 0;
+  margin: 0;
+  background-color: #f8f8f8;
+  font-family: Arial, sans-serif;
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding: 8px 12px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: white;
+  background-color: #007bff;
+  border-radius: 4px;
+}

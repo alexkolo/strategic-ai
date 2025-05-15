@@ -4,7 +4,7 @@ title: Home
 ---
 
 <div class="container_center">
-  <img src="{{ site.logo }}" alt="{{ site.company }} logo" class="logo" />
+  <!-- <img src="{{ site.logo }}" alt="{{ site.company }} logo" class="logo" /> -->
 
   <img src="{{ site.profile_image }}" alt="{{ site.my_name }} Profile Image" class="logo" />
 
@@ -13,7 +13,7 @@ title: Home
   <h3>{{ site.company }}</h3>
   <div class="slogan">{{ site.slogan }}</div>
 
-<a href="{{ site.meeting_link }}" target="_blank">Book a Call</a>
+<a href="{{ site.meeting_link }}" target="_blank" class="button" style="background-color: #007bff; color: white"><strong>Book a Call</strong></a>
 
 </div>
 <hr />
