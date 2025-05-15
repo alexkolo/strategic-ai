@@ -1,16 +1,18 @@
 <nav>
   <ul class="navbar">
     <li>
-      <a href="/strategic-ai/" class="{% if page.url == '/' %}active{% endif %}">Home</a>
+      <a href="{{ url_root }}/" class="{% if page.url == '/' %}active{% endif %}">Home</a>
     </li>
     <li>
-      <a href="/strategic-ai/services" class="{% if page.url == '/services.html' %}active{% endif %}">My Services</a>
+      <a href="{{ url_root }}/services" class="{% if page.url == '/services.html' %}active{% endif %}">My Services</a>
     </li>
     <li>
-      <a href="/strategic-ai/portfolio" class="{% if page.url == '/portfolio.html' %}active{% endif %}">My Portfolio</a>
+      <a href="{{ url_root }}/portfolio" class="{% if page.url == '/portfolio.html' %}active{% endif %}"
+        >My Portfolio</a
+      >
     </li>
     <li>
-      <a href="/strategic-ai/about" class="{% if page.url == '/about.html' %}active{% endif %}">About Me</a>
+      <a href="{{ url_root }}/about" class="{% if page.url == '/about.html' %}active{% endif %}">About Me</a>
     </li>
     <li>
       <a href="{{ site.meeting_link }}" target="_blank" class="book-call-btn">Book a Call</a>
