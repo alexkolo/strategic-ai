@@ -29,7 +29,7 @@ Drawing on my experience developing and deploying diagnostic algorithms for crit
 - **Develop & Refine Anomaly Detection Models:** Implement sophisticated algorithms (beyond simple thresholds) to identify subtle deviations and early warning signs with higher sensitivity and fewer false positives. This means more trustworthy alerts for your users.
 - **Enhance Performance Diagnostics & Prognostics:** Build models to diagnose root causes of performance degradation and, where applicable, estimate Remaining Useful Life (RUL) for key components.
 - **Improve Existing Model Performance:** Leverage advanced statistical techniques, feature engineering, and robust benchmarking to increase the accuracy and reliability of your current predictive models.
-  - _Example: My work at Metroscope involved complementing physics-based models with statistical/ML approaches, significantly reducing calibration times while often maintaining or improving accuracy._
+  - _Example: My work at an PdM SaaS provider involved complementing physics-based models with statistical/ML approaches, significantly reducing calibration times while often maintaining or improving accuracy._
 
 **Benefit for your ISV/Tech Company:** Enhance your software's core predictive power, reduce false positives for your users, increase the reliability and value of your PdM offerings, and differentiate your product in the market.
 
@@ -42,10 +42,10 @@ Drawing on my experience developing and deploying diagnostic algorithms for crit
 </div>
 
 **Ensure your AI models are built on a foundation of high-quality, reliable data.**
-Industrial sensor data is often complex, heterogeneous, and noisy. My experience in astrophysics (handling petabytes of complex data) and at Metroscope (processing diverse client data from >10 industrial plants) has equipped me to:
+Industrial sensor data is often complex, heterogeneous, and noisy. My experience in astrophysics (handling petabytes of complex data) and at an PdM SaaS provider (processing diverse client data from >10 industrial plants) has equipped me to:
 
 - **Design & Implement Custom ETL Pipelines:** Develop automated workflows to ingest, clean, validate, transform, and structure raw sensor data, making it ready for advanced analytics.
-- **Automate Data Quality Checks & Anomaly Correction:** Implement KI-gestützte Plausibilitätschecks and routines for automated data cleansing and interpolation, ensuring data consistency.
+- **Automate Data Quality Checks & Anomaly Correction:** Implement AI-empowered plausibility checks and routines for automated data cleansing and interpolation, ensuring data consistency.
 - **Optimize Data Handling for Scalability:** Build pipelines that can efficiently process large volumes of time-series data.
 
 **Benefit for your ISV/Tech Company:** Build a reliable data foundation for all your analytics, ensure your algorithms perform optimally by feeding them clean, well-structured data, and reduce manual data preparation efforts for your team and your clients.
@@ -72,14 +72,14 @@ For ISVs, deploying and maintaining AI models at scale is crucial. I provide exp
 ## 4. Generative AI (GenAI) & LLM Integration for Industrial Value
 
 <div style="text-align: center;">
-<img src="{{ site.image_url }}/ChatGPT Image May 14, 2025, 06_40_31 PM - Generative AI (GenAI) and LLM Integration for Industrial Value.svg" alt="Generative AI (GenAI) & LLM Integration for Industrial Value" height="200"/>
+<img src="{{ site.image_url }}/ChatGPT Image May 14, 2025, 08_12_56 PM - Developing an AI-Powered Q&A Companion with Generative AI.svg" alt="Developing an AI-Powered Q&A Companion with Generative AI" height="200"/>
 </div>
 
 **Unlock new efficiencies and insights by leveraging the power of Large Language Models (LLMs) within your industrial software.**
 Beyond core PdM, GenAI offers exciting opportunities to enhance user experience and extract value from unstructured data:
 
-- **Custom RAG Systems & Intelligent Chatbots:** Develop AI assistants that provide fast, context-aware answers to technical questions by drawing on your proprietary knowledge bases (e.g., technical manuals, maintenance logs, Elpro & operator documentation).
-  - _Examples: My projects include building RAG systems like the [NutritionFacts Chatbot](https://nutrify-your-life.streamlit.app/) and my [Personal Digital Twin](https://alex-kolodzig-cv.streamlit.app/My_Digital_Twin)._
+- **Custom RAG Systems & Intelligent Chatbots:** Develop AI assistants that provide fast, context-aware answers to technical questions by drawing on your proprietary knowledge bases (e.g., technical manuals, maintenance logs, manufacturer or operator documentation).
+  <!-- - _Examples: My projects include building RAG systems like the [NutritionFacts Chatbot](https://nutrify-your-life.streamlit.app/) and my [Personal Digital Twin](https://alex-kolodzig-cv.streamlit.app/My_Digital_Twin)._ -->
 - **Automated Reporting & Insight Summarization:** Utilize LLMs to intelligently summarize asset conditions, maintenance events, or complex log files, presenting key information clearly and concisely.
 - **Enhanced Data Interaction & Feature Discovery:** Explore how GenAI can help analyze unstructured data to find relevant features for PdM models or support engineers in their diagnostic workflows.
 
@@ -89,7 +89,7 @@ Beyond core PdM, GenAI offers exciting opportunities to enhance user experience 
 
 ## How I Help Your Software (and Your Business) Succeed
 
-Partnering with me means gaining access to specialized expertise that can:
+Partnering with me means gaining access to unique expertise that can:
 
 - **Accelerate Your AI Development:** Bring cutting-edge features to market faster.
 - **Increase Model Accuracy & Reliability:** Reduce false alarms and build greater trust with your users.
@@ -123,3 +123,5 @@ I believe in a transparent and collaborative approach to ensure the AI solutions
 
 5. **Ongoing Partnership & Evolution (Optional Add-on):**
    - For long-term success, I can offer continuous support, monitoring, and improvement services. This helps keep your AI solution at the cutting edge, adapting to new data, evolving trends, and ensuring it consistently delivers maximum impact.
+
+---
