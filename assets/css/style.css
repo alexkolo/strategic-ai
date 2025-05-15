@@ -26,21 +26,14 @@ footer {
 body {
   margin: 0;
   padding: 0;
-  /* font-family: "Dosis Light", sans-serif; */
-  /* font-weight: normal; force consistent rendering */
 
-  /* 6) Subtle background variation (gradient) */
+  /* Subtle background variation (gradient) */
   background: linear-gradient(#fafafa, #f6f6f6);
 
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
-
-/* .content-area,
-.markdown-body {
-  font-weight: normal;
-} */
 
 /* 5) Link styling: more elegant than default underline */
 a:not(.book-call-btn) {
@@ -68,7 +61,7 @@ a:not(.book-call-btn):hover {
 
 .logo {
   width: 150px; /* Adjust as desired */
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 /* --------- navigation bar ---------- */
