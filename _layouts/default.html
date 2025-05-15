@@ -13,10 +13,11 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700" media="all" /> -->
   </head>
-  <body
-    font_family="{% if page.font_family %}{{ page.font_family }}{% else %}{{ site.font_family }}{% endif %}, sans-serif"
-  >
-    <div class="container-lg px-3 my-5 markdown-body">{% include navigation.html %} {{ content }}</div>
+  <body style="font-family: {{ site.font_family }}, sans-serif;">
+    <div class="container-lg px-3 my-5 markdown-body">
+      {% include navigation.html %}
+      <div style="font-family: {{ page.font_family | default: site.font_family }}, sans-serif;">{{ content }}</div>
+    </div>
     {% include footer.html %}
   </body>
 </html>
