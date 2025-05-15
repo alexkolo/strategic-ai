@@ -18,7 +18,7 @@ _A selection of projects demonstrating my expertise in delivering impactful AI s
 _This project focused on creating a robust, scalable, and standardized ETL pipeline to handle diverse and complex data from industrial clients for a leading PdM SaaS company (EDF Subsidiary)._
 
 - **Challenge:** The client faced significant delays and high rework costs in calibrating their core predictive maintenance product. This was due to inconsistent, messy, and diversely formatted data from new industrial clients, which hindered efficient product deployment and team scalability.
-- **Solution:** I architected and developed a universal Python-based ETL pipeline (`raw-data-handling` repository). Key features included adaptive parsing for various file types (CSV, multi-sheet Excel), robust timestamp/timezone correction, automated tag sanitization, chunk-based processing for large datasets, and comprehensive error handling. The solution included CI/CD integration (GitHub Actions), extensive documentation, and team training for wide adoption.
+- **Solution:** I architected and developed a universal Python-based ETL pipeline. Key features included adaptive parsing for various file types (CSV, multi-sheet Excel), robust timestamp/timezone correction, automated tag sanitization, chunk-based processing for large datasets, and comprehensive error handling. The solution included CI/CD integration (GitHub Actions), extensive documentation, and team training for wide adoption.
 - **Outcome:** Achieved a **reduction in data processing time by over 90%**, significantly accelerating client onboarding and product calibration. This minimized project risks and rework, improved overall data quality, and enabled a scalable, standardized data ingestion process adopted by the entire data science team.
 - **Technical Highlight / Technologies Used:** Python, Pandas, Custom ETL Architecture, Advanced File Parsing (CSV/Excel), Time-Zone/Timestamp Correction, Data Validation & Sanitization, CI/CD (GitHub Actions), Chunk-based Processing for Big Data, Comprehensive Documentation.
 
@@ -44,9 +44,9 @@ _For the same PdM SaaS provider, this project aimed to improve the accuracy and 
 _This engagement involved leading the algorithm development for a new "Early Anomaly Detection" SaaS product, focusing on creating sophisticated, reliable, and interpretable models for industrial assets._
 
 - **Challenge:** The client needed to develop a new flagship product capable of detecting subtle, early-stage anomalies in industrial equipment, moving beyond basic rule-based alerts to offer more sophisticated and reliable predictive insights.
-- **Solution:** I designed, benchmarked, and deployed a suite of advanced anomaly detection algorithms, encompassing causal and non-causal methods (e.g., AAKR, Isolation Forest, PCA-based clustering). A key part of the solution was developing a mock-fault injection framework for robust validation and integrating Shapley values for enhanced model explainability. Full MLOps pipelines were established for efficient training, deployment (Seldon on Kubernetes), and inference.
+- **Solution:** I designed, benchmarked, and deployed a suite of advanced anomaly detection algorithms, encompassing causal and non-causal methods (e.g., AAKR, Isolation Forest, PCA-based clustering). A key part of the solution was developing a mock-fault injection framework for robust validation and integrating Shapley values for enhanced model explainability. Full MLOps pipelines were established for efficient training, deployment (on Kubernetes), and inference.
 - **Outcome:** Significantly improved anomaly detection accuracy and model interpretability, leading to more reliable and actionable early fault warnings for end-users. The streamlined MLOps processes enabled efficient model deployment and updates. This work was **instrumental in successfully launching the new early anomaly detection SaaS product, effectively doubling the company's product portfolio.**
-- **Technical Highlight / Technologies Used:** Python, Anomaly Detection Algorithms (AAKR, Isolation Forest, Clustering, Causal Methods), MLOps (Seldon, Kubernetes, NATS, GitHub Actions), Model Explainability (Shapley Values), Mock-Fault Generation & Testing, Performance Benchmarking Frameworks.
+- **Technical Highlight / Technologies Used:** Python, Anomaly Detection Algorithms (AAKR, Isolation Forest, Clustering, Causal Methods), MLOps (Kubernetes, NATS, GitHub Actions), Model Explainability (Shapley Values), Mock-Fault Generation & Testing, Performance Benchmarking Frameworks.
 
 ## Developing an AI-Powered Q&A Companion with Generative AI (Self-Driven Initiative)
 
@@ -65,8 +65,8 @@ _This personal project was undertaken to deepen my expertise in Generative AI by
   - Developing a user-friendly Streamlit interface and a MongoDB-backed monitoring dashboard.
 - **Outcome:** Successfully developed and deployed a fully functional AI application that transforms static content into a dynamic, interactive AI asset, providing users with immediate and reliable answers. This project solidified my practical skills in the complete GenAI development lifecycle. _The RAG methodologies and architecture demonstrated are directly applicable to creating similar systems for industrial technical documentation, maintenance logs, or compliance standards._
 
-  👉 [Live Demo](https://nutrify-your-life.streamlit.app/)
+  👉 <a href="https://nutrify-your-life.streamlit.app/" target="_blank">Live Demo</a>
 
 - **Technical Highlight / Technologies Used:** Generative AI (RAG), Python, Streamlit, LLM APIs (Groq), Sentence Transformers, Vector Databases (LanceDB), Hybrid Search, Cross-Encoder Reranking, Prompt Engineering, Data Scraping/Processing, MongoDB, Docker.
 
-  [GitHub Repository](https://github.com/alexkolo/rag_nutrition_facts_blog)
+  <a href="https://github.com/alexkolo/rag_nutrition_facts_blog" target="_blank">GitHub Repository</a>
