@@ -37,6 +37,11 @@ body {
   min-height: 100vh;
 }
 
+.content-area,
+.markdown-body {
+  font-weight: normal;
+}
+
 /* 5) Link styling: more elegant than default underline */
 a:not(.book-call-btn) {
   color: #333;
