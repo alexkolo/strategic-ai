@@ -101,7 +101,7 @@ a:not(.book-call-btn):hover {
   border-radius: 4px;
 }
 
-/* --------- call bar ---------- */
+/* --------- call button ---------- */
 .book-call-btn {
   background-color: #0063fb;
   color: white !important;
@@ -119,4 +119,29 @@ a:not(.book-call-btn):hover {
 .book-call-btn:hover {
   background-color: #0050c1; /* slightly darker on hover */
   color: white; /* maintain white on hover too */
+}
+
+/* --------- Home page highlights ---------- */
+.highlights {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 2rem;
+  gap: 2rem;
+}
+
+.highlights div {
+  flex: 1;
+  padding: 1rem;
+}
+.highlights a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  border-bottom: 1px solid #0063fb;
+  color: #0063fb;
+}
+
+.highlights i {
+  color: #0063fb;
+  margin-bottom: 0.5rem;
 }
