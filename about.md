@@ -11,7 +11,7 @@ text_align: justify
 
 ## Bio
 
-I'm {{ site.my_name }}, a {{ site.my_role }} with a Ph.D. in astrophysics and over {{n_exp_years}} years of experience applying advanced data analysis & AI principles.
+I'm {{ site.my_name }}, a {{ site.my_role }} with a Ph.D. in astrophysics and over {{ site.n_exp_years }} years of experience applying advanced data analysis & AI principles.
 I am passionate about transforming complex industrial data into intelligent, actionable solutions.
 
 At **{{ site.company }}**, my mission is to empower technology providers like yours. I bridge the gap between academic research and the practical demands of the industrial world, delivering:
@@ -20,7 +20,7 @@ At **{{ site.company }}**, my mission is to empower technology providers like yo
 - **Production-ready AI systems** that integrate seamlessly, reduce false positives, and help your clients minimize downtime & optimize asset performance.
 - A **distinct competitive edge** for your software offerings.
 
-My proven track record includes **doubling the SaaS product portfolio** at a predictive maintenance startup by developing and deploying sophisticated anomaly detection and diagnostic algorithms. With over {{n_exp_years}} years of experience transforming petabytes of noisy, high-volume data (from astrophysics to industrial sensors) into clear insights, I offer a blend of deep statistical rigor and pragmatic engineering.
+My proven track record includes **doubling the SaaS product portfolio** at a predictive maintenance startup by developing and deploying sophisticated anomaly detection and diagnostic algorithms. With over {{ site.n_exp_years }} years of experience transforming petabytes of noisy, high-volume data (from astrophysics to industrial sensors) into clear insights, I offer a blend of deep statistical rigor and pragmatic engineering.
 
 I partner with you to build technically excellent AI solutions that directly contribute to your product's value, reliability, and market leadership. My capabilities include:
 
@@ -30,18 +30,19 @@ I partner with you to build technically excellent AI solutions that directly con
 
 ## Education & Academic Foundations
 
-- 2010 **Diploma (M.Sc. equivalent) in Physics**, Humboldt University of Berlin, _Germany_
+- 2010 **Diploma (M.Sc. equivalent) in Physics** – Humboldt University of Berlin, _Germany_
 
   - Emphasis: Experimental Astrophysics & Particle Physics.
 
-- 2015 **Dr. rer. nat. (PhD) in Astrophysics**, [Max Planck Institute for Astrophysics](https://www.mpa-garching.mpg.de/) (MPA) & [Ludwig-Maximilians-Universität München](https://en.wikipedia.org/wiki/Ludwig_Maximilian_University_of_Munich) (LMU), _Germany_ (Grade: magna cum laude, [Thesis](https://edoc.ub.uni-muenchen.de/18228/))
+- 2015 **Dr. rer. nat. (PhD) in Astrophysics** – [Max Planck Institute for Astrophysics](https://www.mpa-garching.mpg.de/) (MPA) & [Ludwig-Maximilians-Universität München](https://en.wikipedia.org/wiki/Ludwig_Maximilian_University_of_Munich) (LMU), _Germany_ (Grade: magna cum laude, [Thesis](https://edoc.ub.uni-muenchen.de/18228/))
   - Doctoral research conducted at the world-renowned **Max Planck Institute for Astrophysics (MPA)**.
   - Specialized in analyzing vast & complex datasets from space telescopes (NASA & ESA), focusing on advanced statistical modeling (including Bayesian inference), **time-series analysis**, signal processing in noisy environments, & innovative problem-solving.
   - This rigorous scientific training built a strong foundation in developing **robust & reliable solutions** – core skills directly transferable to today's demanding data science & AI challenges in industry.
+  - [PhD Thesis](https://edoc.ub.uni-muenchen.de/18228/)
 
 ## Professional Journey: From Cosmic Data to Industrial AI Solutions
 
-- 2015 – 2021 **Lead Researcher & Data Scientist (Astrophysics)** – [Max Planck Institute for Astrophysics](https://www.mpa-garching.mpg.de/) (_Germany_), [Kavli Institute for Astronomy & Astrophysics](https://kiaa.pku.edu.cn) ( _China_), & [Institut d'Astrophysique Spatiale](https://www.ias.u-psud.fr/en) (CNRS, _France_)
+- 2015 – 2021 **Lead Researcher & Data Scientist (Astrophysics)** – [Max Planck Institute for Astrophysics](https://www.mpa-garching.mpg.de/) (_Germany_), [Kavli Institute for Astronomy & Astrophysics](https://kiaa.pku.edu.cn) (_China_), & [Institut d'Astrophysique Spatiale](https://www.ias.u-psud.fr/en) (CNRS, _France_)
 
   - Led international research projects, analyzing petabyte-scale astronomical datasets to extract meaningful insights from complex signals.
   - Mastered advanced statistical methods (e.g., Bayesian inference, MCMC, Fourier analysis for **time-series**) & applied machine learning techniques to high-volume data, including developing algorithms for **signal detection in high-noise environments** (akin to anomaly detection).
