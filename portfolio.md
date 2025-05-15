@@ -5,7 +5,7 @@ font_family: "Montserrat"
 text_align: justify
 ---
 
-# My Portfolio
+# <i class="fa fa-trophy"></i> My Portfolio
 
 _A selection of projects demonstrating my expertise in delivering impactful AI solutions for industrial applications._
 
