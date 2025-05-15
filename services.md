@@ -5,7 +5,9 @@ font_family: "Franklin Gothic Medium"
 text_align: justify
 ---
 
-# My Services: Enhancing Your Industrial Software with Strategic AI
+# My Services
+
+## Enhancing Your Industrial Software with Strategic AI
 
 As your dedicated {{ site.my_role }} with over {{ site.n_exp_years }} years of experience applying advanced data analysis & AI principles, I partner with Independent Software Vendors (ISVs) and technology companies to elevate their industrial software solutions. My focus is on integrating advanced, reliable AI capabilities that deliver tangible value to you and your end-users. I bridge the gap between cutting-edge AI methodologies and the practical realities of industrial applications, ensuring solutions are not just innovative, but also robust, scalable, and production-ready.
 
