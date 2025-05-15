@@ -4,7 +4,9 @@ title: Home
 ---
 
 <div class="container_center">
-  <img src="https://strategic-ai.eu/logo.svg" alt="Strategic AI logo" class="logo" />
+  <img src="{{ site.logo }}" alt="{{ site.company }} logo" class="logo" />
+
+  <img src="{{ site.profile_image }}" alt="{{ site.my_name }} Profile Image" class="logo" />
 
   <h1>{{ site.my_name }}</h1>
   <h2>{{ site.my_role }}</h2>
