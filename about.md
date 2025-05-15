@@ -1,43 +1,33 @@
 ---
 layout: default
 title: About Me
+font_family: "Franklin Gothic Medium"
 ---
 
 # About Me
 
+<div class="container_center">
+  <img src="{{ site.profile_image }}" alt="{{ site.my_name }} Profile Image" width="100px" margin-bottom="10px" />
+</div>
+
 ## Short Bio
 
-<div style="display: flex; align-items: center;">
-
-<div style="flex: 1;">
-<img src="{{ site.profile_image }}" alt="Profile Image" width="100"/>
-</div>
-
-<div style="flex: 4; text-align: justify;">
-
-I'm {{ site.my_name }}, a {{ site.my_role }} with a Ph.D. in astrophysics and over 8 years of experience applying advanced data analysis & AI principles.
+I'm {{ site.my_name }}, a {{ site.my_role }} with a Ph.D. in astrophysics and over {{n_exp_years}} years of experience applying advanced data analysis & AI principles.
 I am passionate about transforming complex industrial data into intelligent, actionable solutions.
 
-</div>
-</div>
-
-<div style="flex: 4; text-align: justify;">
-
-At **Strategic AI Solutions**, my mission is to empower technology providers like yours. I bridge the gap between academic research and the practical demands of the industrial world, delivering:
+At **{{ site.company }}**, my mission is to empower technology providers like yours. I bridge the gap between academic research and the practical demands of the industrial world, delivering:
 
 - **Cutting-edge predictive capabilities** and robust AI-driven features for your software.
 - **Production-ready AI systems** that integrate seamlessly, reduce false positives, and help your clients minimize downtime & optimize asset performance.
 - A **distinct competitive edge** for your software offerings.
 
-My proven track record includes **doubling the SaaS product portfolio** at a predictive maintenance startup by developing and deploying sophisticated anomaly detection and diagnostic algorithms. With over eight years of experience transforming petabytes of noisy, high-volume data (from astrophysics to industrial sensors) into clear insights, I offer a blend of deep statistical rigor and pragmatic engineering.
+My proven track record includes **doubling the SaaS product portfolio** at a predictive maintenance startup by developing and deploying sophisticated anomaly detection and diagnostic algorithms. With over {{n_exp_years}} years of experience transforming petabytes of noisy, high-volume data (from astrophysics to industrial sensors) into clear insights, I offer a blend of deep statistical rigor and pragmatic engineering.
 
 I partner with you to build technically excellent AI solutions that directly contribute to your product's value, reliability, and market leadership. My capabilities include:
 
 - Refining existing predictive maintenance models.
 - Designing scalable MLOps pipelines.
 - Integrating advanced large language model (LLM) functionalities.
-
-</div>
 
 ## Education & Academic Foundations
 

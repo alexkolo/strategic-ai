@@ -26,7 +26,7 @@ footer {
 body {
   margin: 0;
   padding: 0;
-  font-family: "Dosis Light", sans-serif;
+  /* font-family: "Dosis Light", sans-serif; */
 
   /* 6) Subtle background variation (gradient) */
   background: linear-gradient(#fafafa, #f6f6f6);
@@ -57,6 +57,7 @@ a:not(.book-call-btn):hover {
   font-size: 1.25rem;
   color: #555;
   margin: 10px 0 30px;
+  font-style: italic;
 }
 
 .logo {
@@ -89,7 +90,7 @@ a:not(.book-call-btn):hover {
   transition: color 0.3s ease, background-color 0.3s ease;
 }
 
-.navbar a:hover {
+.navbar a:not(.book-call-btn):hover {
   color: white;
   background-color: #0063fb;
   border-radius: 4px;

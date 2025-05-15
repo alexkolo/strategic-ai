@@ -13,7 +13,9 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700" media="all" /> -->
   </head>
-  <body>
+  <body
+    font_family="{% if page.font_family %}{{ page.font_family }}{% else %}{{ site.font_family }}{% endif %}, sans-serif"
+  >
     <div class="container-lg px-3 my-5 markdown-body">{% include navigation.html %} {{ content }}</div>
     {% include footer.html %}
   </body>
