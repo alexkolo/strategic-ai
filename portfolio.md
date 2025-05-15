@@ -38,7 +38,7 @@ _For a same PdM SaaS startup, this project aimed to improve the accuracy and red
 ## Industrializing Data Ingestion for a Predictive Maintenance SaaS Provider
 
 <div style="text-align: center;">
-<img src="{{ site.image_url }}/ChatGPT Image May 14, 2025, 07_45_43 PM - Industrializing Data Ingestion for a Predictive Maintenance SaaS Provider.svg" alt="Industrializing Data Ingestion for a Predictive Maintenance SaaS Provider" height="200"/>
+<img src="{{ site.image_url }}/ChatGPT Image May 15, 2025, 04_16_23 PM - Robust Data Engineering & ETL Pipelines for Industrial Data.svg" alt="Industrializing Data Ingestion for a Predictive Maintenance SaaS Provider" height="200"/>
 </div>
 
 _For the same PdM SaaS provider, This project focused on creating a robust, scalable, and standardized ETL pipeline to handle diverse and complex data from industrial clients._
