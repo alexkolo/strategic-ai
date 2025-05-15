@@ -20,7 +20,7 @@ My services are designed to address the specific challenges and opportunities fa
 ## 1. Advanced Predictive Maintenance (PdM) Solutions
 
 <div style="text-align: center;">
-<img src="{{ site.image_url }}/ChatGPT Image May 14, 2025, 06_23_15 PM - Advanced Predictive Maintenance (PdM) Solutions.svg" alt="Advanced Predictive Maintenance (PdM) Solutions" height="300"/>
+<img src="{{ site.image_url }}/ChatGPT Image May 15, 2025, 04_01_54 PM - Advanced Predictive Maintenance (PdM) Solutions.svg" alt="Advanced Predictive Maintenance (PdM) Solutions" height="300"/>
 </div>
 
 **Empower your software with more accurate, reliable, and insightful PdM capabilities.**
