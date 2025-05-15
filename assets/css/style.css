@@ -145,3 +145,12 @@ a:not(.book-call-btn):hover {
   color: #0063fb;
   margin-bottom: 0.5rem;
 }
+
+/* Soft divider style: can be used between sections */
+hr.divider {
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  width: 50%;
+  max-width: 300px;
+  margin: 30px auto;
+}

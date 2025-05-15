@@ -21,6 +21,8 @@ My services are designed to address the specific challenges and opportunities fa
 - Asset Performance Management (APM)
 - Industrial IoT (IIoT) analytics
 
+<hr class="divider" />
+
 ### Advanced Predictive Maintenance (PdM) Solutions
 
 <div style="text-align: center;">
@@ -36,6 +38,8 @@ Drawing on my experience developing and deploying diagnostic algorithms for crit
   - _Example: My work at an PdM SaaS provider involved complementing physics-based models with statistical/ML approaches, significantly reducing calibration times while often maintaining or improving accuracy._
 
 **Benefit for your ISV/Tech Company:** Enhance your software's core predictive power, reduce false positives for your users, increase the reliability and value of your PdM offerings, and differentiate your product in the market.
+
+<hr class="divider" />
 
 ### Robust Data Engineering & ETL Pipelines for Industrial Data
 
