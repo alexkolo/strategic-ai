@@ -17,7 +17,7 @@ title: Home
 </div>
 <hr />
 
-- Discover how I can bring {{ site.my_name }} to your business in the [My Services](services.md) page
+- Discover how I can bring {{ site.company }} to your business in the [My Services](services.md) page
 
 - Explore real-world success stories and the impact of my work in the [My Portfolio](portfolio.md) page
 
