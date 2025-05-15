@@ -3,15 +3,18 @@ layout: default
 title: Home
 ---
 
-# {{ site.my_name }}
+<div class="container_center">
+  <img src="https://strategic-ai.eu/logo.svg" alt="Strategic AI logo" class="logo" />
 
-## {{ site.my_role }}
-
-### {{ site.company }}
-
-_{{ site.pitch }}_
+  <h1>{{ site.my_name }}</h1>
+  <h2>{{ site.my_role }}</h2>
+  <h3>{{ site.company }}</h3>
+  <div class="slogan">{{ site.slogan }}</div>
 
 <a href="{{ site.meeting_link }}" target="_blank">Book a Call</a>
+
+</div>
+<hr />
 
 ## About Me
 
@@ -19,8 +22,8 @@ see [About Me](about.md)
 
 ## My Services
 
-see [My Services](services.md)
+see [My Services](services.md) at {{ site.company }}
 
 ## My Portfolio
 
-see [My Portfolio](../components/portfolio/my_portfolio_v2.md)
+see [My Portfolio](portfolio.md)

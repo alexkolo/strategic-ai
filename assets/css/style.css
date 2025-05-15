@@ -45,3 +45,16 @@ a {
 a:hover {
   border-bottom: 1px solid #333;
 }
+
+.container_center {
+  /* 3) Vertical rhythm: center content with extra spacing */
+  text-align: center;
+  margin: auto; /* Ensures it's centered both horizontally and vertically */
+  padding: 20px;
+}
+
+.slogan {
+  font-size: 1.25rem;
+  color: #555;
+  margin: 10px 0 30px;
+}
