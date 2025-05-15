@@ -6,6 +6,10 @@ text_align: justify
 toc: true
 ---
 
+<p style="font-family: 'Franklin Gothic Medium', sans-serif; font-weight: normal;">
+  This is a normal weight paragraph with Franklin Gothic Medium.
+</p>
+
 # My Services
 
 ## Enhancing Your Industrial Software with Strategic AI
