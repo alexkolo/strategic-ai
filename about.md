@@ -3,6 +3,7 @@ layout: default
 title: About Me
 font_family: "Franklin Gothic Medium"
 text_align: justify
+toc: true
 ---
 
 <div class="container_center">

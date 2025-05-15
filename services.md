@@ -3,6 +3,7 @@ layout: default
 title: My Services
 font_family: "Franklin Gothic Medium"
 text_align: justify
+toc: true
 ---
 
 # My Services
