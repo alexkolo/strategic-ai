@@ -2,15 +2,14 @@
 layout: default
 title: About Me
 font_family: "Franklin Gothic Medium"
+text_align: justify
 ---
 
-# About Me
-
 <div class="container_center">
-  <img src="{{ site.profile_image }}" alt="{{ site.my_name }} Profile Image" width="100px" margin-bottom="10px" />
+  <img src="{{ site.profile_image }}" alt="{{ site.my_name }} Profile Image" class="logo" />
 </div>
 
-## Short Bio
+## Bio
 
 I'm {{ site.my_name }}, a {{ site.my_role }} with a Ph.D. in astrophysics and over {{n_exp_years}} years of experience applying advanced data analysis & AI principles.
 I am passionate about transforming complex industrial data into intelligent, actionable solutions.
