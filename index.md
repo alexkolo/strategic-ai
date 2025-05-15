@@ -11,7 +11,7 @@ title: Home
 
 _{{ site.pitch }}_
 
-[Book a Call]({{ site.meeting_link }})
+<a href="{{ site.meeting_link }}" target="_blank">Book a Call</a>
 
 ## About Me
 
