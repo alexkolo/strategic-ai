@@ -28,7 +28,7 @@ I partner with you to build technically excellent AI solutions that directly con
 - Designing scalable MLOps pipelines.
 - Integrating advanced large language model (LLM) functionalities.
 
-## Education & Academic Foundations
+## <i class="fa fa-graduation-cap"></i> Education & Academic Foundations
 
 - 2010 **Diploma (M.Sc. equivalent) in Physics** – Humboldt University of Berlin, _Germany_
 
@@ -40,7 +40,7 @@ I partner with you to build technically excellent AI solutions that directly con
   - This rigorous scientific training built a strong foundation in developing **robust & reliable solutions** – core skills directly transferable to today's demanding data science & AI challenges in industry.
   - <a href="https://edoc.ub.uni-muenchen.de/18228/" target="_blank">PhD Thesis</a>
 
-## Professional Journey
+## <i class="fa fa-rocket"></i> Professional Journey
 
 ### From Cosmic Data to Industrial AI Solutions
 
@@ -59,7 +59,7 @@ I partner with you to build technically excellent AI solutions that directly con
     - Building & deploying robust ETL pipelines for processing heterogeneous industrial client data, ensuring data quality & readiness for advanced analytics.
     - **Enhancing physics-based models** with advanced statistical & machine learning approaches (foundations for Physics-Informed Machine Learning).
 
-## Key Technologies & Expertise
+## <i class="fa fa-wrench"></i> Key Technologies & Expertise
 
 My approach combines deep theoretical understanding with hands-on expertise in the technologies that power modern industrial AI solutions. I specialize in developing & deploying robust, scalable systems that deliver tangible value:
 
