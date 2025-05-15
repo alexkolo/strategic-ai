@@ -55,7 +55,7 @@ Industrial sensor data is often complex, heterogeneous, and noisy. My experience
 ## 3. MLOps & Scalable AI Deployment
 
 <div style="text-align: center;">
-<img src="{{ site.image_url }}/ChatGPT Image May 14, 2025, 06_23_15 PM - MLOps and Scalable AI Deployment.svg" alt="MLOps & Scalable AI Deployment" height="200"/>
+<img src="{{ site.image_url }}/ChatGPT Image May 15, 2025, 04_21_40 PM - MLOps & Scalable AI Deployment.svg" alt="MLOps & Scalable AI Deployment" height="200"/>
 </div>
 
 **Transition your AI innovations from proof-of-concept to robust, production-grade features.**
