@@ -9,6 +9,8 @@ text_align: justify
   <img src="{{ site.profile_image }}" alt="{{ site.my_name }} Profile Image" class="logo" />
 </div>
 
+# <i class="fa fa-user"></i> About Me
+
 Hi, I'm {{ site.my_name }}, a {{ site.my_role }} with a Ph.D. in astrophysics and over {{ site.n_exp_years }} years of experience applying advanced data analysis & AI principles.
 I am passionate about transforming complex industrial data into intelligent, actionable solutions.
 
