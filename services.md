@@ -3,7 +3,6 @@ layout: default
 title: My Services
 font_family: "Montserrat"
 text_align: justify
-toc: true
 ---
 
 # My Services

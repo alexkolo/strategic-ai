@@ -21,8 +21,7 @@
       <div
         style="font-family: {{ page.font_family | default: site.font_family }}, sans-serif; {% if page.text_align %}text-align: {{ page.text_align }};{% endif %}"
       >
-        <div id="table-of-contents">{{ content | toc_only }}</div>
-        <div id="markdown-content">{{ content | inject_anchors }}</div>
+        {{ content }}
       </div>
     </div>
     {% include footer.html %}

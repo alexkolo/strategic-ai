@@ -3,7 +3,6 @@ layout: default
 title: About Me
 font_family: "Montserrat"
 text_align: justify
-toc: true
 ---
 
 <div class="container_center">
@@ -39,7 +38,9 @@ I partner with you to build technically excellent AI solutions that directly con
   - This rigorous scientific training built a strong foundation in developing **robust & reliable solutions** – core skills directly transferable to today's demanding data science & AI challenges in industry.
   - [PhD Thesis](https://edoc.ub.uni-muenchen.de/18228/)
 
-## Professional Journey: From Cosmic Data to Industrial AI Solutions
+## Professional Journey
+
+### From Cosmic Data to Industrial AI Solutions
 
 - 2015 – 2021 **Lead Researcher & Data Scientist (Astrophysics)** – [Max Planck Institute for Astrophysics](https://www.mpa-garching.mpg.de/) (_Germany_), [Kavli Institute for Astronomy & Astrophysics](https://kiaa.pku.edu.cn) (_China_), & [Institut d'Astrophysique Spatiale](https://www.ias.u-psud.fr/en) (CNRS, _France_)
 
