@@ -12,10 +12,7 @@ title: Home
   <h2>{{ site.my_role }}</h2>
   <h3>{{ site.company }}</h3>
   <div class="slogan">{{ site.slogan }}</div>
-
-<a href="{{ site.meeting_link }}" target="_blank" class="button" style="background-color: #0063FB; color: white; border-radius: 8px; margin: 0 1em;"><strong> Book a Call </strong></a>
-
-<a href="{{ site.meeting_link }}" target="_blank" class="book-call-btn">Book a Call</a>
+  <a href="{{ site.meeting_link }}" target="_blank" class="book-call-btn">Book a Call</a>
 
 </div>
 <hr />
