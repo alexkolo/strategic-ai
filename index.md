@@ -17,14 +17,8 @@ title: Home
 </div>
 <hr />
 
-## About Me
+- find out how I can help you in [My Services](services.md)
 
-see [About Me](about.md)
+- a showcase of previous projects is shown in [My Portfolio](portfolio.md)
 
-## My Services
-
-see [My Services](services.md) at {{ site.company }}
-
-## My Portfolio
-
-see [My Portfolio](portfolio.md)
+- find out more about me in [About Me](about.md)
