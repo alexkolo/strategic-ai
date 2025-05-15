@@ -64,7 +64,7 @@ a:hover {
   margin-bottom: 20px;
 }
 
-/* navigation bar  */
+/* --------- navigation bar ---------- */
 .navbar {
   list-style: none;
   padding: 0;
@@ -92,4 +92,22 @@ a:hover {
   color: white;
   background-color: #0063fb;
   border-radius: 4px;
+}
+
+/* --------- call bar ---------- */
+.book-call-btn {
+  background-color: #0063fb;
+  color: white;
+  border: none;
+  border-radius: 999px; /* pill shape */
+  padding: 12px 24px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.book-call-btn:hover {
+  background-color: #0050c1; /* slightly darker on hover */
 }
