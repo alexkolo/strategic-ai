@@ -21,7 +21,6 @@ My services are designed to address the specific challenges and opportunities fa
 - Asset Performance Management (APM)
 - Industrial IoT (IIoT) analytics
 
-<hr class="divider" />
 <hr class="soft-divider" />
 
 ### Advanced Predictive Maintenance (PdM) Solutions
@@ -40,7 +39,7 @@ Drawing on my experience developing and deploying diagnostic algorithms for crit
 
 **Benefit for your ISV/Tech Company:** Enhance your software's core predictive power, reduce false positives for your users, increase the reliability and value of your PdM offerings, and differentiate your product in the market.
 
-<hr class="divider" />
+<hr class="soft-divider" />
 
 ### Robust Data Engineering & ETL Pipelines for Industrial Data
 
@@ -57,6 +56,8 @@ Industrial sensor data is often complex, heterogeneous, and noisy. My experience
 
 **Benefit for your ISV/Tech Company:** Build a reliable data foundation for all your analytics, ensure your algorithms perform optimally by feeding them clean, well-structured data, and reduce manual data preparation efforts for your team and your clients.
 
+<hr class="soft-divider" />
+
 ### MLOps & Scalable AI Deployment
 
 <div style="text-align: center;">
@@ -71,6 +72,8 @@ For ISVs, deploying and maintaining AI models at scale is crucial. I provide exp
 - **Model Monitoring & Versioning:** Setting up systems (e.g., MLflow, Grafana) to track model performance in production, manage versions, and facilitate retraining.
 
 **Benefit for your ISV/Tech Company:** Accelerate the deployment of new AI features, ensure your AI systems are scalable, maintainable, and consistently deliver value in real-world operational environments, and reduce the technical debt associated with AI integration.
+
+<hr class="soft-divider" />
 
 ### Generative AI (GenAI) & LLM Integration for Industrial Value
 
