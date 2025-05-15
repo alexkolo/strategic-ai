@@ -19,6 +19,6 @@ title: Home
 
 - find out how I can help you in [My Services](services.md)
 
-- a showcase of previous projects is shown in [My Portfolio](portfolio.md)
+- have a look at my previous projects in [My Portfolio](portfolio.md)
 
 - find out more about me in [About Me](about.md)
