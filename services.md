@@ -9,15 +9,19 @@ text_align: justify
 
 ## <i class="fa fa-line-chart"></i> Enhancing Your Industrial Software with Strategic AI
 
-As your dedicated {{ site.my_role }} with over {{ site.n_exp_years }} years of experience applying advanced data analysis & AI principles, I partner with Independent Software Vendors (ISVs) and technology companies to elevate their industrial software solutions. My focus is on integrating advanced, reliable AI capabilities that deliver tangible value to you and your end-users. I bridge the gap between cutting-edge AI methodologies and the practical realities of industrial applications, ensuring solutions are not just innovative, but also robust, scalable, and production-ready.
+As your dedicated {{ site.my_role }} with over {{ site.n_exp_years }} years of experience applying advanced data analysis & AI principles, I partner with Independent Software Vendors (ISVs), asset operators and technology companies to elevate their industrial software solutions. My focus is on integrating advanced, reliable AI capabilities that deliver tangible value to you and your end-users. I bridge the gap between cutting-edge AI methodologies and the practical realities of industrial applications, ensuring solutions are not just innovative, but also robust, scalable, and production-ready.
 
 ## <i class="fa fa-handshake-o"></i> Areas of Expertise: How I Help Your Software Excel
 
-My services are designed to address the specific challenges and opportunities faced by providers of Predictive Maintenance (PdM), Condition Monitoring (CM), Asset Performance Management (APM), and Industrial IoT (IIoT) analytics software:
+My services are designed to address the specific challenges and opportunities faced by software providers and asset operators for:
 
----
+- Condition Monitoring (CM)
+- Advanced Pattern Recognition (APR)
+- Predictive Maintenance (PdM)
+- Asset Performance Management (APM)
+- Industrial IoT (IIoT) analytics
 
-## 1. Advanced Predictive Maintenance (PdM) Solutions
+### Advanced Predictive Maintenance (PdM) Solutions
 
 <div style="text-align: center;">
 <img src="{{ site.image_url }}/ChatGPT Image May 15, 2025, 04_01_54 PM - Advanced Predictive Maintenance (PdM) Solutions.svg" alt="Advanced Predictive Maintenance (PdM) Solutions" height="200"/>
@@ -33,9 +37,7 @@ Drawing on my experience developing and deploying diagnostic algorithms for crit
 
 **Benefit for your ISV/Tech Company:** Enhance your software's core predictive power, reduce false positives for your users, increase the reliability and value of your PdM offerings, and differentiate your product in the market.
 
----
-
-## 2. Robust Data Engineering & ETL Pipelines for Industrial Data
+### Robust Data Engineering & ETL Pipelines for Industrial Data
 
 <div style="text-align: center;">
 <img src="{{ site.image_url }}/ChatGPT Image May 15, 2025, 04_16_23 PM - Robust Data Engineering & ETL Pipelines for Industrial Data.svg" alt="Robust Data Engineering & ETL Pipelines for Industrial Data" height="200"/>
@@ -50,9 +52,7 @@ Industrial sensor data is often complex, heterogeneous, and noisy. My experience
 
 **Benefit for your ISV/Tech Company:** Build a reliable data foundation for all your analytics, ensure your algorithms perform optimally by feeding them clean, well-structured data, and reduce manual data preparation efforts for your team and your clients.
 
----
-
-## 3. MLOps & Scalable AI Deployment
+### MLOps & Scalable AI Deployment
 
 <div style="text-align: center;">
 <img src="{{ site.image_url }}/ChatGPT Image May 15, 2025, 04_21_40 PM - MLOps & Scalable AI Deployment.svg" alt="MLOps & Scalable AI Deployment" height="200"/>
@@ -67,9 +67,7 @@ For ISVs, deploying and maintaining AI models at scale is crucial. I provide exp
 
 **Benefit for your ISV/Tech Company:** Accelerate the deployment of new AI features, ensure your AI systems are scalable, maintainable, and consistently deliver value in real-world operational environments, and reduce the technical debt associated with AI integration.
 
----
-
-## 4. Generative AI (GenAI) & LLM Integration for Industrial Value
+### Generative AI (GenAI) & LLM Integration for Industrial Value
 
 <div style="text-align: center;">
 <img src="{{ site.image_url }}/ChatGPT Image May 14, 2025, 08_12_56 PM - Developing an AI-Powered Q&A Companion with Generative AI.svg" alt="Developing an AI-Powered Q&A Companion with Generative AI" height="200"/>
@@ -87,7 +85,7 @@ Beyond core PdM, GenAI offers exciting opportunities to enhance user experience 
 
 ---
 
-## How I Help Your Software (and Your Business) Succeed
+## How I Help Your Software & Business Succeed
 
 Partnering with me means gaining access to unique expertise that can:
 
