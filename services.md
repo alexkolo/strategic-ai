@@ -38,7 +38,7 @@ Drawing on my experience developing and deploying diagnostic algorithms for crit
 ## 2. Robust Data Engineering & ETL Pipelines for Industrial Data
 
 <div style="text-align: center;">
-<img src="{{ site.image_url }}/ChatGPT Image May 14, 2025, 07_45_43 PM - Industrializing Data Ingestion for a Predictive Maintenance SaaS Provider.svg" alt="Robust Data Engineering & ETL Pipelines for Industrial Data" height="200"/>
+<img src="{{ site.image_url }}/ChatGPT Image May 15, 2025, 04_16_23 PM - Robust Data Engineering & ETL Pipelines for Industrial Data.svg" alt="Robust Data Engineering & ETL Pipelines for Industrial Data" height="200"/>
 </div>
 
 **Ensure your AI models are built on a foundation of high-quality, reliable data.**
