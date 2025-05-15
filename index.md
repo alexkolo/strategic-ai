@@ -17,8 +17,8 @@ title: Home
 </div>
 <hr />
 
-- find out how I can help you in [My Services](services.md)
+- Discover how I can bring {{ site.my_name }} to your business in the [My Services](services.md) page
 
-- have a look at my previous projects in [My Portfolio](portfolio.md)
+- Explore real-world success stories and the impact of my work in the [My Portfolio](portfolio.md) page
 
-- find out more about me in [About Me](about.md)
+- Learn about my journey, expertise, and why clients choose to work with me in the [About Me](about.md) page
