@@ -22,6 +22,7 @@ My services are designed to address the specific challenges and opportunities fa
 - Industrial IoT (IIoT) analytics
 
 <hr class="divider" />
+<hr class="soft-divider">
 
 ### Advanced Predictive Maintenance (PdM) Solutions
 
