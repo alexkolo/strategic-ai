@@ -5,7 +5,7 @@ font_family: "Montserrat"
 text_align: justify
 ---
 
-# My Services
+<h1><i class="fa fa-star fa-2x"></i> My Services</h1>
 
 ## Enhancing Your Industrial Software with Strategic AI
 
