@@ -8,6 +8,8 @@
   max-width: 768px;
   margin-right: auto;
   margin-left: auto;
+  padding-left: 1rem; /* or 16px */
+  padding-right: 1rem;
 }
 
 footer {
@@ -25,7 +27,7 @@ footer {
 */
 body {
   margin: 0;
-  padding: 10px;
+  padding: 0;
 
   /* Subtle background variation (gradient) */
   background: linear-gradient(#fafafa, #f6f6f6);
