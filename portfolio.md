@@ -1,6 +1,8 @@
 ---
 layout: default
-title: portfolio
+title: My Portfolio
+font_family: "Montserrat"
+text_align: justify
 ---
 
 # My Portfolio
