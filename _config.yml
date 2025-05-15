@@ -13,3 +13,4 @@ n_exp_years: 8
 font_family: "Dosis Light"
 url_root: "/strategic-ai"
 image_url: https://strategic-ai.eu/assets/ia_images/
+exclude: ["./README.md", ".markdownlint.json", "LICENSE"]
