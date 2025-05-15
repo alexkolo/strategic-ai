@@ -20,19 +20,19 @@ title: Home
 
 <div class="highlights">
   <div>
-    <i class="fas fa-star fa-2x"></i>
+    <i class="fa fa-star fa-2x"></i>
     <h4>✨ My Services</h4>
     <p>Discover how I can bring {{ site.company }} to your business.</p>
     <a href="services.md">Learn More</a>
   </div>
   <div>
-    <i class="fas fa-trophy fa-2x"></i>
+    <i class="fa-solid fa-trophy fa-2x"></i>
     <h4>🏆 Portfolio</h4>
     <p>Explore my successful projects that delivered measurable impact for clients.</p>
     <a href="portfolio.md">View Projects</a>
   </div>
   <div>
-    <i class="fas fa-user-astronaut fa-2x"></i>
+    <i class="fa-solid fa-user-astronaut fa-2x"></i>
     <h4>👨‍🚀 About Me</h4>
     <p>Understand my background and what makes me a trusted AI partner.</p>
     <a href="about.md">Read My Story</a>
