@@ -21,7 +21,7 @@ font_family: "Dosis Light"
 
 <div class="highlights">
   <div>
-    <i class="fa fa-star fa-pulse fa-3x"></i>
+    <i class="fa fa-star fa-spin fa-3x"></i>
     <h4>My Services</h4>
     <p>Discover how I can bring {{ site.company }} to your business.</p>
     <a href="{{ site.url_root }}/services">Learn More</a>
