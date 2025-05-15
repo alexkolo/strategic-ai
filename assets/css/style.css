@@ -134,12 +134,12 @@ a:not(.book-call-btn):hover {
   flex: 1;
   padding: 1rem;
 }
-.highlights a {
+/* .highlights a {
   display: inline-block;
   margin-top: 0.5rem;
   border-bottom: 1px solid #0063fb;
   color: #0063fb;
-}
+} */
 
 .highlights i {
   color: #0063fb;
