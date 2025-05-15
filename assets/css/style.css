@@ -70,10 +70,11 @@ a:not(.book-call-btn):hover {
   padding: 12px 0; /* Add vertical padding */
   margin: 0;
   display: flex;
+  align-items: center; /* <-- this aligns all items vertically */
   gap: 30px; /* horizontal spacing between items */
   justify-content: center;
   background-color: #f8f8f8;
-  /* font-family: Arial, sans-serif; */
+  font-size: 125%; /* increases font size by 25% */
 }
 
 .navbar li {
