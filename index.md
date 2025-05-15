@@ -3,11 +3,24 @@ layout: default
 title: Home
 ---
 
-{% include navigation.html %}
+# {{ site.my_name }}
 
-# {{ site.title }}
+## {{ site.my_role }}
 
-{{ site.description }}
+### {{ site.company }}
 
-see [test page](test.md)
-see [about](about.md)
+_{{ site.pitch }}_
+
+[Book a Call]({{ site.meeting_link }})
+
+## About Me
+
+see [About Me](about.md)
+
+## My Services
+
+see [My Services](services.md)
+
+## My Portfolio
+
+see [My Portfolio](../components/portfolio/my_portfolio_v2.md)
