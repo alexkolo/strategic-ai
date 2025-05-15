@@ -24,9 +24,9 @@
         style="font-family: {{ page.font_family | default: site.font_family }}, sans-serif; {% if page.text_align %}text-align: {{ page.text_align }};{% endif %}"
       >
         {{ content }}
+        <hr />
       </div>
     </div>
-    <hr />
     {% include footer.html %}
   </body>
 </html>
