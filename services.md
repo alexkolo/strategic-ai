@@ -6,14 +6,6 @@ text_align: justify
 toc: true
 ---
 
-<p style="font-family: {{ site.font_family }}, sans-serif; font-weight: 400;">
-  This is a 400 weight paragraph with {{ site.font_family }}.
-</p>
-
-<p style="font-family: {{ site.font_family }}, sans-serif; font-weight: normal;">
-  This is a normal weight paragraph with {{ site.font_family }}.
-</p>
-
 # My Services
 
 ## Enhancing Your Industrial Software with Strategic AI
