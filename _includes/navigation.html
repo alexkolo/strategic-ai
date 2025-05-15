@@ -1,9 +1,19 @@
 <nav>
   <ul class="navbar">
-    <li><a href="/" class="{% if page.url == '/' %}active{% endif %}">Home</a></li>
-    <li><a href="/about" class="{% if page.url == '/about' %}active{% endif %}">About Me</a></li>
-    <li><a href="/services" class="{% if page.url == '/services' %}active{% endif %}">My Services</a></li>
-    <li><a href="/portfolio" class="{% if page.url == '/portfolio' %}active{% endif %}">My Portfolio</a></li>
+    <li><a href="/strategic-ai/" class="{% if page.url == '/strategic-ai/' %}active{% endif %}">Home</a></li>
+    <li>
+      <a href="/strategic-ai/about" class="{% if page.url == '/strategic-ai/about' %}active{% endif %}">About Me</a>
+    </li>
+    <li>
+      <a href="/strategic-ai/services" class="{% if page.url == '/strategic-ai/services' %}active{% endif %}"
+        >My Services</a
+      >
+    </li>
+    <li>
+      <a href="/strategic-ai/portfolio" class="{% if page.url == '/strategic-ai/portfolio' %}active{% endif %}"
+        >My Portfolio</a
+      >
+    </li>
     <li>
       <a href="{{ site.meeting_link }}" target="_blank" class="book-call-btn">Book a Call</a>
     </li>
