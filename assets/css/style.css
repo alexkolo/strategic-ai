@@ -67,17 +67,17 @@ a:hover {
 /* navigation bar  */
 .navbar {
   list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  padding: 10px 0;
+  padding: 0;
   margin: 0;
+  display: flex;
+  gap: 30px; /* horizontal spacing between items */
+  justify-content: center;
   background-color: #f8f8f8;
   font-family: Arial, sans-serif;
 }
 
 .navbar li {
-  display: inline;
+  display: inline; /* each item inline */
 }
 
 .navbar a {
