@@ -21,3 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }, delay);
 });
 </script>
+
+---
+
+JavaScript is required to display the full legal notice.
