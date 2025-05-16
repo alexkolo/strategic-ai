@@ -7,18 +7,18 @@ text_align: justify
 
 # <i class="fa fa-trophy"></i> My Portfolio
 
-_A selection of projects demonstrating my expertise in delivering impactful AI solutions for industrial applications._
+_A selection of projects that demonstrate my expertise in delivering impactful AI solutions for industrial applications, such as Predictive Maintenance (PdM) software products._
 
-## Advancing Early Anomaly Detection Capabilities for a New PdM SaaS Product
+## Advancing Early Anomaly Detection Capabilities for a New PdM Product
 
 <div style="text-align: center;">
 <img src="{{ site.image_url }}/ChatGPT Image May 14, 2025, 07_55_14 PM - Advancing Early Anomaly Detection Capabilities for a New PdM SaaS Product.svg" alt="Advancing Early Anomaly Detection Capabilities for a New PdM SaaS Product" height="200"/>
 </div>
 
-_For a leading PdM SaaS company, this project involved leading the algorithm development for a new "Early Anomaly Detection" SaaS product, focusing on creating sophisticated, reliable, and interpretable models for industrial assets._
+_For a major SaaS provider of PdM products, this project involved leading the algorithm development for a new product for early anomaly detection, with a focus on creating sophisticated, reliable and interpretable models for industrial assets._
 
-- **Challenge:** The PdM SaaS provider needed to develop a new flagship product capable of detecting subtle, early-stage anomalies in industrial equipment, moving beyond basic rule-based alerts to offer more sophisticated and reliable predictive insights.
-- **Solution:** I designed, benchmarked, and deployed a suite of advanced anomaly detection algorithms, encompassing causal and non-causal methods (e.g., AAKR, Isolation Forest, PCA-based clustering). A key part of the solution was developing a mock-fault injection framework for robust validation and integrating Shapley values for enhanced model explainability. Full MLOps pipelines were established for efficient training, deployment (on Kubernetes), and inference.
+- **Challenge:** The SaaS provider wanted to develop a new flagship PdM product capable of detecting subtle, early-stage anomalies in industrial equipment, moving beyond basic rule-based alerts to offer more sophisticated and reliable predictive insights.
+- **Solution:** I designed, benchmarked, and deployed a suite of advanced anomaly detection algorithms, encompassing causal and non-causal methods (e.g., AAKR, Isolation Forest, PCA-based clustering). A key part of the solution was developing a mock-fault injection framework for robust validation. Full MLOps pipelines were established for efficient training, deployment (on Kubernetes), and inference.
 - **Outcome:** Significantly improved anomaly detection accuracy and model interpretability, leading to more reliable and actionable early fault warnings for end-users. The streamlined MLOps processes enabled efficient model deployment and updates. This work was **instrumental in successfully launching the new early anomaly detection SaaS product, effectively doubling the company's product portfolio.**
 - **Technical Highlight / Technologies Used:** Python, Anomaly Detection Algorithms (AAKR, Isolation Forest, Clustering, Causal Methods), MLOps (Kubernetes, NATS, GitHub Actions), Model Explainability (Shapley Values), Mock-Fault Generation & Testing, Performance Benchmarking Frameworks.
 
@@ -28,9 +28,9 @@ _For a leading PdM SaaS company, this project involved leading the algorithm dev
 <img src="{{ site.image_url }}/ChatGPT Image May 14, 2025, 07_51_31 PM - Enhancing Gas Turbine Digital Twin Accuracy & Efficiency with Statistical Modeling.svg" alt="Enhancing Gas Turbine Digital Twin Accuracy & Efficiency with Statistical Modeling" height="200"/>
 </div>
 
-_For a same PdM SaaS startup, this project aimed to improve the accuracy and reduce the calibration overhead of their digital twin models for Combined Cycle Gas Turbines (CCGT) by integrating advanced statistical methods._
+_For a same SaaS startup, this project aimed to improve the accuracy and reduce the calibration overhead of their digital twin models for Combined Cycle Gas Turbines (CCGT) by integrating advanced statistical methods._
 
-- **Challenge:** The company's digital twin for CCGTs, primarily relying on physics-based models, encountered lengthy calibration times and limitations in fault detection sensitivity. There was a need to enhance model accuracy and efficiency without extensive manual tuning.
+- **Challenge:** The company's CCGT digital twin of its root-cause failure analysis product, which relied primarily on physics-based models, suffered from long calibration times and limited fault detection sensitivity. There was a need to enhance model accuracy and efficiency without extensive manual tuning.
 - **Solution:** I developed and benchmarked advanced statistical models (Python, Scikit-learn) designed to complement the existing physics-based digital twins. This involved implementing a novel "best-performance" data filtering technique, robust feature engineering from sensor data, and leading a rigorous comparative analysis against the traditional physical models.
 - **Outcome:** Successful demonstration of **reduced model calibration times and customization costs by over 50%** compared to purely traditional approaches, while often improving diagnostic accuracy and fault detection sensitivity for key turbine parameters. The new data-driven methods and filters were adopted, benefiting both statistical and physics-based model workflows.
 - **Technical Highlight / Technologies Used:** Python, Scikit-learn, Advanced Statistical Modeling (Regression), Time-Series Analysis, Feature Engineering, Custom Data Clustering & Binning, Model Benchmarking, "Best-Performance" Data Filtering Logic.
@@ -41,7 +41,7 @@ _For a same PdM SaaS startup, this project aimed to improve the accuracy and red
 <img src="{{ site.image_url }}/ChatGPT Image May 15, 2025, 04_16_23 PM - Robust Data Engineering & ETL Pipelines for Industrial Data.svg" alt="Industrializing Data Ingestion for a Predictive Maintenance SaaS Provider" height="200"/>
 </div>
 
-_For the same PdM SaaS provider, This project focused on creating a robust, scalable, and standardized ETL pipeline to handle diverse and complex data from industrial clients._
+_For the same SaaS provider, this project focused on creating a robust, scalable, and standardized ETL pipeline to handle diverse and complex data from industrial clients._
 
 - **Challenge:** The provider faced significant delays and high rework costs in calibrating their core predictive maintenance product. This was due to inconsistent, messy, and diversely formatted data from new industrial clients, which hindered efficient product deployment and team scalability.
 - **Solution:** I architected and developed a universal Python-based ETL pipeline. Key features included adaptive parsing for various file types (CSV, multi-sheet Excel), robust timestamp/timezone correction, automated tag sanitization, chunk-based processing for large datasets, and comprehensive error handling. The solution included CI/CD integration (GitHub Actions), extensive documentation, and team training for wide adoption.
