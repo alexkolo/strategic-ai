@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width" />
     <title>{{ site.company }}</title>
     <link rel="icon" type="image/png" href="{{ site.profile_image }}" />
-    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <!-- Embed the Dosis Light font https://www.onlinewebfonts.com/download/3abc8753a394e3a1ab06b0a7a7f57119 -->
@@ -17,8 +17,7 @@
   </head>
   <body style="font-family: {{ site.font_family }}, sans-serif;">
     <div class="container-md px-3 my-5 markdown-body">
-      {% if page.lang == "de" or (page.lang == nil and site.lang == "de") %} {% include navigation_de.html %} {% else %}
-      {% include navigation_en.html %} {% endif %}
+      {% include navigation_#{page.lang || site.lang}.html %}
 
       <div
         style="font-family: {{ page.font_family | default: site.font_family }}, sans-serif; {% if page.text_align %}text-align: {{ page.text_align }};{% endif %}"
