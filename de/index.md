@@ -15,7 +15,7 @@ lang: de
   <div class="slogan">{{ site.slogan }}</div>
 
   <p>Want to explore your AI challenge? Let's talk.</p>
-  <a href="{{ site.meeting_link }}" target="_blank" class="book-call-btn">Book a Call</a>
+  <a href="{{ site.meeting_link }}" target="_blank" class="book-call-btn">Termin buchen</a>
 
 </div>
 <hr />
@@ -24,19 +24,19 @@ lang: de
   <div>
     <i class="fa fa-star fa-spin fa-3x"></i>
     <h4>Meine Leistungen</h4>
-    <p>Discover how I can bring {{ site.company }} to your business.</p>
-    <a href="{{ site.url_root }}/en/services">Learn More</a>
+    <p>Entdecken Sie, wie ich {{ site.company }} in Ihr Unternehmen einbringen kann.</p>
+    <a href="{{ site.url_root }}/de/services">Mehr erfahren</a>
   </div>
   <div>
     <i class="fa fa-trophy fa-4x"></i>
     <h4>Mein Portfolio</h4>
-    <p>Explore my successful projects that delivered measurable impact for clients.</p>
-    <a href="{{ site.url_root }}/en/portfolio">View Projects</a>
+    <p>Entdecken Sie meine erfolgreichen Projekte, die eine messbare Wirkung erzielt haben.</p>
+    <a href="{{ site.url_root }}/de/portfolio">Projekte anzeigen</a>
   </div>
   <div>
     <i class="fa fa-user fa-3x"></i>
     <h4>Über mich</h4>
-    <p>Understand my background and what makes me a trusted AI partner.</p>
-    <a href="{{ site.url_root }}/en/about">Read My Story</a>
+    <p>Verstehen Sie meinen Hintergrund & was mich zu einem vertrauenswürdigen KI-Partner macht.</p>
+    <a href="{{ site.url_root }}/de/about">Lesen Sie meinen Werdegang</a>
   </div>
 </div>
