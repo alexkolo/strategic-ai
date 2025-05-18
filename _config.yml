@@ -1,3 +1,8 @@
+title: title
+description: description
+slogan: slogan
+my_role: my_role
+# old keys (keep to avoid `did not find expected key` errors)
 company: Strategic AI Solutions
 legal_name: "Alexander Kolodzig EI"
 my_name: "Alex Kolodzig"
@@ -14,8 +19,4 @@ font_family: "Dosis Light"
 baseurl: "/strategic-ai"
 exclude: ["README.md", ".markdownlint.json", "LICENSE"]
 lang: en
-# old keys (keep to avoid `did not find expected key` errors)
-title: title
-description: description
-slogan: slogan
-my_role: my_role
+
