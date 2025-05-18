@@ -25,18 +25,18 @@ lang: en
     <i class="fa fa-star fa-spin fa-3x"></i>
     <h4>My Services</h4>
     <p>Discover how I can bring {{ site.company }} to your business.</p>
-    <a href="{{ site.url_root }}/en/services">Learn More</a>
+    <a href="{{ site.baseurl }}/en/services">Learn More</a>
   </div>
   <div>
     <i class="fa fa-trophy fa-4x"></i>
     <h4>My Portfolio</h4>
     <p>Explore my successful projects that delivered measurable impact.</p>
-    <a href="{{ site.url_root }}/en/portfolio">View Projects</a>
+    <a href="{{ site.baseurl }}/en/portfolio">View Projects</a>
   </div>
   <div>
     <i class="fa fa-user fa-3x"></i>
     <h4>About Me</h4>
     <p>Understand my background and what makes me a trusted AI partner.</p>
-    <a href="{{ site.url_root }}/en/about">Read My Story</a>
+    <a href="{{ site.baseurl }}/en/about">Read My Story</a>
   </div>
 </div>

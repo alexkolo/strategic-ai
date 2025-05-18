@@ -25,18 +25,18 @@ lang: de
     <i class="fa fa-star fa-spin fa-3x"></i>
     <h4>Meine Leistungen</h4>
     <p>Entdecken Sie, wie ich {{ site.company }} in Ihr Unternehmen einbringen kann.</p>
-    <a href="{{ site.url_root }}/de/services">Mehr erfahren</a>
+    <a href="{{ site.baseurl }}/de/services">Mehr erfahren</a>
   </div>
   <div>
     <i class="fa fa-trophy fa-4x"></i>
     <h4>Mein Portfolio</h4>
     <p>Entdecken Sie meine erfolgreichen Projekte, die eine messbare Wirkung erzielt haben.</p>
-    <a href="{{ site.url_root }}/de/portfolio">Projekte anzeigen</a>
+    <a href="{{ site.baseurl }}/de/portfolio">Projekte anzeigen</a>
   </div>
   <div>
     <i class="fa fa-user fa-3x"></i>
     <h4>Über mich</h4>
     <p>Verstehen Sie meinen Hintergrund & was mich zu einem vertrauenswürdigen KI-Partner macht.</p>
-    <a href="{{ site.url_root }}/de/about">Lesen Sie meinen Werdegang</a>
+    <a href="{{ site.baseurl }}/de/about">Lesen Sie meinen Werdegang</a>
   </div>
 </div>

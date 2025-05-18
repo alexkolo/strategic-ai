@@ -1,20 +1,20 @@
 <nav>
   <ul class="navbar">
     <li>
-      <a href="{{ site.url_root }}/" class="{% if page.url == '/' %}active{% endif %}">Home</a>
+      <a href="{{ site.baseurl }}/" class="{% if page.url == '/' %}active{% endif %}">Home</a>
     </li>
     <li>
-      <a href="{{ site.url_root }}/en/services" class="{% if page.url == '/en/services.html' %}active{% endif %}"
+      <a href="{{ site.baseurl }}/en/services" class="{% if page.url == '/en/services.html' %}active{% endif %}"
         >My Services</a
       >
     </li>
     <li>
-      <a href="{{ site.url_root }}/en/portfolio" class="{% if page.url == '/en/portfolio.html' %}active{% endif %}"
+      <a href="{{ site.baseurl }}/en/portfolio" class="{% if page.url == '/en/portfolio.html' %}active{% endif %}"
         >My Portfolio</a
       >
     </li>
     <li>
-      <a href="{{ site.url_root }}/en/about" class="{% if page.url == '/en/about.html' %}active{% endif %}">About Me</a>
+      <a href="{{ site.baseurl }}/en/about" class="{% if page.url == '/en/about.html' %}active{% endif %}">About Me</a>
     </li>
     <li>
       <a href="{{ site.meeting_link }}" target="_blank" class="book-call-btn">Book a Call</a>
@@ -22,7 +22,7 @@
   </ul>
   <div class="language-switch">
     <a
-      href="{% if page.url == '/' %}{{ site.url_root }}/de/{% else %}{{ site.url_root }}{{ page.url | replace: '/en/', '/de/' }}{% endif %}"
+      href="{% if page.url == '/' %}{{ site.baseurl }}/de/{% else %}{{ site.baseurl }}{{ page.url | replace: '/en/', '/de/' }}{% endif %}"
     >
       Deutsche Version
     </a>
