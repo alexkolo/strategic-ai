@@ -36,7 +36,7 @@ lang: de
   <div>
     <i class="fa fa-user fa-3x"></i>
     <h4>Über mich</h4>
-    <p>VLernen Sie meinen Werdegang kennen und erfahren Sie, warum Unternehmen mir vertrauen.</p>
+    <p>Lernen Sie meinen Werdegang kennen & erfahren Sie, warum Unternehmen mir vertrauen.</p>
     <a href="{{ site.baseurl }}/de/about">Mehr über mich</a>
   </div>
 </div>
