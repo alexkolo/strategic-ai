@@ -76,11 +76,11 @@ a:not(.book-call-btn):hover {
   gap: clamp(10px, 4vw, 30px);
   background-color: #f8f8f8;
   list-style: none;
-  font-size: 120%;
+  font-size: 110%;
 }
 
 .lang-de .navbar {
-  font-size: 105%;
+  font-size: 100%;
 }
 
 .navbar-links {
