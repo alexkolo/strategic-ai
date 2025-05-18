@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About Me
+title: Über mich
 font_family: "Montserrat"
 text_align: justify
 lang: de
@@ -10,7 +10,7 @@ lang: de
   <img src="{{ site.profile_image }}" alt="{{ site.my_name }} Profile Image" class="logo" />
 </div>
 
-# <i class="fa fa-user"></i> About Me
+# <i class="fa fa-user"></i> Über mich
 
 Hi, I'm {{ site.my_name }}, a {{ site.my_role }} with a Ph.D. in astrophysics and over {{ site.n_exp_years }} years of experience applying advanced data analysis & AI principles.
 I am passionate about transforming complex industrial data into intelligent, actionable solutions.
