@@ -8,3 +8,6 @@
 - Font choice: https://www.nngroup.com/articles/best-font-for-online-reading/
 
 - png 2 svg: https://www.pngtosvg.com/
+
+- chat:
+  - navbar https://chatgpt.com/c/68259981-4fb0-8011-9c60-df3e32d9c250
