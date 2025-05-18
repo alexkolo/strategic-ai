@@ -1,21 +1,25 @@
 <nav>
   <ul class="navbar">
-    <li>
-      <a href="{{ site.baseurl }}/de/" class="{% if page.url == '/de/' %}active{% endif %}">Startseite</a>
-    </li>
-    <li>
-      <a href="{{ site.baseurl }}/de/services" class="{% if page.url == '/de/services.html' %}active{% endif %}"
-        >Meine Leistungen</a
-      >
-    </li>
-    <li>
-      <a href="{{ site.baseurl }}/de/portfolio" class="{% if page.url == '/de/portfolio.html' %}active{% endif %}"
-        >Mein Portfolio</a
-      >
-    </li>
-    <li>
-      <a href="{{ site.baseurl }}/de/about" class="{% if page.url == '/de/about.html' %}active{% endif %}">Über mich</a>
-    </li>
+    <div class="navbar-links">
+      <li>
+        <a href="{{ site.baseurl }}/de/" class="{% if page.url == '/de/' %}active{% endif %}">Startseite</a>
+      </li>
+      <li>
+        <a href="{{ site.baseurl }}/de/services" class="{% if page.url == '/de/services.html' %}active{% endif %}"
+          >Meine Leistungen</a
+        >
+      </li>
+      <li>
+        <a href="{{ site.baseurl }}/de/portfolio" class="{% if page.url == '/de/portfolio.html' %}active{% endif %}"
+          >Mein Portfolio</a
+        >
+      </li>
+      <li>
+        <a href="{{ site.baseurl }}/de/about" class="{% if page.url == '/de/about.html' %}active{% endif %}"
+          >Über mich</a
+        >
+      </li>
+    </div>
     <li class="navbar-call">
       <a href="{{ site.meeting_link }}" target="_blank" class="book-call-btn">Termin buchen</a>
     </li>
@@ -25,6 +29,7 @@
     <a
       href="{% if page.url == '/de/' %}{{ site.baseurl }}/{% else %}{{ site.baseurl }}{{ page.url | replace: '/de/', '/en/' }}{% endif %}"
     >
+      <img src="https://flagcdn.com/gb.svg" alt="British Flag" width="20" style="vertical-align: middle" />
       🇬🇧 English Version
     </a>
   </div>

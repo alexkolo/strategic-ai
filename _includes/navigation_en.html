@@ -1,21 +1,25 @@
 <nav>
   <ul class="navbar">
-    <li>
-      <a href="{{ site.baseurl }}/" class="{% if page.url == '/' %}active{% endif %}">Home</a>
-    </li>
-    <li>
-      <a href="{{ site.baseurl }}/en/services" class="{% if page.url == '/en/services.html' %}active{% endif %}"
-        >My Services</a
-      >
-    </li>
-    <li>
-      <a href="{{ site.baseurl }}/en/portfolio" class="{% if page.url == '/en/portfolio.html' %}active{% endif %}"
-        >My Portfolio</a
-      >
-    </li>
-    <li>
-      <a href="{{ site.baseurl }}/en/about" class="{% if page.url == '/en/about.html' %}active{% endif %}">About Me</a>
-    </li>
+    <div class="navbar-links">
+      <li>
+        <a href="{{ site.baseurl }}/" class="{% if page.url == '/' %}active{% endif %}">Home</a>
+      </li>
+      <li>
+        <a href="{{ site.baseurl }}/en/services" class="{% if page.url == '/en/services.html' %}active{% endif %}"
+          >My Services</a
+        >
+      </li>
+      <li>
+        <a href="{{ site.baseurl }}/en/portfolio" class="{% if page.url == '/en/portfolio.html' %}active{% endif %}"
+          >My Portfolio</a
+        >
+      </li>
+      <li>
+        <a href="{{ site.baseurl }}/en/about" class="{% if page.url == '/en/about.html' %}active{% endif %}"
+          >About Me</a
+        >
+      </li>
+    </div>
     <li class="navbar-call">
       <a href="{{ site.meeting_link }}" target="_blank" class="book-call-btn">Book a Call</a>
     </li>
@@ -24,6 +28,7 @@
     <a
       href="{% if page.url == '/' %}{{ site.baseurl }}/de/{% else %}{{ site.baseurl }}{{ page.url | replace: '/en/', '/de/' }}{% endif %}"
     >
+      <img src="https://flagcdn.com/de.svg" alt="German Flag" width="20" style="vertical-align: middle" />
       🇩🇪 Deutsche Fassung (noch nicht vollständig)
     </a>
   </div>
