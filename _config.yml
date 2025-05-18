@@ -1,13 +1,8 @@
-title: title
-description: description
-slogan: slogan
-my_role: my_role
-# old keys (keep to avoid `did not find expected key` errors)
 company: Strategic AI Solutions
 legal_name: "Alexander Kolodzig EI"
 my_name: "Alex Kolodzig"
 my_role_en: "Freelance Data Scientist & AI Engineer"
-my_role_de: "freiberuflicher Data Scientist & KI Engineer
+my_role_de: "freiberuflicher Data Scientist & KI Engineer"
 meeting_link: https://zcal.co/strategic-ai/30min-meeting
 logo: https://strategic-ai.eu/logo.svg
 favicon: https://strategic-ai.eu/company_logo_02_bw_reverse_noedge_512.png
@@ -19,4 +14,3 @@ font_family: "Dosis Light"
 baseurl: "/strategic-ai"
 exclude: ["README.md", ".markdownlint.json", "LICENSE"]
 lang: en
-
