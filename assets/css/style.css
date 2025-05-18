@@ -76,7 +76,7 @@ a:not(.book-call-btn):hover {
   gap: clamp(10px, 4vw, 30px);
   background-color: #f8f8f8;
   list-style: none;
-  font-size: 125%;
+  font-size: 120%;
 }
 
 /* .lang-de .navbar {
@@ -84,7 +84,7 @@ a:not(.book-call-btn):hover {
 } */
 
 .navbar.lang-de {
-  font-size: 100%;
+  font-size: 110%;
 }
 
 .navbar-links {
