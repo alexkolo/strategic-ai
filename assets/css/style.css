@@ -80,7 +80,7 @@ a:not(.book-call-btn):hover {
 }
 
 .lang-de .navbar {
-  font-size: 115%; /* or adjust as needed */
+  font-size: 100%; /* or adjust as needed */
 }
 
 .navbar-links {
