@@ -8,13 +8,13 @@ lang: de
 <div class="container_center">
   <img src="{{ site.profile_image }}" alt="{{ site.my_name }} Profile Image" class="logo" />
 
-  <h1>Helping Industrial Teams Succeed with Reliable AI</h1>
-  <h2>I'm {{ site.my_name }}, a {{ site.my_role }}</h2>
-  <h3>Founder & CEO of {{ site.company }}</h3>
+  <h1>Erfolg für Ihr Industrie-Team durch zuverlässige KI</h1>
+  <h2>Ich bin {{ site.my_name }}, {{ site.my_role_de }}</h2>
+  <h3>Gründer & Geschäftsführer von {{ site.company }}</h3>
 
-  <div class="slogan">{{ site.slogan }}</div>
+  <div class="slogan">Ihr Partner für prädiktive Instandhaltung & moderne KI — robust, praxisnah & einsatzbereit.</div>
 
-  <p>Want to explore your AI challenge? Let's talk.</p>
+  <p>Sie möchten Ihre KI-Herausforderung besprechen? Lassen Sie uns reden.</p>
   <a href="{{ site.meeting_link }}" target="_blank" class="book-call-btn">Termin buchen</a>
 
 </div>
@@ -24,19 +24,19 @@ lang: de
   <div>
     <i class="fa fa-star fa-spin fa-3x"></i>
     <h4>Meine Leistungen</h4>
-    <p>Entdecken Sie, wie ich {{ site.company }} in Ihr Unternehmen einbringen kann.</p>
+    <p>Erfahren Sie, wie ich mit {{ site.company }} den KI-Erfolg in Ihr Unternehmen bringe.</p>
     <a href="{{ site.baseurl }}/de/services">Mehr erfahren</a>
   </div>
   <div>
     <i class="fa fa-trophy fa-4x"></i>
     <h4>Mein Portfolio</h4>
-    <p>Entdecken Sie meine erfolgreichen Projekte, die eine messbare Wirkung erzielt haben.</p>
-    <a href="{{ site.baseurl }}/de/portfolio">Projekte anzeigen</a>
+    <p>Werfen Sie einen Blick auf meine erfolgreiche Projekte, die nachweisbare Ergebnisse erzielt haben.</p>
+    <a href="{{ site.baseurl }}/de/portfolio">Projekte ansehen</a>
   </div>
   <div>
     <i class="fa fa-user fa-3x"></i>
     <h4>Über mich</h4>
-    <p>Verstehen Sie meinen Hintergrund & was mich zu einem vertrauenswürdigen KI-Partner macht.</p>
-    <a href="{{ site.baseurl }}/de/about">Lesen Sie meinen Werdegang</a>
+    <p>VLernen Sie meinen Werdegang kennen und erfahren Sie, warum Unternehmen mir vertrauen.</p>
+    <a href="{{ site.baseurl }}/de/about">Mehr über mich</a>
   </div>
 </div>
