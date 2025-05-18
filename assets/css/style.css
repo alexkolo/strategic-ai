@@ -79,6 +79,10 @@ a:not(.book-call-btn):hover {
   font-size: 125%;
 }
 
+.lang-de .navbar {
+  font-size: 115%; /* or adjust as needed */
+}
+
 .navbar-links {
   display: flex;
   gap: clamp(10px, 4vw, 30px);
