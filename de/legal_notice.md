@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Legal notice
+lang: de
 ---
 
 <div id="legal-holder">

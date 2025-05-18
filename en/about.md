@@ -3,6 +3,7 @@ layout: default
 title: About Me
 font_family: "Montserrat"
 text_align: justify
+lang: en
 ---
 
 <div class="container_center">

@@ -3,6 +3,7 @@ layout: default
 title: My Services
 font_family: "Montserrat"
 text_align: justify
+lang: en
 ---
 
 # <i class="fa fa-star"></i> My Services

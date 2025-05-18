@@ -17,7 +17,7 @@
   </head>
   <body style="font-family: {{ site.font_family }}, sans-serif;">
     <div class="container-md px-3 my-5 markdown-body">
-      {% include navigation.html %}
+      {% include navigation_en.html %}
       <!-- <p>Current page.url: {{ page.url }}</p> -->
       <div
         style="font-family: {{ page.font_family | default: site.font_family }}, sans-serif; {% if page.text_align %}text-align: {{ page.text_align }};{% endif %}"
@@ -26,6 +26,6 @@
         <hr />
       </div>
     </div>
-    {% include footer.html %}
+    {% include footer_en.html %}
   </body>
 </html>

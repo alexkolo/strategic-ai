@@ -3,6 +3,7 @@ layout: default
 title: My Portfolio
 font_family: "Montserrat"
 text_align: justify
+lang: en
 ---
 
 # <i class="fa fa-trophy"></i> My Portfolio
