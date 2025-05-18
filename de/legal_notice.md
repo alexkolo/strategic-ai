@@ -25,4 +25,4 @@ document.addEventListener("DOMContentLoaded", () => {
 
 ---
 
-JavaScript ist erforderlich, um den vollständigen rechtlichen Hinweis anzuzeigen.
+JavaScript wird benötigt, um das Impressum anzuzeigen.
