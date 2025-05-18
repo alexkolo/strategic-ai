@@ -1,12 +1,12 @@
 ---
 layout: default
-title: My Portfolio
+title: Mein Portfolio
 font_family: "Montserrat"
 text_align: justify
 lang: de
 ---
 
-# <i class="fa fa-trophy"></i> My Portfolio
+# <i class="fa fa-trophy"></i> Mein Portfolio
 
 _A selection of projects that demonstrate my expertise in delivering impactful AI solutions for industrial applications, such as Predictive Maintenance (PdM) software products._
 

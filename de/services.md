@@ -1,12 +1,12 @@
 ---
 layout: default
-title: My Services
+title: Meine Leistungen
 font_family: "Montserrat"
 text_align: justify
 lang: de
 ---
 
-# <i class="fa fa-star"></i> My Services
+# <i class="fa fa-star"></i> Meine Leistungen
 
 ## <i class="fa fa-line-chart"></i> Enhancing Your Industrial Software with Strategic AI
 

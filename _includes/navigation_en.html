@@ -20,4 +20,11 @@
       <a href="{{ site.meeting_link }}" target="_blank" class="book-call-btn">Book a Call</a>
     </li>
   </ul>
+  <div class="language-switch">
+    <a
+      href="{% if page.url == '/' %}{{ site.url_root }}/de/{% else %}{{ site.url_root }}{{ page.url | replace: '/en/', '/de/' }}{% endif %}"
+    >
+      Deutsche Version
+    </a>
+  </div>
 </nav>

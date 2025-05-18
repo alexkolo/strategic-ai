@@ -14,5 +14,5 @@ url_legal: https://www.strategic-ai.eu/legal_notice/legal_notice_v7.html
 n_exp_years: 8
 font_family: "Dosis Light"
 url_root: "/strategic-ai"
-exclude: ["./README.md", ".markdownlint.json", "LICENSE"]
+exclude: ["README.md", ".markdownlint.json", "LICENSE"]
 lang: en

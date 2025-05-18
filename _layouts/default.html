@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ page.lang | default: site.lang }}">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
@@ -17,8 +17,9 @@
   </head>
   <body style="font-family: {{ site.font_family }}, sans-serif;">
     <div class="container-md px-3 my-5 markdown-body">
-      {% include navigation_en.html %}
-      <!-- <p>Current page.url: {{ page.url }}</p> -->
+      {% if page.lang == "de" or (page.lang == nil and site.lang == "de") %} {% include navigation_de.html %} {% else %}
+      {% include navigation_en.html %} {% endif %}
+
       <div
         style="font-family: {{ page.font_family | default: site.font_family }}, sans-serif; {% if page.text_align %}text-align: {{ page.text_align }};{% endif %}"
       >
@@ -26,6 +27,7 @@
         <hr />
       </div>
     </div>
-    {% include footer_en.html %}
+    {% if page.lang == "de" or (page.lang == nil and site.lang == "de") %} {% include footer_de.html %} {% else %} {%
+    include footer_en.html %} {% endif %}
   </body>
 </html>

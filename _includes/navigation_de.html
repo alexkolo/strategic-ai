@@ -1,0 +1,33 @@
+<nav>
+  <ul class="navbar">
+    <li>
+      <a href="{{ site.url_root }}/de/" class="{% if page.url == '/de/' %}active{% endif %}">Startseite</a>
+    </li>
+    <li>
+      <a href="{{ site.url_root }}/de/services" class="{% if page.url == '/de/services.html' %}active{% endif %}"
+        >Meine Leistungen</a
+      >
+    </li>
+    <li>
+      <a href="{{ site.url_root }}/de/portfolio" class="{% if page.url == '/de/portfolio.html' %}active{% endif %}"
+        >Mein Portfolio</a
+      >
+    </li>
+    <li>
+      <a href="{{ site.url_root }}/de/about" class="{% if page.url == '/de/about.html' %}active{% endif %}"
+        >Über mich</a
+      >
+    </li>
+    <li>
+      <a href="{{ site.meeting_link }}" target="_blank" class="book-call-btn">Termin buchen</a>
+    </li>
+  </ul>
+
+  <div class="language-switch">
+    <a
+      href="{% if page.url == '/de/' %}{{ site.url_root }}/{% else %}{{ site.url_root }}{{ page.url | replace: '/de/', '/en/' }}{% endif %}"
+    >
+      English Version
+    </a>
+  </div>
+</nav>
