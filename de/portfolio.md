@@ -8,66 +8,66 @@ lang: de
 
 # <i class="fa fa-trophy"></i> Mein Portfolio
 
-_A selection of projects that demonstrate my expertise in delivering impactful AI solutions for industrial applications, such as Predictive Maintenance (PdM) software products._
+_Eine Auswahl von Projekten, die meine Expertise in der Realisierung wirkungsvoller KI-Lösungen für industrielle Anwendungen, insbesondere für Softwareprodukte im Bereich Predictive Maintenance (PdM), demonstrieren._
 
-## Advancing Early Anomaly Detection Capabilities for a New PdM Product
-
-<div style="text-align: center;">
-<img src="{{ site.image_url }}/ChatGPT Image May 14, 2025, 07_55_14 PM - Advancing Early Anomaly Detection Capabilities for a New PdM SaaS Product.svg" alt="Advancing Early Anomaly Detection Capabilities for a New PdM SaaS Product" height="200"/>
-</div>
-
-_For a major SaaS provider of PdM products, this project involved leading the algorithm development for a new product for early anomaly detection, with a focus on creating sophisticated, reliable and interpretable models for industrial assets._
-
-- **Challenge:** The SaaS provider wanted to develop a new flagship PdM product capable of detecting subtle, early-stage anomalies in industrial equipment, moving beyond basic rule-based alerts to offer more sophisticated and reliable predictive insights.
-- **Solution:** I designed, benchmarked, and deployed a suite of advanced anomaly detection algorithms, encompassing causal and non-causal methods (e.g., AAKR, Isolation Forest, PCA-based clustering). A key part of the solution was developing a mock-fault injection framework for robust validation. Full MLOps pipelines were established for efficient training, deployment (on Kubernetes), and inference.
-- **Outcome:** Significantly improved anomaly detection accuracy and model interpretability, leading to more reliable and actionable early fault warnings for end-users. The streamlined MLOps processes enabled efficient model deployment and updates. This work was **instrumental in successfully launching the new early anomaly detection SaaS product, effectively doubling the company's product portfolio.**
-- **Technical Highlight / Technologies Used:** Python, Anomaly Detection Algorithms (AAKR, Isolation Forest, Clustering, Causal Methods), MLOps (Kubernetes, NATS, GitHub Actions), Model Explainability (Shapley Values), Mock-Fault Generation & Testing, Performance Benchmarking Frameworks.
-
-## Enhancing Gas Turbine Digital Twin Accuracy & Efficiency with Statistical Modeling
+## Weiterentwicklung von Frühwarnsystemen für ein neues PdM-Produkt
 
 <div style="text-align: center;">
-<img src="{{ site.image_url }}/ChatGPT Image May 14, 2025, 07_51_31 PM - Enhancing Gas Turbine Digital Twin Accuracy & Efficiency with Statistical Modeling.svg" alt="Enhancing Gas Turbine Digital Twin Accuracy & Efficiency with Statistical Modeling" height="200"/>
+<img src="{{ site.image_url }}/ChatGPT Image May 14, 2025, 07_55_14 PM - Advancing Early Anomaly Detection Capabilities for a New PdM SaaS Product.svg" alt="Weiterentwicklung von Frühwarnsystemen für ein neues PdM-Produkt" height="200"/>
 </div>
 
-_For a same SaaS startup, this project aimed to improve the accuracy and reduce the calibration overhead of their digital twin models for Combined Cycle Gas Turbines (CCGT) by integrating advanced statistical methods._
+_Für einen führenden SaaS-Anbieter von PdM-Produkten umfasste dieses Projekt die Leitung der Algorithmenentwicklung für ein neues Produkt zur Früherkennung von Anomalien. Der Fokus lag auf der Erstellung hochentwickelter, zuverlässiger und interpretierbarer Modelle für Industrieanlagen._
 
-- **Challenge:** The company's CCGT digital twin of its root-cause failure analysis product, which relied primarily on physics-based models, suffered from long calibration times and limited fault detection sensitivity. There was a need to enhance model accuracy and efficiency without extensive manual tuning.
-- **Solution:** I developed and benchmarked advanced statistical models (Python, Scikit-learn) designed to complement the existing physics-based digital twins. This involved implementing a novel "best-performance" data filtering technique, robust feature engineering from sensor data, and leading a rigorous comparative analysis against the traditional physical models.
-- **Outcome:** Successful demonstration of **reduced model calibration times and customization costs by over 50%** compared to purely traditional approaches, while often improving diagnostic accuracy and fault detection sensitivity for key turbine parameters. The new data-driven methods and filters were adopted, benefiting both statistical and physics-based model workflows.
-- **Technical Highlight / Technologies Used:** Python, Scikit-learn, Advanced Statistical Modeling (Regression), Time-Series Analysis, Feature Engineering, Custom Data Clustering & Binning, Model Benchmarking, "Best-Performance" Data Filtering Logic.
+- **Herausforderung:** Der SaaS-Anbieter beabsichtigte, ein neues Flaggschiff-PdM-Produkt zu entwickeln. Dieses sollte in der Lage sein, subtile Anomalien in Industrieanlagen in einem frühen Stadium zu erkennen und über einfache, regelbasierte Warnmeldungen hinauszugehen, um anspruchsvollere und zuverlässigere prädiktive Einblicke zu ermöglichen.
+- **Lösung:** Ich konzipierte, benchmarkte und implementierte eine Reihe fortschrittlicher Algorithmen zur Anomalieerkennung, die sowohl kausale als auch nicht-kausale Methoden (z.B. AAKR, Isolation Forest, PCA-basiertes Clustering) umfassten. Ein wesentlicher Bestandteil der Lösung war die Entwicklung eines Frameworks zur Injektion simulierter Fehler (Mock-Faults) für eine robuste Validierung. Vollständige MLOps-Pipelines wurden für effizientes Training, Deployment (auf Kubernetes) und Inferenz etabliert.
+- **Ergebnis:** Deutliche Verbesserung der Genauigkeit bei der Anomalieerkennung und der Interpretierbarkeit der Modelle, was zu zuverlässigeren und handlungsrelevanteren Frühwarnungen für Endanwender führte. Die optimierten MLOps-Prozesse ermöglichten ein effizientes Deployment und schnelle Updates der Modelle. Diese Arbeit war **entscheidend für die erfolgreiche Markteinführung des neuen SaaS-Produkts zur Früherkennung von Anomalien und trug maßgeblich zur Verdoppelung des Produktportfolios des Unternehmens bei.**
+- **Technische Highlights / Verwendete Technologien:** Python, Algorithmen zur Anomalieerkennung (AAKR, Isolation Forest, Clustering, kausale Methoden), MLOps (Kubernetes, NATS, GitHub Actions), Modellerklärbarkeit (Shapley Values), Generierung & Test von simulierten Fehlern, Frameworks für Performance-Benchmarking.
 
-## Industrializing Data Ingestion for a Predictive Maintenance SaaS Provider
+## Effizienz- und Genauigkeitssteigerung bei digitalen Zwillingen von Gasturbinen durch statistische Modellierung
 
 <div style="text-align: center;">
-<img src="{{ site.image_url }}/ChatGPT Image May 15, 2025, 04_16_23 PM - Robust Data Engineering & ETL Pipelines for Industrial Data.svg" alt="Industrializing Data Ingestion for a Predictive Maintenance SaaS Provider" height="200"/>
+<img src="{{ site.image_url }}/ChatGPT Image May 14, 2025, 07_51_31 PM - Enhancing Gas Turbine Digital Twin Accuracy & Efficiency with Statistical Modeling.svg" alt="Effizienz- und Genauigkeitssteigerung bei digitalen Zwillingen von Gasturbinen" height="200"/>
 </div>
 
-_For the same SaaS provider, this project focused on creating a robust, scalable, and standardized ETL pipeline to handle diverse and complex data from industrial clients._
+_Für dasselbe SaaS-Startup zielte dieses Projekt darauf ab, die Genauigkeit der digitalen Zwillingsmodelle für Gas-und-Dampf-Kombikraftwerke (GuD) zu verbessern und den Kalibrierungsaufwand durch die Integration fortschrittlicher statistischer Methoden zu reduzieren._
 
-- **Challenge:** The provider faced significant delays and high rework costs in calibrating their core predictive maintenance product. This was due to inconsistent, messy, and diversely formatted data from new industrial clients, which hindered efficient product deployment and team scalability.
-- **Solution:** I architected and developed a universal Python-based ETL pipeline. Key features included adaptive parsing for various file types (CSV, multi-sheet Excel), robust timestamp/timezone correction, automated tag sanitization, chunk-based processing for large datasets, and comprehensive error handling. The solution included CI/CD integration (GitHub Actions), extensive documentation, and team training for wide adoption.
-- **Outcome:** Achieved a **reduction in data processing time by over 90%**, significantly accelerating client onboarding and product calibration. This minimized project risks and rework, improved overall data quality, and enabled a scalable, standardized data ingestion process adopted by the entire data science team.
-- **Technical Highlight / Technologies Used:** Python, Pandas, Custom ETL Architecture, Advanced File Parsing (CSV/Excel), Time-Zone/Timestamp Correction, Data Validation & Sanitization, CI/CD (GitHub Actions), Chunk-based Processing for Big Data, Comprehensive Documentation.
+- **Herausforderung:** Der digitale Zwilling des Unternehmens für die Ursachenanalyse von Fehlern (Root-Cause Failure Analysis) in GuD-Anlagen, der primär auf physikalischen Modellen basierte, litt unter langen Kalibrierungszeiten und einer begrenzten Sensitivität bei der Fehlererkennung. Es bestand die Notwendigkeit, die Modellgenauigkeit und -effizienz ohne umfangreiche manuelle Anpassungen zu steigern.
+- **Lösung:** Ich entwickelte und benchmarkte fortschrittliche statistische Modelle (Python, Scikit-learn), die die bestehenden physikalischen digitalen Zwillinge ergänzten. Dies umfasste die Implementierung einer neuartigen "Best-Performance"-Datenfilterungstechnik, robustes Feature Engineering aus Sensordaten sowie die Leitung einer rigorosen Vergleichsanalyse mit den traditionellen physikalischen Modellen.
+- **Ergebnis:** Erfolgreiche Demonstration einer **Reduktion der Modellkalibrierungszeiten und Anpassungskosten um über 50%** im Vergleich zu rein traditionellen Ansätzen, bei gleichzeitiger Verbesserung der diagnostischen Genauigkeit und Fehlererkennungssensitivität für zentrale Turbinenparameter. Die neuen datengesteuerten Methoden und Filter wurden übernommen und kamen sowohl statistischen als auch physikalisch-basierten Modellworkflows zugute.
+- **Technische Highlights / Verwendete Technologien:** Python, Scikit-learn, fortschrittliche statistische Modellierung (Regression), Zeitreihenanalyse, Feature Engineering, benutzerdefinierte Daten-Clusterbildung & Binning, Modell-Benchmarking, "Best-Performance"-Datenfilterlogik.
 
-## Developing an AI-Powered Q&A Companion with Generative AI (Self-Driven Initiative)
+## Industrialisierung der Datenaufnahme für einen SaaS-Anbieter im Bereich Predictive Maintenance
 
 <div style="text-align: center;">
-<img src="{{ site.image_url }}/ChatGPT Image May 14, 2025, 08_12_56 PM - Developing an AI-Powered Q&A Companion with Generative AI.svg" alt="Developing an AI-Powered Q&A Companion with Generative AI" height="200"/>
+<img src="{{ site.image_url }}/ChatGPT Image May 15, 2025, 04_16_23 PM - Robust Data Engineering & ETL Pipelines for Industrial Data.svg" alt="Industrialisierung der Datenaufnahme für Predictive Maintenance" height="200"/>
 </div>
 
-_This personal project was undertaken to deepen my expertise in Generative AI by developing an end-to-end Retrieval-Augmented Generation (RAG) system. The goal was to transform a large, public library of science-based blog content (NutritionFacts.org) into an interactive, conversational knowledge source, thereby creating a practical and meaningful application to showcase advanced GenAI capabilities._
+_Für denselben SaaS-Anbieter konzentrierte sich dieses Projekt auf die Erstellung einer robusten, skalierbaren und standardisierten ETL-Pipeline zur Verarbeitung vielfältiger und komplexer Daten von Industriekunden._
 
-- **Challenge (Self-Imposed):** To explore and master the practicalities of building a sophisticated RAG system capable of making a large (1200+ posts), unstructured, domain-specific knowledge base accessible and interactive through natural language queries.
-- **Solution (My Initiative):** I independently designed and deployed "Nutrify Your Life," a full-featured RAG-based Q&A chatbot. This involved:
-  - Systematically scraping and processing the public blog content.
-  - Constructing a knowledge base using sentence embeddings and a LanceDB vector database.
-  - Implementing an advanced retrieval pipeline with hybrid search (vector + keyword) and cross-encoder reranking.
-  - Integrating with LLMs (via Groq API) for accurate, context-aware answer synthesis with source citation.
-  - Developing a user-friendly Streamlit interface and a MongoDB-backed monitoring dashboard.
-- **Outcome:** Successfully developed and deployed a fully functional AI application that transforms static content into a dynamic, interactive AI asset, providing users with immediate and reliable answers. This project solidified my practical skills in the complete GenAI development lifecycle. _The RAG methodologies and architecture demonstrated are directly applicable to creating similar systems for industrial technical documentation, maintenance logs, or compliance standards._
+- **Herausforderung:** Der Anbieter sah sich mit erheblichen Verzögerungen und hohen Nacharbeitskosten bei der Kalibrierung seines Kernprodukts für Predictive Maintenance konfrontiert. Ursächlich hierfür waren inkonsistente, fehlerbehaftete und unterschiedlich formatierte Daten von neuen Industriekunden, was eine effiziente Produktbereitstellung und Skalierbarkeit des Teams behinderte.
+- **Lösung:** Ich konzipierte und entwickelte eine universelle Python-basierte ETL-Pipeline. Zu den Kernfunktionen gehörten adaptives Parsen verschiedener Dateitypen (CSV, mehrseitige Excel-Tabellen), robuste Zeitstempel-/Zeitzonenkorrektur, automatische Bereinigung von Tag-Namen, blockbasierte Verarbeitung großer Datenmengen und eine umfassende Fehlerbehandlung. Die Lösung umfasste die Integration von CI/CD (GitHub Actions), umfangreiche Dokumentation und Teamschulungen zur breiten Akzeptanz.
+- **Ergebnis:** Erzielung einer **Reduktion der Datenverarbeitungszeit um über 90%**, was die Kundenintegration und Produktkalibrierung erheblich beschleunigte. Dies minimierte Projektrisiken und Nacharbeiten, verbesserte die allgemeine Datenqualität und ermöglichte einen skalierbaren, standardisierten Datenaufnahmeprozess, der vom gesamten Data-Science-Team übernommen wurde.
+- **Technische Highlights / Verwendete Technologien:** Python, Pandas, benutzerdefinierte ETL-Architektur, fortschrittliches Parsen von Dateien (CSV/Excel), Zeitstempel-/Zeitzonenkorrektur, Datenvalidierung & -bereinigung, CI/CD (GitHub Actions), blockbasierte Verarbeitung für Big Data, umfassende Dokumentation.
 
-  👉 <a href="https://nutrify-your-life.streamlit.app/" target="_blank">Live Demo</a>
+## Entwicklung eines KI-basierten Q&A-Assistenten mit Generativer KI
 
-- **Technical Highlight / Technologies Used:** Generative AI (RAG), Python, Streamlit, LLM APIs (Groq), Sentence Transformers, Vector Databases (LanceDB), Hybrid Search, Cross-Encoder Reranking, Prompt Engineering, Data Scraping/Processing, MongoDB, Docker.
+<div style="text-align: center;">
+<img src="{{ site.image_url }}/ChatGPT Image May 14, 2025, 08_12_56 PM - Developing an AI-Powered Q&A Companion with Generative AI.svg" alt="Entwicklung eines KI-basierten Q&A-Assistenten mit Generativer KI" height="200"/>
+</div>
 
-  <a href="https://github.com/alexkolo/rag_nutrition_facts_blog" target="_blank">GitHub Repository</a>
+_Dieses persönliche Projekt wurde initiiert, um meine Expertise im Bereich Generative KI durch die Entwicklung eines End-to-End Retrieval-Augmented Generation (RAG)-Systems zu vertiefen. Ziel war es, eine umfangreiche öffentliche Bibliothek wissenschaftlich fundierter Blog-Inhalte (NutritionFacts.org) in eine interaktive, dialogorientierte Wissensquelle umzuwandeln und so eine praxisnahe und aussagekräftige Anwendung zur Demonstration fortgeschrittener GenAI-Fähigkeiten zu schaffen._
+
+- **Herausforderung (Selbstgestecktes Ziel):** Die Erforschung und praktische Beherrschung der Erstellung eines komplexen RAG-Systems, das eine große (1200+ Beiträge), unstrukturierte, domänenspezifische Wissensdatenbank durch natürlichsprachliche Anfragen zugänglich und interaktiv macht.
+- **Lösung (Meine Initiative):** Ich konzipierte und implementierte eigenständig "Nutrify Your Life", einen voll funktionsfähigen RAG-basierten Q&A-Chatbot. Dies umfasste:
+  - Systematisches Scrapen und Verarbeiten der öffentlichen Blog-Inhalte.
+  - Aufbau einer Wissensdatenbank mittels Sentence Embeddings und einer LanceDB Vektordatenbank.
+  - Implementierung einer fortschrittlichen Retrieval-Pipeline mit hybrider Suche (Vektor + Keyword) und Cross-Encoder Reranking.
+  - Integration mit LLMs (über Groq API) zur präzisen, kontextbezogenen Antwortgenerierung mit Quellenangabe.
+  - Entwicklung einer benutzerfreundlichen Streamlit-Oberfläche und eines MongoDB-basierten Monitoring-Dashboards.
+- **Ergebnis:** Erfolgreiche Entwicklung und Bereitstellung einer voll funktionsfähigen KI-Anwendung, die statische Inhalte in ein dynamisches, interaktives KI-Asset umwandelt und Nutzern unmittelbare und zuverlässige Antworten liefert. Dieses Projekt festigte meine praktischen Fähigkeiten im gesamten Entwicklungszyklus von GenAI-Lösungen. _Die demonstrierten RAG-Methoden und die Architektur sind direkt auf die Erstellung ähnlicher Systeme für industrielle technische Dokumentationen, Wartungsprotokolle oder Compliance-Richtlinien anwendbar._
+
+  👉 <a href="https://nutrify-your-life.streamlit.app/" target="_blank">Live-Demo</a>
+
+- **Technische Highlights / Verwendete Technologien:** Generative KI (RAG), Python, Streamlit, LLM APIs (Groq), Sentence Transformers, Vektordatenbanken (LanceDB), Hybride Suche, Cross-Encoder Reranking, Prompt Engineering, Data Scraping/Verarbeitung, MongoDB, Docker.
+
+  <a href="https://github.com/alexkolo/rag_nutrition_facts_blog" target="_blank">GitHub-Repository</a>
