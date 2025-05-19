@@ -4,6 +4,7 @@ title: About Me
 font_family: "Montserrat"
 text_align: justify
 lang: en
+noindex: true
 ---
 
 <div class="container_center">

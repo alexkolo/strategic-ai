@@ -4,6 +4,7 @@ title: Über Mich
 font_family: "Montserrat"
 text_align: justify
 lang: de
+noindex: true
 ---
 
 <div class="container_center">
