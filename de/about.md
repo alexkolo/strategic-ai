@@ -35,7 +35,7 @@ Ich arbeite partnerschaftlich mit Ihnen zusammen, um technisch exzellente KI-Lö
 
   - Schwerpunkte: Experimentelle Astrophysik & Teilchenphysik.
 
-- 2015 **Dr. rer. nat. in Astrophysik** – [Max-Planck-Institut für Astrophysik](https://www.mpa-garching.mpg.de/de) (MPA) & [Ludwig-Maximilians-Universität München](https://de.wikipedia.org/wiki/Ludwig-Maximilians-Universit%C3%A4t_M%C3%BCnchen) (LMU), _Deutschland_ (Note: magna cum laude, [Dissertation](https://edoc.ub.uni-muenchen.de/18228/))
+- 2015 **Dr. rer. nat. in Astrophysik** – [Max-Planck-Institut für Astrophysik](https://www.mpa-garching.mpg.de/de) (MPA) & [Ludwig-Maximilians-Universität München](https://de.wikipedia.org/wiki/Ludwig-Maximilians-Universit%C3%A4t_M%C3%BCnchen) (LMU), _Deutschland_
   - Promotionsforschung am weltweit renommierten **Max-Planck-Institut für Astrophysik (MPA)** durchgeführt.
   - Spezialisiert auf die Analyse umfangreicher und komplexer Datensätze von Weltraumteleskopen (NASA & ESA), mit Fokus auf fortgeschrittene statistische Modellierung (einschließlich Bayes'scher Inferenz), **Zeitreihenanalyse**, Signalverarbeitung in verrauschten Umgebungen und innovative Problemlösungen.
   - Diese rigorose wissenschaftliche Ausbildung schuf ein starkes Fundament für die Entwicklung **robuster und zuverlässiger Lösungen** – Kernkompetenzen, die direkt auf die heutigen anspruchsvollen Herausforderungen in Data Science und KI in der Industrie übertragbar sind.

@@ -35,7 +35,7 @@ I partner with you to build technically excellent AI solutions that directly con
 
   - Emphasis: Experimental Astrophysics & Particle Physics.
 
-- 2015 **Dr. rer. nat. (PhD) in Astrophysics** – [Max Planck Institute for Astrophysics](https://www.mpa-garching.mpg.de/) (MPA) & [Ludwig-Maximilians-Universität München](https://en.wikipedia.org/wiki/Ludwig_Maximilian_University_of_Munich) (LMU), _Germany_ (Grade: magna cum laude, [Thesis](https://edoc.ub.uni-muenchen.de/18228/))
+- 2015 **Dr. rer. nat. (PhD) in Astrophysics** – [Max Planck Institute for Astrophysics](https://www.mpa-garching.mpg.de/) (MPA) & [Ludwig-Maximilians-Universität München](https://en.wikipedia.org/wiki/Ludwig_Maximilian_University_of_Munich) (LMU), _Germany_
   - Doctoral research conducted at the world-renowned **Max Planck Institute for Astrophysics (MPA)**.
   - Specialized in analyzing vast & complex datasets from space telescopes (NASA & ESA), focusing on advanced statistical modeling (including Bayesian inference), **time-series analysis**, signal processing in noisy environments, & innovative problem-solving.
   - This rigorous scientific training built a strong foundation in developing **robust & reliable solutions** – core skills directly transferable to today's demanding data science & AI challenges in industry.
