@@ -13,7 +13,7 @@ _Eine Auswahl von Projekten, die meine Expertise in der Realisierung wirkungsvol
 ## Weiterentwicklung von Frühwarnsystemen für ein neues PdM-Produkt
 
 <div style="text-align: center;">
-<img src="{{ site.image_url }}/ChatGPT Image May 14, 2025, 07_55_14 PM - Advancing Early Anomaly Detection Capabilities for a New PdM SaaS Product.svg" alt="Weiterentwicklung von Frühwarnsystemen für ein neues PdM-Produkt" height="200"/>
+<img src="{{ site.url_ai_images }}/ChatGPT Image May 14, 2025, 07_55_14 PM - Advancing Early Anomaly Detection Capabilities for a New PdM SaaS Product.svg" alt="Weiterentwicklung von Frühwarnsystemen für ein neues PdM-Produkt" height="200"/>
 </div>
 
 _Für einen führenden SaaS-Anbieter von PdM-Produkten umfasste dieses Projekt die Leitung der Algorithmenentwicklung für ein neues Produkt zur Früherkennung von Anomalien. Der Fokus lag auf der Erstellung hochentwickelter, zuverlässiger und interpretierbarer Modelle für Industrieanlagen._
@@ -26,7 +26,7 @@ _Für einen führenden SaaS-Anbieter von PdM-Produkten umfasste dieses Projekt d
 ## Effizienz- und Genauigkeitssteigerung bei digitalen Zwillingen von Gasturbinen durch statistische Modellierung
 
 <div style="text-align: center;">
-<img src="{{ site.image_url }}/ChatGPT Image May 14, 2025, 07_51_31 PM - Enhancing Gas Turbine Digital Twin Accuracy & Efficiency with Statistical Modeling.svg" alt="Effizienz- und Genauigkeitssteigerung bei digitalen Zwillingen von Gasturbinen" height="200"/>
+<img src="{{ site.url_ai_images }}/ChatGPT Image May 14, 2025, 07_51_31 PM - Enhancing Gas Turbine Digital Twin Accuracy & Efficiency with Statistical Modeling.svg" alt="Effizienz- und Genauigkeitssteigerung bei digitalen Zwillingen von Gasturbinen" height="200"/>
 </div>
 
 _Für dasselbe SaaS-Startup zielte dieses Projekt darauf ab, die Genauigkeit der digitalen Zwillingsmodelle für Gas-und-Dampf-Kombikraftwerke (GuD) zu verbessern und den Kalibrierungsaufwand durch die Integration fortschrittlicher statistischer Methoden zu reduzieren._
@@ -39,7 +39,7 @@ _Für dasselbe SaaS-Startup zielte dieses Projekt darauf ab, die Genauigkeit der
 ## Industrialisierung der Datenaufnahme für einen SaaS-Anbieter im Bereich Predictive Maintenance
 
 <div style="text-align: center;">
-<img src="{{ site.image_url }}/ChatGPT Image May 15, 2025, 04_16_23 PM - Robust Data Engineering & ETL Pipelines for Industrial Data.svg" alt="Industrialisierung der Datenaufnahme für Predictive Maintenance" height="200"/>
+<img src="{{ site.url_ai_images }}/ChatGPT Image May 15, 2025, 04_16_23 PM - Robust Data Engineering & ETL Pipelines for Industrial Data.svg" alt="Industrialisierung der Datenaufnahme für Predictive Maintenance" height="200"/>
 </div>
 
 _Für denselben SaaS-Anbieter konzentrierte sich dieses Projekt auf die Erstellung einer robusten, skalierbaren und standardisierten ETL-Pipeline zur Verarbeitung vielfältiger und komplexer Daten von Industriekunden._
@@ -52,7 +52,7 @@ _Für denselben SaaS-Anbieter konzentrierte sich dieses Projekt auf die Erstellu
 ## Entwicklung eines KI-basierten Q&A-Assistenten mit Generativer KI
 
 <div style="text-align: center;">
-<img src="{{ site.image_url }}/ChatGPT Image May 14, 2025, 08_12_56 PM - Developing an AI-Powered Q&A Companion with Generative AI.svg" alt="Entwicklung eines KI-basierten Q&A-Assistenten mit Generativer KI" height="200"/>
+<img src="{{ site.url_ai_images }}/ChatGPT Image May 14, 2025, 08_12_56 PM - Developing an AI-Powered Q&A Companion with Generative AI.svg" alt="Entwicklung eines KI-basierten Q&A-Assistenten mit Generativer KI" height="200"/>
 </div>
 
 _Dieses persönliche Projekt wurde initiiert, um meine Expertise im Bereich Generative KI durch die Entwicklung eines End-to-End Retrieval-Augmented Generation (RAG)-Systems zu vertiefen. Ziel war es, eine umfangreiche öffentliche Bibliothek wissenschaftlich fundierter Blog-Inhalte (NutritionFacts.org) in eine interaktive, dialogorientierte Wissensquelle umzuwandeln und so eine praxisnahe und aussagekräftige Anwendung zur Demonstration fortgeschrittener GenAI-Fähigkeiten zu schaffen._

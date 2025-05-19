@@ -27,7 +27,7 @@ My services are designed to address the specific challenges and opportunities fa
 ### Advanced Predictive Maintenance (PdM) Solutions
 
 <div style="text-align: center;">
-<img src="{{ site.image_url }}/ChatGPT Image May 15, 2025, 04_01_54 PM - Advanced Predictive Maintenance (PdM) Solutions.svg" alt="Advanced Predictive Maintenance (PdM) Solutions" height="200"/>
+<img src="{{ site.url_ai_images }}/ChatGPT Image May 15, 2025, 04_01_54 PM - Advanced Predictive Maintenance (PdM) Solutions.svg" alt="Advanced Predictive Maintenance (PdM) Solutions" height="200"/>
 </div>
 
 **Empower your software with more accurate, reliable, and insightful PdM capabilities.**
@@ -45,7 +45,7 @@ Drawing on my experience developing and deploying diagnostic algorithms for crit
 ### Robust Data Engineering & ETL Pipelines for Industrial Data
 
 <div style="text-align: center;">
-<img src="{{ site.image_url }}/ChatGPT Image May 15, 2025, 04_16_23 PM - Robust Data Engineering & ETL Pipelines for Industrial Data.svg" alt="Robust Data Engineering & ETL Pipelines for Industrial Data" height="200"/>
+<img src="{{ site.url_ai_images }}/ChatGPT Image May 15, 2025, 04_16_23 PM - Robust Data Engineering & ETL Pipelines for Industrial Data.svg" alt="Robust Data Engineering & ETL Pipelines for Industrial Data" height="200"/>
 </div>
 
 **Ensure your AI models are built on a foundation of high-quality, reliable data.**
@@ -62,7 +62,7 @@ Industrial sensor data is often complex, heterogeneous, and noisy. My experience
 ### MLOps & Scalable AI Deployment
 
 <div style="text-align: center;">
-<img src="{{ site.image_url }}/ChatGPT Image May 15, 2025, 04_21_40 PM - MLOps & Scalable AI Deployment.svg" alt="MLOps & Scalable AI Deployment" height="200"/>
+<img src="{{ site.url_ai_images }}/ChatGPT Image May 15, 2025, 04_21_40 PM - MLOps & Scalable AI Deployment.svg" alt="MLOps & Scalable AI Deployment" height="200"/>
 </div>
 
 **Transition your AI innovations from proof-of-concept to robust, production-grade features.**
@@ -79,7 +79,7 @@ For ISVs, deploying and maintaining AI models at scale is crucial. I provide exp
 ### Generative AI (GenAI) & LLM Integration for Industrial Value
 
 <div style="text-align: center;">
-<img src="{{ site.image_url }}/ChatGPT Image May 14, 2025, 08_12_56 PM - Developing an AI-Powered Q&A Companion with Generative AI.svg" alt="Developing an AI-Powered Q&A Companion with Generative AI" height="200"/>
+<img src="{{ site.url_ai_images }}/ChatGPT Image May 14, 2025, 08_12_56 PM - Developing an AI-Powered Q&A Companion with Generative AI.svg" alt="Developing an AI-Powered Q&A Companion with Generative AI" height="200"/>
 </div>
 
 **Unlock new efficiencies and insights by leveraging the power of Large Language Models (LLMs) within your industrial software.**

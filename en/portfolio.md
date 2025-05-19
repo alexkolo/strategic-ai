@@ -13,7 +13,7 @@ _A selection of projects that demonstrate my expertise in delivering impactful A
 ## Advancing Early Anomaly Detection Capabilities for a New PdM Product
 
 <div style="text-align: center;">
-<img src="{{ site.image_url }}/ChatGPT Image May 14, 2025, 07_55_14 PM - Advancing Early Anomaly Detection Capabilities for a New PdM SaaS Product.svg" alt="Advancing Early Anomaly Detection Capabilities for a New PdM SaaS Product" height="200"/>
+<img src="{{ site.url_ai_images }}/ChatGPT Image May 14, 2025, 07_55_14 PM - Advancing Early Anomaly Detection Capabilities for a New PdM SaaS Product.svg" alt="Advancing Early Anomaly Detection Capabilities for a New PdM SaaS Product" height="200"/>
 </div>
 
 _For a major SaaS provider of PdM products, this project involved leading the algorithm development for a new product for early anomaly detection, with a focus on creating sophisticated, reliable and interpretable models for industrial assets._
@@ -26,7 +26,7 @@ _For a major SaaS provider of PdM products, this project involved leading the al
 ## Enhancing Gas Turbine Digital Twin Accuracy & Efficiency with Statistical Modeling
 
 <div style="text-align: center;">
-<img src="{{ site.image_url }}/ChatGPT Image May 14, 2025, 07_51_31 PM - Enhancing Gas Turbine Digital Twin Accuracy & Efficiency with Statistical Modeling.svg" alt="Enhancing Gas Turbine Digital Twin Accuracy & Efficiency with Statistical Modeling" height="200"/>
+<img src="{{ site.url_ai_images }}/ChatGPT Image May 14, 2025, 07_51_31 PM - Enhancing Gas Turbine Digital Twin Accuracy & Efficiency with Statistical Modeling.svg" alt="Enhancing Gas Turbine Digital Twin Accuracy & Efficiency with Statistical Modeling" height="200"/>
 </div>
 
 _For a same SaaS startup, this project aimed to improve the accuracy and reduce the calibration overhead of their digital twin models for Combined Cycle Gas Turbines (CCGT) by integrating advanced statistical methods._
@@ -39,7 +39,7 @@ _For a same SaaS startup, this project aimed to improve the accuracy and reduce 
 ## Industrializing Data Ingestion for a Predictive Maintenance SaaS Provider
 
 <div style="text-align: center;">
-<img src="{{ site.image_url }}/ChatGPT Image May 15, 2025, 04_16_23 PM - Robust Data Engineering & ETL Pipelines for Industrial Data.svg" alt="Industrializing Data Ingestion for a Predictive Maintenance SaaS Provider" height="200"/>
+<img src="{{ site.url_ai_images }}/ChatGPT Image May 15, 2025, 04_16_23 PM - Robust Data Engineering & ETL Pipelines for Industrial Data.svg" alt="Industrializing Data Ingestion for a Predictive Maintenance SaaS Provider" height="200"/>
 </div>
 
 _For the same SaaS provider, this project focused on creating a robust, scalable, and standardized ETL pipeline to handle diverse and complex data from industrial clients._
@@ -52,7 +52,7 @@ _For the same SaaS provider, this project focused on creating a robust, scalable
 ## Developing an AI-Powered Q&A Companion with Generative AI
 
 <div style="text-align: center;">
-<img src="{{ site.image_url }}/ChatGPT Image May 14, 2025, 08_12_56 PM - Developing an AI-Powered Q&A Companion with Generative AI.svg" alt="Developing an AI-Powered Q&A Companion with Generative AI" height="200"/>
+<img src="{{ site.url_ai_images }}/ChatGPT Image May 14, 2025, 08_12_56 PM - Developing an AI-Powered Q&A Companion with Generative AI.svg" alt="Developing an AI-Powered Q&A Companion with Generative AI" height="200"/>
 </div>
 
 _This personal project was undertaken to deepen my expertise in Generative AI by developing an end-to-end Retrieval-Augmented Generation (RAG) system. The goal was to transform a large, public library of science-based blog content (NutritionFacts.org) into an interactive, conversational knowledge source, thereby creating a practical and meaningful application to showcase advanced GenAI capabilities._
