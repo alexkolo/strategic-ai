@@ -9,5 +9,7 @@
 
 - png 2 svg: https://www.pngtosvg.com/
 
-- chat:
-  - navbar https://chatgpt.com/c/68259981-4fb0-8011-9c60-df3e32d9c250
+## Ai help
+
+- text https://aistudio.google.com/prompts/1uPtAz_htQZ25qsjCibw5AbEvXg6iD1vy
+- styling: https://chatgpt.com/c/68259981-4fb0-8011-9c60-df3e32d9c250

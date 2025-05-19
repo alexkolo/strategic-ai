@@ -9,7 +9,7 @@ lang: en
   <img src="{{ site.profile_image }}" alt="{{ site.my_name_en }} Profile Image" class="logo" />
 
   <h1>Helping Industrial Teams Succeed with Reliable AI</h1>
-  <h2>I'm {{ site.my_name_en }}, a {{ site.my_role_en }}</h2>
+  <h2>I'm {{ site.my_name_en }}, a {{ site.my_role.en }}</h2>
   <h3>Founder & CEO of {{ site.company }}</h3>
 
   <div class="slogan">Your partner in predictive maintenance and cutting edge AI, delivering robust, real world systems.</div>
