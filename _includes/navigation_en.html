@@ -24,6 +24,7 @@
       <a href="{{ site.meeting_link }}" target="_blank" class="book-call-btn">Book a Call</a>
     </li>
   </ul>
+  {% unless page.url contains '/legal/' %}
   <div class="language-switch">
     <a
       href="{% if page.url == '/' %}{{ site.baseurl }}/de/{% else %}{{ site.baseurl }}{{ page.url | replace: '/en/', '/de/' }}{% endif %}"
@@ -32,4 +33,5 @@
       Deutsche Fassung (noch nicht vollständig)
     </a>
   </div>
+  {% endunless %}
 </nav>
