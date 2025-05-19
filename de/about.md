@@ -1,97 +1,98 @@
 ---
 layout: default
-title: Über mich
+title: Über Mich
 font_family: "Montserrat"
 text_align: justify
 lang: de
 ---
 
 <div class="container_center">
-  <img src="{{ site.profile_image }}" alt="{{ site.my_name.de }} Profile Image" class="logo" />
+  <img src="{{ site.profile_image }}" alt="{{ site.my_name.de }} Profilbild" class="logo" />
 </div>
 
-# <i class="fa fa-user"></i> Über mich
+# <i class="fa fa-user"></i> Über Mich
 
-Hi, I'm {{ site.my_name.de }}, a {{ site.my_role.de }} with a Ph.D. in astrophysics and over {{ site.n_exp_years }} years of experience applying advanced data analysis & AI principles.
-I am passionate about transforming complex industrial data into intelligent, actionable solutions.
+Hallo, mein Name ist {{ site.my_name.de }}. Ich bin {{ site.my_role.de }} mit einer Promotion in Astrophysik und verfüge über mehr als {{ site.n_exp_years }} Jahre Erfahrung in der Anwendung fortgeschrittener Datenanalyse- und KI-Prinzipien.
+Meine Leidenschaft ist es, komplexe industrielle Daten in intelligente, handlungsrelevante Lösungen zu transformieren.
 
-At **{{ site.company }}**, my mission is to empower technology providers like yours. I bridge the gap between academic research and the practical demands of the industrial world, delivering:
+Mit **{{ site.company }}** ist es meine Mission, Technologieanbieter wie Sie zu unterstützen. Ich schließe die Lücke zwischen akademischer Forschung und den praktischen Anforderungen der Industriewelt und liefere:
 
-- **Cutting-edge predictive capabilities** and robust AI-driven features for your software.
-- **Production-ready AI systems** that integrate seamlessly, reduce false positives, and help your clients minimize downtime & optimize asset performance.
-- A **distinct competitive edge** for your software offerings.
+- **Zukunftsweisende prädiktive Fähigkeiten** und robuste KI-gestützte Funktionen für Ihre Software.
+- **Produktionsreife KI-Systeme**, die sich nahtlos integrieren, Falschalarme reduzieren und Ihren Kunden helfen, Ausfallzeiten zu minimieren und die Anlagenleistung zu optimieren.
+- Einen **entscheidenden Wettbewerbsvorteil** für Ihre Softwareangebote.
 
-My proven track record includes **doubling the SaaS product portfolio** at a predictive maintenance startup by developing and deploying sophisticated anomaly detection and diagnostic algorithms. With over {{ site.n_exp_years }} years of experience transforming petabytes of noisy, high-volume data (from astrophysics to industrial sensors) into clear insights, I offer a blend of deep statistical rigor and pragmatic engineering.
+Meine Erfolgsbilanz umfasst die **Verdoppelung des SaaS-Produktportfolios** bei einem Startup für Predictive Maintenance durch die Entwicklung und Implementierung hochentwickelter Algorithmen zur Anomalieerkennung und Diagnose. Mit über {{ site.n_exp_years }} Jahren Erfahrung in der Umwandlung von Petabytes an verrauschten, hochvolumigen Daten (von Astrophysik bis zu Industriesensoren) in klare Erkenntnisse, biete ich eine Mischung aus tiefer statistischer Rigorosität und pragmatischer Ingenieurskunst.
 
-I partner with you to build technically excellent AI solutions that directly contribute to your product's value, reliability, and market leadership. My capabilities include:
+Ich arbeite partnerschaftlich mit Ihnen zusammen, um technisch exzellente KI-Lösungen zu entwickeln, die direkt zum Wert, zur Zuverlässigkeit und zur Marktführerschaft Ihres Produkts beitragen. Meine Kompetenzen umfassen:
 
-- Refining existing predictive maintenance models.
-- Designing scalable MLOps pipelines.
-- Integrating advanced large language model (LLM) functionalities.
+- Die Verfeinerung bestehender Predictive-Maintenance-Modelle.
+- Das Design skalierbarer MLOps-Pipelines.
+- Die Integration fortschrittlicher Funktionalitäten von Large Language Models (LLM).
 
-## <i class="fa fa-graduation-cap"></i> Education & Academic Foundations
+## <i class="fa fa-graduation-cap"></i> Ausbildung & Akademische Grundlagen
 
-- 2010 **Diploma (M.Sc. equivalent) in Physics** – Humboldt University of Berlin, _Germany_
+- 2010 **Diplom-Physiker (Univ.)** – Humboldt-Universität zu Berlin, _Deutschland_
 
-  - Emphasis: Experimental Astrophysics & Particle Physics.
+  - Schwerpunkte: Experimentelle Astrophysik & Teilchenphysik.
 
-- 2015 **Dr. rer. nat. (PhD) in Astrophysics** – [Max Planck Institute for Astrophysics](https://www.mpa-garching.mpg.de/) (MPA) & [Ludwig-Maximilians-Universität München](https://en.wikipedia.org/wiki/Ludwig_Maximilian_University_of_Munich) (LMU), _Germany_ (Grade: magna cum laude, [Thesis](https://edoc.ub.uni-muenchen.de/18228/))
-  - Doctoral research conducted at the world-renowned **Max Planck Institute for Astrophysics (MPA)**.
-  - Specialized in analyzing vast & complex datasets from space telescopes (NASA & ESA), focusing on advanced statistical modeling (including Bayesian inference), **time-series analysis**, signal processing in noisy environments, & innovative problem-solving.
-  - This rigorous scientific training built a strong foundation in developing **robust & reliable solutions** – core skills directly transferable to today's demanding data science & AI challenges in industry.
-  - <a href="https://edoc.ub.uni-muenchen.de/18228/" target="_blank">PhD Thesis</a>
+- 2015 **Dr. rer. nat. in Astrophysik** – [Max-Planck-Institut für Astrophysik](https://www.mpa-garching.mpg.de/de) (MPA) & [Ludwig-Maximilians-Universität München](https://de.wikipedia.org/wiki/Ludwig-Maximilians-Universit%C3%A4t_M%C3%BCnchen) (LMU), _Deutschland_ (Note: magna cum laude, [Dissertation](https://edoc.ub.uni-muenchen.de/18228/))
+  - Promotionsforschung am weltweit renommierten **Max-Planck-Institut für Astrophysik (MPA)** durchgeführt.
+  - Spezialisiert auf die Analyse umfangreicher und komplexer Datensätze von Weltraumteleskopen (NASA & ESA), mit Fokus auf fortgeschrittene statistische Modellierung (einschließlich Bayes'scher Inferenz), **Zeitreihenanalyse**, Signalverarbeitung in verrauschten Umgebungen und innovative Problemlösungen.
+  - Diese rigorose wissenschaftliche Ausbildung schuf ein starkes Fundament für die Entwicklung **robuster und zuverlässiger Lösungen** – Kernkompetenzen, die direkt auf die heutigen anspruchsvollen Herausforderungen in Data Science und KI in der Industrie übertragbar sind.
+  - <a href="https://edoc.ub.uni-muenchen.de/18228/" target="_blank">Dissertation</a>
 
-## <i class="fa fa-rocket"></i> Professional Journey
+## <i class="fa fa-rocket"></i> Beruflicher Werdegang
 
-### From Cosmic Data to Industrial AI Solutions
+### Von kosmischen Daten zu industriellen KI-Lösungen
 
-- 2015 – 2021 **Lead Researcher & Data Scientist (Astrophysics)** – [Max Planck Institute for Astrophysics](https://www.mpa-garching.mpg.de/) (_Germany_), [Kavli Institute for Astronomy & Astrophysics](https://kiaa.pku.edu.cn) (_China_), & [Institut d'Astrophysique Spatiale](https://www.ias.u-psud.fr/en) (CNRS, _France_)
+- 2015 – 2021 **Forschungsleiter & Data Scientist (Astrophysik)** – [Max-Planck-Institut für Astrophysik](https://www.mpa-garching.mpg.de/de) (_Deutschland_), [Kavli Institute for Astronomy & Astrophysics](https://kiaa.pku.edu.cn) (_China_) & [Institut d'Astrophysique Spatiale](https://www.ias.u-psud.fr/fr/) (CNRS, _Frankreich_)
 
-  - Led international research projects, analyzing petabyte-scale astronomical datasets to extract meaningful insights from complex signals.
-  - Mastered advanced statistical methods (e.g., Bayesian inference, MCMC, Fourier analysis for **time-series**) & applied machine learning techniques to high-volume data, including developing algorithms for **signal detection in high-noise environments** (akin to anomaly detection).
-  - Developed innovative, **robust** Python-based ETL pipelines & **scalable** analytical tools, demonstrating the methodological rigor & problem-solving capabilities essential for today's challenging industrial data landscapes.
-  - Authored first-author publications in leading peer-reviewed journals (e.g., _Astronomy & Astrophysics_) & secured competitive research grants, underscoring deep analytical expertise. ([List of publications](https://ui.adsabs.harvard.edu/search/q=author%3A"Kolodzig"))
+  - Leitung internationaler Forschungsprojekte zur Analyse von Petabyte-großen astronomischen Datensätzen, um aussagekräftige Erkenntnisse über kosmische Strukturen zu gewinnen.
+  - Perfektionierung fortgeschrittener statistischer Methoden (z.B. Bayes'sche Inferenz, MCMC, Fourier-Analyse für **Zeitreihen**) und Anwendung von Machine-Learning-Techniken auf hochvolumige Daten, einschließlich der Entwicklung von Algorithmen zur **Signalerkennung in stark verrauschten Umgebungen** (vergleichbar mit Anomalieerkennung).
+  - Entwicklung innovativer, **robuster** Python-basierter ETL-Pipelines und **skalierbarer** Analysewerkzeuge, die die methodische Strenge und Problemlösungskompetenz demonstrieren, die für die anspruchsvollen industriellen Datenlandschaften von heute unerlässlich sind.
+  - Verfassen von Erstautor-Publikationen in führenden, begutachteten Fachzeitschriften (z.B. _Astronomy & Astrophysics_) und Einwerbung kompetitiver Forschungsgelder, was eine tiefe analytische Expertise unterstreicht. ([Publikationsliste](https://ui.adsabs.harvard.edu/search/q=author%3A"Kolodzig"))
 
-- 2022 – 2024 **Data Scientist** – Metroscope (EDF Subsidiary), _Paris, France_
-  - Applied data science & AI expertise to develop, deploy, & enhance cutting-edge, **reliable predictive maintenance (PdM)** solutions for the energy sector.
-  - My work directly contributed to improving model accuracy & to **doubling the company's SaaS product portfolio**.
-  - **Key Contributions to Industrial AI Software:**
-    - Developing, modernizing, & implementing sophisticated algorithms for **anomaly detection** & **asset performance diagnostics**.
-    - Building & deploying robust ETL pipelines for processing heterogeneous industrial client data, ensuring data quality & readiness for advanced analytics.
-    - **Enhancing physics-based models** with advanced statistical & machine learning approaches (foundations for Physics-Informed Machine Learning).
+- 2022 – 2024 **Data Scientist** – Metroscope (EDF-Tochterunternehmen), _Paris, Frankreich_
+  - Anwendung von Data-Science- & KI-Expertise zur Entwicklung, Implementierung und Verbesserung hochmoderner, **zuverlässiger Predictive Maintenance (PdM)**-Lösungen für den Energiesektor.
+  - Meine Arbeit trug direkt zur Verbesserung der Modellgenauigkeit und zur **Verdoppelung des SaaS-Produktportfolios des Unternehmens** bei.
+  - **Wesentliche Beiträge zu industrieller KI-Software:**
+    - Entwicklung, Modernisierung und Implementierung hochentwickelter Algorithmen zur **Anomalieerkennung** und **Anlagenleistungsdiagnose**.
+    - Aufbau und Implementierung robuster ETL-Pipelines zur Verarbeitung heterogener industrieller Kundendaten, um Datenqualität und -verfügbarkeit für fortschrittliche Analysen sicherzustellen.
+    - **Erweiterung physikalischer Modelle** durch fortschrittliche statistische und Machine-Learning-Ansätze (Grundlagen für physikinforrmiertes Maschinelles Lernen).
+  - _Für weitere Details siehe <a href="{{ site.baseurl }}/de/portfolio">mein Portfolio</a>._
 
-## <i class="fa fa-wrench"></i> Key Technologies & Expertise
+## <i class="fa fa-wrench"></i> Schlüsseltechnologien & Expertise
 
-My approach combines deep theoretical understanding with hands-on expertise in the technologies that power modern industrial AI solutions. I specialize in developing & deploying robust, scalable systems that deliver tangible value:
+Mein Ansatz kombiniert tiefes theoretisches Verständnis mit praxisnaher Expertise in den Technologien, die moderne industrielle KI-Lösungen antreiben. Ich bin spezialisiert auf die Entwicklung und Implementierung robuster, skalierbarer Systeme, die einen greifbaren Mehrwert liefern:
 
-- **Machine Learning for Predictive Maintenance & Anomaly Detection:**
+- **Maschinelles Lernen für Predictive Maintenance & Anomalieerkennung:**
 
-  - **Time-Series Analysis & Forecasting:** Advanced techniques for predicting future states, trends, & Remaining Useful Life (RUL).
-  - **Anomaly Detection Algorithms:** Expertise in supervised & unsupervised methods (e.g., Clustering, PCA, Autoencoders) to identify subtle deviations & early warning signs in sensor data.
-  - **Predictive Modeling:** Regression, Classification, & ensemble methods (e.g., XGBoost, Random Forests) for asset failure prediction & performance optimization.
-  - **Physics-Informed Machine Learning (PIML):** Integrating domain knowledge with data-driven models for enhanced accuracy & interpretability.
-  - **Model Evaluation & Optimization:** Rigorous cross-validation, hyperparameter tuning, & feature engineering for peak performance.
+  - **Zeitreihenanalyse & -prognose:** Fortschrittliche Techniken zur Vorhersage zukünftiger Zustände, Trends und der Restnutzungsdauer (RUL).
+  - **Algorithmen zur Anomalieerkennung:** Expertise in überwachten und unüberwachten Methoden (z.B. Clustering, PCA, Autoencoder) zur Identifizierung subtiler Abweichungen und Frühwarnzeichen in Sensordaten.
+  - **Prädiktive Modellierung:** Regression, Klassifikation und Ensemble-Methoden (z.B. XGBoost, Random Forests) zur Vorhersage von Anlagenausfällen und zur Leistungsoptimierung.
+  - **Physikinforrmiertes Maschinelles Lernen (PIML):** Integration von Domänenwissen in datengesteuerte Modelle zur Steigerung von Genauigkeit und Interpretierbarkeit.
+  - **Modellevaluierung & -optimierung:** Rigorose Kreuzvalidierung, Hyperparameter-Tuning und Feature Engineering für Spitzenleistung.
 
-- **LLM & Generative AI Integration:**
+- **Integration von LLM & Generativer KI:**
 
-  - **Retrieval-Augmented Generation (RAG):** Building chatbots & Q&A systems on custom industrial knowledge bases (e.g., technical documentation, maintenance logs).
-  - **LLM Application Development:** Leveraging APIs (OpenAI, Groq, Google Gemini) & open-source models (Mistral, Llama) for tasks like automated report generation, insight summarization, & intelligent search.
-  - **Prompt Engineering & Vector Databases:** Crafting effective prompts & utilizing vector search (e.g., LanceDB) for relevant information retrieval.
+  - **Retrieval-Augmented Generation (RAG):** Aufbau von Chatbots und Q&A-Systemen auf Basis benutzerdefinierter industrieller Wissensdatenbanken (z.B. technische Dokumentationen, Wartungsprotokolle).
+  - **LLM-Anwendungsentwicklung:** Nutzung von APIs (OpenAI, Groq, Google Gemini) und Open-Source-Modellen (Mistral, Llama) für Aufgaben wie automatische Berichterstellung, Zusammenfassung von Erkenntnissen und intelligente Suche.
+  - **Prompt Engineering & Vektordatenbanken:** Erstellung effektiver Prompts und Nutzung von Vektorsuche (z.B. LanceDB) zur relevanten Informationsbeschaffung.
 
-- **MLOps & Production Deployment:**
+- **MLOps & Produktiveinsatz:**
 
-  - **Model Deployment & Serving:** Building & deploying ML models as scalable services (REST APIs via Flask/FastAPI, Docker, Kubernetes).
-  - **CI/CD & Automation:** Implementing continuous integration & deployment pipelines (GitHub Actions) for efficient development cycles.
-  - **Monitoring & Explainability:** Setting up model monitoring (Grafana) & utilizing tools like SHAP for model interpretability.
-  - **Version Control:** MLflow for experiment tracking & model versioning; Git for code management.
+  - **Modellbereitstellung & -Serving:** Erstellung und Bereitstellung von ML-Modellen als skalierbare Dienste (REST APIs via Flask/FastAPI, Docker, Kubernetes).
+  - **CI/CD & Automatisierung:** Implementierung von Continuous-Integration- & Deployment-Pipelines (GitHub Actions) für effiziente Entwicklungszyklen.
+  - **Monitoring & Erklärbarkeit:** Einrichtung von Modellüberwachung (Grafana) und Nutzung von Werkzeugen wie SHAP zur Modellinterpretierbarkeit.
+  - **Versionskontrolle:** MLflow für Experimentverfolgung und Modellversionierung; Git für Codeverwaltung.
 
-- **Data Engineering & Processing:**
+- **Data Engineering & -verarbeitung:**
 
-  - **ETL Pipelines:** Designing & implementing robust data ingestion, cleaning, validation, & transformation pipelines for heterogeneous industrial data.
-  - **Data Handling & Storage:** Proficient with SQL (PostgreSQL) & NoSQL (MongoDB) databases, & big data processing tools (Dask).
-  - **Cloud Platforms:** Experience with Azure services for data orchestration & storage.
+  - **ETL-Pipelines:** Konzeption und Implementierung robuster Pipelines für Datenaufnahme, -bereinigung, -validierung und -transformation für heterogene Industriedaten.
+  - **Datenmanagement & -speicherung:** Versiert im Umgang mit SQL- (PostgreSQL) und NoSQL- (MongoDB) Datenbanken sowie Big-Data-Verarbeitungswerkzeugen (Dask).
+  - **Cloud-Plattformen:** Erfahrung mit Azure-Diensten für Datenorchestrierung und -speicherung.
 
-- **Core Programming & Tools:**
-  - **Languages:** Python (primary), SQL, Shell Script
-  - **Libraries:** Scikit-learn, Pandas, NumPy, Matplotlib, Plotly, Dask
-  - **Development Tools:** Jupyter Notebooks, VS Code, Docker, Git, Linux
+- **Kernkompetenzen Programmierung & Werkzeuge:**
+  - **Sprachen:** Python (primär), SQL, Shell-Skripting
+  - **Bibliotheken:** Scikit-learn, Pandas, NumPy, Matplotlib, Plotly, Dask
+  - **Entwicklungswerkzeuge:** Jupyter Notebooks, VS Code, Docker, Git, Linux
