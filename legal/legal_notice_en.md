@@ -2,6 +2,7 @@
 layout: default
 title: Legal notice
 lang: en
+noindex: true
 ---
 
 <div id="legal-holder">

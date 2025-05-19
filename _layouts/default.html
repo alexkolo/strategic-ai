@@ -14,6 +14,9 @@
       href="https://db.onlinewebfonts.com/c/3abc8753a394e3a1ab06b0a7a7f57119?family=Dosis+Light"
       type="text/css"
     />
+    {% if page.noindex %}
+    <meta name="robots" content="noindex, nofollow" />
+    {% endif %}
   </head>
   <body style="font-family: {{ site.font_family }}, sans-serif;" class="lang-{{ page.lang | default: site.lang }}">
     <div class="container-md px-3 my-5 markdown-body">

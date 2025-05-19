@@ -2,6 +2,7 @@
 layout: default
 title: Impressum
 lang: de
+noindex: true
 ---
 
 <div id="legal-holder">
