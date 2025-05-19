@@ -6,10 +6,10 @@ lang: de
 ---
 
 <div class="container_center">
-  <img src="{{ site.profile_image }}" alt="{{ site.my_name_de }} Profile Image" class="logo" />
+  <img src="{{ site.profile_image }}" alt="{{ site.my_name.de }} Profile Image" class="logo" />
 
   <h1>Erfolg für Ihr Industrie-Team durch zuverlässige KI</h1>
-  <h2>Ich bin {{ site.my_name_de }}, {{ site.my_role.de }}</h2>
+  <h2>Ich bin {{ site.my_name.de }}, {{ site.my_role.de }}</h2>
   <h3>Gründer & Geschäftsführer von {{ site.company }}</h3>
 
   <div class="slogan">Ihr Partner für prädiktive Instandhaltung & moderne KI — robust, praxisnah & einsatzbereit.</div>

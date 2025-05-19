@@ -1,7 +1,8 @@
 company: Strategic AI Solutions
 legal_name: "Alexander Kolodzig EI"
-my_name_en: "Alex Kolodzig"
-my_name_de: "Dr. Alex Kolodzig"
+my_name:
+  en: "Alex Kolodzig"
+  de: "Dr. Alex Kolodzig"
 my_role:
   en: "Freelance Data Scientist & AI Engineer"
   de: "freiberuflicher Data Scientist & KI Ingenieur"

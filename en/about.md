@@ -7,12 +7,12 @@ lang: en
 ---
 
 <div class="container_center">
-  <img src="{{ site.profile_image }}" alt="{{ site.my_name_en }} Profile Image" class="logo" />
+  <img src="{{ site.profile_image }}" alt="{{ site.my_name.en }} Profile Image" class="logo" />
 </div>
 
 # <i class="fa fa-user"></i> About Me
 
-Hi, I'm {{ site.my_name_en }}, a {{ site.my_role.en }} with a Ph.D. in astrophysics and over {{ site.n_exp_years }} years of experience applying advanced data analysis & AI principles.
+Hi, I'm {{ site.my_name.en }}, a {{ site.my_role.en }} with a Ph.D. in astrophysics and over {{ site.n_exp_years }} years of experience applying advanced data analysis & AI principles.
 I am passionate about transforming complex industrial data into intelligent, actionable solutions.
 
 At **{{ site.company }}**, my mission is to empower technology providers like yours. I bridge the gap between academic research and the practical demands of the industrial world, delivering:
