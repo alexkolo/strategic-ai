@@ -10,7 +10,7 @@ lang: de
 
   <h1>Erfolg für Ihr Industrie-Team durch zuverlässige KI</h1>
   <h2>Ich bin {{ site.my_name.de }}, {{ site.my_role.de }}</h2>
-  <h3>Gründer & Geschäftsführer von {{ site.company }}</h3>
+  <!-- <h3>Einzelunternehmer von {{ site.company }}</h3> -->
 
   <div class="slogan">Ihr Partner für prädiktive Instandhaltung & moderne KI — robust, praxisnah & einsatzbereit.</div>
 
@@ -24,7 +24,7 @@ lang: de
   <div>
     <i class="fa fa-star fa-spin fa-3x"></i>
     <h4>Meine Leistungen</h4>
-    <p>Erfahren Sie, wie ich mit {{ site.company }} den KI-Erfolg in Ihr Unternehmen bringe.</p>
+    <p>Erfahren Sie, wie ich  KI-Erfolge in Ihr Unternehmen bringe.</p>
     <a href="{{ site.baseurl }}/de/services">Mehr erfahren</a>
   </div>
   <div>

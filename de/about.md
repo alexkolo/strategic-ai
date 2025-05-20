@@ -54,6 +54,7 @@ Ich arbeite partnerschaftlich mit Ihnen zusammen, um technisch exzellente KI-Lö
   - Verfassen von Erstautor-Publikationen in führenden, begutachteten Fachzeitschriften (z.B. _Astronomy & Astrophysics_) und Einwerbung kompetitiver Forschungsgelder, was eine tiefe analytische Expertise unterstreicht. ([Publikationsliste](https://ui.adsabs.harvard.edu/search/q=author%3A"Kolodzig"))
 
 - 2022 – 2024 **Data Scientist** – Metroscope (EDF-Tochterunternehmen), _Paris, Frankreich_
+
   - Anwendung von Data-Science- & KI-Expertise zur Entwicklung, Implementierung und Verbesserung hochmoderner, **zuverlässiger Predictive Maintenance (PdM)**-Lösungen für den Energiesektor.
   - Meine Arbeit trug direkt zur Verbesserung der Modellgenauigkeit und zur **Verdoppelung des SaaS-Produktportfolios des Unternehmens** bei.
   - **Wesentliche Beiträge zu industrieller KI-Software:**
@@ -61,6 +62,10 @@ Ich arbeite partnerschaftlich mit Ihnen zusammen, um technisch exzellente KI-Lö
     - Aufbau und Implementierung robuster ETL-Pipelines zur Verarbeitung heterogener industrieller Kundendaten, um Datenqualität und -verfügbarkeit für fortschrittliche Analysen sicherzustellen.
     - **Erweiterung physikalischer Modelle** durch fortschrittliche statistische und Machine-Learning-Ansätze (Grundlagen für physikinforrmiertes Maschinelles Lernen).
   - _Für weitere Details siehe <a href="{{ site.baseurl }}/de/portfolio">mein Portfolio</a>._
+
+- 2025 {{ site.my_role.de }} – {{ site.company }} (Einzelunternehmen), _Paris, Frankreich_
+
+  - Einzelheiten zu den von mir angebotenen Dienstleistungen finden Sie unter <a href="{{ site.baseurl }}/de/services">Meine Leistungen</a>.
 
 ## <i class="fa fa-wrench"></i> Schlüsseltechnologien & Expertise
 

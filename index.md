@@ -10,7 +10,7 @@ lang: en
 
   <h1>Helping Industrial Teams Succeed with Reliable AI</h1>
   <h2>I'm {{ site.my_name.en }}, a {{ site.my_role.en }}</h2>
-  <h3>Founder & CEO of {{ site.company }}</h3>
+  <!-- <h3>Sole proprietor of {{ site.company }}</h3> -->
 
   <div class="slogan">Your partner in predictive maintenance and cutting edge AI, delivering robust, real world systems.</div>
 
@@ -24,7 +24,7 @@ lang: en
   <div>
     <i class="fa fa-star fa-spin fa-3x"></i>
     <h4>My Services</h4>
-    <p>Discover how I can bring {{ site.company }} to your business.</p>
+    <p>Discover how I can bring AI-driven solutions to your business.</p>
     <a href="{{ site.baseurl }}/en/services">Learn More</a>
   </div>
   <div>

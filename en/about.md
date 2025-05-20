@@ -54,6 +54,7 @@ I partner with you to build technically excellent AI solutions that directly con
   - Authored first-author publications in leading peer-reviewed journals (e.g., _Astronomy & Astrophysics_) & secured competitive research grants, underscoring deep analytical expertise. ([List of publications](https://ui.adsabs.harvard.edu/search/q=author%3A"Kolodzig"))
 
 - 2022 – 2024 **Data Scientist** – Metroscope (EDF Subsidiary), _Paris, France_
+
   - Applied data science & AI expertise to develop, deploy, & enhance cutting-edge, **reliable predictive maintenance (PdM)** solutions for the energy sector.
   - My work directly contributed to improving model accuracy & to **doubling the company's SaaS product portfolio**.
   - **Key Contributions to Industrial AI Software:**
@@ -61,6 +62,10 @@ I partner with you to build technically excellent AI solutions that directly con
     - Building & deploying robust ETL pipelines for processing heterogeneous industrial client data, ensuring data quality & readiness for advanced analytics.
     - **Enhancing physics-based models** with advanced statistical & machine learning approaches (foundations for Physics-Informed Machine Learning).
   - _For more details, take a look at <a href="{{ site.baseurl }}/en/portfolio">my portfolio</a>._
+
+- 2025 {{ site.my_role.en }} – {{ site.company }} (sole proprietorship), _Paris, France_
+
+  - For details on the services I offer, see <a href="{{ site.baseurl }}/en/services">my services</a>.
 
 ## <i class="fa fa-wrench"></i> Key Technologies & Expertise
 
