@@ -30,7 +30,7 @@ lang: de
   <div>
     <i class="fa fa-trophy fa-4x"></i>
     <h4>Mein Portfolio</h4>
-    <p>Werfen Sie einen Blick auf meine erfolgreiche Projekte, die nachweisbare Ergebnisse erzielt haben.</p>
+    <p>Werfen Sie einen Blick auf meine erfolgreichen Projekte, die nachweisbare Ergebnisse erzielt haben.</p>
     <a href="{{ site.baseurl }}/de/portfolio">Projekte ansehen</a>
   </div>
   <div>
