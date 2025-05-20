@@ -70,7 +70,7 @@ a:not(.book-call-btn):hover {
 .navbar {
   display: flex;
   align-items: center;
-  flex-wrap: nowrap; /* prevent wrapping */
+  flex-wrap: wrap; /* allow wrapping */
   justify-content: space-between;
   padding: 12px 1rem;
   gap: clamp(10px, 4vw, 30px);
