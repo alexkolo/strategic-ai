@@ -63,9 +63,9 @@ I partner with you to build technically excellent AI solutions that directly con
     - **Enhancing physics-based models** with advanced statistical & machine learning approaches (foundations for Physics-Informed Machine Learning).
   - _For more details, take a look at <a href="{{ site.baseurl }}/en/portfolio">my portfolio</a>._
 
-- 2025 {{ site.my_role.en }} – {{ site.company }} (sole proprietorship), _Paris, France_
+- Since 2025 **{{ site.my_role.en }}** – {{ site.company }} (sole proprietorship), _Paris, France_
 
-  - For details on the services I offer, see <a href="{{ site.baseurl }}/en/services">my services</a>.
+  - For details of the services I offer, see <a href="{{ site.baseurl }}/en/services">My Services</a>.
 
 ## <i class="fa fa-wrench"></i> Key Technologies & Expertise
 

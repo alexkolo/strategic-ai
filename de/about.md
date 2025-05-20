@@ -63,9 +63,9 @@ Ich arbeite partnerschaftlich mit Ihnen zusammen, um technisch exzellente KI-Lö
     - **Erweiterung physikalischer Modelle** durch fortschrittliche statistische und Machine-Learning-Ansätze (Grundlagen für physikinforrmiertes Maschinelles Lernen).
   - _Für weitere Details siehe <a href="{{ site.baseurl }}/de/portfolio">mein Portfolio</a>._
 
-- 2025 {{ site.my_role.de }} – {{ site.company }} (Einzelunternehmen), _Paris, Frankreich_
+- Seit 2025 **{{ site.my_role.de }}** – {{ site.company }} (Einzelunternehmen), _Paris, Frankreich_
 
-  - Einzelheiten zu den von mir angebotenen Dienstleistungen finden Sie unter <a href="{{ site.baseurl }}/de/services">Meine Leistungen</a>.
+  - Details zu meinen Dienstleistungen finden Sie unter <a href="{{ site.baseurl }}/de/services">Meine Leistungen</a>.
 
 ## <i class="fa fa-wrench"></i> Schlüsseltechnologien & Expertise
 
