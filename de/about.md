@@ -61,7 +61,7 @@ Ich arbeite partnerschaftlich mit Ihnen zusammen, um technisch exzellente KI-Lö
     - Entwicklung, Modernisierung und Implementierung hochentwickelter Algorithmen zur **Anomalieerkennung** und **Anlagenleistungsdiagnose**.
     - Aufbau und Implementierung robuster ETL-Pipelines zur Verarbeitung heterogener industrieller Kundendaten, um Datenqualität und -verfügbarkeit für fortschrittliche Analysen sicherzustellen.
     - **Erweiterung physikalischer Modelle** durch fortschrittliche statistische und Machine-Learning-Ansätze (Grundlagen für physikinforrmiertes Maschinelles Lernen).
-  - _Für weitere Details siehe <a href="{{ site.baseurl }}/de/portfolio">mein Portfolio</a>._
+  - _Für weitere Details siehe <a href="{{ site.baseurl }}/de/portfolio">Mein Portfolio</a>._
 
 - Ab 2025 **{{ site.my_role.de }}** – {{ site.company }} (Einzelunternehmen), _Paris, Frankreich_
 
