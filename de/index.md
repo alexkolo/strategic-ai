@@ -24,7 +24,7 @@ lang: de
   <div>
     <i class="fa fa-star fa-spin fa-3x"></i>
     <h4>Meine Leistungen</h4>
-    <p>Erfahren Sie, wie ich  KI-Erfolge in Ihr Unternehmen bringe.</p>
+    <p>Erfahren Sie, wie ich KI-Erfolge in Ihr Unternehmen bringe.</p>
     <a href="{{ site.baseurl }}/de/services">Mehr erfahren</a>
   </div>
   <div>

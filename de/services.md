@@ -16,10 +16,11 @@ Als Ihr engagierter {{ site.my_role.de }} mit über {{ site.n_exp_years }} Jahre
 
 Meine Dienstleistungen sind darauf ausgerichtet, die spezifischen Herausforderungen und Chancen von Softwareanbietern und Anlagenbetreibern in folgenden Bereichen zu adressieren:
 
-- Condition Monitoring (CM)
+- Zustandsüberwachung / Condition Monitoring (CM)
 - Advanced Pattern Recognition (APR)
-- Predictive Maintenance (PdM)
-- Asset Performance Management (APM)
+- Vorausschauende Instandhaltung / Predictive Maintenance (PdM)
+- Anlagenleistungsmanagement / Asset Performance Management (APM)
+- Prozessoptimierung
 - Industrial IoT (IIoT) Analytics
 
 <hr class="soft-divider" />

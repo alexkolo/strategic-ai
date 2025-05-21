@@ -20,6 +20,7 @@ My services are designed to address the specific challenges and opportunities fa
 - Advanced Pattern Recognition (APR)
 - Predictive Maintenance (PdM)
 - Asset Performance Management (APM)
+- Process Optimization
 - Industrial IoT (IIoT) analytics
 
 <hr class="soft-divider" />

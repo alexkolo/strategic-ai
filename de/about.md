@@ -16,7 +16,7 @@ noindex: true
 Hallo, mein Name ist {{ site.my_name.de }}. Ich bin {{ site.my_role.de }} mit einer Promotion in Astrophysik und verfüge über mehr als {{ site.n_exp_years }} Jahre Erfahrung in der Anwendung fortgeschrittener Datenanalyse- und KI-Prinzipien.
 Meine Leidenschaft ist es, komplexe industrielle Daten in intelligente, handlungsrelevante Lösungen zu transformieren.
 
-Meine Berufung ist es, Technologieanbieter zu unterstützen.
+Meine Berufung ist es, Technologieanbieter zu starken.
 Ich schließe die Lücke zwischen akademischer Forschung und den praktischen Anforderungen der Industriewelt und liefere:
 
 - **Zukunftsweisende prädiktive Fähigkeiten** und robuste KI-gestützte Funktionen für Ihre Software.
