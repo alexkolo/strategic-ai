@@ -13,3 +13,8 @@
 
 - text https://aistudio.google.com/prompts/1uPtAz_htQZ25qsjCibw5AbEvXg6iD1vy
 - styling: https://chatgpt.com/c/68259981-4fb0-8011-9c60-df3e32d9c250
+
+# todos
+
+- emphasize also "process optimization" more
+- emphasize industry 4.0 and IIOT more
