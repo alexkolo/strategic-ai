@@ -76,6 +76,12 @@ a:not(.book-call-btn):hover {
   text-align: left !important; /* Use !important if necessary, but try without first */
 }
 
+/* Ensure headers remain center-aligned even if parent is justified */
+.container_center h1,
+.container_center h2 .container_center h3 {
+  text-align: center !important;
+}
+
 /* --------- navigation bar ---------- */
 .navbar {
   display: flex;
