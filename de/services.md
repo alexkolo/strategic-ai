@@ -6,7 +6,11 @@ text_align: justify
 lang: de
 ---
 
-# <i class="fa fa-star"></i> Meine Services
+<i class="fa fa-star"></i> Meine Dienste für Anlagenbetreiber
+
+🚧 Dieser Bereich befindet sich noch im Aufbau. Stay tuned! 🚧
+
+<i class="fa-star"></i> Meine Dienste für Technologieanbieter
 
 ## <i class="fa fa-line-chart"></i> Ihre Industriesoftware mit strategischer KI verbessern
 

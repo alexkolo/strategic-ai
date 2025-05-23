@@ -8,13 +8,12 @@ lang: de
 <div class="container_center">
   <img src="{{ site.profile_image }}" alt="{{ site.my_name.de }} Profile Image" class="logo" />
 
-  <h1>Erfolg für Ihr Industrie-Team durch zuverlässige KI</h1>
+  <h1>Industriellen Erfolg ermöglichen – mit zuverlässiger & strategischer KI</h1>
   <h2>Ich bin {{ site.my_name.de }}, {{ site.my_role.de }}</h2>
-  <!-- <h3>Einzelunternehmer von {{ site.company }}</h3> -->
 
-  <div class="slogan">Ihr Partner für prädiktive Instandhaltung & moderne KI — robust, praxisnah & einsatzbereit.</div>
+  <div class="slogan">Ihr kompetenter Partner für vorausschauende Instandhaltung & angewandte KI — für robuste Systeme & handlungsrelevante Strategien.</div>
 
-  <p>Sie möchten Ihre KI-Herausforderung besprechen? Lassen Sie uns reden.</p>
+  <p>Ob Sie KI-Software entwickeln oder die passende KI-Strategie suchen – lassen Sie uns Ihre Herausforderung gemeinsam angehen.</p>
   <a href="{{ site.meeting_link }}" target="_blank" class="book-call-btn">Termin buchen</a>
 
 </div>

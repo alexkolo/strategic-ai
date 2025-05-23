@@ -8,13 +8,12 @@ lang: en
 <div class="container_center">
   <img src="{{ site.profile_image }}" alt="{{ site.my_name.en }} Profile Image" class="logo" />
 
-  <h1>Helping Industrial Teams Succeed with Reliable AI</h1>
+  <h1>Empowering Industrial Success with Reliable & Strategic AI</h1>
   <h2>I'm {{ site.my_name.en }}, a {{ site.my_role.en }}</h2>
-  <!-- <h3>Sole proprietor of {{ site.company }}</h3> -->
 
-  <div class="slogan">Your partner in predictive maintenance and cutting edge AI, delivering robust, real world systems.</div>
+  <div class="slogan">Your expert partner for cutting-edge predictive maintenance & applied AI — delivering robust systems & actionable strategies.</div>
 
-  <p>Want to explore your AI challenge? Let's talk.</p>
+  <p>Whether you're building AI software or seeking the right AI strategy, let's explore your challenge.</p>
   <a href="{{ site.meeting_link }}" target="_blank" class="book-call-btn">Book a Call</a>
 
 </div>
@@ -24,7 +23,7 @@ lang: en
   <div>
     <i class="fa fa-star fa-spin fa-3x"></i>
     <h4>My Services</h4>
-    <p>Discover how I can bring AI-driven solutions to your business.</p>
+    <p>Discover how I enhance AI software products and guide strategic AI adoption.</p>
     <a href="{{ site.baseurl }}/en/services">Learn More</a>
   </div>
   <div>

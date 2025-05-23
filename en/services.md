@@ -6,7 +6,11 @@ text_align: justify
 lang: en
 ---
 
-# <i class="fa fa-star"></i> My Services
+# <i class="fa fa-star"></i> My Services for asset operators
+
+🚧 This section is under construction. Stay tuned! 🚧
+
+# <i class="fa fa-star"></i> My Services for technology providers
 
 ## <i class="fa fa-line-chart"></i> Enhancing Your Industrial Software with Strategic AI
 

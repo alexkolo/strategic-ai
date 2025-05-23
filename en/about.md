@@ -16,7 +16,7 @@ noindex: true
 Hi, I'm {{ site.my_name.en }}, a {{ site.my_role.en }} with a Ph.D. in astrophysics and over {{ site.n_exp_years }} years of experience applying advanced data analysis & AI principles.
 I am passionate about transforming complex industrial data into intelligent, actionable solutions.
 
-My mission is to empower technology providers and help them optimize their industrial software with strategic AI.
+My mission is to empower both technology providers and industrial end-users and help them optimize their industrial software with strategic AI.
 Thereby, I bridge the gap between academic research and the practical demands of the industrial world, delivering:
 
 - **Cutting-edge predictive capabilities** and robust AI-driven features for your software.

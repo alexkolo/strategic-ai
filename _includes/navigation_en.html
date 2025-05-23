@@ -5,7 +5,9 @@
         <a href="{{ site.baseurl }}/" class="{% if page.url == '/' %}active{% endif %}">Home</a>
       </li>
       <li>
-        <a href="{{ site.baseurl }}/en/services" class="{% if page.url == '/en/services.html' %}active{% endif %}"
+        <a
+          href="{{ site.baseurl }}/en/services_build"
+          class="{% if page.url contains '/en/services_' %}active{% endif %}"
           >My&nbsp;Services</a
         >
       </li>
