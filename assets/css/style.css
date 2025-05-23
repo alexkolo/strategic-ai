@@ -1,3 +1,13 @@
+/* Ensure headers remain left-aligned even if parent is justified */
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  text-align: left !important; /* Use !important if necessary, but try without first */
+}
+
 .container-lg {
   max-width: 1012px;
   margin-right: auto;
@@ -54,6 +64,13 @@ a:not(.book-call-btn):hover {
   padding: 20px;
 }
 
+/* Ensure headers remain center-aligned even if parent is justified */
+.container_center h1,
+.container_center h2,
+.container_center h3 {
+  text-align: center !important;
+}
+
 .slogan {
   font-size: 1.25rem;
   color: #555;
@@ -64,25 +81,6 @@ a:not(.book-call-btn):hover {
 .logo {
   width: 150px; /* Adjust as desired */
   margin-bottom: 10px;
-}
-
-/* Ensure headers remain left-aligned even if parent is justified */
-.markdown-body h1,
-.markdown-body h2,
-.markdown-body h3,
-.markdown-body h4,
-.markdown-body h5,
-.markdown-body h6 {
-  text-align: left !important; /* Use !important if necessary, but try without first */
-}
-
-/* Ensure headers remain center-aligned even if parent is justified */
-.container_center h1,
-.container_center h2,
-.container_center h3,
-.container_center h4,
-.container_center h5 {
-  text-align: center !important;
 }
 
 /* --------- navigation bar ---------- */
@@ -191,6 +189,11 @@ a:not(.book-call-btn):hover {
   gap: 2rem;
 }
 
+/* Ensure headers remain center-aligned even if parent is justified or aligned */
+.highlights h4 {
+  text-align: center !important;
+}
+
 .highlights div {
   flex: 1;
   padding: 1rem;
@@ -206,15 +209,6 @@ a:not(.book-call-btn):hover {
   color: #0063fb;
   margin-bottom: 0.5rem;
 }
-
-/* Soft divider style: can be used between sections */
-/* hr.divider {
-  border: 0;
-  border-bottom: 1px solid #ccc;
-  width: 50%;
-  max-width: 300px;
-  margin: 30px auto;
-} */
 
 .soft-divider {
   border: none;
