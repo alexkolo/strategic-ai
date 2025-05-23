@@ -8,14 +8,18 @@ lang: en
 
 # <i class="fa fa-trophy"></i> My Portfolio <!-- omit from toc -->
 
-_A selection of projects demonstrating my expertise in developing and applying impactful AI solutions for industrial challenges. These examples highlight my ability to enhance predictive maintenance (PdM) software products for technology providers **and to provide strategic, data-driven insights applicable to asset operators.**_
+_A selection of projects demonstrating my expertise in developing and applying impactful AI solutions for industrial challenges. These examples highlight my ability to enhance predictive maintenance (PdM) software products **for technology providers and to provide strategic, data-driven insights applicable to asset operators.**_
 
 ## <i class="fa fa-list-ul"></i> Overview <!-- omit from toc -->
 
 - [Advancing Early Anomaly Detection Capabilities for a New PdM Product](#advancing-early-anomaly-detection-capabilities-for-a-new-pdm-product)
+
 - [Enhancing Gas Turbine Digital Twin Accuracy \& Efficiency with Statistical Modeling](#enhancing-gas-turbine-digital-twin-accuracy--efficiency-with-statistical-modeling)
+
 - [Industrializing Data Ingestion for a Predictive Maintenance SaaS Provider](#industrializing-data-ingestion-for-a-predictive-maintenance-saas-provider)
+
 - [Developing an AI-Powered Q\&A Companion with Generative AI](#developing-an-ai-powered-qa-companion-with-generative-ai)
+
 - [Advanced Data Analysis \& Modeling from Complex Scientific Datasets](#advanced-data-analysis--modeling-from-complex-scientific-datasets-astrophysics-research)
 
 ## <i class="fa fa-bolt"></i> Advancing Early Anomaly Detection Capabilities for a New PdM Product
