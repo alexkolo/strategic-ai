@@ -12,7 +12,7 @@ lang: en
 
 As your dedicated {{ site.my_role.en }} with over {{ site.n_exp_years }} years of experience applying advanced data analysis & AI principles, I partner with Independent Software Vendors (ISVs) and technology companies to elevate their industrial software solutions. My focus is on integrating advanced, reliable AI capabilities that deliver tangible value to you and your end-users. I bridge the gap between cutting-edge AI methodologies and the practical realities of industrial applications, ensuring solutions are not just innovative, but also robust, scalable, and production-ready.
 
-## <i class="fa fa-handshake-o"></i> Areas of Expertise: How I Help Your Software Excel
+## <i class="fa fa-lightbulb-o"></i> Areas of Expertise: How I Help Your Software Excel
 
 My services are designed to empower your software products for:
 

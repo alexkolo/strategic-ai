@@ -12,7 +12,7 @@ lang: de
 
 Als Ihr engagierter {{ site.my_role.de }} mit über {{ site.n_exp_years }} Jahren Erfahrung in der Anwendung fortschrittlicher Datenanalyse- und KI-Prinzipien, arbeite ich partnerschaftlich mit Independent Software Vendors (ISVs) und Technologieunternehmen zusammen, um deren industrielle Softwarelösungen zu optimieren. Mein Fokus liegt auf der Integration fortschrittlicher, zuverlässiger KI-Fähigkeiten, die Ihnen und Ihren Endanwendern einen greifbaren Mehrwert bieten. Ich schließe die Lücke zwischen modernsten KI-Methoden und den praktischen Realitäten industrieller Anwendungen und stelle sicher, dass Lösungen nicht nur innovativ, sondern auch robust, skalierbar und produktionsreif sind.
 
-## <i class="fa fa-handshake-o"></i> Kompetenzbereiche: Wie ich Ihre Software optimiere
+## <i class="fa fa-lightbulb-o"></i> Kompetenzbereiche: Wie ich Ihre Software optimiere
 
 Meine Dienstleistungen sind darauf ausgerichtet, die Leistungsfähigkeit Ihrer Softwareprodukte zu steigern für:
 
