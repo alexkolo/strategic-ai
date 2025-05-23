@@ -8,11 +8,11 @@ lang: en
 
 # <i class="fa fa-trophy"></i> My Portfolio <!-- omit from toc -->
 
-_A selection of projects demonstrating my expertise in developing and applying impactful AI solutions for industrial challenges. These examples highlight my ability to enhance predictive maintenance (PdM) software products **for technology providers and to provide strategic, data-driven insights applicable to asset operators.**_
+_A selection of projects demonstrating my expertise in developing and applying impactful AI solutions for industrial challenges. These examples highlight my ability to **enhance predictive maintenance (PdM) software products for technology providers and deliver strategic, data-driven insights that are actionable for asset operators.**_
 
 ## <i class="fa fa-list-ul"></i> Overview <!-- omit from toc -->
 
-- [Advancing Early Anomaly Detection Capabilities](#anomaly-detection-product)
+- [Advancing Anomaly Detection Capabilities](#anomaly-detection-product)
 
 - [Enhancing Digital Twin Accuracy & Efficiency](#gas-turbine-digital-twin)
 
@@ -26,7 +26,7 @@ _A selection of projects demonstrating my expertise in developing and applying i
 
 {:#anomaly-detection-product}
 
-### <i class="fa fa-bolt"></i> Advancing Early Anomaly Detection Capabilities for a New PdM Product
+### <i class="fa fa-bolt"></i> Advancing Anomaly Detection Capabilities for a New PdM Product
 
 <div style="text-align: center;">
 <img src="{{ site.url_ai_images }}/ChatGPT Image May 14, 2025, 07_55_14 PM - Advancing Early Anomaly Detection Capabilities for a New PdM SaaS Product.svg" alt="Advancing Early Anomaly Detection Capabilities for a New PdM SaaS Product" height="200"/>
