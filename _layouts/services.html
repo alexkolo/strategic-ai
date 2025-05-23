@@ -5,6 +5,24 @@ layout: default
 <div class="sub-navigation">
   <nav>
     <ul>
+      {% if page.lang == "de" %}
+      <li>
+        <a
+          href="{{ site.baseurl }}/de/services_build"
+          class="{% if page.url == '/de/services_build.html' %}active{% endif %}"
+        >
+          <i class="fa fa-cogs"></i>&nbsp;Für&nbsp;Technologieanbieter
+        </a>
+      </li>
+      <li>
+        <a
+          href="{{ site.baseurl }}/de/services_consult"
+          class="{% if page.url == '/de/services_consult.html' %}active{% endif %}"
+        >
+          <i class="fa fa-industry"></i>&nbsp;Für&nbsp;Anlagenbetreiber
+        </a>
+      </li>
+      {% else %} {# Default to English or any other language if not 'de' #}
       <li>
         <a
           href="{{ site.baseurl }}/en/services_build"
@@ -21,6 +39,7 @@ layout: default
           <i class="fa fa-industry"></i>&nbsp;For&nbsp;Asset&nbsp;Operators
         </a>
       </li>
+      {% endif %}
     </ul>
   </nav>
 </div>
