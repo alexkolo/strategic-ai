@@ -12,17 +12,19 @@ _A selection of projects demonstrating my expertise in developing and applying i
 
 ## <i class="fa fa-list-ul"></i> Overview <!-- omit from toc -->
 
-- [Advancing Early Anomaly Detection Capabilities](#advancing-early-anomaly-detection-capabilities-for-a-new-pdm-product)
+- [Advancing Early Anomaly Detection Capabilities](#anomaly-detection-product)
 
-- [Enhancing Digital Twin's Accuracy & Efficiency](#enhancing-gas-turbine-digital-twin-accuracy--efficiency-with-statistical-modeling)
+- [Enhancing Digital Twin Accuracy & Efficiency](#gas-turbine-digital-twin)
 
-- [Industrializing Data Ingestion](#industrializing-data-ingestion-for-a-predictive-maintenance-saas-provider)
+- [Industrializing Data Ingestion](#data-ingestion-industrialization)
 
-- [Developing an AI-Powered Q&A Companion](#developing-an-ai-powered-qa-companion-with-generative-ai)
+- [Developing an AI-Powered Q&A Companion](#genai-qna-companion)
 
-- [Advanced Data Analysis & Modeling](#advanced-data-analysis--modeling-from-complex-scientific-datasets-astrophysics-research)
+- [Advanced Data Analysis & Modeling](#scientific-data-analysis)
 
 ## <i class="fa fa-bolt"></i> Advancing Early Anomaly Detection Capabilities for a New PdM Product
+
+{:#anomaly-detection-product}
 
 <div style="text-align: center;">
 <img src="{{ site.url_ai_images }}/ChatGPT Image May 14, 2025, 07_55_14 PM - Advancing Early Anomaly Detection Capabilities for a New PdM SaaS Product.svg" alt="Advancing Early Anomaly Detection Capabilities for a New PdM SaaS Product" height="200"/>
@@ -36,7 +38,9 @@ _For a major SaaS provider of PdM products, this project involved leading the al
 - **Key Learnings for Asset Operators:** This project underscored the importance of robust MLOps and mock-fault validation for building trustworthy AI in critical systems – key considerations for any organization selecting or implementing PdM solutions.
 - **Technical Highlight / Technologies Used:** Python, Anomaly Detection Algorithms (AAKR, Isolation Forest, Clustering, Causal Methods), MLOps (Kubernetes, NATS, GitHub Actions), Model Explainability (Shapley Values), Mock-Fault Generation & Testing, Performance Benchmarking Frameworks.
 
-## <i class="fa fa-cogs"></i> Enhancing a Digital Twin's Accuracy & Efficiency with Statistical Modeling
+## <i class="fa fa-cogs"></i> Enhancing Digital Twin Accuracy & Efficiency with Statistical Modeling
+
+{:#gas-turbine-digital-twin}
 
 <div style="text-align: center;">
 <img src="{{ site.url_ai_images }}/ChatGPT Image May 14, 2025, 07_51_31 PM - Enhancing Gas Turbine Digital Twin Accuracy & Efficiency with Statistical Modeling.svg" alt="Enhancing Gas Turbine Digital Twin Accuracy & Efficiency with Statistical Modeling" height="200"/>
@@ -52,6 +56,8 @@ _For the same SaaS startup, this project aimed to improve the accuracy and reduc
 
 ## <i class="fa fa-database"></i> Industrializing Data Ingestion for a Predictive Maintenance SaaS Provider
 
+{:#data-ingestion-industrialization}
+
 <div style="text-align: center;">
 <img src="{{ site.url_ai_images }}/ChatGPT Image May 15, 2025, 04_16_23 PM - Robust Data Engineering & ETL Pipelines for Industrial Data.svg" alt="Industrializing Data Ingestion for a Predictive Maintenance SaaS Provider" height="200"/>
 </div>
@@ -65,6 +71,8 @@ _For the same SaaS provider, this project focused on creating a robust, scalable
 - **Technical Highlight / Technologies Used:** Python, Pandas, Custom ETL Architecture, Advanced File Parsing (CSV/Excel), Time-Zone/Timestamp Correction, Data Validation & Sanitization, CI/CD (GitHub Actions), Chunk-based Processing for Big Data, Comprehensive Documentation.
 
 ## <i class="fa fa-comments-o"></i> Developing an AI-Powered Q&A Companion with Generative AI
+
+{:#genai-qna-companion}
 
 <div style="text-align: center;">
 <img src="{{ site.url_ai_images }}/ChatGPT Image May 14, 2025, 08_12_56 PM - Developing an AI-Powered Q&A Companion with Generative AI.svg" alt="Developing an AI-Powered Q&A Companion with Generative AI" height="200"/>
@@ -88,6 +96,8 @@ _This personal project was undertaken to deepen my expertise in Generative AI by
   <a href="https://github.com/alexkolo/rag_nutrition_facts_blog" target="_blank">GitHub Repository</a>
 
 ## <i class="fa fa-star-o"></i> Advanced Data Analysis & Modeling from Complex Scientific Datasets
+
+{:#scientific-data-analysis}
 
 <div style="text-align: center;">
 <img src="{{ site.url_ai_images }}/cosmic_data_analysis.svg" alt="Abstract representation of complex data analysis from cosmic datasets" height="200"/>
