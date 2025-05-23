@@ -24,7 +24,7 @@ lang: en
     <i class="fa fa-star fa-spin fa-3x"></i>
     <h4>My Services</h4>
     <p>Discover how I enhance AI software products and guide strategic AI adoption.</p>
-    <a href="{{ site.baseurl }}/en/services">Learn More</a>
+    <a href="{{ site.baseurl }}/en/services_build">Learn More</a>
   </div>
   <div>
     <i class="fa fa-trophy fa-4x"></i>
