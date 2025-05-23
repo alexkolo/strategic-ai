@@ -1,6 +1,6 @@
 ---
 layout: services # Use the new layout
-title: Services for Asset Operators
+title: Meine Dienstleistungen für Anlagenbetreiber
 font_family: "Montserrat"
 text_align: justify
 lang: de

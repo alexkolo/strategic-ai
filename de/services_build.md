@@ -1,6 +1,6 @@
 ---
-layout: default
-title: Meine Services
+layout: services
+title: Meine Dienstleistungen für Technologieanbieter
 font_family: "Montserrat"
 text_align: justify
 lang: de
