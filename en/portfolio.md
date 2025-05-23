@@ -12,15 +12,15 @@ _A selection of projects demonstrating my expertise in developing and applying i
 
 ## <i class="fa fa-list-ul"></i> Overview <!-- omit from toc -->
 
-- [Advancing Early Anomaly Detection Capabilities for a New PdM Product](#advancing-early-anomaly-detection-capabilities-for-a-new-pdm-product)
+- [Advancing Early Anomaly Detection Capabilities](#advancing-early-anomaly-detection-capabilities-for-a-new-pdm-product)
 
-- [Enhancing Gas Turbine Digital Twin Accuracy \& Efficiency with Statistical Modeling](#enhancing-gas-turbine-digital-twin-accuracy--efficiency-with-statistical-modeling)
+- [Enhancing Digital Twin's Accuracy & Efficiency](#enhancing-gas-turbine-digital-twin-accuracy--efficiency-with-statistical-modeling)
 
-- [Industrializing Data Ingestion for a Predictive Maintenance SaaS Provider](#industrializing-data-ingestion-for-a-predictive-maintenance-saas-provider)
+- [Industrializing Data Ingestion](#industrializing-data-ingestion-for-a-predictive-maintenance-saas-provider)
 
-- [Developing an AI-Powered Q\&A Companion with Generative AI](#developing-an-ai-powered-qa-companion-with-generative-ai)
+- [Developing an AI-Powered Q&A Companion](#developing-an-ai-powered-qa-companion-with-generative-ai)
 
-- [Advanced Data Analysis \& Modeling from Complex Scientific Datasets](#advanced-data-analysis--modeling-from-complex-scientific-datasets-astrophysics-research)
+- [Advanced Data Analysis & Modeling](#advanced-data-analysis--modeling-from-complex-scientific-datasets-astrophysics-research)
 
 ## <i class="fa fa-bolt"></i> Advancing Early Anomaly Detection Capabilities for a New PdM Product
 
@@ -36,7 +36,7 @@ _For a major SaaS provider of PdM products, this project involved leading the al
 - **Key Learnings for Asset Operators:** This project underscored the importance of robust MLOps and mock-fault validation for building trustworthy AI in critical systems – key considerations for any organization selecting or implementing PdM solutions.
 - **Technical Highlight / Technologies Used:** Python, Anomaly Detection Algorithms (AAKR, Isolation Forest, Clustering, Causal Methods), MLOps (Kubernetes, NATS, GitHub Actions), Model Explainability (Shapley Values), Mock-Fault Generation & Testing, Performance Benchmarking Frameworks.
 
-## <i class="fa fa-cogs"></i> Enhancing Gas Turbine Digital Twin Accuracy & Efficiency with Statistical Modeling
+## <i class="fa fa-cogs"></i> Enhancing a Digital Twin's Accuracy & Efficiency with Statistical Modeling
 
 <div style="text-align: center;">
 <img src="{{ site.url_ai_images }}/ChatGPT Image May 14, 2025, 07_51_31 PM - Enhancing Gas Turbine Digital Twin Accuracy & Efficiency with Statistical Modeling.svg" alt="Enhancing Gas Turbine Digital Twin Accuracy & Efficiency with Statistical Modeling" height="200"/>
@@ -72,8 +72,8 @@ _For the same SaaS provider, this project focused on creating a robust, scalable
 
 _This personal project was undertaken to deepen my expertise in Generative AI by developing an end-to-end Retrieval-Augmented Generation (RAG) system. The goal was to transform a large, public library of science-based blog content (NutritionFacts.org) into an interactive, conversational knowledge source, thereby creating a practical and meaningful application to showcase advanced GenAI capabilities._
 
-- **Challenge (Self-Imposed):** To explore and master the practicalities of building a sophisticated RAG system capable of making a large (1200+ posts), unstructured, domain-specific knowledge base accessible and interactive through natural language queries.
-- **Solution (My Initiative):** I independently designed and deployed "Nutrify Your Life," a full-featured RAG-based Q&A chatbot. This involved:
+- **Challenge:** To explore and master the practicalities of building a sophisticated RAG system capable of making a large (1200+ posts), unstructured, domain-specific knowledge base accessible and interactive through natural language queries.
+- **Solution:** I independently designed and deployed "Nutrify Your Life," a full-featured RAG-based Q&A chatbot. This involved:
   - Systematically scraping and processing the public blog content.
   - Constructing a knowledge base using sentence embeddings and a LanceDB vector database.
   - Implementing an advanced retrieval pipeline with hybrid search (vector + keyword) and cross-encoder reranking.
@@ -87,7 +87,7 @@ _This personal project was undertaken to deepen my expertise in Generative AI by
 
   <a href="https://github.com/alexkolo/rag_nutrition_facts_blog" target="_blank">GitHub Repository</a>
 
-## <i class="fa fa-star-o"></i> Advanced Data Analysis & Modeling from Complex Scientific Datasets (Astrophysics Research)
+## <i class="fa fa-star-o"></i> Advanced Data Analysis & Modeling from Complex Scientific Datasets
 
 <div style="text-align: center;">
 <img src="{{ site.url_ai_images }}/cosmic_data_analysis.svg" alt="Abstract representation of complex data analysis from cosmic datasets" height="200"/>
@@ -102,7 +102,6 @@ _Leveraging years of experience as a lead researcher in astrophysics (Max Planck
   - **ETL Pipeline Development:** Designed and implemented automated, reusable Python and shell-script based ETL pipelines to process and calibrate large volumes of observational data, ensuring consistency and efficiency for research teams.
   - **Innovative Method Development:** Pioneered new analytical methods for surface brightness fluctuation analysis, providing novel diagnostic tools for studying the intra-cluster medium and large-scale cosmic structures.
   - **Big Data Handling:** Routinely managed and analyzed terabytes of data, developing scalable analytical tools and workflows.
-- **Outcome & Transferable Skills:**
-  - Authored multiple first-author publications in leading peer-reviewed journals (e.g., _Astronomy & Astrophysics_) and secured competitive research grants.
-  - **Key Transferable Expertise:** The rigorous analytical techniques, statistical depth, and experience in handling complex, high-volume, noisy data are directly applicable to tackling challenging industrial datasets. This includes robust feature engineering, advanced anomaly detection in low S/N environments, and building reliable data processing pipelines – essential for both developing sophisticated PdM software and advising end-users on effective data strategies.
+- **Outcome:** Authored multiple first-author publications in leading peer-reviewed journals (e.g., _Astronomy & Astrophysics_) and secured competitive research grants.
+- **Key Transferable Expertise:** The rigorous analytical techniques, statistical depth, and experience in handling complex, high-volume, noisy data are directly applicable to tackling challenging industrial datasets. This includes robust feature engineering, advanced anomaly detection in low S/N environments, and building reliable data processing pipelines – essential for both developing sophisticated PdM software and advising end-users on effective data strategies.
 - **Technical Highlights / Technologies Used:** Python (NumPy, SciPy, Astropy), Advanced Statistical Inference (Bayesian/MCMC), Time-Series Analysis, Image Processing, ETL Pipeline Development, Big Data Analytics, Scientific Programming, High-Performance Computing (HPC) environments.
