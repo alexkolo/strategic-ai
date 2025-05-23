@@ -4,7 +4,6 @@ title: Services for Asset Operators
 font_family: "Montserrat"
 text_align: justify
 lang: en
-# permalink: /en/services_operators.html # Optional
 ---
 
 # <i class="fa fa-industry"></i> Services for Asset Operators & Industrial End-Users

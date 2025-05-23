@@ -4,7 +4,6 @@ title: Services for Technology Providers
 font_family: "Montserrat"
 text_align: justify
 lang: en
-# permalink: /en/services_build.html # Optional: if you want a clean URL without .html
 ---
 
 # <i class="fa fa-cogs"></i> Services for Technology Providers
