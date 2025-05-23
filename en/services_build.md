@@ -95,7 +95,7 @@ Beyond core PdM, GenAI offers exciting opportunities to enhance user experience 
 
 ---
 
-## How I Help Your Software & Business Succeed
+## <i class="fa fa-rocket"></i> How I Help Your Software & Business Succeed
 
 Partnering with me means gaining access to unique expertise that can:
 
@@ -109,7 +109,7 @@ My goal is to act as a seamless extension of your team, applying deep analytical
 
 ---
 
-## My Collaborative Process: From Challenge to Solution
+## <i class="fa fa-users"></i> My Collaborative Process: From Challenge to Solution
 
 I believe in a transparent and collaborative approach to ensure the AI solutions we build are perfectly aligned with your software, your technical environment, and your business objectives. Here’s how we can typically work together:
 

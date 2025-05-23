@@ -24,7 +24,7 @@ My advisory services are tailored to address the unique challenges and opportuni
 ### 1. PdM & APM Solution Assessment & Selection Strategy
 
 <div style="text-align: center;">
-<img src="{{ site.url_ai_images }}/strategy_consulting_apm_selection.svg" alt="APM Solution Selection Strategy" height="200"/>
+<img src="{{ site.url_ai_images }}/strategy_consulting_apm_selection.svg" alt="Image for PdM and APM Solution Selection Strategy" height="200"/>
 </div>
 
 **Challenge:** The market is filled with PdM and APM software. How do you choose the solution that best fits your specific assets, existing infrastructure, data maturity, and business goals?
@@ -43,7 +43,7 @@ My advisory services are tailored to address the unique challenges and opportuni
 ### 2. AI Strategy & Roadmap Development for Maintenance
 
 <div style="text-align: center;">
-<img src="{{ site.url_ai_images }}/ai_strategy_roadmap_maintenance.svg" alt="AI Strategy and Roadmap for Maintenance" height="200"/>
+<img src="{{ site.url_ai_images }}/ai_strategy_roadmap_maintenance.svg" alt="Image for AI Strategy and Roadmap for Maintenance" height="200"/>
 </div>
 
 **Challenge:** You see the potential of AI but need a clear strategy to integrate it effectively into your maintenance and reliability programs.
@@ -62,7 +62,7 @@ My advisory services are tailored to address the unique challenges and opportuni
 ### 3. Data Readiness & Infrastructure Advisory for AI
 
 <div style="text-align: center;">
-<img src="{{ site.url_ai_images }}/data_readiness_ai_infrastructure.svg" alt="Data Readiness for AI" height="200"/>
+<img src="{{ site.url_ai_images }}/data_readiness_ai_infrastructure.svg" alt="Image for Data Readiness for AI" height="200"/>
 </div>
 
 **Challenge:** Effective AI relies on good data. Is your data infrastructure ready to support advanced analytics and predictive modeling?
@@ -81,7 +81,7 @@ My advisory services are tailored to address the unique challenges and opportuni
 ### 4. Proof-of-Concept (PoC) Design & Independent Evaluation
 
 <div style="text-align: center;">
-<img src="{{ site.url_ai_images }}/poc_design_evaluation.svg" alt="Proof of Concept Design and Evaluation" height="200"/>
+<img src="{{ site.url_ai_images }}/poc_design_evaluation.svg" alt="Image for Proof of Concept Design and Evaluation" height="200"/>
 </div>
 
 **Challenge:** Before a full-scale deployment, you want to validate the effectiveness of a particular AI solution or approach for your specific environment.
@@ -117,7 +117,7 @@ My advisory services are tailored to address the unique challenges and opportuni
 
 ---
 
-## Why Partner with an Independent AI Advisor?
+## <i class="fa fa-balance-scale"></i> Why Partner with an Independent AI Advisor?
 
 - **Objective Perspective:** Receive unbiased advice tailored to your specific needs, not tied to any particular software vendor.
 - **Deep Technical Expertise:** Benefit from {{ site.n_exp_years }}+ years of hands-on experience in data science, AI model development, and industrial applications.
