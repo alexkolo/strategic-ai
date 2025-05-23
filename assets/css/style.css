@@ -79,7 +79,9 @@ a:not(.book-call-btn):hover {
 /* Ensure headers remain center-aligned even if parent is justified */
 .container_center h1,
 .container_center h2,
-.container_center h3 {
+.container_center h3,
+.container_center h4,
+.container_center h5 {
   text-align: center !important;
 }
 
