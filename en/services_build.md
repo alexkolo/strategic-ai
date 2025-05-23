@@ -1,5 +1,5 @@
 ---
-layout: services # Use the new layout
+layout: services
 title: Services for Technology Providers
 font_family: "Montserrat"
 text_align: justify
