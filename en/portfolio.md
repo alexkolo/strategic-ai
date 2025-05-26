@@ -8,7 +8,7 @@ lang: en
 
 # <i class="fa fa-trophy"></i> Proven AI Success: Case Studies & Impact <!-- omit from toc -->
 
-_Explore how I've partnered with **Technology Providers** to build market-leading AI products and guided **Asset Operators** to achieve significant operational efficiencies and cost savings. Each case study details the business challenges addressed, the strategic AI solutions I delivered, and the **measurable value generated for clients.**_
+_Explore how I've supported **Technology Providers** to build market-leading AI products and guided **Asset Operators** to achieve significant operational efficiencies and cost savings. Each case study details the business challenges addressed, the strategic AI solutions I delivered, and the **measurable value generated.**_
 
 ## <i class="fa fa-list-ul"></i> Overview of Key Impacts <!-- omit from toc -->
 

@@ -25,19 +25,19 @@ lang: de
   <div class="outcome_item">
     <h4>Verdopplung des SaaS-Produktportfolios eines Predictive Maintenance Startups</h4>
     <p>Leitung der Algorithmusentwicklung für ein neues Produkt zur Anomalieerkennung, das die prädiktiven Fähigkeiten & die Wettbewerbsfähigkeit signifikant verbesserte.</p>
-    <p><a href="{{ site.baseurl }}/de/portfolio#anomaly-detection-product">Mehr erfahren →</a></p>
+    <p><a href="{{ site.baseurl }}/de/portfolio#pdm-product-launc">Mehr erfahren →</a></p>
   </div>
 
   <div class="outcome_item">
     <h4>Reduzierung der Kalibrierungskosten für Digitale Zwillinge um über 50%</h4>
     <p>Verbesserung der Genauigkeit & Effizienz von GuD-Digital-Twins durch Integration fortschrittlicher statistischer Modelle zur Optimierung der Diagnosefähigkeiten.</p>
-    <p><a href="{{ site.baseurl }}/de/portfolio#gas-turbine-digital-twin">Mehr erfahren →</a></p>
+    <p><a href="{{ site.baseurl }}/de/portfolio#digital-twin-optimization">Mehr erfahren →</a></p>
   </div>
 
   <div class="outcome_item">
     <h4>Verkürzung der Dateningestionszeit um über 90%</h4>
     <p>Architektur und Implementierung einer universellen ETL-Pipeline zur Beschleunigung des Kunden-Onboardings & Verbesserung der Datenqualität für einen PdM-SaaS-Anbieter.</p>
-    <p><a href="{{ site.baseurl }}/de/portfolio#data-ingestion-industrialization">Mehr erfahren →</a></p>
+    <p><a href="{{ site.baseurl }}/de/portfolio#data-ingestion-transformation">Mehr erfahren →</a></p>
   </div>
 
   <p style="text-align: center; margin-top: 1.5em;"><a href="{{ site.baseurl }}/de/portfolio" class="cta-link">Alle Fallstudien ansehen</a></p>
