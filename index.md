@@ -56,7 +56,7 @@ lang: en
     <i class="fa fa-trophy fa-4x"></i>
     <h4>Proven Results</h4>
     <p>Explore real-world examples of how I've driven tangible value & measurable impact.</p>
-    <a href="{{ site.baseurl }}/en/portfolio">View Case Studies</a>
+    <a href="{{ site.baseurl }}/en/portfolio">View My Success Stories</a>
   </div>
   <div>
     <i class="fa fa-user fa-3x"></i>
