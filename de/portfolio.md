@@ -25,6 +25,7 @@ _Eine Auswahl von Projekten, die meine Expertise in der Entwicklung und Anwendun
 ## <i class="fa fa-check-square"></i> Projekte
 
 {:#anomaly-detection-product}
+<br>
 
 ### <i class="fa fa-bolt"></i> Weiterentwicklung von Anomalieerkennungs-Funktionen für ein neues PdM-Produkt
 
@@ -41,6 +42,7 @@ _Für einen führenden SaaS-Anbieter von PdM-Produkten umfasste dieses Projekt d
 - **Technische Highlights / Verwendete Technologien:** Python, Algorithmen zur Anomalieerkennung (AAKR, Isolation Forest, Clustering, kausale Methoden), MLOps (Kubernetes, NATS, GitHub Actions), Modellerklärbarkeit (Shapley Values), Generierung & Test von simulierten Fehlern, Frameworks für Performance-Benchmarking.
 
 {:#gas-turbine-digital-twin}
+<br>
 
 ### <i class="fa fa-cogs"></i> Verbesserung von Genauigkeit & Effizienz digitaler Zwillinge von Gasturbinen durch statistische Modellierung
 
@@ -57,6 +59,7 @@ _Für dasselbe SaaS-Startup zielte dieses Projekt darauf ab, die Genauigkeit der
 - **Technische Highlights / Verwendete Technologien:** Python, Scikit-learn, fortschrittliche statistische Modellierung (Regression), Zeitreihenanalyse, Feature Engineering, benutzerdefinierte Daten-Clusterbildung & Binning, Modell-Benchmarking, "Best-Performance"-Datenfilterlogik.
 
 {:#data-ingestion-industrialization}
+<br>
 
 ### <i class="fa fa-database"></i> Industrialisierung der Datenaufnahme für einen SaaS-Anbieter im Bereich Predictive Maintenance
 
@@ -73,6 +76,7 @@ _Für denselben SaaS-Anbieter konzentrierte sich dieses Projekt auf die Erstellu
 - **Technische Highlights / Verwendete Technologien:** Python, Pandas, benutzerdefinierte ETL-Architektur, fortschrittliches Parsen von Dateien (CSV/Excel), Zeitstempel-/Zeitzonenkorrektur, Datenvalidierung & -bereinigung, CI/CD (GitHub Actions), blockbasierte Verarbeitung für Big Data, umfassende Dokumentation.
 
 {:#genai-qna-companion}
+<br>
 
 ### <i class="fa fa-comments-o"></i> Entwicklung eines KI-gestützten Q&A-Assistenten mit Generativer KI
 
@@ -98,6 +102,7 @@ _Dieses persönliche Projekt wurde initiiert, um meine Expertise im Bereich Gene
   <a href="https://github.com/alexkolo/rag_nutrition_facts_blog" target="_blank">GitHub-Repository</a>
 
 {:#scientific-data-analysis}
+<br>
 
 ### <i class="fa fa-star-o"></i> Fortgeschrittene Datenanalyse & Modellierung komplexer wissenschaftlicher Datensätze
 

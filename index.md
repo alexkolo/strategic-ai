@@ -21,7 +21,7 @@ lang: en
 <hr />
 
 <div class="client_outcomes_container">
-  <h3>Delivering Measurable Impact</h3>
+  <h2>Delivering Measurable Impact</h2>
 
   <div class="outcome_item">
     <h4>Doubled SaaS Product Portfolio for a Predictive Maintenance Startup</h4>
