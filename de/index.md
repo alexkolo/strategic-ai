@@ -55,7 +55,7 @@ lang: de
     <i class="fa fa-trophy fa-4x"></i>
     <h4>Nachweisliche Erfolge</h4>
     <p>Entdecken Sie Praxisbeispiele, wie ich greifbaren Mehrwert & messbare Ergebnisse erzielt habe.</p>
-    <a href="{{ site.baseurl }}/de/portfolio">Fallstudien ansehen</a>
+    <a href="{{ site.baseurl }}/de/portfolio">Meine Erfolgsgeschichten ansehen</a>
   </div>
   <div>
     <i class="fa fa-user fa-3x"></i>
