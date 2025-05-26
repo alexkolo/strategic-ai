@@ -25,7 +25,7 @@ lang: de
   <div class="outcome_item">
     <h4>Verdopplung des SaaS-Produktportfolios eines Predictive Maintenance Startups</h4>
     <p>Leitung der Algorithmusentwicklung für ein neues Produkt zur Anomalieerkennung, das die prädiktiven Fähigkeiten & die Wettbewerbsfähigkeit signifikant verbesserte.</p>
-    <p><a href="{{ site.baseurl }}/de/portfolio#pdm-product-launc">Mehr erfahren →</a></p>
+    <p><a href="{{ site.baseurl }}/de/portfolio#pdm-product-launch">Mehr erfahren →</a></p>
   </div>
 
   <div class="outcome_item">
