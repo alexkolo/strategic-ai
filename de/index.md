@@ -20,7 +20,7 @@ lang: de
 <hr />
 
 <div class="client_outcomes_container">
-  <h2>Messbare Erfolge für Ihr Unternehmen</h2>
+  <h3>Messbare Erfolge für Ihr Unternehmen</h3>
 
   <div class="outcome_item">
     <h4>Verdopplung des SaaS-Produktportfolios eines Predictive Maintenance Startups</h4>
