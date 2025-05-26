@@ -63,7 +63,7 @@ I partner with you to **develop technically excellent AI solutions or to formula
     - Developing, modernizing, & implementing sophisticated algorithms for **anomaly detection** & **asset performance diagnostics.**
     - Building & deploying robust ETL pipelines for processing heterogeneous industrial client data, ensuring data quality & readiness for advanced analytics.
     - **Enhancing physics-based models** with advanced statistical & machine learning approaches (foundations for Physics-Informed Machine Learning).
-  - _These experiences directly inform my services, as detailed in <a href="{{ site.baseurl }}/en/portfolio">My Portfolio</a>._
+  - _These experiences directly inform my services, as detailed in <a href="{{ site.baseurl }}/en/portfolio">My Success Stories</a>._
 
 - Since 2025 **{{ site.my_role.en }}** – {{ site.company }} (sole proprietorship), _Paris, France_
 
