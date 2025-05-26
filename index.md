@@ -11,7 +11,7 @@ lang: en
   <h1>Achieve Optimal Asset Performance & AI Product Leadership</h1>
   <h2>I'm {{ site.my_name.en }}, a {{ site.my_role.en }}</h2>
 
-  <div class="slogan">I build market-leading AI features for Technology Providers and deliver game-changing AI strategies for Asset Operators.</div>
+  <div class="slogan">I build market-leading AI features for Technology Providers & deliver game-changing AI strategies for Asset Operators.</div>
 
   <p>If you're ready to leverage AI for transformative growth, enhanced efficiency, or a stronger competitive edge, let's explore how my expertise can deliver your specific goals.</p>
   <a href="{{ site.meeting_link }}" target="_blank" class="book-call-btn">Book a Call to discuss your AI projects</a>
@@ -24,8 +24,8 @@ lang: en
   <h3>Delivering Measurable Impact</h3>
 
   <div class="outcome_item">
-    <h4>Doubled SaaS Product Portfolio for a PdM Startup</h4>
-    <p>Led algorithm development for a new early anomaly detection product, significantly enhancing predictive capabilities & market competitiveness.</p>
+    <h4>Doubled SaaS Product Portfolio for a PdM SaaS Startup</h4>
+    <p>Led algorithm development for a new anomaly detection product, significantly enhancing predictive capabilities & market competitiveness.</p>
     <p><a href="{{ site.baseurl }}/en/portfolio#anomaly-detection-product">Learn More →</a></p>
   </div>
 

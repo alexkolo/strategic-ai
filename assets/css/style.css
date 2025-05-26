@@ -8,6 +8,11 @@
   text-align: left !important; /* Use !important if necessary, but try without first */
 }
 
+/*  make H3 headers blue */
+.markdown-body h3 {
+  color: #0063fb;
+}
+
 .container-lg {
   max-width: 1012px;
   margin-right: auto;
@@ -190,7 +195,7 @@ a:not(.book-call-btn):hover {
 }
 
 .client_outcomes_container h3 {
-  font-family: "Montserrat", sans-serif; /* Assuming Montserrat for headings for contrast */
+  /* font-family: "Montserrat", sans-serif; Assuming Montserrat for headings for contrast */
   font-size: 1.8em; /* Adjust as needed */
   color: #333333; /* Dark grey for heading */
   text-align: center;
@@ -229,7 +234,7 @@ a:not(.book-call-btn):hover {
 }
 
 .outcome_item h4 {
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
   font-size: 1.25em; /* Slightly smaller than the section h3 */
   color: #0063fb; /* Your primary brand blue */
   margin-top: 0;
@@ -251,7 +256,7 @@ a:not(.book-call-btn):hover {
 }
 
 .outcome_item a {
-  font-family: "Montserrat", sans-serif; /* Or "Dosis Light", bolded */
+  /* font-family: "Montserrat", sans-serif; Or "Dosis Light", bolded */
   color: #0063fb; /* Brand blue for the link */
   text-decoration: none;
   font-weight: 600; /* Make it stand out a bit */
@@ -270,7 +275,7 @@ a:not(.book-call-btn):hover {
   padding: 0.8em 1.8em;
   background-color: #0063fb; /* Primary button color, match .book-call-btn */
   color: #ffffff !important; /* Ensure text is white, important to override other 'a' styles */
-  font-family: "Montserrat", sans-serif; /* Match button font */
+  /* font-family: "Montserrat", sans-serif; Match button font */
   font-size: 1em;
   font-weight: bold;
   text-decoration: none;

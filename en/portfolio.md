@@ -25,6 +25,7 @@ _A selection of projects demonstrating my expertise in developing and applying i
 ## <i class="fa fa-check-square"></i> Projects
 
 {:#anomaly-detection-product}
+<br>
 
 ### <i class="fa fa-bolt"></i> Advancing Anomaly Detection Capabilities for a New PdM Product
 
@@ -57,6 +58,7 @@ _For the same SaaS startup, this project aimed to improve the accuracy and reduc
 - **Technical Highlight / Technologies Used:** Python, Scikit-learn, Advanced Statistical Modeling (Regression), Time-Series Analysis, Feature Engineering, Custom Data Clustering & Binning, Model Benchmarking, "Best-Performance" Data Filtering Logic.
 
 {:#data-ingestion-industrialization}
+<br>
 
 ### <i class="fa fa-database"></i> Industrializing Data Ingestion for a Predictive Maintenance SaaS Provider
 
@@ -73,6 +75,7 @@ _For the same SaaS provider, this project focused on creating a robust, scalable
 - **Technical Highlight / Technologies Used:** Python, Pandas, Custom ETL Architecture, Advanced File Parsing (CSV/Excel), Time-Zone/Timestamp Correction, Data Validation & Sanitization, CI/CD (GitHub Actions), Chunk-based Processing for Big Data, Comprehensive Documentation.
 
 {:#genai-qna-companion}
+<br>
 
 ### <i class="fa fa-comments-o"></i> Developing an AI-Powered Q&A Companion with Generative AI
 
@@ -98,6 +101,7 @@ _This personal project was undertaken to deepen my expertise in Generative AI by
   <a href="https://github.com/alexkolo/rag_nutrition_facts_blog" target="_blank">GitHub Repository</a>
 
 {:#scientific-data-analysis}
+<br>
 
 ### <i class="fa fa-star-o"></i> Advanced Data Analysis & Modeling from Complex Scientific Datasets
 
