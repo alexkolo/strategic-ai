@@ -18,6 +18,14 @@
 
 # todos
 
+## add pages
+
+1. Testimonials Page: Crucial.
+2. Lead Magnet (Downloadable Guide/Checklist): To capture leads and start them on the Accelerant Curve.
+3. Insights/Articles/Resources Page: To build thought leadership. Start small.
+
+## small fixes
+
 - add images for `services_consult.md`
 - emphasize also "process optimization" more
 - emphasize industry 4.0 and IIOT more
