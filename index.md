@@ -26,19 +26,19 @@ lang: en
   <div class="outcome_item">
     <h4>Doubled SaaS Product Portfolio for a Predictive Maintenance Startup</h4>
     <p>Led algorithm development for a new anomaly detection product, significantly enhancing predictive capabilities & market competitiveness.</p>
-    <p><a href="{{ site.baseurl }}/en/portfolio#anomaly-detection-product">Learn More →</a></p>
+    <p><a href="{{ site.baseurl }}/en/portfolio#pdm-product-launch">Learn More →</a></p>
   </div>
 
   <div class="outcome_item">
     <h4>Reduced Digital Twin Calibration Costs by Over 50%</h4>
     <p>Enhanced CCGT digital twin accuracy & efficiency by integrating advanced statistical models, improving diagnostic capabilities.</p>
-    <p><a href="{{ site.baseurl }}/en/portfolio#gas-turbine-digital-twin">Learn More →</a></p>
+    <p><a href="{{ site.baseurl }}/en/portfolio#digital-twin-optimization">Learn More →</a></p>
   </div>
 
   <div class="outcome_item">
     <h4>Cut Data Ingestion Time by Over 90%</h4>
     <p>Architected and deployed a universal ETL pipeline, accelerating client onboarding & improving data quality for a PdM SaaS provider.</p>
-    <p><a href="{{ site.baseurl }}/en/portfolio#data-ingestion-industrialization">Learn More →</a></p>
+    <p><a href="{{ site.baseurl }}/en/portfolio#data-ingestion-transformation">Learn More →</a></p>
   </div>
 
   <p style="text-align: center; margin-top: 1.5em;"><a href="{{ site.baseurl }}/en/portfolio" class="cta-link">Explore All Case Studies</a></p>

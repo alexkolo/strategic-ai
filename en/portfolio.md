@@ -12,11 +12,16 @@ _Explore how I've partnered with **Technology Providers** to build market-leadin
 
 ## <i class="fa fa-list-ul"></i> Overview of Key Impacts <!-- omit from toc -->
 
-- [Launching a Market-Leading PdM Product via Advanced Anomaly Detection](#pdm-product-launch)
+- [Launching a flagship PdM Product via Advanced Anomaly Detection](#pdm-product-launch)
+
 - [Industrializing Data Ingestion: Slashing Processing Time by 90%](#data-ingestion-transformation)
+
 - [Enhancing Digital Twin ROI: Reducing Calibration Costs by 50%](#digital-twin-optimization)
+
 - [Forecasting Power Output: Informing Strategic Technology Choices](#forecasting-poc)
+
 - [Developing an AI-Powered Q&A Companion with Generative AI](#genai-qna-companion)
+
 - [Foundational Expertise: Advanced Data Analysis & Innovative Modeling](#foundational-expertise)
 
 ## <i class="fa fa-check-square"></i> Success Stories & AI Innovations
@@ -24,7 +29,7 @@ _Explore how I've partnered with **Technology Providers** to build market-leadin
 {:#pdm-product-launch}
 <br>
 
-### <i class="fa fa-bolt"></i> Launching a Market-Leading PdM Product via Advanced Anomaly Detection
+### <i class="fa fa-bolt"></i> Launching a flagship PdM Product via Advanced Anomaly Detection
 
 <div style="text-align: center;">
 <img src="{{ site.url_ai_images }}/ChatGPT Image May 14, 2025, 07_55_14 PM - Advancing Early Anomaly Detection Capabilities for a New PdM SaaS Product.svg" alt="Advancing Early Anomaly Detection Capabilities for a New PdM SaaS Product" height="200"/>
@@ -178,10 +183,8 @@ _This personal project, "Nutrify Your Life," involved developing an end-to-end R
 
 - **Relevance for Asset Operators & Technology Providers:** The RAG methodology & architecture demonstrated here offers transformative potential for industrial applications, delivering significant efficiency gains and democratizing knowledge access. It is directly applicable for:
 
-  - **Technology Providers:**
-    - Integrating intelligent AI assistants into software to provide instant, context-aware support, answer complex user queries based on product documentation, and reduce support overhead.
-  - **Asset Operators:**
-    - Creating powerful internal knowledge bases from technical manuals, maintenance logs, safety procedures, and compliance standards, enabling rapid troubleshooting, improved decision-making for field engineers, and streamlined onboarding for new personnel.
+  - **Technology Providers:** Integrating intelligent AI assistants into software to provide instant, context-aware support, answer complex user queries based on product documentation, and reduce support overhead.
+  - **Asset Operators:** Creating powerful internal knowledge bases from technical manuals, maintenance logs, safety procedures, and compliance standards, enabling rapid troubleshooting, improved decision-making for field engineers, and streamlined onboarding for new personnel.
 
   👉 <a href="https://nutrify-your-life.streamlit.app/" target="_blank">Live Demo</a> | <a href="https://github.com/alexkolo/rag_nutrition_facts_blog" target="_blank">GitHub Repository</a>
 
