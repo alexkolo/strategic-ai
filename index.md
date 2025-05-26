@@ -24,7 +24,7 @@ lang: en
   <h3>Delivering Measurable Impact</h3>
 
   <div class="outcome_item">
-    <h4>Doubled SaaS Product Portfolio for a PdM Startup</h4>
+    <h4>Doubled SaaS Product Portfolio for a Predictive Maintenance Startup</h4>
     <p>Led algorithm development for a new anomaly detection product, significantly enhancing predictive capabilities & market competitiveness.</p>
     <p><a href="{{ site.baseurl }}/en/portfolio#anomaly-detection-product">Learn More →</a></p>
   </div>
