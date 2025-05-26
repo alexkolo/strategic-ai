@@ -42,6 +42,7 @@ _For a major SaaS provider of PdM products, this project involved leading the al
 - **Technical Highlight / Technologies Used:** Python, Anomaly Detection Algorithms (AAKR, Isolation Forest, Clustering, Causal Methods), MLOps (Kubernetes, NATS, GitHub Actions), Model Explainability (Shapley Values), Mock-Fault Generation & Testing, Performance Benchmarking Frameworks.
 
 {:#gas-turbine-digital-twin}
+<br>
 
 ### <i class="fa fa-cogs"></i> Enhancing Digital Twin Accuracy & Efficiency with Statistical Modeling
 

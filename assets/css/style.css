@@ -188,14 +188,13 @@ a:not(.book-call-btn):hover {
 /* --------- Home page  Client Outcomes ---------- */
 
 .client_outcomes_container {
-  padding: 2em 1em; /* Add some vertical and horizontal padding */
+  padding: 1em 1em; /* Reduce vertical padding */
   margin-left: auto;
   margin-right: auto;
   max-width: 900px; /* Adjust to your main content width if different */
 }
 
 .client_outcomes_container h3 {
-  /* font-family: "Montserrat", sans-serif; Assuming Montserrat for headings for contrast */
   font-size: 1.8em; /* Adjust as needed */
   color: #333333; /* Dark grey for heading */
   text-align: center;
@@ -234,7 +233,6 @@ a:not(.book-call-btn):hover {
 }
 
 .outcome_item h4 {
-  /* font-family: "Montserrat", sans-serif; */
   font-size: 1.25em; /* Slightly smaller than the section h3 */
   color: #0063fb; /* Your primary brand blue */
   margin-top: 0;
@@ -243,7 +241,6 @@ a:not(.book-call-btn):hover {
 }
 
 .outcome_item p {
-  font-family: "Dosis Light", sans-serif; /* Main content font */
   font-size: 1em;
   line-height: 1.6;
   color: #555555; /* Softer text color */
@@ -256,7 +253,6 @@ a:not(.book-call-btn):hover {
 }
 
 .outcome_item a {
-  /* font-family: "Montserrat", sans-serif; Or "Dosis Light", bolded */
   color: #0063fb; /* Brand blue for the link */
   text-decoration: none;
   font-weight: 600; /* Make it stand out a bit */
@@ -266,7 +262,7 @@ a:not(.book-call-btn):hover {
 .outcome_item a:hover,
 .outcome_item a:focus {
   color: #004aaa; /* Darker blue on hover */
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 /* Styling for the main call-to-action link (e.g., "Explore All Case Studies") */
