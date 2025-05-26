@@ -18,7 +18,7 @@ _Erfahren Sie, wie ich **Technologieanbieter** dabei unterstütze, marktführend
 
 - [Steigerung des ROI Digitaler Zwillinge: Kalibrierungskosten um 50% gesenkt](#digital-twin-optimization)
 
-- [Prognose der Energieerzeugung: Fundament für strategische Technologieentscheidungen](#forecasting-poc)
+- [Prognose der Energieerzeugung: Basis für strategische Entscheidungen](#forecasting-poc)
 
 - [Entwicklung eines KI-gestützten Q&A-Assistenten mit Generativer KI](#genai-qna-companion)
 
