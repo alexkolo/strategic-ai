@@ -196,7 +196,7 @@ a:not(.book-call-btn):hover {
 
 .client_outcomes_container h3 {
   font-size: 1.8em; /* Adjust as needed */
-  color: #333333; /* Dark grey for heading */
+  /* color: #333333; Dark grey for heading */
   text-align: center;
   /* margin-bottom: 1.5em; Space below the main heading */
   font-weight: 700; /* Bolder for this section title */

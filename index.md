@@ -24,7 +24,7 @@ lang: en
   <h3>Delivering Measurable Impact</h3>
 
   <div class="outcome_item">
-    <h4>Doubled SaaS Product Portfolio for a PdM SaaS Startup</h4>
+    <h4>Doubled SaaS Product Portfolio for a PdM Startup</h4>
     <p>Led algorithm development for a new anomaly detection product, significantly enhancing predictive capabilities & market competitiveness.</p>
     <p><a href="{{ site.baseurl }}/en/portfolio#anomaly-detection-product">Learn More →</a></p>
   </div>
@@ -61,7 +61,7 @@ lang: en
   <div>
     <i class="fa fa-user fa-3x"></i>
     <h4>About Me</h4>
-    <p>Discover the expertise & experience that enables me to deliver <i>your</i> Strategic AI Vision</p>
+    <p>Discover the expertise & experience that enables me to deliver <i>your</i> Strategic AI Vision.</p>
     <a href="{{ site.baseurl }}/en/about">Why Partner With Me</a>
   </div>
 </div>
