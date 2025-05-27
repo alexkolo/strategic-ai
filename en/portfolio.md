@@ -24,6 +24,8 @@ _Explore how I've supported **Technology Providers** to build market-leading AI 
 
 - [Foundational Expertise: Advanced Data Analysis & Innovative Modeling](#foundational-expertise)
 
+<br>
+
 ## <i class="fa fa-check-square"></i> Success Stories & AI Innovations
 
 {:#pdm-product-launch}

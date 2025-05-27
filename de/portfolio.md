@@ -24,6 +24,8 @@ _Erfahren Sie, wie ich **Technologieanbieter** dabei unterstütze, marktführend
 
 - [Fundamentale Expertise: Fortschrittliche Datenanalyse & Innovative Modellierung](#foundational-expertise)
 
+<br>
+
 ## <i class="fa fa-check-square"></i> Erfolgsgeschichten & KI-Innovationen
 
 {:#pdm-product-launch}
