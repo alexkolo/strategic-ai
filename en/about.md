@@ -12,9 +12,9 @@ noindex: true # Good for preventing duplicate content issues if similar info is 
 </div>
 
 - [Introduction](#intro)
-- [Education & Academic Foundations](#foundation): _The Rigor Behind the Results_
-- [Professional Journey](#professional-journey): _From Cosmic Data to Industrial AI Solutions_
-- [My Core Expertise](#core-expertise): _Delivering Your AI Vision_
+- [Education & Academic Foundations](#foundation)
+- [Professional Journey](#professional-journey)
+- [My Core Expertise](#core-expertise)
 
 {:#intro}
 <br>
@@ -149,4 +149,4 @@ _My approach combines deep theoretical understanding with hands-on expertise in 
 
 <hr class="soft-divider" />
 
-Partnering with me means gaining a dedicated expert committed to transforming your data challenges into strategic opportunities. If you're ready to explore how tailored AI solutions can drive your business forward, I invite you to <a href="{{ site.meeting_link }}" target="_blank">schedule a call</a>.
+_Partnering with me means gaining a dedicated expert committed to transforming your data challenges into strategic opportunities. If you're ready to explore how tailored AI solutions can drive your business forward, I invite you to <a href="{{ site.meeting_link }}" target="_blank">schedule a call</a>._
