@@ -11,15 +11,15 @@ noindex: true # Good for preventing duplicate content issues if similar info is 
   <img src="{{ site.profile_image }}" alt="{{ site.my_name.en }} Profile Image" class="logo" />
 </div>
 
-- [About Me: {{ site.my\_name.en }}](#about-me)
-- [Education & Academic Foundations: The Rigor Behind the Results](#foundation)
-- [Professional Journey: From Cosmic Data to Industrial AI Solutions](#professional-journey)
-- [My Core Expertise: Delivering Your AI Vision](#core-expertise)
+- [Introduction](#intro)
+- [Education & Academic Foundations](#foundation): _The Rigor Behind the Results_
+- [Professional Journey](#professional-journey): _From Cosmic Data to Industrial AI Solutions_
+- [My Core Expertise](#core-expertise): _Delivering Your AI Vision_
 
-{:#about-me}
+{:#intro}
 <br>
 
-# <i class="fa fa-user"></i> About Me: {{ site.my_name.en }}
+## <i class="fa fa-user"></i> About Me: {{ site.my_name.en }}
 
 <!-- MDC Suggestion: Add a strong opening positioning statement -->
 
@@ -50,7 +50,9 @@ I partner with you to **develop technically excellent AI solutions or to formula
 {:#foundation}
 <br>
 
-## <i class="fa fa-graduation-cap"></i> Education & Academic Foundations: The Rigor Behind the Results
+## <i class="fa fa-graduation-cap"></i> Education & Academic Foundations
+
+### The Rigor Behind the Results
 
 <!-- MDC Suggestion: Keep the detail but ensure each point subtly links to client value -->
 
@@ -90,7 +92,7 @@ _My career path has been a deliberate progression, applying fundamental data sci
     - Developing, modernizing, & implementing sophisticated algorithms for **anomaly detection** & **asset performance diagnostics, leading to more actionable insights for end-users.**
     - Building & deploying robust ETL pipelines for processing heterogeneous industrial client data, ensuring data quality & readiness for advanced analytics, **which accelerated client onboarding by over 90%.**
     - **Enhancing physics-based models** with advanced statistical & machine learning approaches (foundations for Physics-Informed Machine Learning), **reducing model calibration costs by over 50%.**
-  - _These experiences directly inform the strategic and technical value I deliver to my clients, as detailed in <a href="{{ site.baseurl }}/en/portfolio">My Proven Success Stories</a>._
+  - _These experiences directly inform the strategic and technical value I deliver, as detailed in <a href="{{ site.baseurl }}/en/portfolio">My Success Stories</a>._
 
 - Since 2025 **{{ site.my_role.en }}** – {{ site.company }} (sole proprietorship), _Paris, France_
   - Leveraging my unique blend of scientific rigor and industrial AI expertise, I now partner directly with **Technology Providers** to build market-leading AI products and with **Asset Operators** to implement high-impact, data-driven strategies. For details, see <a href="{{ site.baseurl }}/en/services_build">My Services</a>.
@@ -98,7 +100,9 @@ _My career path has been a deliberate progression, applying fundamental data sci
 {:#core-expertise}
 <br>
 
-## <i class="fa fa-wrench"></i> My Core Expertise: Delivering Your AI Vision
+## <i class="fa fa-wrench"></i> My Core Expertise
+
+### Delivering Your AI Vision
 
 _My approach combines deep theoretical understanding with hands-on expertise in the technologies that power modern industrial AI solutions. I specialize in developing & deploying robust, scalable systems, and providing strategic advice on their application to deliver tangible value **to your bottom line.**_
 
@@ -143,6 +147,6 @@ _My approach combines deep theoretical understanding with hands-on expertise in 
 
 <!-- MDC Suggestion: Add a strong closing statement / call to action related to partnership -->
 
----
+<hr class="soft-divider" />
 
 Partnering with me means gaining a dedicated expert committed to transforming your data challenges into strategic opportunities. If you're ready to explore how tailored AI solutions can drive your business forward, I invite you to <a href="{{ site.meeting_link }}" target="_blank">schedule a call</a>.
