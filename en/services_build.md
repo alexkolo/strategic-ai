@@ -8,7 +8,7 @@ lang: en
 
 # <i class="fa fa-cogs"></i> Services for Technology Providers
 
-## <i class="fa fa-line-chart"></i> Build Unbeatable Industrial Software: My Partnership Approach to Strategic AI
+### <i class="fa fa-line-chart"></i> Build Unbeatable Industrial Software: My Partnership Approach to Strategic AI
 
 For Independent Software Vendors (ISVs) and technology companies, embedding advanced AI isn't just a feature — it's a critical driver for market leadership, user retention, and revenue growth. As your dedicated {{ site.my_role.en }} with over {{ site.n_exp_years }} years of experience applying advanced data analysis & AI principles, I partner with you to elevate your industrial software solutions. My focus is on integrating advanced, reliable AI capabilities that deliver **tangible competitive advantages and measurable ROI** for you and your end-users. I bridge the gap between cutting-edge AI methodologies and the practical realities of industrial applications, ensuring solutions are not just innovative, but also robust, scalable, and **instrumental to your product's success.**
 

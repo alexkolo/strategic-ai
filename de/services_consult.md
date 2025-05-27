@@ -10,7 +10,7 @@ lang: de
 
 # <i class="fa fa-industry"></i> Services für Anlagenbetreiber & industrielle Endanwender
 
-## <i class="fa fa-compass"></i> Mit Expertenwissen sicher durch die industrielle KI-Landschaft navigieren
+### <i class="fa fa-compass"></i> Mit Expertenwissen sicher durch die industrielle KI-Landschaft navigieren
 
 Als industrieller Anlagenbetreiber kann der Einsatz von Künstlicher Intelligenz (KI) für die vorausschauende Instandhaltung (Predictive Maintenance, PdM) und das Anlagenleistungsmanagement (Asset Performance Management, APM) erheblichen Mehrwert schaffen: Reduzierung von Ausfallzeiten, Kostenoptimierung und Erhöhung der Sicherheit. Die Landschaft der KI-Lösungen ist jedoch komplex, und die Wahl des richtigen Weges erfordert strategische Weitsicht.
 

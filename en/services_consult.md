@@ -8,7 +8,7 @@ lang: en
 
 # <i class="fa fa-industry"></i> Maximize Your Asset ROI: Strategic AI Advisory for Industrial Leaders
 
-## <i class="fa fa-compass"></i> Your Independent Guide to Profitable & Effective Industrial AI
+### <i class="fa fa-compass"></i> Your Independent Guide to Profitable & Effective Industrial AI
 
 As an industrial asset operator, you know that leveraging Artificial Intelligence (AI) for Predictive Maintenance (PdM) and Asset Performance Management (APM) is key to **unlocking substantial value: slashing downtime, optimizing operational costs, and boosting safety.** Yet, the AI landscape is crowded and complex. Making the right strategic choices and technology investments can feel overwhelming, risking costly missteps.
 

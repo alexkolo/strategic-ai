@@ -8,7 +8,7 @@ lang: de
 
 # <i class="fa fa-cogs"></i> Services für Technologieanbieter
 
-## <i class="fa fa-line-chart"></i> Unschlagbare Industriesoftware entwickeln: Mein partnerschaftlicher Ansatz für strategische KI
+### <i class="fa fa-line-chart"></i> Unschlagbare Industriesoftware entwickeln: Mein partnerschaftlicher Ansatz für strategische KI
 
 Für unabhängige Softwareanbieter (ISVs) und Technologieunternehmen ist die Integration fortschrittlicher KI nicht nur ein Feature – sie ist ein entscheidender Faktor für Marktführerschaft, Nutzerbindung und Umsatzwachstum. Als Ihr engagierter {{ site.my_role.de }} mit über {{ site.n_exp_years }} Jahren Erfahrung in der Anwendung fortschrittlicher Datenanalyse- & KI-Prinzipien, unterstütze ich Sie partnerschaftlich dabei, Ihre industriellen Softwarelösungen auf ein neues Niveau zu heben. Mein Fokus liegt auf der Integration fortschrittlicher, zuverlässiger KI-Fähigkeiten, die Ihnen und Ihren Endanwendern **greifbare Wettbewerbsvorteile und einen messbaren ROI** liefern. Ich schlage die Brücke zwischen modernsten KI-Methoden und den praktischen Realitäten industrieller Anwendungen und stelle sicher, dass Lösungen nicht nur innovativ, sondern auch robust, skalierbar und **maßgeblich für den Erfolg Ihres Produkts sind.**
 
