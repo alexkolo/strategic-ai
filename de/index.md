@@ -8,7 +8,7 @@ lang: de
 <div class="container_center">
   <img src="{{ site.profile_image }}" alt="{{ site.my_name.de }} Profilbild" class="logo" />
 
-  <h1>Steigern Sie Ihre Anlagenperformance & sichern Sie Ihre KI Leadership</h1>
+  <h1>Spitzenleistung für Ihre Anlagen & entscheidender Wettbewerbsvorteil für Ihre KI-Produkte.</h1>
   <h2>Ich bin {{ site.my_name.de }}, Ihr {{ site.my_role.de }}</h2>
 
   <div class="slogan">Ich entwickle marktführende KI-Funktionen für Technologieanbieter & liefere wegweisende KI-Strategien für Anlagenbetreiber.</div>
