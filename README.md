@@ -15,6 +15,7 @@
 - text:
   - start: https://aistudio.google.com/prompts/1uPtAz_htQZ25qsjCibw5AbEvXg6iD1vy
   - new services (23.05.2025): https://aistudio.google.com/prompts/1k7qB0-urGWVCs-TMOsWmR8Cmkdd9yZrp
+- images: https://chatgpt.com/c/6824c217-e44c-8011-9501-956e9869ef28
 
 # todos
 
