@@ -22,9 +22,9 @@ My advisory services are meticulously designed to help you overcome critical cha
 
 ### 1. Secure the Right PdM & APM Solution: Maximize Value, Minimize Risk
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
 <img src="{{ site.url_ai_images }}/strategy_consulting_apm_selection.svg" alt="Image for PdM and APM Solution Selection Strategy" height="200"/>
-</div>
+</div> -->
 
 **Challenge:** The market is filled with PdM and APM software. How do you choose the solution that best fits your specific assets, existing infrastructure, data maturity, and critical business goals?
 
@@ -41,9 +41,9 @@ My advisory services are meticulously designed to help you overcome critical cha
 
 ### 2. Develop a Winning AI Maintenance Strategy: From Vision to Measurable Results
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
 <img src="{{ site.url_ai_images }}/ai_strategy_roadmap_maintenance.svg" alt="Image for AI Strategy and Roadmap for Maintenance" height="200"/>
-</div>
+</div> -->
 
 **Challenge:** You see the immense potential of AI but need a clear, actionable strategy to integrate it effectively into your maintenance and reliability programs for maximum impact.
 
@@ -60,9 +60,9 @@ My advisory services are meticulously designed to help you overcome critical cha
 
 ### 3. Build Your AI Foundation: Data Readiness & Infrastructure for Success
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
 <img src="{{ site.url_ai_images }}/data_readiness_ai_infrastructure.svg" alt="Image for Data Readiness for AI" height="200"/>
-</div>
+</div> -->
 
 **Challenge:** Effective AI relies on good data. Is your current data infrastructure truly ready to support advanced analytics and predictive modeling, or will it become a bottleneck?
 
@@ -79,9 +79,9 @@ My advisory services are meticulously designed to help you overcome critical cha
 
 ### 4. Validate AI Effectiveness: Strategic PoC Design & Objective Evaluation
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
 <img src="{{ site.url_ai_images }}/poc_design_evaluation.svg" alt="Image for Proof of Concept Design and Evaluation" height="200"/>
-</div>
+</div> -->
 
 **Challenge:** Before committing to a full-scale, costly AI deployment, you need to confidently validate the effectiveness and ROI of a particular solution or approach within your specific operational environment.
 
@@ -98,9 +98,9 @@ My advisory services are meticulously designed to help you overcome critical cha
 
 ### 5. Harness GenAI for Operations: Drive Efficiency & Unlock New Insights
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
 <img src="{{ site.url_ai_images }}/genai_opportunities_ops.svg" alt="Generative AI for Operations" height="200"/>
-</div>
+</div> -->
 
 **Challenge:** How can the latest Generative AI and Large Language Models (LLMs) be practically and profitably applied to improve your maintenance workflows, knowledge management, and critical decision support?
 

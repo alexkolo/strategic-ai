@@ -24,9 +24,9 @@ Meine Beratungsleistungen sind darauf zugeschnitten, die einzigartigen Herausfor
 
 ### 1. Strategie zur Bewertung & Auswahl von PdM- & APM-Lösungen
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
 <img src="{{ site.url_ai_images }}/strategy_consulting_apm_selection.svg" alt="Bild zur Strategie für PdM- und APM-Lösungsauswahl" height="200"/>
-</div>
+</div> -->
 
 **Herausforderung:** Der Markt ist gefüllt mit PdM- und APM-Software. Wie wählen Sie die Lösung, die am besten zu Ihren spezifischen Anlagen, Ihrer bestehenden Infrastruktur, Ihrer Datenreife und Ihren Geschäftszielen passt?
 
@@ -43,9 +43,9 @@ Meine Beratungsleistungen sind darauf zugeschnitten, die einzigartigen Herausfor
 
 ### 2. Entwicklung einer KI-Strategie & Roadmap für die Instandhaltung
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
 <img src="{{ site.url_ai_images }}/ai_strategy_roadmap_maintenance.svg" alt="Bild zur KI-Strategie und Roadmap für die Instandhaltung" height="200"/>
-</div>
+</div> -->
 
 **Herausforderung:** Sie erkennen das Potenzial von KI, benötigen aber eine klare Strategie, um sie effektiv in Ihre Instandhaltungs- und Zuverlässigkeitsprogramme zu integrieren.
 
@@ -62,9 +62,9 @@ Meine Beratungsleistungen sind darauf zugeschnitten, die einzigartigen Herausfor
 
 ### 3. Beratung zu Datenreadiness & Infrastruktur für KI
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
 <img src="{{ site.url_ai_images }}/data_readiness_ai_infrastructure.svg" alt="Bild zur Datenreadiness für KI" height="200"/>
-</div>
+</div> -->
 
 **Herausforderung:** Effektive KI basiert auf guten Daten. Ist Ihre Dateninfrastruktur bereit, fortschrittliche Analysen und prädiktive Modellierung zu unterstützen?
 
@@ -81,9 +81,9 @@ Meine Beratungsleistungen sind darauf zugeschnitten, die einzigartigen Herausfor
 
 ### 4. Konzeption & unabhängige Bewertung von Proof-of-Concepts (PoC)
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
 <img src="{{ site.url_ai_images }}/poc_design_evaluation.svg" alt="Bild zur Konzeption und Bewertung von Proof of Concepts" height="200"/>
-</div>
+</div> -->
 
 **Herausforderung:** Vor einer umfassenden Implementierung möchten Sie die Wirksamkeit einer bestimmten KI-Lösung oder eines Ansatzes für Ihre spezifische Umgebung validieren.
 
@@ -100,9 +100,9 @@ Meine Beratungsleistungen sind darauf zugeschnitten, die einzigartigen Herausfor
 
 ### 5. Chancen durch Generative KI (GenAI) für operative Effizienz
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
 <img src="{{ site.url_ai_images }}/genai_opportunities_ops.svg" alt="Bild zu Generativer KI für den Betrieb" height="200"/>
-</div>
+</div> -->
 
 **Herausforderung:** Wie können die neuesten Entwicklungen im Bereich der Generativen KI und Large Language Models (LLMs) praktisch angewendet werden, um Instandhaltungsprozesse, Wissensmanagement und Entscheidungsunterstützung in Ihrem Betrieb zu verbessern?
 
