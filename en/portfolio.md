@@ -129,7 +129,7 @@ _For a SaaS provider of PdM solutions, this project aimed to improve the accurac
 ### <i class="fa fa-line-chart"></i> Forecasting Power Output: Informing Strategic Technology Choices (POC)
 
 <div style="text-align: center;">
-<img src="{{ site.url_ai_images }}/ChatGPT Image Jun 2, 2025, 10_49_34 AM - Forecasting Power Output POC.svg" alt="Forecasting Power Output POC" height="200"/> <!-- Placeholder image, replace with a more relevant one -->
+<img src="{{ site.url_ai_images }}/ChatGPT Image Jun 2, 2025, 10_49_34 AM - Forecasting Power Output POC.svg" alt="Forecasting Power Output POC" height="200"/>
 </div>
 
 _Delivered a critical Proof of Concept (POC) for a SaaS provider of PdM solutions, to evaluate Machine Learning (ML) models for forecasting power plant output (D+1, D+2), providing critical support for their R&D efforts for a new forecasting product._

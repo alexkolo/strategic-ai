@@ -1,2 +1,6 @@
 *.zip
 *repo strategic-ai*.txt
+
+# Flatten repo to text
+/flattened/*
+!flattened/.flatten_ignore
