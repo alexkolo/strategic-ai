@@ -31,3 +31,19 @@
 - emphasize also "process optimization" more
 - emphasize industry 4.0 and IIOT more
 -
+
+## Media / fotos
+
+- KIAA interview 2026 ? 2017
+  - "10th Anniversary Celebration of the Kavli Institute for Astronomy and Astrophysics at Peking University"
+    - artcile ; https://kiaa.pku.edu.cn/info/1031/1127.htm
+    - video: https://www.bilibili.com/video/av10303144/
+      - https://www.bilibili.com/video/BV1gx411m7Eo/?share_source=copy_web&t=363
+      - 06:04 - 06:12 (8 secs)
+      - screenshots C:\onedrive\Archive\work\AstroFiles\2018_KIAA_MPA\KIAA_Media
+- KIAA press releases ?
+- byopic pictures
+- PhD defense 2015
+- Diplom defense 2010
+- metrocope logo picture
+  - power plant picture
