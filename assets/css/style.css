@@ -53,12 +53,12 @@ body {
 }
 
 /* 5) Link styling: more elegant than default underline */
-a:not(.book-call-btn) {
+a:not(.book-call-btn):not(.testimonial_toggle) {
   color: #333;
   text-decoration: none;
   border-bottom: 1px dotted #333;
 }
-a:not(.book-call-btn):hover {
+a:not(.book-call-btn):not(.testimonial_toggle):hover {
   border-bottom: 1px solid #333;
 }
 
@@ -421,7 +421,7 @@ a:not(.book-call-btn):hover {
   /* Add any specific styling if needed, e.g., margin-top */
 }
 
-/* ---------- Testimonials Section (Homepage) ---------- */
+/* ---------- Homepage: Testimonials Section ---------- */
 
 .testimonials_section {
   padding: 2em 1em;
@@ -433,9 +433,9 @@ a:not(.book-call-btn):hover {
 .testimonials_section h3 {
   /* font-family: "Montserrat", sans-serif; */
   font-size: 1.8em;
-  color: #333333;
+  color: black !important;
   text-align: center;
-  margin-bottom: 1.5em;
+  /* margin-bottom: 1.5em; */
   font-weight: 700;
 }
 
@@ -530,3 +530,5 @@ p.testimonial_author {
     text-align: right;
   }
 }
+
+/* ---------- ---------- */
