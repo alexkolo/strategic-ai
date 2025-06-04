@@ -165,6 +165,20 @@ a:not(.book-call-btn):hover {
   vertical-align: middle;
 }
 
+.linkedin-icon {
+  text-decoration: none !important; /* Remove underline */
+  border: none !important; /* Remove border */
+}
+
+.linkedin-icon i {
+  color: #0063fb;
+}
+
+.linkedin-icon:hover {
+  color: inherit !important; /* Keep original color */
+  background-color: transparent !important; /* No hover background */
+}
+
 /* --------- call button ---------- */
 .book-call-btn {
   background-color: #0063fb;
