@@ -22,7 +22,7 @@
         <a href="javascript:void(0);" class="testimonial_toggle" onclick="toggleTestimonial(this)">...see more</a>
       </p>
       <p class="testimonial_author">— {{ testimonial.author }}, {{ testimonial.title_company }}</p>
-      {% if testimonial.portfolio_link %}
+      {% if testimonial.portfolio_anchor %}
       <p class="testimonial_portfolio_link">
         <a href="{{ site.baseurl }}/en/portfolio#{{ testimonial.portfolio_anchor }}">Read the case study →</a>
       </p>

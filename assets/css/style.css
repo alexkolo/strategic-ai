@@ -381,9 +381,9 @@ a:not(.book-call-btn):not(.testimonial_toggle):hover {
 }
 
 .testimonial_toggle {
-  /* color: #0063fb; */
+  color: #0063fb;
   text-decoration: none;
-  font-weight: bold;
+  /* font-weight: bold; */
   font-size: 0.9em;
   margin-left: 5px; /* Space before the link */
   cursor: pointer;
