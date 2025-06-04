@@ -420,3 +420,113 @@ a:not(.book-call-btn):hover {
 .page-content-below-subnav {
   /* Add any specific styling if needed, e.g., margin-top */
 }
+
+/* ---------- Testimonials Section (Homepage) ---------- */
+
+.testimonials_section {
+  padding: 2em 1em;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 900px; /* Match client_outcomes_container or your content width */
+}
+
+.testimonials_section h3 {
+  /* font-family: "Montserrat", sans-serif; */
+  font-size: 1.8em;
+  color: #333333;
+  text-align: center;
+  margin-bottom: 1.5em;
+  font-weight: 700;
+}
+
+.testimonial_item_full {
+  background-color: #fdfdfd; /* Slightly different from outcome_item for distinction, or make it same #f8f9fa */
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1.5em;
+  margin-bottom: 2em; /* Space between multiple testimonials if added later */
+  display: flex; /* For image and text side-by-side */
+  flex-direction: column; /* Stack header and content on small screens */
+  align-items: center; /* Center items when stacked */
+}
+
+.testimonial_header {
+  margin-bottom: 1em;
+  flex-shrink: 0; /* Prevent image from shrinking */
+}
+
+.testimonial_img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%; /* Circular image */
+  object-fit: cover; /* Ensure image covers the area well */
+  border: 2px solid #0063fb; /* Optional: border with your brand color */
+}
+
+/* Alternative for Font Awesome icon if not using image */
+.testimonial_icon {
+  color: #0063fb; /* Brand color for icon */
+  margin-bottom: 0.5em;
+}
+
+.testimonial_content {
+  text-align: left; /* Default to left for content */
+}
+
+.testimonial_item_full p.testimonial_text {
+  /* font-family: "Dosis Light", sans-serif; */
+  font-size: 1.05em; /* Slightly larger for emphasis */
+  line-height: 1.7;
+  color: #444444; /* Slightly darker than regular paragraph for readability */
+  margin-bottom: 1em;
+  font-style: italic; /* Common styling for testimonials */
+}
+
+.testimonial_text .testimonial_snippet,
+.testimonial_text .testimonial_more_text {
+  /* Base styling, can be adjusted */
+}
+
+.testimonial_toggle {
+  /* font-family: "Montserrat", sans-serif; */
+  color: #0063fb;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.9em;
+  margin-left: 5px; /* Space before the link */
+  cursor: pointer;
+  display: inline-block; /* Allow it to sit nicely */
+}
+
+.testimonial_toggle:hover {
+  text-decoration: underline;
+}
+
+p.testimonial_author {
+  /* font-family: "Montserrat", sans-serif; */
+  font-weight: 600;
+  font-size: 0.95em;
+  color: #333333;
+  text-align: right; /* Align author to the right */
+  margin-top: 1em;
+  margin-bottom: 0;
+}
+
+/* Responsive adjustments for testimonial item layout */
+@media (min-width: 600px) {
+  .testimonial_item_full {
+    flex-direction: row; /* Image beside text */
+    align-items: flex-start; /* Align items to the top */
+    text-align: left;
+  }
+  .testimonial_header {
+    margin-right: 1.5em;
+    margin-bottom: 0;
+  }
+  .testimonial_content {
+    flex-grow: 1;
+  }
+  p.testimonial_author {
+    text-align: right;
+  }
+}

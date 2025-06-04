@@ -1,0 +1,135 @@
+---
+layout: default
+title: Home
+font_family: "Dosis Light"
+lang: en
+---
+
+<div class="container_center">
+  <img src="{{ site.profile_image }}" alt="{{ site.my_name.en }} Profile Image" class="logo" />
+
+  <h1>Achieve Optimal Asset Performance & AI Product Leadership</h1>
+  <h2>I'm {{ site.my_name.en }}, a {{ site.my_role.en }}</h2>
+
+  <div class="slogan">
+    I build market-leading AI features for Technology Providers & deliver game-changing AI strategies for Asset
+    Operators.
+  </div>
+
+  <p>
+    If you're ready to leverage AI for transformative growth, enhanced efficiency, or a stronger competitive edge, let's
+    explore how my expertise can deliver your specific goals.
+  </p>
+  <a href="{{ site.meeting_link }}" target="_blank" class="book-call-btn">Book a Call to discuss your AI projects</a>
+</div>
+
+<hr />
+
+<div class="client_outcomes_container">
+  <h3>Delivering Measurable Impact</h3>
+
+  <div class="outcome_item">
+    <h4>Doubled SaaS Product Portfolio for a Predictive Maintenance Startup</h4>
+    <p>
+      Led algorithm development for a new anomaly detection product, significantly enhancing predictive capabilities &
+      market competitiveness.
+    </p>
+    <p><a href="{{ site.baseurl }}/en/portfolio#pdm-product-launch">Learn More →</a></p>
+  </div>
+
+  <div class="outcome_item">
+    <h4>Reduced Digital Twin Calibration Costs by Over 50%</h4>
+    <p>
+      Enhanced CCGT digital twin accuracy & efficiency by integrating advanced statistical models, improving diagnostic
+      capabilities.
+    </p>
+    <p><a href="{{ site.baseurl }}/en/portfolio#digital-twin-optimization">Learn More →</a></p>
+  </div>
+
+  <div class="outcome_item">
+    <h4>Cut Data Ingestion Time by Over 90%</h4>
+    <p>
+      Architected and deployed a universal ETL pipeline, accelerating client onboarding & improving data quality for a
+      PdM SaaS provider.
+    </p>
+    <p><a href="{{ site.baseurl }}/en/portfolio#data-ingestion-transformation">Learn More →</a></p>
+  </div>
+
+  <p style="text-align: center; margin-top: 1.5em">
+    <a href="{{ site.baseurl }}/en/portfolio" class="cta-link">Explore All Case Studies</a>
+  </p>
+</div>
+
+<!-- NEW TESTIMONIALS SECTION START -->
+<hr />
+<div class="testimonials_section">
+  <h3>What Clients Say</h3>
+  <div class="testimonial_item_full">
+    <div class="testimonial_header">
+      <img src="assets/images/sebastian_kraiker_in.jpg" alt="Sebastian Kraiker" class="testimonial_img" />
+    </div>
+    <div class="testimonial_content">
+      <p class="testimonial_text">
+        <span class="testimonial_snippet"
+          >"I was impressed by his strategic AI expertise and proactive R&D leadership. He quickly grasped our field and
+          led investigations into natural language processing (NLP) and sentiment analysis to evaluate the qualitative
+          aspects of user generated texts. He thoroughly analyzed our data, identified key challenges, and, most
+          importantly, delivered an insightful strategic proposal that outlined a clear path for developing and
+          validating robust AI models. This proposal was invaluable for our planning.</span
+        >
+        <span class="testimonial_more_text" style="display: none"
+          >Alex also brought a forward-thinking perspective on generative AI. Alex combines analytical rigor with clear
+          communication and a pragmatic, results-oriented approach. His work provided us with crucial insights and
+          significantly influenced our decisions regarding future AI product development. I highly recommend Alex to any
+          tech company looking to innovate with AI, develop data-driven product strategies, or needing expert guidance
+          on NLP/ML projects. He delivers both deep technical understanding and strategic clarity."</span
+        >
+        <a href="javascript:void(0);" class="testimonial_toggle" onclick="toggleTestimonial(this)">...see more</a>
+      </p>
+      <p class="testimonial_author">— Sebastian Kraiker, CEO & Founder, LetsVibe App</p>
+    </div>
+  </div>
+  <!-- Add more testimonial_item_full divs here for future testimonials -->
+</div>
+<!-- NEW TESTIMONIALS SECTION END -->
+
+<hr />
+<div class="highlights">
+  <div>
+    <i class="fa fa-star fa-spin fa-3x"></i>
+    <h4>My Services</h4>
+    <p>See how my expertise can elevate your AI software or optimize your industrial AI strategy.</p>
+    <a href="{{ site.baseurl }}/en/services_build">Unlock Your AI Potential</a>
+  </div>
+  <div>
+    <i class="fa fa-trophy fa-4x"></i>
+    <h4>Proven Results</h4>
+    <p>Explore real-world examples of how I've driven tangible value & measurable impact.</p>
+    <a href="{{ site.baseurl }}/en/portfolio">View My Success Stories</a>
+  </div>
+  <div>
+    <i class="fa fa-user fa-3x"></i>
+    <h4>About Me</h4>
+    <p>Discover the expertise & experience that enables me to deliver <i>your</i> Strategic AI Vision.</p>
+    <a href="{{ site.baseurl }}/en/about">Why Partner With Me</a>
+  </div>
+</div>
+
+<!-- JavaScript for Testimonial Toggle -->
+<script>
+  function toggleTestimonial(element) {
+    var testimonialContent = element.closest(".testimonial_content");
+    var moreText = testimonialContent.querySelector(".testimonial_more_text");
+    var snippetText = testimonialContent.querySelector(".testimonial_snippet");
+
+    if (moreText.style.display === "none") {
+      moreText.style.display = "inline"; // Changed from "block" to "inline"
+      snippetText.style.display = "inline"; // Ensure snippet remains inline
+      element.textContent = "(see less)";
+    } else {
+      moreText.style.display = "none";
+      snippetText.style.display = "inline"; // Ensure snippet remains inline
+      element.textContent = "...see more";
+    }
+  }
+</script>
