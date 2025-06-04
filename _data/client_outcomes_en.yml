@@ -1,0 +1,11 @@
+- title: "Doubled SaaS Product Portfolio for a Predictive Maintenance Startup"
+  description: "Led algorithm development for a new anomaly detection product, significantly enhancing predictive capabilities & market competitiveness."
+  portfolio_anchor: "pdm-product-launch"
+
+- title: "Reduced Digital Twin Calibration Costs by Over 50%"
+  description: "Enhanced CCGT digital twin accuracy & efficiency by integrating advanced statistical models, improving diagnostic capabilities."
+  portfolio_anchor: "digital-twin-optimization"
+
+- title: "Cut Data Ingestion Time by Over 90%"
+  description: "Architected and deployed a universal ETL pipeline, accelerating client onboarding & improving data quality for a PdM SaaS provider."
+  portfolio_anchor: "data-ingestion-transformation"
