@@ -31,9 +31,8 @@
 
 ## small fixes
 
-- add images for `services_consult.md`
-- emphasize also "process optimization" more
-- emphasize industry 4.0 and IIOT more
+- add images to `services_consult.md`
+- add image to `portfolio.md`: "Shaping AI Strategy for Enhanced Mobile User Interaction (NLP R&D)"
 -
 
 ## Media / fotos
