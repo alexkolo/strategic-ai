@@ -47,3 +47,7 @@
 - Diplom defense 2010
 - metrocope logo picture
   - power plant picture
+
+## Branding
+
+- accent color: #0063fb (RGB: 0,99, 251)
