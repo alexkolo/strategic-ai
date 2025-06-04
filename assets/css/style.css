@@ -207,7 +207,7 @@ a:not(.book-call-btn):not(.testimonial_toggle):hover {
   color: white; /* maintain white on hover too */
 }
 
-/* --------- Home page  Client Outcomes ---------- */
+/* --------- Home page: Client Outcome Section ---------- */
 
 .client_outcomes_container {
   padding: 1em 1em; /* Reduce vertical padding */
@@ -319,108 +319,6 @@ a:not(.book-call-btn):not(.testimonial_toggle):hover {
   */
 }
 
-/* --------- Home page highlights ---------- */
-.highlights {
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
-  margin-top: 2rem;
-  gap: 2rem;
-}
-
-/* Ensure headers remain center-aligned even if parent is justified or aligned */
-.highlights h4 {
-  text-align: center !important;
-}
-
-.highlights div {
-  flex: 1;
-  padding: 1rem;
-}
-/* .highlights a {
-  display: inline-block;
-  margin-top: 0.5rem;
-  border-bottom: 1px solid #0063fb;
-  color: #0063fb;
-} */
-
-.highlights i {
-  color: #0063fb;
-  margin-bottom: 0.5rem;
-}
-
-.soft-divider {
-  border: none;
-  height: 2px;
-  background-color: rgba(0, 0, 0, 0.1); /* light gray */
-  width: 50%;
-  margin: 1em auto;
-}
-
-/* --------- Sub-navigation for Services Pages ---------- */
-.sub-navigation {
-  text-align: center;
-  margin-top: 1.5rem; /* Space below main navbar */
-  margin-bottom: 2rem; /* Space above page content */
-  padding-bottom: 0.75rem;
-  border-bottom: 1px solid #e0e0e0; /* Lighter than main hr, softer separator */
-}
-
-.sub-navigation nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex; /* Arrange items in a row */
-  justify-content: center; /* Center the items */
-  gap: 1rem; /* Space between sub-nav items */
-}
-
-.sub-navigation nav ul li {
-  display: inline-block; /* Keep them inline */
-}
-
-.sub-navigation nav ul li a {
-  text-decoration: none;
-  color: #555; /* Slightly muted color for non-active sub-nav items */
-  font-weight: normal; /* Less prominent than main nav */
-  font-size: 0.95rem; /* Slightly smaller than main nav items, adjust as needed */
-  padding: 8px 16px; /* Generous padding for clickability */
-  border-radius: 4px;
-  transition: color 0.3s ease, background-color 0.3s ease;
-  border-bottom: none; /* Remove the dotted underline from general 'a' tags */
-}
-
-.sub-navigation nav ul li a:hover {
-  color: #0063fb; /* Highlight color on hover */
-  background-color: #f0f0f0; /* Subtle background on hover */
-  border-bottom: none; /* Ensure no underline on hover */
-}
-
-.sub-navigation nav ul li a.active {
-  color: white; /* White text for active item */
-  background-color: #0063fb; /* Same active color as main navbar */
-  font-weight: bold; /* Make active item bold */
-  border-bottom: none; /* Ensure no underline for active item */
-}
-
-/* Responsive adjustments for sub-navigation */
-@media (max-width: 600px) {
-  .sub-navigation nav ul {
-    flex-direction: column; /* Stack items vertically on small screens */
-    gap: 0.5rem; /* Adjust gap for vertical layout */
-  }
-
-  .sub-navigation nav ul li a {
-    display: block; /* Make links take full width for easier tapping */
-    padding: 10px 16px; /* Adjust padding for vertical layout */
-  }
-}
-
-/* Optional: If you added a .page-content-below-subnav div in your layout */
-.page-content-below-subnav {
-  /* Add any specific styling if needed, e.g., margin-top */
-}
-
 /* ---------- Homepage: Testimonials Section ---------- */
 
 .testimonials_section {
@@ -482,14 +380,8 @@ a:not(.book-call-btn):not(.testimonial_toggle):hover {
   font-style: italic; /* Common styling for testimonials */
 }
 
-.testimonial_text .testimonial_snippet,
-.testimonial_text .testimonial_more_text {
-  /* Base styling, can be adjusted */
-}
-
 .testimonial_toggle {
-  /* font-family: "Montserrat", sans-serif; */
-  color: #0063fb;
+  /* color: #0063fb; */
   text-decoration: none;
   font-weight: bold;
   font-size: 0.9em;
@@ -503,7 +395,6 @@ a:not(.book-call-btn):not(.testimonial_toggle):hover {
 }
 
 p.testimonial_author {
-  /* font-family: "Montserrat", sans-serif; */
   font-weight: 600;
   font-size: 0.95em;
   color: #333333;
@@ -529,6 +420,108 @@ p.testimonial_author {
   p.testimonial_author {
     text-align: right;
   }
+}
+
+/* --------- Home page: highlights section ---------- */
+.highlights {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 2rem;
+  gap: 2rem;
+}
+
+/* Ensure headers remain center-aligned even if parent is justified or aligned */
+.highlights h4 {
+  text-align: center !important;
+}
+
+.highlights div {
+  flex: 1;
+  padding: 1rem;
+}
+/* .highlights a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  border-bottom: 1px solid #0063fb;
+  color: #0063fb;
+} */
+
+.highlights i {
+  color: #0063fb;
+  margin-bottom: 0.5rem;
+}
+
+.soft-divider {
+  border: none;
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.1); /* light gray */
+  width: 50%;
+  margin: 1em auto;
+}
+
+/* --------- Services Pages: Sub-navigation ---------- */
+.sub-navigation {
+  text-align: center;
+  margin-top: 1.5rem; /* Space below main navbar */
+  margin-bottom: 2rem; /* Space above page content */
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #e0e0e0; /* Lighter than main hr, softer separator */
+}
+
+.sub-navigation nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Arrange items in a row */
+  justify-content: center; /* Center the items */
+  gap: 1rem; /* Space between sub-nav items */
+}
+
+.sub-navigation nav ul li {
+  display: inline-block; /* Keep them inline */
+}
+
+.sub-navigation nav ul li a {
+  text-decoration: none;
+  color: #555; /* Slightly muted color for non-active sub-nav items */
+  font-weight: normal; /* Less prominent than main nav */
+  font-size: 0.95rem; /* Slightly smaller than main nav items, adjust as needed */
+  padding: 8px 16px; /* Generous padding for clickability */
+  border-radius: 4px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  border-bottom: none; /* Remove the dotted underline from general 'a' tags */
+}
+
+.sub-navigation nav ul li a:hover {
+  color: #0063fb; /* Highlight color on hover */
+  background-color: #f0f0f0; /* Subtle background on hover */
+  border-bottom: none; /* Ensure no underline on hover */
+}
+
+.sub-navigation nav ul li a.active {
+  color: white; /* White text for active item */
+  background-color: #0063fb; /* Same active color as main navbar */
+  font-weight: bold; /* Make active item bold */
+  border-bottom: none; /* Ensure no underline for active item */
+}
+
+/* Responsive adjustments for sub-navigation */
+@media (max-width: 600px) {
+  .sub-navigation nav ul {
+    flex-direction: column; /* Stack items vertically on small screens */
+    gap: 0.5rem; /* Adjust gap for vertical layout */
+  }
+
+  .sub-navigation nav ul li a {
+    display: block; /* Make links take full width for easier tapping */
+    padding: 10px 16px; /* Adjust padding for vertical layout */
+  }
+}
+
+/* Optional: If you added a .page-content-below-subnav div in your layout */
+.page-content-below-subnav {
+  /* Add any specific styling if needed, e.g., margin-top */
 }
 
 /* ---------- ---------- */

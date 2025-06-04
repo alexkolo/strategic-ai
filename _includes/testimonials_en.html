@@ -1,0 +1,52 @@
+<hr />
+<div class="testimonials_section">
+  <h3>What Clients Say</h3>
+  {% for testimonial in site.data.testimonials_en %}
+  <div class="testimonial_item_full">
+    <div class="testimonial_header">
+      {% if testimonial.image_url %}
+      <img
+        src="{{ site.baseurl }}/{{ testimonial.image_url }}"
+        alt="{{ default: testimonial.author }}"
+        class="testimonial_img"
+      />
+      {% else %}
+      <!-- Fallback if no image_url is provided, e.g., a Font Awesome icon -->
+      <i class="fa fa-user-circle fa-4x testimonial_icon"></i>
+      {% endif %}
+    </div>
+    <div class="testimonial_content">
+      <p class="testimonial_text">
+        <span class="testimonial_snippet">"{{ testimonial.snippet }}</span>
+        <span class="testimonial_more_text" style="display: none">{{ testimonial.more_text }}"</span>
+        <a href="javascript:void(0);" class="testimonial_toggle" onclick="toggleTestimonial(this)">...see more</a>
+      </p>
+      <p class="testimonial_author">— {{ testimonial.author }}, {{ testimonial.title_company }}</p>
+      {% if testimonial.portfolio_link %}
+      <p class="testimonial_portfolio_link">
+        <a href="{{ site.baseurl }}/en/portfolio#{{ testimonial.portfolio_anchor }}">Read the case study →</a>
+      </p>
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<!-- JavaScript for Testimonial Toggle -->
+<script>
+  function toggleTestimonial(element) {
+    var testimonialContent = element.closest(".testimonial_content");
+    var moreText = testimonialContent.querySelector(".testimonial_more_text");
+    var snippetText = testimonialContent.querySelector(".testimonial_snippet");
+
+    if (moreText.style.display === "none") {
+      moreText.style.display = "inline"; // Changed from "block" to "inline"
+      snippetText.style.display = "inline"; // Ensure snippet remains inline
+      element.textContent = "(see less)";
+    } else {
+      moreText.style.display = "none";
+      snippetText.style.display = "inline"; // Ensure snippet remains inline
+      element.textContent = "...see more";
+    }
+  }
+</script>

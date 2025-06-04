@@ -61,36 +61,7 @@ lang: en
 </div>
 
 <!-- NEW TESTIMONIALS SECTION START -->
-<hr />
-<div class="testimonials_section">
-  <h3>What Clients Say</h3>
-  <div class="testimonial_item_full">
-    <div class="testimonial_header">
-      <img src="assets/images/sebastian_kraiker_in.jpg" alt="Sebastian Kraiker" class="testimonial_img" />
-    </div>
-    <div class="testimonial_content">
-      <p class="testimonial_text">
-        <span class="testimonial_snippet"
-          >"I was impressed by his strategic AI expertise and proactive R&D leadership. He quickly grasped our field and
-          led investigations into natural language processing (NLP) and sentiment analysis to evaluate the qualitative
-          aspects of user generated texts. He thoroughly analyzed our data, identified key challenges, and, most
-          importantly, delivered an insightful strategic proposal that outlined a clear path for developing and
-          validating robust AI models. This proposal was invaluable for our planning.</span
-        >
-        <span class="testimonial_more_text" style="display: none"
-          >Alex also brought a forward-thinking perspective on generative AI. Alex combines analytical rigor with clear
-          communication and a pragmatic, results-oriented approach. His work provided us with crucial insights and
-          significantly influenced our decisions regarding future AI product development. I highly recommend Alex to any
-          tech company looking to innovate with AI, develop data-driven product strategies, or needing expert guidance
-          on NLP/ML projects. He delivers both deep technical understanding and strategic clarity."</span
-        >
-        <a href="javascript:void(0);" class="testimonial_toggle" onclick="toggleTestimonial(this)">...see more</a>
-      </p>
-      <p class="testimonial_author">— Sebastian Kraiker, CEO & Founder, LetsVibe App</p>
-    </div>
-  </div>
-  <!-- Add more testimonial_item_full divs here for future testimonials -->
-</div>
+{% include testimonials_en.html %}
 <!-- NEW TESTIMONIALS SECTION END -->
 
 <hr />
@@ -114,22 +85,3 @@ lang: en
     <a href="{{ site.baseurl }}/en/about">Why Partner With Me</a>
   </div>
 </div>
-
-<!-- JavaScript for Testimonial Toggle -->
-<script>
-  function toggleTestimonial(element) {
-    var testimonialContent = element.closest(".testimonial_content");
-    var moreText = testimonialContent.querySelector(".testimonial_more_text");
-    var snippetText = testimonialContent.querySelector(".testimonial_snippet");
-
-    if (moreText.style.display === "none") {
-      moreText.style.display = "inline"; // Changed from "block" to "inline"
-      snippetText.style.display = "inline"; // Ensure snippet remains inline
-      element.textContent = "(see less)";
-    } else {
-      moreText.style.display = "none";
-      snippetText.style.display = "inline"; // Ensure snippet remains inline
-      element.textContent = "...see more";
-    }
-  }
-</script>

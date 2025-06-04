@@ -1,0 +1,8 @@
+- id: sebastian_kraiker # A unique ID for this testimonial
+  image_url: "assets/images/sebastian_kraiker_in.jpg"
+  author: "Sebastian Kraiker"
+  title_company: "CEO & Founder, LetsVibe"
+  snippet: "I was impressed by his strategic AI expertise and proactive R&D leadership. He quickly grasped our field and led investigations into natural language processing (NLP) and sentiment analysis to evaluate the qualitative aspects of user generated texts. He thoroughly analyzed our data, identified key challenges, and, most importantly, delivered an insightful strategic proposal that outlined a clear path for developing and validating robust AI models. This proposal was invaluable for our planning."
+  more_text: " Alex also brought a forward-thinking perspective on generative AI. Alex combines analytical rigor with clear communication and a pragmatic, results-oriented approach. His work provided us with crucial insights and significantly influenced our decisions regarding future AI product development. I highly recommend Alex to any tech company looking to innovate with AI, develop data-driven product strategies, or needing expert guidance on NLP/ML projects. He delivers both deep technical understanding and strategic clarity."
+  # Optional: Add a link to the related portfolio item if you want to create a "Read full case study" link from the testimonial
+  portfolio_anchor: "letsvibe-nlp-strategy"

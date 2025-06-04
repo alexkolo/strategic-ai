@@ -9,6 +9,8 @@
 
 - png 2 svg: https://www.pngtosvg.com/
 
+- technologies: static site generator Jekyll
+
 ## Ai help
 
 - styling: https://chatgpt.com/c/68259981-4fb0-8011-9c60-df3e32d9c250
