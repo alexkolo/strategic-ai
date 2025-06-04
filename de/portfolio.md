@@ -20,7 +20,7 @@ _Erfahren Sie, wie ich **Technologieanbieter** dabei unterstütze, marktführend
 
 - [Prognose der Energieerzeugung: Basis für strategische Entscheidungen](#forecasting-poc)
 
-- [Entwicklung der KI-Strategie für verbesserte Nutzerinteraktionen](#letsvibe-nlp-strategie)
+- [Entwicklung der KI-Strategie für verbesserte Nutzerinteraktionen](#letsvibe-nlp-strategy)
 
 - [Entwicklung eines KI-gestützten Q&A-Assistenten mit Generativer KI](#genai-qna-companion)
 
@@ -158,7 +158,7 @@ _Durchführung eines kritischen Proof of Concept (POC) für einen SaaS-Anbieter 
 
 - **Schlüsseltechnologien & Methoden:** Python (Pandas, Scikit-learn, XGBoost), Zeitreihenprognose, Feature-Engineering (verzögerte Merkmale, One-Hot-Kodierung), Modellbewertung (MAE, RMSE), Rapid Prototyping, Technische Kommunikation.
 
-{:#letsvibe-nlp-strategie}
+{:#letsvibe-nlp-strategy}
 <br>
 
 ### <i class="fa fa-comments"></i> Entwicklung der KI-Strategie für verbesserte mobile Nutzerinteraktionen (NLP F&E)
