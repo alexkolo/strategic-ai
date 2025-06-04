@@ -19,12 +19,11 @@
     {% endif %}
   </head>
   <body style="font-family: {{ site.font_family }}, sans-serif;" class="lang-{{ page.lang | default: site.lang }}">
-    {% comment %} Determine the effective language once {% endcomment %} {% assign effective_lang = page.lang | default:
-    site.lang %}
+    {% assign effective_lang = page.lang | default: site.lang %}
 
     <div class="container-md px-3 my-5 markdown-body">
-      {% comment %} Use the simplified condition for navigation {% endcomment %} {% if effective_lang == "de" %} {%
-      include navigation_de.html %} {% else %} {% include navigation_en.html %} {% endif %}
+      {% if effective_lang == "de" %} {% include navigation_de.html %} {% else %} {% include navigation_en.html %} {%
+      endif %}
 
       <div
         style="font-family: {{ page.font_family | default: site.font_family }}, sans-serif; {% if page.text_align %}text-align: {{ page.text_align }};{% endif %}"
@@ -33,7 +32,6 @@
         <hr />
       </div>
     </div>
-    {% comment %} Use the simplified condition for footer {% endcomment %} {% if effective_lang == "de" %} {% include
-    footer_de.html %} {% else %} {% include footer_en.html %} {% endif %}
+    {% if effective_lang == "de" %} {% include footer_de.html %} {% else %} {% include footer_en.html %} {% endif %}
   </body>
 </html>
