@@ -175,13 +175,12 @@ a:not(.book-call-btn):hover {
 }
 
 .linkedin-icon:hover {
-  /* color: inherit !important; Keep original color */
-  /* background-color: transparent !important; No hover background */
-  background-color: #0063fb;
+  color: inherit !important; /* Keep original color */
+  background-color: transparent !important; /* No hover background */
 }
 
 .linkedin-icon:hover i {
-  color: white;
+  color: #0050c1; /* slightly darker on hover */
 }
 
 /* --------- call button ---------- */
@@ -191,7 +190,7 @@ a:not(.book-call-btn):hover {
   text-decoration: none !important;
   border: none !important;
   border-radius: 999px; /* pill shape */
-  padding: 12px 6px;
+  padding: 12px 6px; /* 2nd value: horizontal padding */
   /* font-size: 16px; */
   font-weight: bold;
   cursor: pointer;
