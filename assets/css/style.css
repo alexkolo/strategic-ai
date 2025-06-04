@@ -132,7 +132,7 @@ a:not(.book-call-btn):hover {
 
 .navbar a:not(.book-call-btn):hover {
   color: white;
-  background-color: #0063fb;
+  background-color: #0050c1; /* slightly darker on hover */
   border-radius: 4px;
 }
 
@@ -160,7 +160,7 @@ a:not(.book-call-btn):hover {
   gap: 0.5rem; /* Space between LinkedIn and button */
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .navbar-call {
     width: 100%;
     justify-content: center;
