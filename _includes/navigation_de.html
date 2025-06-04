@@ -22,14 +22,16 @@
         >
       </li>
     </div>
-    <li class="navbar-call">
-      <a href="{{ site.linkedin_link }}" target="_blank" class="linkedin-icon"
-        ><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
-      </a>
-    </li>
-    <li class="navbar-call">
-      <a href="{{ site.meeting_link }}" target="_blank" class="book-call-btn">Termin buchen</a>
-    </li>
+    <div class="navbar-call">
+      <li>
+        <a href="{{ site.linkedin_link }}" target="_blank" class="linkedin-icon">
+          <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+        </a>
+      </li>
+      <li>
+        <a href="{{ site.meeting_link }}" target="_blank" class="book-call-btn">Termin buchen</a>
+      </li>
+    </div>
   </ul>
   {% unless page.url contains '/legal/' %}
   <div class="language-switch">

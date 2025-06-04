@@ -94,7 +94,7 @@ a:not(.book-call-btn):hover {
   align-items: center;
   flex-wrap: wrap; /* allow wrapping */
   justify-content: space-between;
-  padding: 12px 1rem;
+  padding: 12px 0.5rem;
   gap: clamp(10px, 4vw, 30px);
   background-color: #f8f8f8;
   list-style: none;
@@ -111,21 +111,9 @@ a:not(.book-call-btn):hover {
   flex: 1;
 }
 
-.navbar-call {
-  margin-left: auto;
-}
-
 @media (max-width: 480px) {
   .navbar {
     font-size: 100%; /* smaller font on narrow screens */
-  }
-}
-
-@media (max-width: 600px) {
-  .navbar-call {
-    margin-left: 0;
-    width: 100%;
-    text-align: center;
   }
 }
 
@@ -163,6 +151,22 @@ a:not(.book-call-btn):hover {
 .language-switch img {
   margin-right: 6px;
   vertical-align: middle;
+}
+
+.navbar-call {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  gap: 0.5rem; /* Space between LinkedIn and button */
+}
+
+@media (max-width: 600px) {
+  .navbar-call {
+    width: 100%;
+    justify-content: center;
+    margin-left: 0;
+    margin-top: 1rem; /* Optional for spacing */
+  }
 }
 
 .linkedin-icon {
