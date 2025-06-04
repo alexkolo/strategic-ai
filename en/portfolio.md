@@ -20,6 +20,8 @@ _Explore how I've supported **Technology Providers** to build market-leading AI 
 
 - [Forecasting Power Output: Informing Strategic Technology Choices](#forecasting-poc)
 
+- [Shaping AI Strategy for Enhanced User Interactions](#letsvibe-nlp-strategy)
+
 - [Developing an AI-Powered Q&A Companion with Generative AI](#genai-qna-companion)
 
 - [Foundational Expertise: Advanced Data Analysis & Innovative Modeling](#foundational-expertise)
@@ -156,6 +158,36 @@ _Delivered a critical Proof of Concept (POC) for a SaaS provider of PdM solution
 
 - **Key Technologies & Methodologies:** Python (Pandas, Scikit-learn, XGBoost), Time Series Forecasting, Feature Engineering (Lagged Features, One-Hot Encoding), Model Evaluation (MAE, RMSE), Rapid Prototyping, Technical Communication.
 
+{:#letsvibe-nlp-strategy}
+<br>
+
+### <i class="fa fa-comments"></i> Shaping AI Strategy for Enhanced Mobile User Interaction (NLP R&D)
+
+<!-- <div style="text-align: center;">
+<img src="{{ site.url_ai_images }}/ChatGPT Image Jun 3, 2025, 12_00_00 PM - NLP R&D for Mobile App.svg" alt="AI-Driven User Interaction R&D for Mobile App" height="200"/>
+</div> -->
+
+_For a mobile application provider (LetsVibe), I led an R&D initiative to explore AI-driven enhancements aimed at improving user interaction quality and engagement within their platform._
+
+- **The Business Imperative:** The client sought to innovate by integrating intelligent features to support users in crafting more effective communications, thereby aiming to increase user satisfaction, positive interactions, and overall app stickiness.
+
+- **My Strategic Solution & Implementation:** As an AI consultant, I spearheaded the initial research, feasibility assessment, and strategic planning for a novel in-app user support tool. My contributions included:
+
+  - Leading applied R&D into Natural Language Processing (NLP) and advanced sentiment analysis techniques, evaluating models to assess qualitative aspects of user-generated text.
+  - Conducting thorough analysis of existing (anonymized) user interaction data to identify patterns and inform AI model development strategies.
+  - Developing foundational data processing approaches and establishing initial machine learning baselines to benchmark the potential of more complex AI solutions.
+  - Delivering a comprehensive analysis of research findings, including the inherent challenges of evaluating model performance with organic interaction data, and authoring a strategic proposal for future AI feature development. This roadmap emphasized the critical need for high-quality, targeted evaluation data to ensure robust model training and validation, and also included considerations for potential GenAI applications.
+
+- **Value Delivered & Capabilities Showcased:**
+
+  - Provided the client with **crucial insights and a strategic framework** for their AI product development lifecycle, enabling informed decisions about future AI/NLP feature integration.
+  - Demonstrated expertise in **rapid AI concept validation, NLP/sentiment analysis R&D, and data-informed strategic planning** for technology providers looking to enhance software with intelligent capabilities.
+  - My work helped **clarify the technical path and data requirements** for developing a potentially high-impact user engagement feature.
+
+- **Key Learnings for Technology Providers:** This project underscored the importance of early-stage R&D and strategic data planning when exploring novel AI features. Addressing data quality and evaluation challenges upfront is critical for de-risking development and ensuring AI initiatives can deliver tangible product value.
+
+- **Key Technologies & Methodologies:** Python, Natural Language Processing (NLP), Sentiment Analysis, Machine Learning (Scikit-learn, Pandas), AI Product Strategy, Feasibility Studies, R&D, Data Analysis, Strategic AI Roadmapping.
+
 {:#genai-qna-companion}
 <br>
 
@@ -195,7 +227,7 @@ _This personal project, "Nutrify Your Life," involved developing an end-to-end R
 {:#foundational-expertise}
 <br>
 
-## <i class="fa fa-star-o"></i> Foundational Expertise: Advanced Data Analysis & Innovative Modeling
+### <i class="fa fa-star-o"></i> Foundational Expertise: Advanced Data Analysis & Innovative Modeling
 
 _My extensive background as a lead researcher in astrophysics (Max Planck Institute for Astrophysics, Kavli Institute for Astronomy & Astrophysics, CNRS/University of Paris-Saclay) honed critical skills directly transferable to solving complex industrial AI challenges for both Technology Providers and Asset Operators._ This period involved leading international projects analyzing petabyte-scale, noisy datasets from space observatories (XMM-Newton, ROSAT, Chandra), requiring the development and application of cutting-edge analytical techniques.
 
