@@ -4,3 +4,6 @@
 # Flatten repo to text
 /flattened/*
 !flattened/.flatten_ignore
+
+
+/local/*
