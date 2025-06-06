@@ -83,7 +83,7 @@ _My career path has been a deliberate progression, applying fundamental data sci
   - Developed innovative, **robust** Python-based ETL pipelines & **scalable** analytical tools, demonstrating the methodological rigor & problem-solving capabilities essential for today's challenging industrial data landscapes and AI deployments.
   - Authored first-author publications in leading peer-reviewed journals (e.g., _Astronomy & Astrophysics_) & secured competitive research grants (.e.g., [Chinese Postdoctoral Grant](https://kiaa.pku.edu.cn/info/1031/1166.htm)), underscoring deep analytical expertise and the ability to deliver on complex objectives. ([List of publications](https://ui.adsabs.harvard.edu/search/q=author%3A"Kolodzig"))
 
-- 2022 – 2024 **Data Scientist** – Metroscope (SaaS Provider for Predictive Maintenance, EDF Subsidiary) _Paris, France_
+- 2022 – 2024 **Data Scientist** – Metroscope (SaaS Provider for Asset Diagnostics, EDF Subsidiary) _Paris, France_
   <!-- MDC: Frame this as direct, relevant commercial experience -->
 
   - Applied data science & AI expertise to develop, deploy, & enhance cutting-edge, **reliable predictive maintenance (PdM)** solutions for the energy sector. This role involved deep dives into **both AI product development for a technology provider and understanding the practical operational needs of asset operators.**
@@ -92,7 +92,6 @@ _My career path has been a deliberate progression, applying fundamental data sci
     - Developing, modernizing, & implementing sophisticated algorithms for **anomaly detection** & **asset performance diagnostics, leading to more actionable insights for end-users.**
     - Building & deploying robust ETL pipelines for processing heterogeneous industrial client data, ensuring data quality & readiness for advanced analytics, **which accelerated client onboarding by over 90%.**
     - **Enhancing physics-based models** with advanced statistical & machine learning approaches (foundations for Physics-Informed Machine Learning), **reducing model calibration costs by over 50%.**
-  - _These experiences directly inform the strategic and technical value I deliver, as detailed in <a href="{{ site.baseurl }}/en/portfolio">My Success Stories</a>._
 
 - Since 2025 **{{ site.my_role.en }}** – {{ site.company }} (sole proprietorship), _Paris, France_
   - Leveraging my unique blend of scientific rigor and industrial AI expertise, I now partner directly with **Technology Providers** to build market-leading AI products and with **Asset Operators** to implement high-impact, data-driven strategies. For details, see <a href="{{ site.baseurl }}/en/services_build">My Services</a>.

@@ -78,7 +78,7 @@ _Mein Karriereweg war eine zielgerichtete Entwicklung, bei der grundlegende Data
   - Entwicklung innovativer, **robuster** Python-basierter ETL-Pipelines & **skalierbarer** Analysewerkzeuge, die die methodische Genauigkeit & Problemlösungsfähigkeiten demonstrieren, die für die heutigen herausfordernden industriellen Datenlandschaften und KI-Implementierungen unerlässlich sind.
   - Verfassen von Erstautor-Publikationen in führenden referierten Fachzeitschriften (z.B. _Astronomy & Astrophysics_) & Einwerbung kompetitiver Forschungsförderungen (z.B. [Chinesisches Postdoktoranden-Stipendium](https://kiaa.pku.edu.cn/info/1031/1166.htm)), was tiefe analytische Expertise und die Fähigkeit zur Erreichung komplexer Ziele unterstreicht. ([Publikationsliste](https://ui.adsabs.harvard.edu/search/q=author%3A"Kolodzig"))
 
-- 2022 – 2024 **Data Scientist** – Metroscope (SaaS-Anbieter für Predictive Maintenance, EDF-Tochtergesellschaft) _Paris, Frankreich_
+- 2022 – 2024 **Data Scientist** – Metroscope (SaaS-Anbieter für Anlagendiagnostik, EDF-Tochtergesellschaft) _Paris, Frankreich_
 
   - Anwendung von Data-Science- & KI-Expertise zur Entwicklung, Implementierung & Verbesserung hochmoderner, **zuverlässiger Predictive Maintenance (PdM)**-Lösungen für den Energiesektor. Diese Rolle umfasste tiefe Einblicke in **sowohl die KI-Produktentwicklung für einen Technologieanbieter als auch das Verständnis der praktischen betrieblichen Bedürfnisse von Anlagenbetreibern.**
   - Meine Arbeit trug direkt zur Verbesserung der Modellgenauigkeit & zur **Verdoppelung des SaaS-Produktportfolios des Unternehmens bei.**
@@ -86,7 +86,6 @@ _Mein Karriereweg war eine zielgerichtete Entwicklung, bei der grundlegende Data
     - Entwicklung, Modernisierung & Implementierung hochentwickelter Algorithmen zur **Anomalieerkennung** & **Anlagenleistungsdiagnose, was zu handlungsrelevanteren Erkenntnissen für Endanwender führte.**
     - Aufbau & Implementierung robuster ETL-Pipelines zur Verarbeitung heterogener industrieller Kundendaten, Sicherstellung der Datenqualität & -verfügbarkeit für fortschrittliche Analysen, **wodurch das Kunden-Onboarding um über 90% beschleunigt wurde.**
     - **Verbesserung physikbasierter Modelle** durch fortschrittliche statistische & Machine-Learning-Ansätze (Grundlagen für physikinforrmiertes Maschinelles Lernen), **wodurch die Modellkalibrierungskosten um über 50% gesenkt wurden.**
-  - _Diese Erfahrungen fließen direkt in den strategischen und technischen Mehrwert ein, den ich für meine Kunden liefere, wie in meinen <a href="{{ site.baseurl }}/de/portfolio">Erfolgsgeschichten</a> detailliert beschrieben._
 
 - Seit 2025 **Ihr {{ site.my_role.de }}** – {{ site.company }} (Einzelunternehmen), _Paris, Frankreich_
   - Mit meiner einzigartigen Mischung aus wissenschaftlicher Fundiertheit und industrieller KI-Expertise arbeite ich nun direkt mit **Technologieanbietern** zusammen, um marktführende KI-Produkte zu entwickeln, und mit **Anlagenbetreibern**, um wirkungsvolle, datengesteuerte Strategien zu implementieren. Details finden Sie unter <a href="{{ site.baseurl }}/de/services_build">Meine Services</a>.
