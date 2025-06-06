@@ -16,9 +16,9 @@ _Explore how I've supported **Technology Providers** to build market-leading AI 
 
 - [Industrializing Data Ingestion for Global Scalability](#data-ingestion-transformation)
 
-- [Enhancing Digital Twin ROI: Reducing Calibration Costs by 50%](#digital-twin-optimization)
+- [Integrating Statistical Models to Enhance Digital Twin Diagnostics](#digital-twin-optimization)
 
-- [Forecasting Power Output: Informing Strategic Technology Choices](#forecasting-poc)
+- [Strategic R&D: Evaluating ML Models for Time-Series Forecasting](#forecasting-poc)
 
 - [Shaping AI Strategy for Enhanced User Interactions](#letsvibe-nlp-strategy)
 
@@ -105,7 +105,7 @@ _For a rapidly scaling SaaS provider, this project transformed an ad-hoc approac
 
 _For a leading provider of industrial diagnostics, this project showcased how the core Digital Twin product could be enhanced by integrating advanced statistical models, directly supporting the company's publicly stated R&D strategy of creating hybrid modeling solutions.<sup><a href="#fn-1">1</a>,<a href="#fn-2">2</a></sup>_
 
-- **The Strategic Initiative:** The company's core product relied on high-fidelity, physics-based Digital Twins. This project was a strategic R&D initiative to explore and integrate complementary data-driven statistical models. The goal was to create a hybrid AI system to enhance diagnostic accuracy for key assets like Combined Cycle Gas Turbines (CCGT).<sup><a href="#fn-1">1</a>,<a href="#fn-2">2</a></sup>
+- **The Strategic Initiative:** The company's core product relied on high-fidelity, physics-based Digital Twins. This project was a strategic R&D initiative to explore the integration of complementary data-driven statistical models in order to create a hybrid AI system to enhance diagnostic accuracy for key assets like Combined Cycle Gas Turbines (CCGT).<sup><a href="#fn-1">1</a>,<a href="#fn-2">2</a></sup>
 
 - **My Strategic Solution & Implementation:** I led the development and benchmarking of advanced statistical models designed to complement the existing physics-based system. This involved:
 
@@ -255,5 +255,7 @@ _My extensive background as a lead researcher in astrophysics (Max Planck Instit
 
 ---
 
-<p id="fn-1">1. https://www.youtube.com/watch?v=8NEpMXe3crs</p>
-<p id="fn-2">2. https://resources.osisoft.com/presentations/edf-and-metroscope--monitoring-and-diagnostics-for-power-generation-assets/</p>
+<div style="text-align: left; font-size: smaller;">
+  <p id="fn-1">1. https://www.youtube.com/watch?v=8NEpMXe3crs</p>
+  <p id="fn-2">2. https://resources.osisoft.com/presentations/edf-and-metroscope--monitoring-and-diagnostics-for-power-generation-assets/</p>
+</div>
