@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+<div class="sub-navigation">
+  <nav>
+    <ul>
+      {% if page.lang == "de" %}
+      <!-- Step 1: The Main Offer for EVERYONE -->
+      <li>
+        <a
+          href="{{ site.baseurl }}/de/services_main"
+          class="{% if page.url == '/de/services_main.html' %}active{% endif %}"
+        >
+          <i class="fa fa-map-signs"></i> KI-Strategie&nbsp;&&nbsp;ROI-Blueprint
+        </a>
+      </li>
+      <!-- Step 2: The Follow-Up Offer (Implementation) -->
+      <li>
+        <a
+          href="{{ site.baseurl }}/de/services_implementation"
+          class="{% if page.url == '/de/services_implementation.html' %}active{% endif %}"
+        >
+          <i class="fa fa-rocket"></i> Implementierung&nbsp;&&nbsp;Partnerschaft
+        </a>
+      </li>
+      {% else %}
+      <!-- Step 1: The Main Offer for EVERYONE -->
+      <li>
+        <a
+          href="{{ site.baseurl }}/en/services_main"
+          class="{% if page.url == '/en/services_main.html' %}active{% endif %}"
+        >
+          <i class="fa fa-map-signs"></i> AI&nbsp;Strategy&nbsp;&&nbsp;ROI&nbsp;Blueprint
+        </a>
+      </li>
+      <!-- Step 2: The Follow-Up Offer (Implementation) -->
+      <li>
+        <a
+          href="{{ site.baseurl }/en/services_implementation"
+          class="{% if page.url == '/en/services_implementation.html' %}active{% endif %}"
+        >
+          <i class="fa fa-rocket"></i> Implementation&nbsp;&&nbsp;Partnership
+        </a>
+      </li>
+      {% endif %}
+    </ul>
+  </nav>
+</div>
+
+<div class="page-content-below-subnav">{{ content }}</div>
