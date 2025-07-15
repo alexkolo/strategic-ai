@@ -49,21 +49,21 @@ When you commission the Blueprint, you receive a comprehensive package of strate
 
 1. **The Core Deliverable: The Strategic AI Roadmap Document**
    A detailed report identifying your top 1-3 AI opportunities, complete with a technical feasibility assessment, resource requirements, and a clear project plan for your #1 initiative.
-   **(Value: 6.000 €)**
+   **(Value: _6.000 €_)**
 
 2. **BONUS #1: The Data Readiness Audit**
    We'll score your current data ecosystem against AI-readiness benchmarks and provide an actionable checklist to fix critical gaps before you invest a single euro in development.
-   **(Value: 2.500 €)**
+   **(Value: _2.500 €_)**
 
 3. **BONUS #2: The Proof-of-Concept (PoC) Code Module**
    We provide a functional Python code module demonstrating the core logic for the #1 recommended AI approach on your sample data. This tangible asset proves technical viability and gives your development team a massive head start.
-   **(Value: 4.000 €)**
+   **(Value: _4.000 €_)**
 
 4. **BONUS #3: The Executive ROI Presentation**
    I personally walk your leadership team through the findings in a 1-hour Q&A session, ensuring full alignment and buy-in for the recommended path forward.
-   **(Value: 1.500 €)**
+   **(Value: _1.500 €_)**
 
-### **Total Strategic Value Delivered: 14.000 €**
+### **Total Strategic Value Delivered: _14.000 €_**
 
 <hr class="soft-divider" />
 
@@ -71,7 +71,7 @@ When you commission the Blueprint, you receive a comprehensive package of strate
 
 Your success is my ultimate goal. If you choose to partner with me on the full implementation of the #1 recommended project within 30 days, **100% of the Blueprint's cost is credited** towards that project. This makes the strategic work a down payment on your future success.
 
-### **Your One-Time Investment: Just 7.950 €**
+### **Your One-Time Investment: _Just 7.950 €_**
 
 ---
 
@@ -112,7 +112,7 @@ The risk is entirely on me to deliver a profoundly valuable strategic asset for 
 
 To deliver the depth of analysis each client deserves, I can only conduct **two** of these intensive Blueprint assessments per quarter.
 
-**The next available slot begins on: 01.09.2025**
+**The next available slot begins on: 01 Sep 2025**
 
 ---
 
