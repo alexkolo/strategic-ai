@@ -10,11 +10,13 @@ lang: en
 
 # <i class="fa fa-ban"></i> Stop Gambling on AI
 
-## <i class="fa fa-check-circle-o"></i> Get a Guaranteed, High-ROI AI Roadmap in 4 Weeks
+## <i class="fa fa-check-square-o "></i> Get a Guaranteed, High-ROI AI Roadmap in 4 Weeks
 
 Are you worried about investing months of your team's time and tens of thousands of euros into an AI project that ends up failing? For most companies, leveraging AI feels like a high-stakes bet with no guarantee of a payoff.
 
 **It doesn't have to be.** My intensive, fixed-price assessment removes the guesswork, giving you a crystal-clear, data-backed plan to invest in the _right_ AI initiative with total confidence.
+
+<hr class="soft-divider" />
 
 <!-- 2. AGITATE THE PROBLEM -->
 
@@ -27,7 +29,7 @@ You know AI is critical for staying competitive, but the path is full of expensi
 - You **can't get a clear answer on project timelines and final costs**, making it impossible to budget effectively.
 - You fear **choosing the wrong software vendor or development path**, locking you into a costly, underperforming solution.
 
-Investing without clear answers isn't a strategy—it's a gamble. **We replace that gamble with certainty.**
+Investing without clear answers isn't a strategy - it's a gamble. **We replace that gamble with certainty.**
 
 ---
 
@@ -65,13 +67,17 @@ When you commission the Blueprint, you receive a comprehensive package of strate
   I personally walk your leadership team through the findings in a 1-hour Q&A session, ensuring full alignment and buy-in for the recommended path forward.
   **(Value: _1.500 €_)**
 
-### **Total Strategic Value Delivered: _14.000 €_**
+### **What You Get (Total Value): _14.000 €_**
 
-## **The _Implementation Credit_ That Makes This Decision Easy**
+### **What You Pay (Your Investment): _Just 7.950 €_**
 
-Your success is my ultimate goal. If you choose to partner with me on the full implementation of the #1 recommended project within 30 days, **100% of the Blueprint's cost is credited** towards that project. This makes the strategic work a down payment on your future success.
+<hr class="soft-divider" />
 
-### **Your One-Time Investment: _Just 7.950 €_**
+### **The 'Implementation Credit': Get Your Strategic Blueprint for Free**
+
+I want you to be fully confident in our partnership. When you move forward with the full implementation of the #1 recommended project, the entire cost of the Blueprint is **credited back to you**, reducing the total project costs by _7.950 €_.
+
+This means when you commit to building the solution, you get all the upfront strategic work, analysis, and planning effectively for free.
 
 ---
 
@@ -89,6 +95,8 @@ The Blueprint will identify the single AI feature with the highest potential to 
 
 The Blueprint will pinpoint the AI strategy (whether it's selecting the right APM software or designing a custom model) that will deliver the most significant, measurable reduction in your **operational costs, downtime, and safety risks,** maximizing the ROI on your assets.
 
+<hr class="soft-divider" />
+
 <!-- 6. DESTROY RISK (THE GUARANTEE) -->
 
 ## <i class="fa fa-shield"></i> My "No-Brainer Insights" Guarantee
@@ -97,9 +105,11 @@ The Blueprint will pinpoint the AI strategy (whether it's selecting the right AP
 
 I am so confident that this Blueprint will provide immense strategic value that I offer an unmatched guarantee.
 
-**If, after the final presentation, you do not feel you have received a clear, actionable, and data-backed plan that is worth at least double your investment, you don't have to pay. We will refund 100% of your fee, no questions asked.**
+**If, after the final presentation, you do not believe you have a clear, actionable, and data-backed plan that gives you the confidence to make your next major AI investment, you don't have to pay. We will refund 100% of your fee, no questions asked.**
 
 The risk is entirely on me to deliver a profoundly valuable strategic asset for your business.
+
+<hr class="soft-divider" />
 
 <!-- 7. SCARCITY & URGENCY -->
 
@@ -108,6 +118,8 @@ The risk is entirely on me to deliver a profoundly valuable strategic asset for 
 To deliver the depth of analysis each client deserves, I can only conduct **two** of these intensive Blueprint assessments per quarter.
 
 ### **The next available slot begins on: _01 Sep 2025_**
+
+<hr class="soft-divider" />
 
 <!-- 8. CLEAR CALL TO ACTION -->
 
