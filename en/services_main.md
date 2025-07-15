@@ -10,7 +10,7 @@ lang: en
 
 # <i class="fa fa-ban"></i> Stop Gambling on AI
 
-## Get a Guaranteed, High-ROI AI Roadmap in 4 Weeks
+## <i class="fa fa-check-circle-o"></i> Get a Guaranteed, High-ROI AI Roadmap in 4 Weeks
 
 Are you worried about investing months of your team's time and tens of thousands of euros into an AI project that ends up failing? For most companies, leveraging AI feels like a high-stakes bet with no guarantee of a payoff.
 
@@ -33,7 +33,9 @@ Investing without clear answers isn't a strategy—it's a gamble. **We replace t
 
 <!-- 3. INTRODUCE THE SOLUTION (YOUR GRAND SLAM OFFER) -->
 
-## <i class="fa fa-lightbulb-o"></i> The Solution: The AI Strategy & ROI Blueprint
+## <i class="fa fa-lightbulb-o"></i> The Solution
+
+### <i class="fa fa-map-o"></i> The AI Strategy & ROI Blueprint
 
 I have developed a rigorous, 4-week strategic assessment designed to give you complete clarity on your #1 AI opportunity. This isn't a theoretical report; it's a practical, board-ready blueprint that defines your path to a profitable AI implementation.
 
@@ -105,7 +107,7 @@ The risk is entirely on me to deliver a profoundly valuable strategic asset for 
 
 To deliver the depth of analysis each client deserves, I can only conduct **two** of these intensive Blueprint assessments per quarter.
 
-**The next available slot begins on: 01 Sep 2025**
+### **The next available slot begins on: _01 Sep 2025_**
 
 <!-- 8. CLEAR CALL TO ACTION -->
 
