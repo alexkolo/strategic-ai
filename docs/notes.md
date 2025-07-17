@@ -21,6 +21,11 @@
 - letsvibe project : https://aistudio.google.com/prompts/1-TnHAXQtsA3ncDNPSkQzxM9WbZx7Ts6S
 - testominies
 
+## 17/07/2025 TODO
+
+- using 100M offers/leads by ALEX HORMOZI
+  - https://aistudio.google.com/prompts/1FUZ4RFqMx1UdoMJovxBbDMYX64e9hx6s
+
 # todos
 
 ## add pages

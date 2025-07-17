@@ -73,7 +73,9 @@ When you commission the Blueprint, you receive a comprehensive package of strate
 
 <hr class="soft-divider" />
 
-### **The 'Implementation Credit': Get Your Strategic Blueprint for Free**
+## The 'Implementation Credit'
+
+### Get Your Strategic Blueprint for Free
 
 I want you to be fully confident in our partnership. When you move forward with the full implementation of the #1 recommended project, the entire cost of the Blueprint is **credited back to you**, reducing the total project costs by _7.950 €_.
 
