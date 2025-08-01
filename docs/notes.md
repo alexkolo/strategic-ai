@@ -25,6 +25,9 @@
 
 - using 100M offers/leads by ALEX HORMOZI
   - https://aistudio.google.com/prompts/1FUZ4RFqMx1UdoMJovxBbDMYX64e9hx6s
+  - started with service page
+  - TODO:
+    - german version
 
 # todos
 
