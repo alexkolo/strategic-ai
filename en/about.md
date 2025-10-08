@@ -25,7 +25,7 @@ noindex: true # Good for preventing duplicate content issues if similar info is 
 
 ### **Transforming Complex Data into Measurable Industrial Advantage: My Journey & Your Solution**
 
-Hi, I'm {{ site.my_name.en }}, a {{ site.my_role.en }} with a Ph.D. in astrophysics and over {{ site.n_exp_years }} years of dedicated experience translating advanced data analysis and AI principles into impactful, real-world solutions.
+Hi, I'm {{ site.my_name.en }}, an {{ site.my_role.en }} with a Ph.D. in astrophysics and over {{ site.n_exp_years }} years of dedicated experience translating advanced data analysis and AI principles into impactful, real-world solutions.
 I am passionate about demystifying AI and empowering industrial businesses to leverage their data for tangible growth and operational excellence.
 
 My mission is to empower **both technology providers and industrial end-users.** For technology providers, I enhance their software with strategic, market-leading AI. For industrial end-users, I offer expert, independent guidance to help them navigate the AI landscape and implement effective, high-ROI data-driven strategies.
