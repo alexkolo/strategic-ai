@@ -1,15 +1,13 @@
 <footer>
   © 2025 {{ site.company }} ({{ site.legal_name }}) •
   <a href="{{ site.baseurl }}/legal/legal_notice_en">Legal Notice</a>
-  • For any inquiries, use {% include email.html %}
-
-  <!-- INSURANCE Seal W = 0.9 x H -->
+  • For any inquiries, use {% include email.html %} •
   <a rel="nofollow" href="{{ site.insurance.link }}" target="_blank" title="{{ site.insurance.title_en }}"
     ><img
       border="0"
       src="{{ site.baseurl }}/{{ site.insurance.seal }}"
-      width="45"
-      height="50"
+      width="{{ site.insurance.width }}"
+      height="{{ site.insurance.height }}"
       alt="{{ site.insurance.title_en }}"
   /></a>
 </footer>

@@ -19,4 +19,7 @@ lang: en
 insurance:
   seal: "assets/images/exali_liability_seal.png"
   link: https://www.exali.com/en-fr/seal/Dr-Alex-Kolodzig
-  title_en: "Details to my professional liability insurance"
+  title_en: "Details to my liability insurance"
+  title_de: "Details zu meiner Haftpflichtversicherung"
+  width: 45
+  height: 50
