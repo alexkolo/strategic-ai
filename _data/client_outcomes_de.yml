@@ -1,17 +1,11 @@
 - title: "Verdopplung des SaaS-Produktportfolios eines Predictive Maintenance Startups"
-  description:
-    "Leitung der Algorithmusentwicklung für ein neues Produkt zur Anomalieerkennung, das die prädiktiven Fähigkeiten &
-    die Wettbewerbsfähigkeit signifikant verbesserte."
+  description: "Leitung der Algorithmusentwicklung für ein neues Produkt zur Anomalieerkennung, das die prädiktiven Fähigkeiten & die Wettbewerbsfähigkeit signifikant verbesserte."
   portfolio_anchor: "pdm-product-launch"
 
 - title: "Reduzierung der Kalibrierungskosten für Digitale Zwillinge um über 50%"
-  description:
-    "Verbesserung der Genauigkeit & Effizienz von GuD-Digital-Twins durch Integration fortschrittlicher statistischer
-    Modelle zur Optimierung der Diagnosefähigkeiten."
+  description: "Verbesserung der Genauigkeit & Effizienz von GuD-Digital-Twins durch Integration fortschrittlicher statistischer Modelle zur Optimierung der Diagnosefähigkeiten."
   portfolio_anchor: "digital-twin-optimization"
 
 - title: "Verkürzung der Dateningestionszeit um über 90%"
-  description:
-    "Architektur und Implementierung einer universellen ETL-Pipeline zur Beschleunigung des Kunden-Onboardings &
-    Verbesserung der Datenqualität für einen PdM-SaaS-Anbieter."
+  description: "Architektur und Implementierung einer universellen ETL-Pipeline zur Beschleunigung des Kunden-Onboardings & Verbesserung der Datenqualität für einen PdM-SaaS-Anbieter."
   portfolio_anchor: "data-ingestion-transformation"
