@@ -16,3 +16,7 @@ font_family: "Dosis Light"
 baseurl: "/strategic-ai"
 exclude: ["README.md", ".markdownlint.json", "LICENSE", "flattened/.flatten_ignore", "docs/notes.md"]
 lang: en
+insurance:
+  seal: "assets/images/exali_liability_seal.png"
+  link: https://www.exali.com/en-fr/seal/Dr-Alex-Kolodzig
+  title_en: "Details to my professional liability insurance"
