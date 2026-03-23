@@ -28,7 +28,7 @@ My services are strategically designed to **transform your software products int
 ### <i class="fa fa-bolt"></i> Elevate Your PdM Offering: Deliver Unmatched Accuracy & Reliability
 
 <div style="text-align: center;">
-<img src="{{ site.url_ai_images }}/ChatGPT Image May 15, 2025, 04_01_54 PM - Advanced Predictive Maintenance (PdM) Solutions.svg" alt="Advanced Predictive Maintenance (PdM) Solutions" height="200"/>
+<img src="{{ site.url_ai_images | append: '/' | append: 'ChatGPT Image May 15, 2025, 04_01_54 PM - Advanced Predictive Maintenance (PdM) Solutions.svg' | relative_url | uri_escape }}" alt="Advanced Predictive Maintenance (PdM) Solutions" height="200"/>
 </div>
 
 **Differentiate your software and capture greater market share by delivering superiorly accurate, reliable, and insightful PdM capabilities.**
@@ -46,7 +46,7 @@ Drawing on my experience developing and deploying diagnostic algorithms for crit
 ### <i class="fa fa-database"></i> Fuel Your AI with Flawless Data: Robust Engineering for Peak Performance
 
 <div style="text-align: center;">
-<img src="{{ site.url_ai_images }}/ChatGPT Image May 15, 2025, 04_16_23 PM - Robust Data Engineering & ETL Pipelines for Industrial Data.svg" alt="Robust Data Engineering & ETL Pipelines for Industrial Data" height="200"/>
+<img src="{{ site.url_ai_images | append: '/' | append: 'ChatGPT Image May 15, 2025, 04_16_23 PM - Robust Data Engineering & ETL Pipelines for Industrial Data.svg' | relative_url | uri_escape }}" alt="Robust Data Engineering & ETL Pipelines for Industrial Data" height="200"/>
 </div>
 
 **Ensure your AI models achieve peak performance by building them on a foundation of high-quality, reliable data.**
@@ -63,7 +63,7 @@ Industrial sensor data is often complex, heterogeneous, and noisy. My experience
 ### <i class="fa fa-gears"></i> From Prototype to Profit: Scalable AI Deployment & MLOps Excellence <!-- Changed icon to fa-gears for MLOps -->
 
 <div style="text-align: center;">
-<img src="{{ site.url_ai_images }}/ChatGPT Image May 15, 2025, 04_21_40 PM - MLOps & Scalable AI Deployment.svg" alt="MLOps & Scalable AI Deployment" height="200"/>
+<img src="{{ site.url_ai_images | append: '/' | append: 'ChatGPT Image May 15, 2025, 04_21_40 PM - MLOps & Scalable AI Deployment.svg' | relative_url | uri_escape }}" alt="MLOps & Scalable AI Deployment" height="200"/>
 </div>
 
 **Rapidly transition your AI innovations from proof-of-concept to robust, production-grade features that drive revenue and user engagement.**
@@ -80,7 +80,7 @@ For ISVs, deploying and maintaining AI models at scale is crucial for sustained 
 ### <i class="fa fa-magic"></i> Unlock Next-Gen Value: Strategic GenAI & LLM Integration for Your Software <!-- Changed icon to fa-magic for GenAI -->
 
 <div style="text-align: center;">
-<img src="{{ site.url_ai_images }}/ChatGPT Image May 14, 2025, 08_12_56 PM - Developing an AI-Powered Q&A Companion with Generative AI.svg" alt="Developing an AI-Powered Q&A Companion with Generative AI" height="200"/>
+<img src="{{ site.url_ai_images | append: '/' | append: 'ChatGPT Image May 14, 2025, 08_12_56 PM - Developing an AI-Powered Q&A Companion with Generative AI.svg' | relative_url | uri_escape }}" alt="Developing an AI-Powered Q&A Companion with Generative AI" height="200"/>
 </div>
 
 **Transform your software's capabilities and user experience by strategically leveraging the power of Large Language Models (LLMs) and Generative AI.**

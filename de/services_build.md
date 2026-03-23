@@ -28,7 +28,7 @@ Meine Services sind strategisch darauf ausgerichtet, **Ihre Softwareprodukte zu 
 ### <i class="fa fa-bolt"></i> Optimieren Sie Ihr PdM-Angebot: Liefern Sie unübertroffene Genauigkeit & Zuverlässigkeit
 
 <div style="text-align: center;">
-<img src="{{ site.url_ai_images }}/ChatGPT Image May 15, 2025, 04_01_54 PM - Advanced Predictive Maintenance (PdM) Solutions.svg" alt="Fortschrittliche Predictive Maintenance (PdM) Lösungen" height="200"/>
+<img src="{{ site.url_ai_images | append: '/' | append: 'ChatGPT Image May 15, 2025, 04_01_54 PM - Advanced Predictive Maintenance (PdM) Solutions.svg' | relative_url | uri_escape }}" alt="Fortschrittliche Predictive Maintenance (PdM) Lösungen" height="200"/>
 </div>
 
 **Differenzieren Sie Ihre Software und gewinnen Sie größere Marktanteile, indem Sie überragend genaue, zuverlässige und aufschlussreiche PdM-Funktionen bereitstellen.**
@@ -46,7 +46,7 @@ Basierend auf meiner Erfahrung in der Entwicklung und Implementierung von Diagno
 ### <i class="fa fa-database"></i> Fundieren Sie Ihre KI mit makellosen Daten: Robustes Engineering für Spitzenleistung
 
 <div style="text-align: center;">
-<img src="{{ site.url_ai_images }}/ChatGPT Image May 15, 2025, 04_16_23 PM - Robust Data Engineering & ETL Pipelines for Industrial Data.svg" alt="Robuste Daten-Engineering & ETL-Pipelines für Industriedaten" height="200"/>
+<img src="{{ site.url_ai_images | append: '/' | append: 'ChatGPT Image May 15, 2025, 04_16_23 PM - Robust Data Engineering & ETL Pipelines for Industrial Data.svg' | relative_url | uri_escape }}" alt="Robuste Daten-Engineering & ETL-Pipelines für Industriedaten" height="200"/>
 </div>
 
 **Stellen Sie sicher, dass Ihre KI-Modelle Spitzenleistungen erzielen, indem Sie sie auf einer Grundlage aus hochwertigen, zuverlässigen Daten aufbauen.**
@@ -63,7 +63,7 @@ Industrielle Sensordaten sind oft komplex, heterogen und verrauscht. Meine Erfah
 ### <i class="fa fa-gears"></i> Vom Prototyp zum Profit: Skalierbare KI-Implementierung & MLOps-Exzellenz
 
 <div style="text-align: center;">
-<img src="{{ site.url_ai_images }}/ChatGPT Image May 15, 2025, 04_21_40 PM - MLOps & Scalable AI Deployment.svg" alt="MLOps & Skalierbare KI-Implementierung" height="200"/>
+<img src="{{ site.url_ai_images | append: '/' | append: 'ChatGPT Image May 15, 2025, 04_21_40 PM - MLOps & Scalable AI Deployment.svg' | relative_url | uri_escape }}" alt="MLOps & Skalierbare KI-Implementierung" height="200"/>
 </div>
 
 **Transformieren Sie Ihre KI-Innovationen zügig von Proof-of-Concepts in robuste, produktionsreife Funktionen, die Umsatz und Nutzerengagement fördern.**
@@ -80,7 +80,7 @@ Für ISVs ist die skalierbare Implementierung und Wartung von KI-Modellen entsch
 ### <i class="fa fa-magic"></i> Erschließen Sie Next-Gen-Mehrwert: Strategische GenAI- & LLM-Integration für Ihre Software
 
 <div style="text-align: center;">
-<img src="{{ site.url_ai_images }}/ChatGPT Image May 14, 2025, 08_12_56 PM - Developing an AI-Powered Q&A Companion with Generative AI.svg" alt="Entwicklung eines KI-gestützten Q&A-Assistenten mit Generativer KI" height="200"/>
+<img src="{{ site.url_ai_images | append: '/' | append: 'ChatGPT Image May 14, 2025, 08_12_56 PM - Developing an AI-Powered Q&A Companion with Generative AI.svg' | relative_url | uri_escape }}" alt="Entwicklung eines KI-gestützten Q&A-Assistenten mit Generativer KI" height="200"/>
 </div>
 
 **Transformieren Sie die Fähigkeiten und das Nutzererlebnis Ihrer Software durch die strategische Nutzung der Leistungsfähigkeit von Large Language Models (LLMs) und Generativer KI.**
