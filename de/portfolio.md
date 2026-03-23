@@ -124,9 +124,11 @@ _Für einen SaaS-Anbieter von PdM-Lösungen zielte dieses Projekt darauf ab, die
 
 ### <i class="fa fa-line-chart"></i> Prognose der Energieerzeugung: Fundament für strategische Technologieentscheidungen (POC)
 
+<!-- issue with image. TODO: create a new one
+
 <div style="text-align: center;">
-<img src="{{ site.url_ai_images | append: '/' | append: 'ChatGPT Image Jun 2, 2025, 10_49_34 AM - Forecasting Power Output POC.svg' | relative_url | uri_escape }}" alt="POC Energieprognose" height="200"/> <!-- Placeholder image, replace with a more relevant one -->
-</div>
+<img src="{{ site.url_ai_images | append: '/' | append: 'ChatGPT Image Jun 2, 2025, 10_49_34 AM - Forecasting Power Output POC.svg' | relative_url | uri_escape }}" alt="POC Energieprognose" height="200"/>
+</div> -->
 
 _Durchführung eines kritischen Proof of Concept (POC) für einen SaaS-Anbieter von PdM-Lösungen zur Bewertung von Machine-Learning-Modellen (ML) für die Prognose der Kraftwerksleistung (D+1, D+2). Dies lieferte entscheidende Unterstützung für dessen F&E-Anstrengungen für ein neues Prognoseprodukt._
 

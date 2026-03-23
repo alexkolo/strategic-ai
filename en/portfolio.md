@@ -124,9 +124,11 @@ _For a leading provider of industrial diagnostics, this project showcased how th
 
 ### <i class="fa fa-line-chart"></i> Strategic R&D: Evaluating ML Models for Time-Series Forecasting
 
+<!-- issue with image. TODO: create a new one
+
 <div style="text-align: center;">
 <img src="{{ site.url_ai_images | append: '/' | append: 'ChatGPT Image Jun 2, 2025, 10_49_34 AM - Forecasting Power Output POC.svg' | relative_url | uri_escape }}" alt="Forecasting Power Output POC" height="200"/>
-</div>
+</div> -->
 
 _Delivered a critical R&D analysis for a SaaS provider to evaluate the viability of modern Machine Learning (ML) models for a potential future use case: daily power plant output forecasting._
 
