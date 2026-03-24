@@ -8,7 +8,7 @@ noindex: true
 ---
 
 <div class="container_center">
-  <img src="{{ site.profile_image }}" alt="{{ site.my_name.de }} Profilbild" class="logo" />
+  <img src="{{ site.profile_image | relative_url }}" alt="{{ site.my_name.de }} Profilbild" class="logo" />
 </div>
 
 - [Einleitung](#intro)
@@ -53,7 +53,6 @@ Ich arbeite partnerschaftlich mit Ihnen zusammen, um **technisch exzellente KI-L
 <!-- Translation: The scientific foundation behind the results -->
 
 - 2010 **Diplom in Physik** – Humboldt-Universität zu Berlin, _Deutschland_
-
   - Schwerpunkte: Experimentelle Astrophysik & Teilchenphysik – _Förderung eines tiefen Verständnisses komplexer Systeme und Dateninterpretation._
 
 - 2015 **Dr. rer. nat. (Promotion) in Astrophysik** – [Max-Planck-Institut für Astrophysik](https://www.mpa-garching.mpg.de/) (MPA) & [Ludwig-Maximilians-Universität München](https://en.wikipedia.org/wiki/Ludwig_Maximilian_University_of_Munich) (LMU), _Deutschland_
@@ -72,14 +71,12 @@ Ich arbeite partnerschaftlich mit Ihnen zusammen, um **technisch exzellente KI-L
 _Mein Karriereweg war eine zielgerichtete Entwicklung, bei der grundlegende Data-Science-Prinzipien auf immer komplexere Herausforderungen angewendet wurden, um schließlich greifbaren KI-Mehrwert für Industriekunden zu liefern._
 
 - 2015 – 2021 **Leitender Forscher & Data Scientist (Astrophysik)** – [Max-Planck-Institut für Astrophysik](https://www.mpa-garching.mpg.de/) (_Deutschland_), [Kavli-Institut für Astronomie & Astrophysik](https://kiaa.pku.edu.cn) (_China_), & [Institut d'Astrophysique Spatiale](https://www.ias.u-psud.fr/en) (CNRS, _Frankreich_)
-
   - Leitung internationaler Forschungsprojekte zur Analyse von Petabyte-großen astronomischen Datensätzen, um aussagekräftige Erkenntnisse aus komplexen Signalen zu gewinnen. Dies schärfte meine Fähigkeiten im Umgang mit **Big Data, der Entwicklung innovativer Analysemethoden und der Wertschöpfung aus verrauschten, komplexen Informationsströmen** – grundlegend für heutige industrielle KI-Anwendungen.
   - Beherrschung fortgeschrittener statistischer Methoden (z.B. Bayes'sche Inferenz, MCMC, Fourier-Analyse für **Zeitreihen**) & Anwendung von Machine-Learning-Techniken auf hochvolumige Daten, einschließlich der Entwicklung von Algorithmen zur **Signalerkennung in stark verrauschten Umgebungen** (vergleichbar mit industrieller Anomalieerkennung).
   - Entwicklung innovativer, **robuster** Python-basierter ETL-Pipelines & **skalierbarer** Analysewerkzeuge, die die methodische Genauigkeit & Problemlösungsfähigkeiten demonstrieren, die für die heutigen herausfordernden industriellen Datenlandschaften und KI-Implementierungen unerlässlich sind.
   - Verfassen von Erstautor-Publikationen in führenden referierten Fachzeitschriften (z.B. _Astronomy & Astrophysics_) & Einwerbung kompetitiver Forschungsförderungen (z.B. [Chinesisches Postdoktoranden-Stipendium](https://kiaa.pku.edu.cn/info/1031/1166.htm)), was tiefe analytische Expertise und die Fähigkeit zur Erreichung komplexer Ziele unterstreicht. ([Publikationsliste](https://ui.adsabs.harvard.edu/search/q=author%3A"Kolodzig"))
 
 - 2022 – 2024 **Data Scientist** – Metroscope (SaaS-Anbieter für Anlagendiagnostik, EDF-Tochtergesellschaft) _Paris, Frankreich_
-
   - Anwendung von Data-Science- & KI-Expertise zur Entwicklung, Implementierung & Verbesserung hochmoderner, **zuverlässiger Predictive Maintenance (PdM)**-Lösungen für den Energiesektor. Diese Rolle umfasste tiefe Einblicke in **sowohl die KI-Produktentwicklung für einen Technologieanbieter als auch das Verständnis der praktischen betrieblichen Bedürfnisse von Anlagenbetreibern.**
   - Meine Arbeit trug direkt zur Verbesserung der Modellgenauigkeit & zur **Verdoppelung des SaaS-Produktportfolios des Unternehmens bei.**
   - **Wichtige Beiträge zu industrieller KI-Software & zum Kundennutzen:**
@@ -101,7 +98,6 @@ _Mein Ansatz kombiniert tiefes theoretisches Verständnis mit praktischer Expert
 
 - **Machine Learning für Predictive Maintenance & Anomalieerkennung:**
   _Kundennutzen: Präzisere Vorhersagen, frühere Fehlererkennung und optimiertes Anlagenlebenszyklusmanagement._
-
   - **Zeitreihenanalyse & -prognose:** Fortschrittliche Techniken zur Vorhersage zukünftiger Zustände, Trends & Restnutzungsdauer (RUL), _was proaktive Wartung und Ressourcenplanung ermöglicht._
   - **Algorithmen zur Anomalieerkennung:** Expertise in überwachten & unüberwachten Methoden (z.B. Clustering, PCA, Autoencoder) zur Identifizierung subtiler Abweichungen & Frühwarnzeichen in Sensordaten, _wodurch Ausfallzeiten und unerwartete Störungen minimiert werden._
   - **Prädiktive Modellierung:** Regressions-, Klassifikations- & Ensemble-Methoden (z.B. XGBoost, Random Forests) zur Vorhersage von Anlagenausfällen & Leistungsoptimierung, _was die Betriebseffizienz direkt verbessert._
@@ -110,14 +106,12 @@ _Mein Ansatz kombiniert tiefes theoretisches Verständnis mit praktischer Expert
 
 - **LLM & Generative KI-Integration:**
   _Kundennutzen: Erschließung von Mehrwert aus unstrukturierten Daten, Automatisierung komplexer Aufgaben und Verbesserung der Wissenszugänglichkeit._
-
   - **Retrieval-Augmented Generation (RAG):** Aufbau von Chatbots & Q&A-Systemen auf benutzerdefinierten industriellen Wissensdatenbanken (z.B. technische Dokumentationen, Wartungsprotokolle), _was sofortige Antworten liefert und die Teamproduktivität verbessert._
   - **LLM-Anwendungsentwicklung:** Nutzung von APIs (OpenAI, Groq, Google Gemini) & Open-Source-Modellen (Mistral, Llama) für Aufgaben wie automatisierte Berichtserstellung, Zusammenfassung von Erkenntnissen & intelligente Suche, _wodurch Arbeitsabläufe und Entscheidungsfindung optimiert werden._
   - **Prompt-Engineering & Vektordatenbanken:** Erstellung effektiver Prompts & Nutzung von Vektorsuche (z.B. LanceDB) für relevante Informationsbeschaffung, _um sicherzustellen, dass KI präzise und relevante Ergebnisse liefert._
 
 - **MLOps & Produktiveinsatz:**
   _Kundennutzen: Schnellere Wertschöpfung bei KI-Initiativen, zuverlässige Leistung im großen Maßstab und nachhaltiger KI-Betrieb._
-
   - **Modellimplementierung & -bereitstellung:** Erstellung & Implementierung von ML-Modellen als skalierbare Dienste (REST-APIs über Flask/FastAPI, Docker, Kubernetes), _was eine nahtlose Integration in Ihre bestehende Infrastruktur ermöglicht._
   - **CI/CD & Automatisierung:** Implementierung von Continuous-Integration- & Deployment-Pipelines (GitHub Actions) für effiziente Entwicklungszyklen und schnelle Iterationen, _wodurch Innovationen beschleunigt werden._
   - **Monitoring & Erklärbarkeit:** Einrichtung von Modellüberwachung (Grafana) & Nutzung von Werkzeugen wie SHAP zur Modellinterpretierbarkeit, _um kontinuierliche Zuverlässigkeit zu gewährleisten und Vertrauen in KI-Systeme aufzubauen._
@@ -125,7 +119,6 @@ _Mein Ansatz kombiniert tiefes theoretisches Verständnis mit praktischer Expert
 
 - **Data Engineering & -Verarbeitung:**
   _Kundennutzen: Eine solide Datengrundlage für zuverlässige KI, die sicherstellt, dass Ihre Analysen auf hochwertigen, vertrauenswürdigen Daten basieren._
-
   - **ETL-Pipelines:** Entwurf & Implementierung robuster Pipelines für Dateningestion, -bereinigung, -validierung & -transformation für heterogene Industriedaten, _um das volle Potenzial Ihrer Datenbestände auszuschöpfen._
   - **Datenmanagement & -speicherung:** Versiert im Umgang mit SQL- (PostgreSQL) & NoSQL- (MongoDB) Datenbanken sowie Big-Data-Verarbeitungswerkzeugen (Dask), _um Daten unabhängig von Umfang oder Komplexität effektiv zu verwalten._
   - **Cloud-Plattformen:** Erfahrung mit Azure-Diensten für Datenorchestrierung & -speicherung, _um Cloud-Funktionen für skalierbare KI-Lösungen zu nutzen._
