@@ -6,7 +6,7 @@ lang: de
 ---
 
 {% assign home_paths = site.data.page_paths.navigation[page.lang] | default: site.data.page_paths.navigation[site.lang]
-%}
+%} {% assign client_outcomes = site.data.client_outcomes[page.lang] | default: site.data.client_outcomes[site.lang] %}
 
 <div class="container_center">
   <img src="{{ site.profile_image | relative_url }}" alt="{{ site.my_name.de }} Profilbild" class="logo" />
@@ -29,7 +29,7 @@ lang: de
 <hr />
 <div class="client_outcomes_container">
   <h3>Messbare Erfolge für Ihr Unternehmen</h3>
-  {% for outcome in site.data.client_outcomes_de %}
+  {% for outcome in client_outcomes %}
   <div class="outcome_item">
     <h4>{{ outcome.title }}</h4>
     <p>{{ outcome.description }}</p>

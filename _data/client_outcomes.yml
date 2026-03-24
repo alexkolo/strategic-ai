@@ -1,0 +1,25 @@
+en:
+  - title: "Strengthened a Core AI Platform to Maximize Industrial Efficiency"
+    description: "Spearheaded advanced algorithm development that enhanced a market-leading diagnostic tool, contributing to the 2 TWh of energy savings it identifies annually."
+    portfolio_anchor: "pdm-product-launch"
+
+  - title: "Proved the ROI of Hybrid AI for Digital Twins"
+    description: "Delivered a comprehensive analysis that validated the high potential of statistical models, providing a data-driven roadmap for enhancing the core physics-based product."
+    portfolio_anchor: "digital-twin-optimization"
+
+  - title: "Accelerated Time-to-Value with a Scalable Data Framework"
+    description: "Designed a standardized ETL pipeline that dramatically reduced data preparation time, enabling faster client onboarding and deployment across 75+ assets."
+    portfolio_anchor: "data-ingestion-transformation"
+
+de:
+  - title: "Verdopplung des SaaS-Produktportfolios eines Predictive Maintenance Startups"
+    description: "Leitung der Algorithmusentwicklung für ein neues Produkt zur Anomalieerkennung, das die prädiktiven Fähigkeiten & die Wettbewerbsfähigkeit signifikant verbesserte."
+    portfolio_anchor: "pdm-product-launch"
+
+  - title: "Reduzierung der Kalibrierungskosten für Digitale Zwillinge um über 50%"
+    description: "Verbesserung der Genauigkeit & Effizienz von GuD-Digital-Twins durch Integration fortschrittlicher statistischer Modelle zur Optimierung der Diagnosefähigkeiten."
+    portfolio_anchor: "digital-twin-optimization"
+
+  - title: "Verkürzung der Dateningestionszeit um über 90%"
+    description: "Architektur und Implementierung einer universellen ETL-Pipeline zur Beschleunigung des Kunden-Onboardings & Verbesserung der Datenqualität für einen PdM-SaaS-Anbieter."
+    portfolio_anchor: "data-ingestion-transformation"
