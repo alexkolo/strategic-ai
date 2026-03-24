@@ -1,0 +1,12 @@
+en:
+  heading: "What Clients Say"
+  toggle_more: "...see more"
+  toggle_less: "(see less)"
+  portfolio_path: "/en/portfolio#"
+  portfolio_label: "Read the full Success Story"
+de:
+  heading: "Was Kunden sagen"
+  toggle_more: "...mehr"
+  toggle_less: "(weniger)"
+  portfolio_path: "/de/portfolio#"
+  portfolio_label: "Die ganze Erfolgsgeschichte lesen"

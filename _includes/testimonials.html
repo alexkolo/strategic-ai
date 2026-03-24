@@ -1,13 +1,16 @@
+{% assign effective_lang = page.lang | default: site.lang %} {% assign testimonials_copy =
+site.data.testimonials[effective_lang] | default: site.data.testimonials[site.lang] %}
+
 <hr />
 <div class="testimonials_section">
-  <h3>Was Kunden sagen</h3>
+  <h3>{{ testimonials_copy.heading }}</h3>
   {% for testimonial in site.data.testimonials_en %}
   <div class="testimonial_item_full">
     <div class="testimonial_header">
       {% if testimonial.image_url %}
       <img
         src="{{ site.baseurl }}/{{ testimonial.image_url }}"
-        alt="{{ default: testimonial.author }}"
+        alt="{{ testimonial.author }}"
         class="testimonial_img"
       />
       {% else %}
@@ -18,13 +21,20 @@
       <p class="testimonial_text">
         <span class="testimonial_snippet">"{{ testimonial.snippet }}</span>
         <span class="testimonial_more_text" style="display: none">{{ testimonial.more_text }}"</span>
-        <a href="javascript:void(0);" class="testimonial_toggle" onclick="toggleTestimonial(this)">...mehr</a>
+        <a
+          href="javascript:void(0);"
+          class="testimonial_toggle"
+          onclick="toggleTestimonial(this)"
+          data-more-label="{{ testimonials_copy.toggle_more }}"
+          data-less-label="{{ testimonials_copy.toggle_less }}"
+          >{{ testimonials_copy.toggle_more }}</a
+        >
       </p>
       <p class="testimonial_author">— {{ testimonial.author }}, {{ testimonial.title_company }}</p>
       {% if testimonial.portfolio_anchor %}
       <p class="testimonial_portfolio_link">
-        <a href="{{ site.baseurl }}/de/portfolio#{{ testimonial.portfolio_anchor }}"
-          >Die ganze Erfolgsgeschichte lesen</a
+        <a href="{{ site.baseurl }}{{ testimonials_copy.portfolio_path }}{{ testimonial.portfolio_anchor }}"
+          >{{ testimonials_copy.portfolio_label }}</a
         >
       </p>
       {% endif %}
@@ -33,21 +43,22 @@
   {% endfor %}
 </div>
 
-<!-- JavaScript for Testimonial Toggle -->
 <script>
   function toggleTestimonial(element) {
     var testimonialContent = element.closest(".testimonial_content");
     var moreText = testimonialContent.querySelector(".testimonial_more_text");
     var snippetText = testimonialContent.querySelector(".testimonial_snippet");
+    var moreLabel = element.dataset.moreLabel || "...see more";
+    var lessLabel = element.dataset.lessLabel || "(see less)";
 
     if (moreText.style.display === "none") {
-      moreText.style.display = "inline"; // Changed from "block" to "inline"
-      snippetText.style.display = "inline"; // Ensure snippet remains inline
-      element.textContent = "(weniger)";
+      moreText.style.display = "inline";
+      snippetText.style.display = "inline";
+      element.textContent = lessLabel;
     } else {
       moreText.style.display = "none";
-      snippetText.style.display = "inline"; // Ensure snippet remains inline
-      element.textContent = "...mehr";
+      snippetText.style.display = "inline";
+      element.textContent = moreLabel;
     }
   }
 </script>
