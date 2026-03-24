@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="{{ page.lang | default: site.lang }}">
   <head>
     <meta charset="utf-8" />
@@ -32,6 +32,6 @@
         <hr />
       </div>
     </div>
-    {% if effective_lang == "de" %} {% include footer_de.html %} {% else %} {% include footer_en.html %} {% endif %}
+    {% include footer.html %}
   </body>
 </html>

@@ -1,0 +1,8 @@
+en:
+  legal_notice_path: "/legal/legal_notice_en"
+  legal_notice_label: "Legal Notice"
+  inquiry_label: "For any inquiries, use"
+de:
+  legal_notice_path: "/legal/legal_notice_de"
+  legal_notice_label: "Impressum"
+  inquiry_label: "Für alle Anfragen verwenden Sie bitte"
