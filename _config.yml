@@ -8,8 +8,8 @@ my_role:
   de: "unabhängiger Berater für industrielle KI"
 meeting_link: https://zcal.co/strategic-ai/30min-meeting
 linkedin_link: https://www.linkedin.com/in/alexkolodzig
-profile_image: assets/images/20240705_blue_bkg_0063FB_border_300.png
-url_ai_images: assets/ia_images
+profile_image: /assets/images/20240705_blue_bkg_0063FB_border_300.png
+url_ai_images: /assets/ia_images
 url_legal: http://files.strategic-ai.eu/legal_notice/legal_notice_v7.html
 n_exp_years: 8
 font_family: "Dosis Light"
@@ -17,7 +17,7 @@ baseurl: ""
 exclude: ["README.md", ".markdownlint.json", "LICENSE", "flattened/.flatten_ignore", "docs/notes.md"]
 lang: en
 insurance:
-  seal: "assets/images/exali_liability_seal.png"
+  seal: "/assets/images/exali_liability_seal.png"
   link: https://www.exali.com/en-fr/seal/Dr-Alex-Kolodzig
   title_en: "Details to my liability insurance"
   title_de: "Details zu meiner Haftpflichtversicherung"
