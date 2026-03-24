@@ -150,8 +150,9 @@ _Delivered a critical R&D analysis for a SaaS provider to evaluate the viability
 - **Key Learnings for Technology Providers:** This project highlights the power of rapid, data-driven ML experimentation to inform critical technology choices, validate new concepts, and accelerate innovation with managed risk.
 
 - **Key Technologies & Methodologies:** Python (Pandas, Scikit-learn, XGBoost), Time Series Forecasting, Feature Engineering (Lagged Features, One-Hot Encoding), Model Evaluation (MAE, RMSE), Rapid Prototyping, Technical Communication.
-  {:#letsvibe-nlp-strategy}
-  <br>
+
+{:#letsvibe-nlp-strategy}
+<br>
 
 ### <i class="fa fa-comments"></i> Shaping AI Strategy for Enhanced Mobile User Interaction (NLP R&D)
 
