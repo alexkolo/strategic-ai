@@ -2,44 +2,30 @@
 layout: default
 ---
 
+{% assign effective_lang = page.lang | default: site.lang %} {% assign services_nav =
+site.data.service_nav_labels[effective_lang] | default: site.data.service_nav_labels[site.lang] %} {% assign
+services_paths = site.data.page_paths.services_subnav[effective_lang] | default:
+site.data.page_paths.services_subnav[site.lang] %}
+
 <div class="sub-navigation">
   <nav>
     <ul>
-      {% if page.lang == "de" %}
       <li>
         <a
-          href="{{ site.baseurl }}/de/services_build"
-          class="{% if page.url == '/de/services_build.html' %}active{% endif %}"
+          href="{{ site.baseurl }}{{ services_paths.build.href }}"
+          class="{% if page.url == services_paths.build.active_path %}active{% endif %}"
         >
-          <i class="fa fa-cogs"></i> Für&nbsp;Technologieanbieter
+          <i class="fa fa-cogs"></i> {{ services_nav.build_label }}
         </a>
       </li>
       <li>
         <a
-          href="{{ site.baseurl }}/de/services_consult"
-          class="{% if page.url == '/de/services_consult.html' %}active{% endif %}"
+          href="{{ site.baseurl }}{{ services_paths.consult.href }}"
+          class="{% if page.url == services_paths.consult.active_path %}active{% endif %}"
         >
-          <i class="fa fa-industry"></i> Für&nbsp;Anlagenbetreiber
+          <i class="fa fa-industry"></i> {{ services_nav.consult_label }}
         </a>
       </li>
-      {% else %}
-      <li>
-        <a
-          href="{{ site.baseurl }}/en/services_build"
-          class="{% if page.url == '/en/services_build.html' %}active{% endif %}"
-        >
-          <i class="fa fa-cogs"></i> For&nbsp;Technology&nbsp;Providers
-        </a>
-      </li>
-      <li>
-        <a
-          href="{{ site.baseurl }}/en/services_consult"
-          class="{% if page.url == '/en/services_consult.html' %}active{% endif %}"
-        >
-          <i class="fa fa-industry"></i> For&nbsp;Asset&nbsp;Operators
-        </a>
-      </li>
-      {% endif %}
     </ul>
   </nav>
 </div>

@@ -33,3 +33,19 @@ navigation:
       root_path: "/"
       replace_from: "/de/"
       replace_to: "/en/"
+
+services_subnav:
+  en:
+    build:
+      href: "/en/services_build"
+      active_path: "/en/services_build.html"
+    consult:
+      href: "/en/services_consult"
+      active_path: "/en/services_consult.html"
+  de:
+    build:
+      href: "/de/services_build"
+      active_path: "/de/services_build.html"
+    consult:
+      href: "/de/services_consult"
+      active_path: "/de/services_consult.html"
