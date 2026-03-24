@@ -22,8 +22,7 @@
     {% assign effective_lang = page.lang | default: site.lang %}
 
     <div class="container-md px-3 my-5 markdown-body">
-      {% if effective_lang == "de" %} {% include navigation_de.html %} {% else %} {% include navigation_en.html %} {%
-      endif %}
+      {% include navigation.html %}
 
       <div
         style="font-family: {{ page.font_family | default: site.font_family }}, sans-serif; {% if page.text_align %}text-align: {{ page.text_align }};{% endif %}"

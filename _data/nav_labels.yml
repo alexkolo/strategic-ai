@@ -1,0 +1,18 @@
+en:
+  home_label: "Home"
+  services_label: "My&nbsp;Services"
+  portfolio_label: "My&nbsp;Success&nbsp;Stories"
+  about_label: "About&nbsp;Me"
+  call_label: "Book a Call"
+  switch_label: "Deutsche Fassung"
+  switch_flag_src: "https://flagcdn.com/de.svg"
+  switch_flag_alt: "German Flag"
+de:
+  home_label: "Startseite"
+  services_label: "Meine&nbsp;Leistungen"
+  portfolio_label: "Meine&nbsp;Erfolgsgeschichten"
+  about_label: "Über&nbsp;mich"
+  call_label: "Termin buchen"
+  switch_label: "English Version"
+  switch_flag_src: "https://flagcdn.com/gb.svg"
+  switch_flag_alt: "British Flag"

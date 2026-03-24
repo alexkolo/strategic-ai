@@ -1,0 +1,63 @@
+{% assign effective_lang = page.lang | default: site.lang %} {% assign nav_labels = site.data.nav_labels[effective_lang]
+| default: site.data.nav_labels[site.lang] %} {% assign nav_paths = site.data.page_paths.navigation[effective_lang] |
+default: site.data.page_paths.navigation[site.lang] %}
+
+<nav>
+  <ul class="navbar">
+    <div class="navbar-links">
+      <li>
+        <a
+          href="{{ site.baseurl }}{{ nav_paths.home.href }}"
+          class="{% if page.url == nav_paths.home.active_path %}active{% endif %}"
+          >{{ nav_labels.home_label }}</a
+        >
+      </li>
+      <li>
+        <a
+          href="{{ site.baseurl }}{{ nav_paths.services.href }}"
+          class="{% if page.url contains nav_paths.services.active_contains %}active{% endif %}"
+          >{{ nav_labels.services_label }}</a
+        >
+      </li>
+      <li>
+        <a
+          href="{{ site.baseurl }}{{ nav_paths.portfolio.href }}"
+          class="{% if page.url == nav_paths.portfolio.active_path %}active{% endif %}"
+          >{{ nav_labels.portfolio_label }}</a
+        >
+      </li>
+      <li>
+        <a
+          href="{{ site.baseurl }}{{ nav_paths.about.href }}"
+          class="{% if page.url == nav_paths.about.active_path %}active{% endif %}"
+          >{{ nav_labels.about_label }}</a
+        >
+      </li>
+    </div>
+    <div class="navbar-call">
+      <li>
+        <a href="{{ site.linkedin_link }}" target="_blank" class="linkedin-icon">
+          <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+        </a>
+      </li>
+      <li>
+        <a href="{{ site.meeting_link }}" target="_blank" class="book-call-btn">{{ nav_labels.call_label }}</a>
+      </li>
+    </div>
+  </ul>
+  {% unless page.url contains '/legal/' %}
+  <div class="language-switch">
+    <a
+      href="{% if page.url == nav_paths.home.active_path %}{{ site.baseurl }}{{ nav_paths.language_switch.root_path }}{% else %}{{ site.baseurl }}{{ page.url | replace: nav_paths.language_switch.replace_from, nav_paths.language_switch.replace_to }}{% endif %}"
+    >
+      <img
+        src="{{ nav_labels.switch_flag_src }}"
+        alt="{{ nav_labels.switch_flag_alt }}"
+        width="20"
+        style="vertical-align: middle"
+      />
+      {{ nav_labels.switch_label }}
+    </a>
+  </div>
+  {% endunless %}
+</nav>

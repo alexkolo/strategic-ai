@@ -1,0 +1,35 @@
+navigation:
+  en:
+    home:
+      href: "/"
+      active_path: "/"
+    services:
+      href: "/en/services_build"
+      active_contains: "/en/services_"
+    portfolio:
+      href: "/en/portfolio"
+      active_path: "/en/portfolio.html"
+    about:
+      href: "/en/about"
+      active_path: "/en/about.html"
+    language_switch:
+      root_path: "/de/"
+      replace_from: "/en/"
+      replace_to: "/de/"
+  de:
+    home:
+      href: "/de/"
+      active_path: "/de/"
+    services:
+      href: "/de/services_build"
+      active_contains: "/de/services_"
+    portfolio:
+      href: "/de/portfolio"
+      active_path: "/de/portfolio.html"
+    about:
+      href: "/de/about"
+      active_path: "/de/about.html"
+    language_switch:
+      root_path: "/"
+      replace_from: "/de/"
+      replace_to: "/en/"
