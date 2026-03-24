@@ -127,7 +127,9 @@ a:not(.book-call-btn):not(.testimonial_toggle):hover {
   font-weight: bold;
   padding: 8px 12px;
   line-height: 1.2; /* ensure tight but readable vertical layout */
-  transition: color 0.3s ease, background-color 0.3s ease;
+  transition:
+    color 0.3s ease,
+    background-color 0.3s ease;
 }
 
 .navbar a:not(.book-call-btn):hover {
@@ -298,7 +300,9 @@ a:not(.book-call-btn):not(.testimonial_toggle):hover {
   font-weight: bold;
   text-decoration: none;
   border-radius: 5px; /* Match .book-call-btn radius */
-  transition: background-color 0.3s ease, transform 0.2s ease;
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease;
   border: none; /* Assuming book-call-btn doesn't have a border by default */
   cursor: pointer;
 }
@@ -489,7 +493,9 @@ p.testimonial_author {
   font-size: 0.95rem; /* Slightly smaller than main nav items, adjust as needed */
   padding: 8px 16px; /* Generous padding for clickability */
   border-radius: 4px;
-  transition: color 0.3s ease, background-color 0.3s ease;
+  transition:
+    color 0.3s ease,
+    background-color 0.3s ease;
   border-bottom: none; /* Remove the dotted underline from general 'a' tags */
 }
 
@@ -522,6 +528,70 @@ p.testimonial_author {
 /* Optional: If you added a .page-content-below-subnav div in your layout */
 .page-content-below-subnav {
   /* Add any specific styling if needed, e.g., margin-top */
+}
+
+/* --------- Legal notice pages ---------- */
+@keyframes legal-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.legal-container {
+  text-align: center;
+  padding: 60px 20px;
+  min-height: 400px;
+}
+
+.legal-title {
+  margin-bottom: 30px;
+}
+
+.legal-loader-text {
+  color: #555;
+}
+
+.legal-spinner {
+  width: 40px;
+  height: 40px;
+  margin: 20px auto;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #0063fb;
+  border-radius: 50%;
+  animation: legal-spin 2s linear infinite;
+}
+
+.legal-btn {
+  display: inline-block;
+  padding: 18px 36px;
+  background-color: #0063fb;
+  color: #ffffff !important;
+  text-decoration: none !important;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  border: none;
+}
+
+.legal-btn:hover,
+.legal-btn:focus {
+  background-color: #0050c1;
+  color: #ffffff !important;
+}
+
+.legal-intro {
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.legal-status {
+  margin-top: 15px;
+  font-size: 0.85em;
+  color: #555;
 }
 
 /* ---------- ---------- */

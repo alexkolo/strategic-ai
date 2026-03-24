@@ -1,0 +1,65 @@
+---
+layout: default
+---
+
+{% assign effective_lang = page.lang | default: site.lang %} {% assign legal_copy =
+site.data.legal_notice[effective_lang] | default: site.data.legal_notice[site.lang] %}
+
+<div
+  id="legal-container"
+  class="legal-container"
+  data-target-url="{{ site.url_legal | escape }}"
+  data-intro-text="{{ legal_copy.intro | escape }}"
+  data-button-text="{{ legal_copy.button | escape }}"
+  data-status-text="{{ legal_copy.status | escape }}"
+>
+  <h2 class="legal-title">{{ legal_copy.title }}</h2>
+
+  <div id="legal-loader">
+    <p class="legal-loader-text">{{ legal_copy.loading }}</p>
+    <div class="legal-spinner"></div>
+  </div>
+
+  <div id="legal-link-placeholder"></div>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const container = document.getElementById("legal-container");
+    const delay = 1000 + Math.random() * 500;
+
+    if (!container) {
+      return;
+    }
+
+    const targetUrl = container.dataset.targetUrl || "";
+    const introText = container.dataset.introText || "";
+    const buttonText = container.dataset.buttonText || "";
+    const statusText = container.dataset.statusText || "";
+
+    setTimeout(() => {
+      const loader = document.getElementById("legal-loader");
+      const placeholder = document.getElementById("legal-link-placeholder");
+
+      if (loader) {
+        loader.style.display = "none";
+      }
+
+      if (placeholder) {
+        placeholder.innerHTML = `
+        <p class="legal-intro">${introText}</p>
+        <a href="${targetUrl}" target="_blank" rel="noopener noreferrer" class="legal-btn">
+          ${buttonText}
+        </a>
+        <p class="legal-status">
+          ${statusText}
+        </p>
+      `;
+      }
+    }, delay);
+  });
+</script>
+
+<noscript>
+  <p class="legal-status">{{ legal_copy.javascript_required }}</p>
+</noscript>

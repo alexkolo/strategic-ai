@@ -1,0 +1,14 @@
+en:
+  title: "Legal notice"
+  loading: "Preparing secure access to legal documents..."
+  intro: "For security and privacy, the legal notice is hosted on our dedicated documentation server."
+  button: "View Legal Notice (External Tab)"
+  status: "Link generated successfully. Opens in a new window."
+  javascript_required: "JavaScript is required to generate the secure access link for the legal notice."
+de:
+  title: "Impressum"
+  loading: "Sicherer Zugriff auf die rechtlichen Dokumente wird vorbereitet..."
+  intro: "Aus Sicherheits- und Datenschutzgründen wird das Impressum auf unserem dedizierten Dokumentationsserver gehostet."
+  button: "Impressum anzeigen (Externer Tab)"
+  status: "Link erfolgreich generiert. Öffnet in einem neuen Fenster."
+  javascript_required: "JavaScript ist erforderlich, um den sicheren Zugriff auf das Impressum zu generieren."
