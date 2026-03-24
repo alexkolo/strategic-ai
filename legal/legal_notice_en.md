@@ -6,12 +6,12 @@ noindex: true
 ---
 
 <div id="legal-container" style="text-align: center; padding: 60px 20px; min-height: 400px;">
-  <h2 style="margin-bottom: 30px;">Legal Notice / Impressum</h2>
+  <h2 style="margin-bottom: 30px;">Legal Notice</h2>
 
   <!-- This starts as a "loading" state -->
   <div id="legal-loader">
     <p style="color: #888;">Preparing secure access to legal documents...</p>
-    <div style="margin: 20px auto; width: 40px; height: 40px; border: 4px solid #f3f3f3; border-top: 4px solid #3498db; border-radius: 50%; animation: spin 2s linear infinite;"></div>
+    <div style="margin: 20px auto; width: 40px; height: 40px; border: 4px solid #f3f3f3; border-top: 4px solid #0063fb; border-radius: 50%; animation: spin 2s linear infinite;"></div>
   </div>
 
   <!-- This remains empty until the script runs -->
@@ -26,16 +26,16 @@ noindex: true
 .legal-btn {
   display: inline-block;
   padding: 18px 36px;
-  background-color: #2c3e50;
+  background-color: #0063fb;
   color: white !important;
   text-decoration: none;
   border-radius: 6px;
   font-weight: bold;
   transition: background 0.3s;
-  border: 1px solid #1a252f;
+  border: none;
 }
 .legal-btn:hover {
-  background-color: #34495e;
+  background-color: #0050c1;
 }
 </style>
 
