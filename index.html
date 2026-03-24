@@ -5,6 +5,9 @@ font_family: "Dosis Light"
 lang: en
 ---
 
+{% assign home_paths = site.data.page_paths.navigation[page.lang] | default: site.data.page_paths.navigation[site.lang]
+%}
+
 <div class="container_center">
   <img src="{{ site.profile_image }}" alt="{{ site.my_name.en }} Profile Image" class="logo" />
 
@@ -30,11 +33,11 @@ lang: en
   <div class="outcome_item">
     <h4>{{ outcome.title }}</h4>
     <p>{{ outcome.description }}</p>
-    <p><a href="{{ site.baseurl }}/en/portfolio#{{ outcome.portfolio_anchor }}">Learn More →</a></p>
+    <p><a href="{{ site.baseurl }}{{ home_paths.portfolio.href }}#{{ outcome.portfolio_anchor }}">Learn More →</a></p>
   </div>
   {% endfor %}
   <p style="text-align: center; margin-top: 1.5em">
-    <a href="{{ site.baseurl }}/en/portfolio" class="cta-link">Explore All Success Stories</a>
+    <a href="{{ site.baseurl }}{{ home_paths.portfolio.href }}" class="cta-link">Explore All Success Stories</a>
   </p>
 </div>
 
@@ -48,18 +51,18 @@ lang: en
     <i class="fa fa-star fa-spin fa-3x"></i>
     <h4>My Services</h4>
     <p>See how my expertise can elevate your AI software or optimize your industrial AI strategy.</p>
-    <a href="{{ site.baseurl }}/en/services_build">Unlock Your AI Potential</a>
+    <a href="{{ site.baseurl }}{{ home_paths.services.href }}">Unlock Your AI Potential</a>
   </div>
   <div>
     <i class="fa fa-trophy fa-4x"></i>
     <h4>Proven Results</h4>
     <p>Explore real-world examples of how I've driven tangible value & measurable impact.</p>
-    <a href="{{ site.baseurl }}/en/portfolio">View My Success Stories</a>
+    <a href="{{ site.baseurl }}{{ home_paths.portfolio.href }}">View My Success Stories</a>
   </div>
   <div>
     <i class="fa fa-user fa-3x"></i>
     <h4>About Me</h4>
     <p>Discover the expertise & experience that enables me to deliver <i>your</i> Strategic AI Vision.</p>
-    <a href="{{ site.baseurl }}/en/about">Why Partner With Me</a>
+    <a href="{{ site.baseurl }}{{ home_paths.about.href }}">Why Partner With Me</a>
   </div>
 </div>
