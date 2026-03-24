@@ -7,8 +7,8 @@ site.data.legal_notice[effective_lang] | default: site.data.legal_notice[site.la
 site.data.legal_notice.url %} {% assign legal_url_parts = legal_url | split: '://' %} {% assign legal_scheme =
 legal_url_parts[0] %} {% assign legal_host_and_path = legal_url_parts[1] | split: '/' %} {% assign legal_host =
 legal_host_and_path[0] %} {% assign legal_host_labels = legal_host | split: '.' | reverse | join: '|' %} {% capture
-legal_path_segments %} {% for segment in legal_host_and_path offset:1 %} {{- segment | strip -}}{% unless forloop.last
-%}|{% endunless %} {% endfor %} {% endcapture %}
+legal_path_segments %}{% for segment in legal_host_and_path offset:1 %}{{ segment | strip }}{% unless forloop.last %}|{%
+endunless %}{% endfor %}{% endcapture %}
 
 <div
   id="legal-container"
