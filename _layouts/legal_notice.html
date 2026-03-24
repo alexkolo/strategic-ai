@@ -3,12 +3,18 @@ layout: default
 ---
 
 {% assign effective_lang = page.lang | default: site.lang %} {% assign legal_copy =
-site.data.legal_notice[effective_lang] | default: site.data.legal_notice[site.lang] %}
+site.data.legal_notice[effective_lang] | default: site.data.legal_notice[site.lang] %} {% assign legal_url_parts =
+site.url_legal | split: '://' %} {% assign legal_scheme = legal_url_parts[0] %} {% assign legal_host_and_path =
+legal_url_parts[1] | split: '/' %} {% assign legal_host = legal_host_and_path[0] %} {% assign legal_host_labels =
+legal_host | split: '.' | reverse | join: '|' %} {% capture legal_path_segments %} {% for segment in legal_host_and_path
+offset:1 reversed %} {{ segment }}{% unless forloop.last %}|{% endunless %} {% endfor %} {% endcapture %}
 
 <div
   id="legal-container"
   class="legal-container"
-  data-target-url="{{ site.url_legal | escape }}"
+  data-url-scheme="{{ legal_scheme | escape }}"
+  data-url-host="{{ legal_host_labels | strip | escape }}"
+  data-url-path="{{ legal_path_segments | strip | escape }}"
   data-intro-text="{{ legal_copy.intro | escape }}"
   data-button-text="{{ legal_copy.button | escape }}"
   data-status-text="{{ legal_copy.status | escape }}"
@@ -32,10 +38,16 @@ site.data.legal_notice[effective_lang] | default: site.data.legal_notice[site.la
       return;
     }
 
-    const targetUrl = container.dataset.targetUrl || "";
+    const urlScheme = container.dataset.urlScheme || "";
+    const urlHost = container.dataset.urlHost || "";
+    const urlPath = container.dataset.urlPath || "";
     const introText = container.dataset.introText || "";
     const buttonText = container.dataset.buttonText || "";
     const statusText = container.dataset.statusText || "";
+
+    const host = urlHost.split("|").filter(Boolean).reverse().join(".");
+    const path = urlPath.split("|").filter(Boolean).reverse().join("/");
+    const targetUrl = host && path ? `${urlScheme}://${host}/${path}` : "";
 
     setTimeout(() => {
       const loader = document.getElementById("legal-loader");
@@ -45,16 +57,23 @@ site.data.legal_notice[effective_lang] | default: site.data.legal_notice[site.la
         loader.style.display = "none";
       }
 
-      if (placeholder) {
-        placeholder.innerHTML = `
-        <p class="legal-intro">${introText}</p>
-        <a href="${targetUrl}" target="_blank" rel="noopener noreferrer" class="legal-btn">
-          ${buttonText}
-        </a>
-        <p class="legal-status">
-          ${statusText}
-        </p>
-      `;
+      if (placeholder && targetUrl) {
+        const intro = document.createElement("p");
+        intro.className = "legal-intro";
+        intro.textContent = introText;
+
+        const link = document.createElement("a");
+        link.className = "legal-btn";
+        link.href = targetUrl;
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        link.textContent = buttonText;
+
+        const status = document.createElement("p");
+        status.className = "legal-status";
+        status.textContent = statusText;
+
+        placeholder.replaceChildren(intro, link, status);
       }
     }, delay);
   });
