@@ -80,3 +80,46 @@ If you automate deployments with the Cloudflare API, the main API rate limit is:
 - 1,200 API requests per 5 minutes per user or token
 
 For this repo, the most likely limit to matter is the monthly build quota, not traffic volume.
+
+## When a Worker Makes Sense
+
+This repo is mostly a static marketing site, so a Worker is only useful if you need request-time logic or server-side secrets.
+
+Examples that would make sense here:
+
+- a contact form backend
+- lead capture with spam protection or CAPTCHA verification
+- sending email through an API without exposing credentials in browser code
+- request-time redirects based on country, language, or campaign URL parameters
+- preview or staging access protection
+- calling external APIs that require secret keys
+
+Examples that do not need a Worker:
+
+- normal content pages
+- navigation, layouts, and styling
+- portfolio and testimonial pages
+- any content that can be generated at build time by Jekyll
+
+## GitHub Pages Compatibility
+
+If you add a Worker-specific feature, the repo can still be built and hosted as a plain static site on GitHub Pages.
+
+What changes is this:
+
+- the static pages will still work on GitHub Pages
+- Worker-powered features will only work on Cloudflare
+
+So GitHub Pages compatibility is not automatically lost for the whole repo. Only the dynamic features become Cloudflare-specific unless you also build a fallback for GitHub Pages.
+
+Practical examples:
+
+- a static contact page works on both platforms
+- a contact form posting to a Cloudflare Worker only works fully on Cloudflare
+- a country-based redirect handled by a Worker only works on Cloudflare
+
+If keeping dual-host compatibility matters, the safest pattern is:
+
+- keep the site itself fully static
+- make Worker features optional enhancements
+- add graceful fallback behavior for GitHub Pages where needed
