@@ -13,5 +13,14 @@ url_ai_images: /assets/ia_images
 n_exp_years: 8
 font_family: "Dosis Light"
 baseurl: ""
-exclude: ["README.md", ".markdownlint.json", "LICENSE", "flattened/.flatten_ignore", "docs/notes.md"]
+exclude:
+  - README.md
+  - .markdownlint.json
+  - LICENSE
+  - flattened/.flatten_ignore
+  - docs/notes.md
+  - docs/local_build.md
+  - Gemfile
+  - Gemfile.lock
+  - Makefile
 lang: en
