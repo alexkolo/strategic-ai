@@ -1,0 +1,83 @@
+as of 03/04/2026
+
+https://developers.cloudflare.com/workers/platform/limits/
+
+Free
+$0
+For personal use and simple applications
+Your current plan
+Workers Assets
+
+    Free
+
+Workers & Pages Functions
+
+    Up to 10ms CPU time per request
+    Up to 100,000 per day (UTC+0)
+
+Workers Builds
+
+    1 concurrent build slot
+    Up to 3,000 minutes per month
+
+Workers Logs
+
+    Filter and analyze logs emitted from your Worker
+    200,000 events per day
+    3 day retention
+
+Durable Objects
+
+    Serverless compute and SQL database
+    Up to 100,000 requests per day
+    Up to 13,000 GB-sec of duration per day
+    Up to 5 million rows read per day
+    Up to 100,000 rows written per day
+    5GB of included storage
+
+D1
+
+    Serverless SQL database
+    Up to 5 million rows read per day
+    Up to 100,000 rows written per day
+    5GB of included storage
+
+KV
+
+    Global low-latency key-value edge storage
+    Up to 100,000 read operations per day
+    Up to 1,000 write, delete, list operations per day
+
+Workers AI
+
+    Access to all AI models in our catalog
+    Up to 10,000 neurons per day
+
+Queues
+
+    Reliably send and receive messages globally
+    Up to 10,000 operations per day
+
+Hyperdrive
+
+    Connect to and speed up your existing databases from Workers
+    Up to 100,000 queries per day
+
+Vectorize
+
+    Build full-stack AI applications with powerful vector database
+    Includes
+
+Browser Rendering
+
+    Control and interact with a headless browser
+    Includes
+
+More platform benefits
+
+    High performance runtime with no cold starts
+    Global deployments to hundreds of data centers
+    Maintenance-free infrastructure that scales automatically
+    Support for JavaScript and 9 additional languages
+    Full CLI deployment capabilities
+    Unlimited collaborators
