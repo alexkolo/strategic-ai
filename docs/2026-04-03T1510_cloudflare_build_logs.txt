@@ -1,0 +1,540 @@
+2026-04-03T15:10:35.511633Z	Cloning repository...
+2026-04-03T15:10:36.229366Z	From https://github.com/alexkolo/strategic-ai
+2026-04-03T15:10:36.229691Z	 * branch            caaa45eea7d4b22b787ef171d894b69d4e16567c -> FETCH_HEAD
+2026-04-03T15:10:36.229779Z
+2026-04-03T15:10:36.271053Z	HEAD is now at caaa45e Add .codex to exclude list in configuration for improved clarity and maintainability
+2026-04-03T15:10:36.271626Z
+2026-04-03T15:10:36.320987Z
+2026-04-03T15:10:36.321535Z	Using v2 root directory strategy
+2026-04-03T15:10:36.337356Z	Success: Finished cloning repository files
+2026-04-03T15:10:38.662417Z	Checking for configuration in a Wrangler configuration file (BETA)
+2026-04-03T15:10:38.663143Z
+2026-04-03T15:10:39.770414Z	No Wrangler configuration file found. Continuing.
+2026-04-03T15:10:39.949159Z	Detected the following tools from environment: ruby@3.2.3
+2026-04-03T15:10:39.949667Z	Installing ruby 3.2.3
+2026-04-03T15:10:40.176725Z	==> Downloading ruby-3.2.3.tar.gz...
+2026-04-03T15:10:40.179227Z	-> curl -q -fL -o ruby-3.2.3.tar.gz https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.3.tar.gz
+2026-04-03T15:10:40.192118Z	  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+2026-04-03T15:10:40.192427Z	                                 Dload  Upload   Total   Spent    Left  Speed
+2026-04-03T15:10:40.602364Z
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 19.6M  100 19.6M    0     0  47.8M      0 --:--:-- --:--:-- --:--:-- 47.8M
+2026-04-03T15:10:41.78639Z	==> Installing ruby-3.2.3...
+2026-04-03T15:10:42.014335Z	-> ./configure "--prefix=$HOME/.asdf/installs/ruby/3.2.3" --enable-shared --with-ext=openssl,psych,+
+2026-04-03T15:11:18.827497Z	-> make -j 4
+2026-04-03T15:13:27.970326Z	-> make install
+2026-04-03T15:14:06.738895Z	==> Installed ruby-3.2.3 to /opt/buildhome/.asdf/installs/ruby/3.2.3
+2026-04-03T15:14:08.227679Z	Installing project dependencies: BUNDLE_WITHOUT="development test" bundle install
+2026-04-03T15:14:08.531412Z	Bundler 2.4.19 is running, but your lockfile was generated with 4.0.9. Installing Bundler 4.0.9 and restarting using that version.
+2026-04-03T15:14:09.912484Z	Fetching gem metadata from https://rubygems.org/.
+2026-04-03T15:14:09.922777Z	Fetching bundler 4.0.9
+2026-04-03T15:14:10.016863Z	Installing bundler 4.0.9
+2026-04-03T15:14:13.916704Z	Fetching gem metadata from https://rubygems.org/.........
+2026-04-03T15:14:13.930907Z	Fetching bigdecimal 4.1.0
+2026-04-03T15:14:13.933569Z	Fetching base64 0.3.0
+2026-04-03T15:14:13.934672Z	Fetching concurrent-ruby 1.3.6
+2026-04-03T15:14:13.935075Z	Fetching connection_pool 3.0.2
+2026-04-03T15:14:14.016994Z	Fetching drb 2.2.3
+2026-04-03T15:14:14.018534Z	Fetching i18n 1.14.8
+2026-04-03T15:14:14.031629Z	Fetching json 2.19.3
+2026-04-03T15:14:14.033604Z	Fetching logger 1.7.0
+2026-04-03T15:14:14.042598Z	Installing bigdecimal 4.1.0 with native extensions
+2026-04-03T15:14:14.048515Z	Fetching prism 1.9.0
+2026-04-03T15:14:14.053386Z	Fetching minitest 6.0.3
+2026-04-03T15:14:14.061791Z	Installing json 2.19.3 with native extensions
+2026-04-03T15:14:14.083408Z	Fetching securerandom 0.4.1
+2026-04-03T15:14:14.092838Z	Fetching tzinfo 2.0.6
+2026-04-03T15:14:14.114165Z	Fetching uri 1.1.1
+2026-04-03T15:14:14.13081Z	Fetching public_suffix 5.1.1
+2026-04-03T15:14:14.131786Z	Fetching activesupport 8.1.3
+2026-04-03T15:14:14.165029Z	Installing prism 1.9.0 with native extensions
+2026-04-03T15:14:14.180156Z	Fetching addressable 2.8.9
+2026-04-03T15:14:14.358784Z	Fetching coffee-script-source 1.12.2
+2026-04-03T15:14:14.378274Z	Fetching execjs 2.10.1
+2026-04-03T15:14:14.38888Z	Fetching coffee-script 2.4.1
+2026-04-03T15:14:14.399395Z	Fetching colorator 1.1.0
+2026-04-03T15:14:14.407057Z	Fetching commonmarker 0.23.12
+2026-04-03T15:14:14.426159Z	Fetching csv 3.3.5
+2026-04-03T15:14:14.440983Z	Installing commonmarker 0.23.12 with native extensions
+2026-04-03T15:14:20.900317Z	Fetching simpleidn 0.2.3
+2026-04-03T15:14:20.924641Z	Fetching dnsruby 1.73.1
+2026-04-03T15:14:20.947759Z	Fetching eventmachine 1.2.7
+2026-04-03T15:14:20.98056Z	Fetching http_parser.rb 0.8.1
+2026-04-03T15:14:21.00369Z	Installing eventmachine 1.2.7 with native extensions
+2026-04-03T15:14:22.275039Z	Installing http_parser.rb 0.8.1 with native extensions
+2026-04-03T15:14:23.556927Z	Fetching em-websocket 0.5.3
+2026-04-03T15:14:23.577425Z	Fetching ffi 1.17.4 (x86_64-linux-gnu)
+2026-04-03T15:14:23.608261Z	Fetching ethon 0.18.0
+2026-04-03T15:14:23.61992Z	Fetching net-http 0.9.1
+2026-04-03T15:14:23.630659Z	Fetching faraday-net_http 3.4.2
+2026-04-03T15:14:23.642584Z	Fetching faraday 2.14.1
+2026-04-03T15:14:23.658186Z	Fetching forwardable-extended 2.6.0
+2026-04-03T15:14:23.669144Z	Fetching gemoji 4.1.0
+2026-04-03T15:14:23.681361Z	Fetching sawyer 0.9.3
+2026-04-03T15:14:23.686632Z	Fetching octokit 4.25.1
+2026-04-03T15:14:23.696101Z	Fetching typhoeus 1.6.0
+2026-04-03T15:14:23.705422Z	Fetching github-pages-health-check 1.18.2
+2026-04-03T15:14:23.708747Z	Fetching rb-fsevent 0.11.2
+2026-04-03T15:14:23.718541Z	Fetching rb-inotify 0.11.1
+2026-04-03T15:14:23.724934Z	Fetching sass-listen 4.0.0
+2026-04-03T15:14:23.728531Z	Fetching sass 3.7.4
+2026-04-03T15:14:23.738063Z	Fetching jekyll-sass-converter 1.5.2
+2026-04-03T15:14:23.748856Z	Fetching listen 3.10.0
+2026-04-03T15:14:23.754365Z	Fetching jekyll-watch 2.2.1
+2026-04-03T15:14:23.770498Z	Fetching rexml 3.4.4
+2026-04-03T15:14:23.771821Z	Fetching kramdown 2.4.0
+2026-04-03T15:14:23.784346Z	Fetching liquid 4.0.4
+2026-04-03T15:14:23.795688Z	Fetching mercenary 0.3.6
+2026-04-03T15:14:23.806128Z	Fetching pathutil 0.16.2
+2026-04-03T15:14:23.808388Z	Fetching rouge 3.30.0
+2026-04-03T15:14:23.838995Z	Fetching safe_yaml 1.0.5
+2026-04-03T15:14:23.864646Z	Fetching webrick 1.9.2
+2026-04-03T15:14:23.876712Z	Fetching jekyll 3.10.0
+2026-04-03T15:14:23.878755Z	Fetching jekyll-avatar 0.8.0
+2026-04-03T15:14:23.897721Z	Fetching jekyll-coffeescript 1.2.2
+2026-04-03T15:14:23.899398Z	Fetching jekyll-commonmark 1.4.0
+2026-04-03T15:14:23.909448Z	Fetching jekyll-commonmark-ghpages 0.5.1
+2026-04-03T15:14:23.915947Z	Fetching jekyll-default-layout 0.1.5
+2026-04-03T15:14:23.92237Z	Fetching jekyll-feed 0.17.0
+2026-04-03T15:14:23.92864Z	Fetching jekyll-gist 1.5.0
+2026-04-03T15:14:23.930336Z	Fetching jekyll-github-metadata 2.16.1
+2026-04-03T15:14:23.94442Z	Fetching racc 1.8.1
+2026-04-03T15:14:23.944844Z	Fetching jekyll-include-cache 0.2.1
+2026-04-03T15:14:23.952678Z	Fetching nokogiri 1.19.2 (x86_64-linux-gnu)
+2026-04-03T15:14:23.959128Z	Fetching html-pipeline 2.14.3
+2026-04-03T15:14:24.048654Z	Installing racc 1.8.1 with native extensions
+2026-04-03T15:14:24.161085Z	Fetching jekyll-mentions 1.6.0
+2026-04-03T15:14:24.172822Z	Fetching jekyll-optional-front-matter 0.3.2
+2026-04-03T15:14:24.180997Z	Fetching jekyll-paginate 1.1.0
+2026-04-03T15:14:24.188578Z	Fetching jekyll-readme-index 0.3.0
+2026-04-03T15:14:24.195845Z	Fetching jekyll-redirect-from 0.16.0
+2026-04-03T15:14:24.203639Z	Fetching jekyll-relative-links 0.6.1
+2026-04-03T15:14:24.211282Z	Fetching rubyzip 2.4.1
+2026-04-03T15:14:24.227417Z	Fetching jekyll-remote-theme 0.4.3
+2026-04-03T15:14:24.236018Z	Fetching jekyll-seo-tag 2.8.0
+2026-04-03T15:14:24.243363Z	Fetching jekyll-sitemap 1.4.0
+2026-04-03T15:14:24.25371Z	Fetching jekyll-swiss 1.0.0
+2026-04-03T15:14:24.264278Z	Fetching jekyll-theme-architect 0.2.0
+2026-04-03T15:14:24.271489Z	Fetching jekyll-theme-cayman 0.2.0
+2026-04-03T15:14:24.278535Z	Fetching jekyll-theme-dinky 0.2.0
+2026-04-03T15:14:24.2872Z	Fetching jekyll-theme-hacker 0.2.0
+2026-04-03T15:14:24.293962Z	Fetching jekyll-theme-leap-day 0.2.0
+2026-04-03T15:14:24.315689Z	Fetching jekyll-theme-merlot 0.2.0
+2026-04-03T15:14:24.345938Z	Fetching jekyll-theme-midnight 0.2.0
+2026-04-03T15:14:24.493368Z	Fetching jekyll-theme-minimal 0.2.0
+2026-04-03T15:14:24.518519Z	Fetching jekyll-theme-modernist 0.2.0
+2026-04-03T15:14:24.531245Z	Fetching jekyll-theme-primer 0.6.0
+2026-04-03T15:14:24.545649Z	Fetching jekyll-theme-slate 0.2.0
+2026-04-03T15:14:24.56148Z	Fetching jekyll-theme-tactile 0.2.0
+2026-04-03T15:14:24.580093Z	Fetching jekyll-theme-time-machine 0.2.0
+2026-04-03T15:14:24.603575Z	Fetching jekyll-titles-from-headings 0.5.3
+2026-04-03T15:14:24.622333Z	Fetching jemoji 0.13.0
+2026-04-03T15:14:24.648701Z	Fetching kramdown-parser-gfm 1.1.0
+2026-04-03T15:14:24.664278Z	Fetching minima 2.5.1
+2026-04-03T15:14:24.690462Z	Fetching unicode-display_width 1.8.0
+2026-04-03T15:14:24.713514Z	Fetching terminal-table 1.8.0
+2026-04-03T15:14:24.719308Z	Fetching github-pages 232
+2026-04-03T15:14:24.775213Z	Installing base64 0.3.0
+2026-04-03T15:14:24.780972Z	Installing connection_pool 3.0.2
+2026-04-03T15:14:24.805483Z	Installing drb 2.2.3
+2026-04-03T15:14:24.813426Z	Installing i18n 1.14.8
+2026-04-03T15:14:24.852153Z	Installing logger 1.7.0
+2026-04-03T15:14:24.889854Z	Installing concurrent-ruby 1.3.6
+2026-04-03T15:14:24.940596Z	Installing minitest 6.0.3
+2026-04-03T15:14:25.085275Z	Installing securerandom 0.4.1
+2026-04-03T15:14:25.105364Z	Installing tzinfo 2.0.6
+2026-04-03T15:14:25.235298Z	Installing uri 1.1.1
+2026-04-03T15:14:25.283795Z	Installing public_suffix 5.1.1
+2026-04-03T15:14:25.296099Z	Installing activesupport 8.1.3
+2026-04-03T15:14:25.332487Z	Installing addressable 2.8.9
+2026-04-03T15:14:25.375882Z	Installing coffee-script-source 1.12.2
+2026-04-03T15:14:25.394704Z	Installing execjs 2.10.1
+2026-04-03T15:14:25.453981Z	Installing coffee-script 2.4.1
+2026-04-03T15:14:25.474848Z	Installing colorator 1.1.0
+2026-04-03T15:14:25.506809Z	Installing csv 3.3.5
+2026-04-03T15:14:25.626897Z	Installing simpleidn 0.2.3
+2026-04-03T15:14:25.672609Z	Installing dnsruby 1.73.1
+2026-04-03T15:14:25.956598Z	Installing em-websocket 0.5.3
+2026-04-03T15:14:26.069671Z	Installing ffi 1.17.4 (x86_64-linux-gnu)
+2026-04-03T15:14:26.078886Z	Installing ethon 0.18.0
+2026-04-03T15:14:26.22308Z	Installing net-http 0.9.1
+2026-04-03T15:14:26.274645Z	Installing faraday-net_http 3.4.2
+2026-04-03T15:14:26.300039Z	Installing faraday 2.14.1
+2026-04-03T15:14:26.445702Z	Installing forwardable-extended 2.6.0
+2026-04-03T15:14:26.463639Z	Installing gemoji 4.1.0
+2026-04-03T15:14:26.486496Z	Installing sawyer 0.9.3
+2026-04-03T15:14:26.499449Z	Installing octokit 4.25.1
+2026-04-03T15:14:26.534123Z	Installing typhoeus 1.6.0
+2026-04-03T15:14:26.648912Z	Installing github-pages-health-check 1.18.2
+2026-04-03T15:14:26.690642Z	Installing rb-fsevent 0.11.2
+2026-04-03T15:14:26.752683Z	Installing rb-inotify 0.11.1
+2026-04-03T15:14:26.761183Z	Installing sass-listen 4.0.0
+2026-04-03T15:14:26.79848Z	Installing jekyll-sass-converter 1.5.2
+2026-04-03T15:14:26.824593Z	Installing sass 3.7.4
+2026-04-03T15:14:26.855526Z	Installing jekyll-watch 2.2.1
+2026-04-03T15:14:26.877053Z	Installing listen 3.10.0
+2026-04-03T15:14:26.987838Z	Installing rexml 3.4.4
+2026-04-03T15:14:27.135738Z	Installing kramdown 2.4.0
+2026-04-03T15:14:27.154157Z	Installing liquid 4.0.4
+2026-04-03T15:14:27.374891Z	Installing mercenary 0.3.6
+2026-04-03T15:14:27.440165Z	Installing pathutil 0.16.2
+2026-04-03T15:14:27.464214Z	Installing safe_yaml 1.0.5
+2026-04-03T15:14:27.582846Z	Installing webrick 1.9.2
+2026-04-03T15:14:27.753359Z	Installing rouge 3.30.0
+2026-04-03T15:14:28.150429Z	Installing jekyll 3.10.0
+2026-04-03T15:14:28.365579Z	Installing jekyll-avatar 0.8.0
+2026-04-03T15:14:28.380586Z	Installing jekyll-coffeescript 1.2.2
+2026-04-03T15:14:28.395835Z	Installing jekyll-commonmark 1.4.0
+2026-04-03T15:14:28.411754Z	Installing jekyll-commonmark-ghpages 0.5.1
+2026-04-03T15:14:28.444976Z	Installing jekyll-default-layout 0.1.5
+2026-04-03T15:14:28.458109Z	Installing jekyll-feed 0.17.0
+2026-04-03T15:14:28.476956Z	Installing jekyll-gist 1.5.0
+2026-04-03T15:14:28.519823Z	Installing jekyll-github-metadata 2.16.1
+2026-04-03T15:14:28.548326Z	Installing jekyll-include-cache 0.2.1
+2026-04-03T15:14:28.559596Z	Installing html-pipeline 2.14.3
+2026-04-03T15:14:28.650662Z	Installing nokogiri 1.19.2 (x86_64-linux-gnu)
+2026-04-03T15:14:28.687634Z	Installing jekyll-mentions 1.6.0
+2026-04-03T15:14:28.696353Z	Installing jekyll-optional-front-matter 0.3.2
+2026-04-03T15:14:28.707898Z	Installing jekyll-paginate 1.1.0
+2026-04-03T15:14:28.760242Z	Installing jekyll-readme-index 0.3.0
+2026-04-03T15:14:28.774836Z	Installing jekyll-redirect-from 0.16.0
+2026-04-03T15:14:28.850263Z	Installing jekyll-relative-links 0.6.1
+2026-04-03T15:14:28.863073Z	Installing rubyzip 2.4.1
+2026-04-03T15:14:28.96459Z	Installing jekyll-remote-theme 0.4.3
+2026-04-03T15:14:28.978834Z	Installing jekyll-seo-tag 2.8.0
+2026-04-03T15:14:29.040039Z	Installing jekyll-sitemap 1.4.0
+2026-04-03T15:14:29.114618Z	Installing jekyll-swiss 1.0.0
+2026-04-03T15:14:29.151563Z	Installing jekyll-theme-architect 0.2.0
+2026-04-03T15:14:29.176444Z	Installing jekyll-theme-cayman 0.2.0
+2026-04-03T15:14:29.18833Z	Installing jekyll-theme-dinky 0.2.0
+2026-04-03T15:14:29.20938Z	Installing jekyll-theme-hacker 0.2.0
+2026-04-03T15:14:29.220522Z	Installing jekyll-theme-leap-day 0.2.0
+2026-04-03T15:14:29.248566Z	Installing jekyll-theme-merlot 0.2.0
+2026-04-03T15:14:29.316946Z	Installing jekyll-theme-midnight 0.2.0
+2026-04-03T15:14:29.364693Z	Installing jekyll-theme-minimal 0.2.0
+2026-04-03T15:14:29.441416Z	Installing jekyll-theme-modernist 0.2.0
+2026-04-03T15:14:29.456411Z	Installing jekyll-theme-primer 0.6.0
+2026-04-03T15:14:29.473101Z	Installing jekyll-theme-slate 0.2.0
+2026-04-03T15:14:29.503782Z	Installing jekyll-theme-tactile 0.2.0
+2026-04-03T15:14:29.540586Z	Installing jekyll-theme-time-machine 0.2.0
+2026-04-03T15:14:29.57242Z	Installing jekyll-titles-from-headings 0.5.3
+2026-04-03T15:14:29.580763Z	Installing jemoji 0.13.0
+2026-04-03T15:14:29.587956Z	Installing kramdown-parser-gfm 1.1.0
+2026-04-03T15:14:29.591162Z	Installing minima 2.5.1
+2026-04-03T15:14:29.629339Z	Installing unicode-display_width 1.8.0
+2026-04-03T15:14:29.652259Z	Installing terminal-table 1.8.0
+2026-04-03T15:14:29.661405Z	Installing github-pages 232
+2026-04-03T15:14:42.057023Z	Bundle complete! 2 Gemfile dependencies, 97 gems now installed.
+2026-04-03T15:14:42.057338Z	Gems in the groups 'development' and 'test' were not installed.
+2026-04-03T15:14:42.057435Z	Use `bundle info [gemname]` to see where a bundled gem is installed.
+2026-04-03T15:14:42.057525Z	Post-install message from dnsruby:
+2026-04-03T15:14:42.057592Z	Installing dnsruby...
+2026-04-03T15:14:42.057659Z	  For issues and source code: https://github.com/alexdalitz/dnsruby
+2026-04-03T15:14:42.057748Z	  For general discussion (please tell us how you use dnsruby): https://groups.google.com/forum/#!forum/dnsruby
+2026-04-03T15:14:42.057844Z	Post-install message from sass:
+2026-04-03T15:14:42.057921Z
+2026-04-03T15:14:42.057982Z	Ruby Sass has reached end-of-life and should no longer be used.
+2026-04-03T15:14:42.058143Z
+2026-04-03T15:14:42.058209Z	* If you use Sass as a command-line tool, we recommend using Dart Sass, the new
+2026-04-03T15:14:42.058268Z	  primary implementation: https://sass-lang.com/install
+2026-04-03T15:14:42.05832Z
+2026-04-03T15:14:42.058384Z	* If you use Sass as a plug-in for a Ruby web framework, we recommend using the
+2026-04-03T15:14:42.05844Z	  sassc gem: https://github.com/sass/sassc-ruby#readme
+2026-04-03T15:14:42.058483Z
+2026-04-03T15:14:42.058531Z	* For more details, please refer to the Sass blog:
+2026-04-03T15:14:42.058595Z	  https://sass-lang.com/blog/posts/7828841
+2026-04-03T15:14:42.058648Z
+2026-04-03T15:14:42.058689Z	Post-install message from html-pipeline:
+2026-04-03T15:14:42.058782Z	-------------------------------------------------
+2026-04-03T15:14:42.058838Z	Thank you for installing html-pipeline!
+2026-04-03T15:14:42.058883Z	You must bundle Filter gem dependencies.
+2026-04-03T15:14:42.058913Z	See html-pipeline README.md for more details.
+2026-04-03T15:14:42.058941Z	https://github.com/jch/html-pipeline#dependencies
+2026-04-03T15:14:42.058981Z	-------------------------------------------------
+2026-04-03T15:14:42.059054Z	Post-install message from rubyzip:
+2026-04-03T15:14:42.059116Z	RubyZip 3.0 is coming!
+2026-04-03T15:14:42.059165Z	**********************
+2026-04-03T15:14:42.059206Z
+2026-04-03T15:14:42.059235Z	The public API of some Rubyzip classes has been modernized to use named
+2026-04-03T15:14:42.059265Z	parameters for optional arguments. Please check your usage of the
+2026-04-03T15:14:42.059312Z	following classes:
+2026-04-03T15:14:42.059374Z	  * `Zip::File`
+2026-04-03T15:14:42.059459Z	  * `Zip::Entry`
+2026-04-03T15:14:42.059504Z	  * `Zip::InputStream`
+2026-04-03T15:14:42.059536Z	  * `Zip::OutputStream`
+2026-04-03T15:14:42.059605Z	  * `Zip::DOSTime`
+2026-04-03T15:14:42.059647Z
+2026-04-03T15:14:42.059705Z	Run your test suite with the `RUBYZIP_V3_API_WARN` environment
+2026-04-03T15:14:42.059769Z	variable set to see warnings about usage of the old API. This will
+2026-04-03T15:14:42.059824Z	help you to identify any changes that you need to make to your code.
+2026-04-03T15:14:42.059869Z	See https://github.com/rubyzip/rubyzip/wiki/Updating-to-version-3.x for
+2026-04-03T15:14:42.059905Z	more information.
+2026-04-03T15:14:42.059988Z
+2026-04-03T15:14:42.06019Z	Please ensure that your Gemfiles and .gemspecs are suitably restrictive
+2026-04-03T15:14:42.060315Z	to avoid an unexpected breakage when 3.0 is released (e.g. ~> 2.3.0).
+2026-04-03T15:14:42.060391Z	See https://github.com/rubyzip/rubyzip for details. The Changelog also
+2026-04-03T15:14:42.060453Z	lists other enhancements and bugfixes that have been implemented since
+2026-04-03T15:14:42.060735Z	version 2.3.0.
+2026-04-03T15:14:42.140109Z	Executing user command: bundle exec jekyll build
+2026-04-03T15:14:43.203649Z	Configuration file: /opt/buildhome/repo/_config.yml
+2026-04-03T15:14:43.437552Z	To use retry middleware with Faraday v2.0+, install `faraday-retry` gem
+2026-04-03T15:14:43.802968Z	            Source: /opt/buildhome/repo
+2026-04-03T15:14:43.803474Z	       Destination: /opt/buildhome/repo/_site
+2026-04-03T15:14:43.803574Z	 Incremental build: disabled. Enable with --incremental
+2026-04-03T15:14:43.803638Z	      Generating...
+2026-04-03T15:14:44.106235Z	jekyll 3.10.0 | Error:  Invalid US-ASCII character "\xE2" on line 5
+2026-04-03T15:14:44.107469Z	[31m  Conversion error: Jekyll::Converters::Scss encountered an error while converting 'assets/css/style.scss':[0m
+2026-04-03T15:14:44.107589Z	[31m                    Invalid US-ASCII character "\xE2" on line 5[0m
+2026-04-03T15:14:44.107675Z	/opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-sass-converter-1.5.2/lib/jekyll/converters/scss.rb:123:in `rescue in convert': Invalid US-ASCII character "\xE2" on line 5 (Jekyll::Converters::Scss::SyntaxError)
+2026-04-03T15:14:44.107931Z
+2026-04-03T15:14:44.108004Z	        raise SyntaxError, "#{e} on line #{e.sass_line}"
+2026-04-03T15:14:44.108155Z	              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-04-03T15:14:44.108212Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-sass-converter-1.5.2/lib/jekyll/converters/scss.rb:118:in `convert'
+2026-04-03T15:14:44.108266Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-3.10.0/lib/jekyll/renderer.rb:101:in `block in convert'
+2026-04-03T15:14:44.108306Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-3.10.0/lib/jekyll/renderer.rb:99:in `each'
+2026-04-03T15:14:44.108378Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-3.10.0/lib/jekyll/renderer.rb:99:in `reduce'
+2026-04-03T15:14:44.108428Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-3.10.0/lib/jekyll/renderer.rb:99:in `convert'
+2026-04-03T15:14:44.108483Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-3.10.0/lib/jekyll/renderer.rb:83:in `render_document'
+2026-04-03T15:14:44.108771Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-3.10.0/lib/jekyll/renderer.rb:62:in `run'
+2026-04-03T15:14:44.108846Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-3.10.0/lib/jekyll/site.rb:479:in `render_regenerated'
+2026-04-03T15:14:44.109018Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-3.10.0/lib/jekyll/site.rb:472:in `block in render_pages'
+2026-04-03T15:14:44.109145Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-3.10.0/lib/jekyll/site.rb:471:in `each'
+2026-04-03T15:14:44.109396Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-3.10.0/lib/jekyll/site.rb:471:in `render_pages'
+2026-04-03T15:14:44.109477Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-3.10.0/lib/jekyll/site.rb:192:in `render'
+2026-04-03T15:14:44.109548Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-3.10.0/lib/jekyll/site.rb:71:in `process'
+2026-04-03T15:14:44.109696Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-3.10.0/lib/jekyll/command.rb:28:in `process_site'
+2026-04-03T15:14:44.109904Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-3.10.0/lib/jekyll/commands/build.rb:65:in `build'
+2026-04-03T15:14:44.110037Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-3.10.0/lib/jekyll/commands/build.rb:36:in `process'
+2026-04-03T15:14:44.110104Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-3.10.0/lib/jekyll/commands/build.rb:18:in `block (2 levels) in init_with_program'
+2026-04-03T15:14:44.11017Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `block in execute'
+2026-04-03T15:14:44.11037Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `each'
+2026-04-03T15:14:44.11051Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `execute'
+2026-04-03T15:14:44.110601Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/mercenary-0.3.6/lib/mercenary/program.rb:42:in `go'
+2026-04-03T15:14:44.110768Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/mercenary-0.3.6/lib/mercenary.rb:19:in `program'
+2026-04-03T15:14:44.110816Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-3.10.0/exe/jekyll:15:in `<top (required)>'
+2026-04-03T15:14:44.110848Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/bin/jekyll:25:in `load'
+2026-04-03T15:14:44.110886Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/bin/jekyll:25:in `<top (required)>'
+2026-04-03T15:14:44.110923Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/bundler-4.0.9/lib/bundler/cli/exec.rb:61:in `load'
+2026-04-03T15:14:44.110987Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/bundler-4.0.9/lib/bundler/cli/exec.rb:61:in `kernel_load'
+2026-04-03T15:14:44.111039Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/bundler-4.0.9/lib/bundler/cli/exec.rb:24:in `run'
+2026-04-03T15:14:44.111089Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/bundler-4.0.9/lib/bundler/cli.rb:504:in `exec'
+2026-04-03T15:14:44.111135Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/bundler-4.0.9/lib/bundler/vendor/thor/lib/thor/command.rb:28:in `run'
+2026-04-03T15:14:44.111173Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/bundler-4.0.9/lib/bundler/vendor/thor/lib/thor/invocation.rb:127:in `invoke_command'
+2026-04-03T15:14:44.111209Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/bundler-4.0.9/lib/bundler/vendor/thor/lib/thor.rb:538:in `dispatch'
+2026-04-03T15:14:44.111248Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/bundler-4.0.9/lib/bundler/cli.rb:35:in `dispatch'
+2026-04-03T15:14:44.111287Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/bundler-4.0.9/lib/bundler/vendor/thor/lib/thor/base.rb:584:in `start'
+2026-04-03T15:14:44.111318Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/bundler-4.0.9/lib/bundler/cli.rb:29:in `start'
+2026-04-03T15:14:44.111378Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/bundler-4.0.9/exe/bundle:28:in `block in <top (required)>'
+2026-04-03T15:14:44.111444Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/bundler-4.0.9/lib/bundler/friendly_errors.rb:118:in `with_friendly_errors'
+2026-04-03T15:14:44.111596Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/bundler-4.0.9/exe/bundle:20:in `<top (required)>'
+2026-04-03T15:14:44.111663Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/bin/bundle:25:in `load'
+2026-04-03T15:14:44.111717Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/bin/bundle:25:in `<main>'
+2026-04-03T15:14:44.111786Z	/opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-theme-primer-0.6.0/_sass/primer-support/lib/variables/typography.scss:5: Invalid US-ASCII character "\xE2" (Sass::SyntaxError)
+2026-04-03T15:14:44.111901Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-theme-primer-0.6.0/_sass/primer-support/index.scss:2
+2026-04-03T15:14:44.112008Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-theme-primer-0.6.0/_sass/jekyll-theme-primer.scss:2
+2026-04-03T15:14:44.112095Z		from (sass):1
+2026-04-03T15:14:44.112249Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/util.rb:1090:in `rescue in block in find_encoding_error'
+2026-04-03T15:14:44.112322Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/util.rb:1087:in `block in find_encoding_error'
+2026-04-03T15:14:44.11367Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/util.rb:1086:in `each'
+2026-04-03T15:14:44.114003Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/util.rb:1086:in `each_with_index'
+2026-04-03T15:14:44.114179Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/util.rb:1086:in `find_encoding_error'
+2026-04-03T15:14:44.114384Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/util.rb:814:in `check_sass_encoding'
+2026-04-03T15:14:44.114553Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/engine.rb:444:in `check_encoding!'
+2026-04-03T15:14:44.11462Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/engine.rb:400:in `_to_tree'
+2026-04-03T15:14:44.114684Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/engine.rb:321:in `to_tree'
+2026-04-03T15:14:44.114785Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:323:in `block in visit_import'
+2026-04-03T15:14:44.114862Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `block in with_import'
+2026-04-03T15:14:44.114927Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+2026-04-03T15:14:44.114962Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `with_import'
+2026-04-03T15:14:44.115092Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
+2026-04-03T15:14:44.115136Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+2026-04-03T15:14:44.115172Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+2026-04-03T15:14:44.115215Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
+2026-04-03T15:14:44.115255Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+2026-04-03T15:14:44.115377Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
+2026-04-03T15:14:44.115445Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
+2026-04-03T15:14:44.115537Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in `block (2 levels) in visit_import'
+2026-04-03T15:14:44.115592Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in `map'
+2026-04-03T15:14:44.115758Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in `block in visit_import'
+2026-04-03T15:14:44.116075Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `block in with_import'
+2026-04-03T15:14:44.11627Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+2026-04-03T15:14:44.116467Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `with_import'
+2026-04-03T15:14:44.116846Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
+2026-04-03T15:14:44.117174Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+2026-04-03T15:14:44.117376Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+2026-04-03T15:14:44.117611Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
+2026-04-03T15:14:44.117843Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+2026-04-03T15:14:44.118162Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
+2026-04-03T15:14:44.11831Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
+2026-04-03T15:14:44.118689Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in `block (2 levels) in visit_import'
+2026-04-03T15:14:44.118926Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in `map'
+2026-04-03T15:14:44.119103Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in `block in visit_import'
+2026-04-03T15:14:44.119432Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `block in with_import'
+2026-04-03T15:14:44.119598Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+2026-04-03T15:14:44.119729Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `with_import'
+2026-04-03T15:14:44.119826Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
+2026-04-03T15:14:44.120071Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+2026-04-03T15:14:44.120535Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+2026-04-03T15:14:44.120822Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
+2026-04-03T15:14:44.121143Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+2026-04-03T15:14:44.121492Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
+2026-04-03T15:14:44.121579Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
+2026-04-03T15:14:44.121875Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+2026-04-03T15:14:44.122809Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `map'
+2026-04-03T15:14:44.123095Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+2026-04-03T15:14:44.12318Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+2026-04-03T15:14:44.123239Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+2026-04-03T15:14:44.123325Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+2026-04-03T15:14:44.123404Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+2026-04-03T15:14:44.123543Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+2026-04-03T15:14:44.123682Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+2026-04-03T15:14:44.123831Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:157:in `visit'
+2026-04-03T15:14:44.124014Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:10:in `visit'
+2026-04-03T15:14:44.124205Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:36:in `css_tree'
+2026-04-03T15:14:44.124322Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:20:in `render'
+2026-04-03T15:14:44.124531Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/engine.rb:290:in `render'
+2026-04-03T15:14:44.124695Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass.rb:57:in `compile'
+2026-04-03T15:14:44.124915Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-sass-converter-1.5.2/lib/jekyll/converters/scss.rb:119:in `convert'
+2026-04-03T15:14:44.125041Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-3.10.0/lib/jekyll/renderer.rb:101:in `block in convert'
+2026-04-03T15:14:44.125241Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-3.10.0/lib/jekyll/renderer.rb:99:in `each'
+2026-04-03T15:14:44.125328Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-3.10.0/lib/jekyll/renderer.rb:99:in `reduce'
+2026-04-03T15:14:44.12548Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-3.10.0/lib/jekyll/renderer.rb:99:in `convert'
+2026-04-03T15:14:44.125621Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-3.10.0/lib/jekyll/renderer.rb:83:in `render_document'
+2026-04-03T15:14:44.125834Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-3.10.0/lib/jekyll/renderer.rb:62:in `run'
+2026-04-03T15:14:44.1259Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-3.10.0/lib/jekyll/site.rb:479:in `render_regenerated'
+2026-04-03T15:14:44.125961Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-3.10.0/lib/jekyll/site.rb:472:in `block in render_pages'
+2026-04-03T15:14:44.126015Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-3.10.0/lib/jekyll/site.rb:471:in `each'
+2026-04-03T15:14:44.126153Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-3.10.0/lib/jekyll/site.rb:471:in `render_pages'
+2026-04-03T15:14:44.126244Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-3.10.0/lib/jekyll/site.rb:192:in `render'
+2026-04-03T15:14:44.126924Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-3.10.0/lib/jekyll/site.rb:71:in `process'
+2026-04-03T15:14:44.12704Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-3.10.0/lib/jekyll/command.rb:28:in `process_site'
+2026-04-03T15:14:44.127145Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-3.10.0/lib/jekyll/commands/build.rb:65:in `build'
+2026-04-03T15:14:44.127257Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-3.10.0/lib/jekyll/commands/build.rb:36:in `process'
+2026-04-03T15:14:44.127318Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-3.10.0/lib/jekyll/commands/build.rb:18:in `block (2 levels) in init_with_program'
+2026-04-03T15:14:44.127849Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `block in execute'
+2026-04-03T15:14:44.128018Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `each'
+2026-04-03T15:14:44.128214Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `execute'
+2026-04-03T15:14:44.128519Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/mercenary-0.3.6/lib/mercenary/program.rb:42:in `go'
+2026-04-03T15:14:44.128681Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/mercenary-0.3.6/lib/mercenary.rb:19:in `program'
+2026-04-03T15:14:44.128805Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-3.10.0/exe/jekyll:15:in `<top (required)>'
+2026-04-03T15:14:44.128876Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/bin/jekyll:25:in `load'
+2026-04-03T15:14:44.128936Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/bin/jekyll:25:in `<top (required)>'
+2026-04-03T15:14:44.129014Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/bundler-4.0.9/lib/bundler/cli/exec.rb:61:in `load'
+2026-04-03T15:14:44.129089Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/bundler-4.0.9/lib/bundler/cli/exec.rb:61:in `kernel_load'
+2026-04-03T15:14:44.129155Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/bundler-4.0.9/lib/bundler/cli/exec.rb:24:in `run'
+2026-04-03T15:14:44.129219Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/bundler-4.0.9/lib/bundler/cli.rb:504:in `exec'
+2026-04-03T15:14:44.129265Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/bundler-4.0.9/lib/bundler/vendor/thor/lib/thor/command.rb:28:in `run'
+2026-04-03T15:14:44.129299Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/bundler-4.0.9/lib/bundler/vendor/thor/lib/thor/invocation.rb:127:in `invoke_command'
+2026-04-03T15:14:44.129452Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/bundler-4.0.9/lib/bundler/vendor/thor/lib/thor.rb:538:in `dispatch'
+2026-04-03T15:14:44.129527Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/bundler-4.0.9/lib/bundler/cli.rb:35:in `dispatch'
+2026-04-03T15:14:44.129574Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/bundler-4.0.9/lib/bundler/vendor/thor/lib/thor/base.rb:584:in `start'
+2026-04-03T15:14:44.129623Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/bundler-4.0.9/lib/bundler/cli.rb:29:in `start'
+2026-04-03T15:14:44.129702Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/bundler-4.0.9/exe/bundle:28:in `block in <top (required)>'
+2026-04-03T15:14:44.129831Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/bundler-4.0.9/lib/bundler/friendly_errors.rb:118:in `with_friendly_errors'
+2026-04-03T15:14:44.129881Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/bundler-4.0.9/exe/bundle:20:in `<top (required)>'
+2026-04-03T15:14:44.129926Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/bin/bundle:25:in `load'
+2026-04-03T15:14:44.129983Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/bin/bundle:25:in `<main>'
+2026-04-03T15:14:44.130069Z	/opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/util.rb:1088:in `encode': "\xE2" to UTF-8 in conversion from ASCII-8BIT to UTF-8 to US-ASCII (Encoding::UndefinedConversionError)
+2026-04-03T15:14:44.130207Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/util.rb:1088:in `block in find_encoding_error'
+2026-04-03T15:14:44.130353Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/util.rb:1086:in `each'
+2026-04-03T15:14:44.13045Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/util.rb:1086:in `each_with_index'
+2026-04-03T15:14:44.130589Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/util.rb:1086:in `find_encoding_error'
+2026-04-03T15:14:44.13066Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/util.rb:814:in `check_sass_encoding'
+2026-04-03T15:14:44.130723Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/engine.rb:444:in `check_encoding!'
+2026-04-03T15:14:44.130872Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/engine.rb:400:in `_to_tree'
+2026-04-03T15:14:44.130998Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/engine.rb:321:in `to_tree'
+2026-04-03T15:14:44.131041Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:323:in `block in visit_import'
+2026-04-03T15:14:44.131085Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `block in with_import'
+2026-04-03T15:14:44.131583Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+2026-04-03T15:14:44.131808Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `with_import'
+2026-04-03T15:14:44.131882Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
+2026-04-03T15:14:44.131977Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+2026-04-03T15:14:44.132036Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+2026-04-03T15:14:44.132087Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
+2026-04-03T15:14:44.132129Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+2026-04-03T15:14:44.132177Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
+2026-04-03T15:14:44.132222Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
+2026-04-03T15:14:44.132284Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in `block (2 levels) in visit_import'
+2026-04-03T15:14:44.13235Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in `map'
+2026-04-03T15:14:44.132403Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in `block in visit_import'
+2026-04-03T15:14:44.13253Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `block in with_import'
+2026-04-03T15:14:44.132618Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+2026-04-03T15:14:44.132707Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `with_import'
+2026-04-03T15:14:44.132793Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
+2026-04-03T15:14:44.132878Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+2026-04-03T15:14:44.132937Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+2026-04-03T15:14:44.13307Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
+2026-04-03T15:14:44.133175Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+2026-04-03T15:14:44.133285Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
+2026-04-03T15:14:44.133456Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
+2026-04-03T15:14:44.133547Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in `block (2 levels) in visit_import'
+2026-04-03T15:14:44.133611Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in `map'
+2026-04-03T15:14:44.133817Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in `block in visit_import'
+2026-04-03T15:14:44.134103Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `block in with_import'
+2026-04-03T15:14:44.134414Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+2026-04-03T15:14:44.134622Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `with_import'
+2026-04-03T15:14:44.13479Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
+2026-04-03T15:14:44.134928Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+2026-04-03T15:14:44.135022Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+2026-04-03T15:14:44.1351Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
+2026-04-03T15:14:44.135148Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+2026-04-03T15:14:44.135189Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
+2026-04-03T15:14:44.135223Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
+2026-04-03T15:14:44.135313Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+2026-04-03T15:14:44.135412Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `map'
+2026-04-03T15:14:44.135449Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+2026-04-03T15:14:44.135501Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+2026-04-03T15:14:44.135617Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+2026-04-03T15:14:44.135727Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+2026-04-03T15:14:44.135795Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+2026-04-03T15:14:44.135936Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+2026-04-03T15:14:44.136036Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+2026-04-03T15:14:44.136147Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:157:in `visit'
+2026-04-03T15:14:44.136346Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:10:in `visit'
+2026-04-03T15:14:44.136997Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:36:in `css_tree'
+2026-04-03T15:14:44.13717Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:20:in `render'
+2026-04-03T15:14:44.137331Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass/engine.rb:290:in `render'
+2026-04-03T15:14:44.137472Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/sass-3.7.4/lib/sass.rb:57:in `compile'
+2026-04-03T15:14:44.137618Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-sass-converter-1.5.2/lib/jekyll/converters/scss.rb:119:in `convert'
+2026-04-03T15:14:44.137855Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-3.10.0/lib/jekyll/renderer.rb:101:in `block in convert'
+2026-04-03T15:14:44.13794Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-3.10.0/lib/jekyll/renderer.rb:99:in `each'
+2026-04-03T15:14:44.138004Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-3.10.0/lib/jekyll/renderer.rb:99:in `reduce'
+2026-04-03T15:14:44.138075Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-3.10.0/lib/jekyll/renderer.rb:99:in `convert'
+2026-04-03T15:14:44.138134Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-3.10.0/lib/jekyll/renderer.rb:83:in `render_document'
+2026-04-03T15:14:44.138236Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-3.10.0/lib/jekyll/renderer.rb:62:in `run'
+2026-04-03T15:14:44.138362Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-3.10.0/lib/jekyll/site.rb:479:in `render_regenerated'
+2026-04-03T15:14:44.138412Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-3.10.0/lib/jekyll/site.rb:472:in `block in render_pages'
+2026-04-03T15:14:44.13847Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-3.10.0/lib/jekyll/site.rb:471:in `each'
+2026-04-03T15:14:44.138558Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-3.10.0/lib/jekyll/site.rb:471:in `render_pages'
+2026-04-03T15:14:44.1386Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-3.10.0/lib/jekyll/site.rb:192:in `render'
+2026-04-03T15:14:44.13864Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-3.10.0/lib/jekyll/site.rb:71:in `process'
+2026-04-03T15:14:44.138681Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-3.10.0/lib/jekyll/command.rb:28:in `process_site'
+2026-04-03T15:14:44.138768Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-3.10.0/lib/jekyll/commands/build.rb:65:in `build'
+2026-04-03T15:14:44.138823Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-3.10.0/lib/jekyll/commands/build.rb:36:in `process'
+2026-04-03T15:14:44.138888Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-3.10.0/lib/jekyll/commands/build.rb:18:in `block (2 levels) in init_with_program'
+2026-04-03T15:14:44.138987Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `block in execute'
+2026-04-03T15:14:44.13906Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `each'
+2026-04-03T15:14:44.139127Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `execute'
+2026-04-03T15:14:44.139162Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/mercenary-0.3.6/lib/mercenary/program.rb:42:in `go'
+2026-04-03T15:14:44.139248Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/mercenary-0.3.6/lib/mercenary.rb:19:in `program'
+2026-04-03T15:14:44.139323Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/jekyll-3.10.0/exe/jekyll:15:in `<top (required)>'
+2026-04-03T15:14:44.139497Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/bin/jekyll:25:in `load'
+2026-04-03T15:14:44.139628Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/bin/jekyll:25:in `<top (required)>'
+2026-04-03T15:14:44.139785Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/bundler-4.0.9/lib/bundler/cli/exec.rb:61:in `load'
+2026-04-03T15:14:44.139895Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/bundler-4.0.9/lib/bundler/cli/exec.rb:61:in `kernel_load'
+2026-04-03T15:14:44.140048Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/bundler-4.0.9/lib/bundler/cli/exec.rb:24:in `run'
+2026-04-03T15:14:44.140124Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/bundler-4.0.9/lib/bundler/cli.rb:504:in `exec'
+2026-04-03T15:14:44.140166Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/bundler-4.0.9/lib/bundler/vendor/thor/lib/thor/command.rb:28:in `run'
+2026-04-03T15:14:44.140411Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/bundler-4.0.9/lib/bundler/vendor/thor/lib/thor/invocation.rb:127:in `invoke_command'
+2026-04-03T15:14:44.14048Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/bundler-4.0.9/lib/bundler/vendor/thor/lib/thor.rb:538:in `dispatch'
+2026-04-03T15:14:44.141065Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/bundler-4.0.9/lib/bundler/cli.rb:35:in `dispatch'
+2026-04-03T15:14:44.14129Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/bundler-4.0.9/lib/bundler/vendor/thor/lib/thor/base.rb:584:in `start'
+2026-04-03T15:14:44.141662Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/bundler-4.0.9/lib/bundler/cli.rb:29:in `start'
+2026-04-03T15:14:44.141749Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/bundler-4.0.9/exe/bundle:28:in `block in <top (required)>'
+2026-04-03T15:14:44.141788Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/bundler-4.0.9/lib/bundler/friendly_errors.rb:118:in `with_friendly_errors'
+2026-04-03T15:14:44.141832Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/bundler-4.0.9/exe/bundle:20:in `<top (required)>'
+2026-04-03T15:14:44.141873Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/bin/bundle:25:in `load'
+2026-04-03T15:14:44.141928Z		from /opt/buildhome/.asdf/installs/ruby/3.2.3/bin/bundle:25:in `<main>'
+2026-04-03T15:14:44.142057Z	Failed: Error while executing user command. Exited with error code: 1
+2026-04-03T15:14:44.159325Z	Failed: build command exited with code: 1
+2026-04-03T15:14:45.037913Z	Failed: error occurred while running build command

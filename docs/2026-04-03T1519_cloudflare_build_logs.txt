@@ -1,0 +1,303 @@
+2026-04-03T15:19:04.153807Z	Cloning repository...
+2026-04-03T15:19:05.625261Z	From https://github.com/alexkolo/strategic-ai
+2026-04-03T15:19:05.625682Z	 * branch            53397d7e15b5916909e2b913ca2cb34a0cb70f2a -> FETCH_HEAD
+2026-04-03T15:19:05.625757Z
+2026-04-03T15:19:05.666482Z	HEAD is now at 53397d7 Add Cloudflare Pages setup documentation for deployment and testing guidance
+2026-04-03T15:19:05.666757Z
+2026-04-03T15:19:05.712146Z
+2026-04-03T15:19:05.712575Z	Using v2 root directory strategy
+2026-04-03T15:19:05.728099Z	Success: Finished cloning repository files
+2026-04-03T15:19:07.756089Z	Checking for configuration in a Wrangler configuration file (BETA)
+2026-04-03T15:19:07.756904Z
+2026-04-03T15:19:08.855074Z	No Wrangler configuration file found. Continuing.
+2026-04-03T15:19:09.122695Z	Detected the following tools from environment: ruby@3.2.3
+2026-04-03T15:19:09.123074Z	Installing ruby 3.2.3
+2026-04-03T15:19:09.343059Z	==> Downloading ruby-3.2.3.tar.gz...
+2026-04-03T15:19:09.345428Z	-> curl -q -fL -o ruby-3.2.3.tar.gz https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.3.tar.gz
+2026-04-03T15:19:09.356022Z	  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+2026-04-03T15:19:09.35619Z	                                 Dload  Upload   Total   Spent    Left  Speed
+2026-04-03T15:19:10.565858Z
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+ 11 19.6M   11 2318k    0     0  2932k      0  0:00:06 --:--:--  0:00:06 2931k
+100 19.6M  100 19.6M    0     0  16.2M      0  0:00:01  0:00:01 --:--:-- 16.2M
+2026-04-03T15:19:11.636409Z	==> Installing ruby-3.2.3...
+2026-04-03T15:19:11.668537Z	-> ./configure "--prefix=$HOME/.asdf/installs/ruby/3.2.3" --enable-shared --with-ext=openssl,psych,+
+2026-04-03T15:19:46.708113Z	-> make -j 4
+2026-04-03T15:21:37.551371Z	-> make install
+2026-04-03T15:22:11.473016Z	==> Installed ruby-3.2.3 to /opt/buildhome/.asdf/installs/ruby/3.2.3
+2026-04-03T15:22:12.892404Z	Installing project dependencies: BUNDLE_WITHOUT="development test" bundle install
+2026-04-03T15:22:13.182456Z	Bundler 2.4.19 is running, but your lockfile was generated with 4.0.9. Installing Bundler 4.0.9 and restarting using that version.
+2026-04-03T15:22:14.43055Z	Fetching gem metadata from https://rubygems.org/.
+2026-04-03T15:22:14.437353Z	Fetching bundler 4.0.9
+2026-04-03T15:22:14.558277Z	Installing bundler 4.0.9
+2026-04-03T15:22:21.00963Z	Fetching gem metadata from https://rubygems.org/.........
+2026-04-03T15:22:21.02686Z	Fetching base64 0.3.0
+2026-04-03T15:22:21.028872Z	Fetching bigdecimal 4.1.0
+2026-04-03T15:22:21.029461Z	Fetching connection_pool 3.0.2
+2026-04-03T15:22:21.029772Z	Fetching concurrent-ruby 1.3.6
+2026-04-03T15:22:21.132248Z	Fetching drb 2.2.3
+2026-04-03T15:22:21.167089Z	Fetching i18n 1.14.8
+2026-04-03T15:22:21.18719Z	Installing bigdecimal 4.1.0 with native extensions
+2026-04-03T15:22:21.242013Z	Fetching json 2.19.3
+2026-04-03T15:22:21.263476Z	Fetching logger 1.7.0
+2026-04-03T15:22:21.279306Z	Fetching prism 1.9.0
+2026-04-03T15:22:21.302591Z	Fetching minitest 6.0.3
+2026-04-03T15:22:21.321237Z	Installing json 2.19.3 with native extensions
+2026-04-03T15:22:21.408325Z	Fetching securerandom 0.4.1
+2026-04-03T15:22:21.415502Z	Fetching tzinfo 2.0.6
+2026-04-03T15:22:21.552257Z	Installing prism 1.9.0 with native extensions
+2026-04-03T15:22:21.573357Z	Fetching uri 1.1.1
+2026-04-03T15:22:21.605297Z	Fetching activesupport 8.1.3
+2026-04-03T15:22:21.647066Z	Fetching public_suffix 5.1.1
+2026-04-03T15:22:21.678224Z	Fetching addressable 2.8.9
+2026-04-03T15:22:21.709049Z	Fetching coffee-script-source 1.12.2
+2026-04-03T15:22:21.741866Z	Fetching execjs 2.10.1
+2026-04-03T15:22:21.771514Z	Fetching coffee-script 2.4.1
+2026-04-03T15:22:21.799526Z	Fetching colorator 1.1.0
+2026-04-03T15:22:21.838077Z	Fetching commonmarker 0.23.12
+2026-04-03T15:22:21.866043Z	Fetching csv 3.3.5
+2026-04-03T15:22:21.898742Z	Installing commonmarker 0.23.12 with native extensions
+2026-04-03T15:22:27.350327Z	Fetching simpleidn 0.2.3
+2026-04-03T15:22:27.423977Z	Fetching dnsruby 1.73.1
+2026-04-03T15:22:27.476323Z	Fetching eventmachine 1.2.7
+2026-04-03T15:22:27.513894Z	Fetching http_parser.rb 0.8.1
+2026-04-03T15:22:27.537345Z	Installing eventmachine 1.2.7 with native extensions
+2026-04-03T15:22:28.573198Z	Installing http_parser.rb 0.8.1 with native extensions
+2026-04-03T15:22:28.925047Z	Fetching em-websocket 0.5.3
+2026-04-03T15:22:28.944797Z	Fetching ffi 1.17.4 (x86_64-linux-gnu)
+2026-04-03T15:22:28.985867Z	Fetching ethon 0.18.0
+2026-04-03T15:22:29.004652Z	Fetching net-http 0.9.1
+2026-04-03T15:22:29.022451Z	Fetching faraday-net_http 3.4.2
+2026-04-03T15:22:29.040449Z	Fetching faraday 2.14.1
+2026-04-03T15:22:29.057834Z	Fetching forwardable-extended 2.6.0
+2026-04-03T15:22:29.075701Z	Fetching gemoji 4.1.0
+2026-04-03T15:22:29.092406Z	Fetching sawyer 0.9.3
+2026-04-03T15:22:29.110544Z	Fetching octokit 4.25.1
+2026-04-03T15:22:29.128293Z	Fetching typhoeus 1.6.0
+2026-04-03T15:22:29.14662Z	Fetching github-pages-health-check 1.18.2
+2026-04-03T15:22:29.163699Z	Fetching rb-fsevent 0.11.2
+2026-04-03T15:22:29.183511Z	Fetching rb-inotify 0.11.1
+2026-04-03T15:22:29.222583Z	Fetching sass-listen 4.0.0
+2026-04-03T15:22:29.24203Z	Fetching sass 3.7.4
+2026-04-03T15:22:29.26445Z	Fetching jekyll-sass-converter 1.5.2
+2026-04-03T15:22:29.281288Z	Fetching listen 3.10.0
+2026-04-03T15:22:29.30455Z	Fetching jekyll-watch 2.2.1
+2026-04-03T15:22:29.323192Z	Fetching rexml 3.4.4
+2026-04-03T15:22:29.343462Z	Fetching kramdown 2.4.0
+2026-04-03T15:22:29.366264Z	Fetching liquid 4.0.4
+2026-04-03T15:22:29.390713Z	Fetching mercenary 0.3.6
+2026-04-03T15:22:29.410595Z	Fetching pathutil 0.16.2
+2026-04-03T15:22:29.427553Z	Fetching rouge 3.30.0
+2026-04-03T15:22:29.462613Z	Fetching safe_yaml 1.0.5
+2026-04-03T15:22:29.482058Z	Fetching webrick 1.9.2
+2026-04-03T15:22:29.500397Z	Fetching jekyll 3.10.0
+2026-04-03T15:22:29.523042Z	Fetching jekyll-avatar 0.8.0
+2026-04-03T15:22:29.539795Z	Fetching jekyll-coffeescript 1.2.2
+2026-04-03T15:22:29.557434Z	Fetching jekyll-commonmark 1.4.0
+2026-04-03T15:22:29.572686Z	Fetching jekyll-commonmark-ghpages 0.5.1
+2026-04-03T15:22:29.589048Z	Fetching jekyll-default-layout 0.1.5
+2026-04-03T15:22:29.606881Z	Fetching jekyll-feed 0.17.0
+2026-04-03T15:22:29.635791Z	Fetching jekyll-gist 1.5.0
+2026-04-03T15:22:29.658887Z	Fetching jekyll-github-metadata 2.16.1
+2026-04-03T15:22:29.677088Z	Fetching jekyll-include-cache 0.2.1
+2026-04-03T15:22:29.694574Z	Fetching racc 1.8.1
+2026-04-03T15:22:29.723363Z	Fetching nokogiri 1.19.2 (x86_64-linux-gnu)
+2026-04-03T15:22:29.774239Z	Installing racc 1.8.1 with native extensions
+2026-04-03T15:22:29.907755Z	Fetching html-pipeline 2.14.3
+2026-04-03T15:22:29.925439Z	Fetching jekyll-mentions 1.6.0
+2026-04-03T15:22:29.941538Z	Fetching jekyll-optional-front-matter 0.3.2
+2026-04-03T15:22:29.957476Z	Fetching jekyll-paginate 1.1.0
+2026-04-03T15:22:29.97464Z	Fetching jekyll-readme-index 0.3.0
+2026-04-03T15:22:29.992735Z	Fetching jekyll-redirect-from 0.16.0
+2026-04-03T15:22:30.008836Z	Fetching jekyll-relative-links 0.6.1
+2026-04-03T15:22:30.026853Z	Fetching rubyzip 2.4.1
+2026-04-03T15:22:30.04419Z	Fetching jekyll-remote-theme 0.4.3
+2026-04-03T15:22:30.063069Z	Fetching jekyll-seo-tag 2.8.0
+2026-04-03T15:22:30.088619Z	Fetching jekyll-sitemap 1.4.0
+2026-04-03T15:22:30.118917Z	Fetching jekyll-swiss 1.0.0
+2026-04-03T15:22:30.135381Z	Fetching jekyll-theme-architect 0.2.0
+2026-04-03T15:22:30.156216Z	Fetching jekyll-theme-cayman 0.2.0
+2026-04-03T15:22:30.17695Z	Fetching jekyll-theme-dinky 0.2.0
+2026-04-03T15:22:30.19333Z	Fetching jekyll-theme-hacker 0.2.0
+2026-04-03T15:22:30.210638Z	Fetching jekyll-theme-leap-day 0.2.0
+2026-04-03T15:22:30.244991Z	Fetching jekyll-theme-merlot 0.2.0
+2026-04-03T15:22:30.279911Z	Fetching jekyll-theme-midnight 0.2.0
+2026-04-03T15:22:30.416928Z	Fetching jekyll-theme-minimal 0.2.0
+2026-04-03T15:22:30.450375Z	Fetching jekyll-theme-modernist 0.2.0
+2026-04-03T15:22:30.453053Z	Fetching jekyll-theme-primer 0.6.0
+2026-04-03T15:22:30.473936Z	Fetching jekyll-theme-slate 0.2.0
+2026-04-03T15:22:30.487855Z	Fetching jekyll-theme-tactile 0.2.0
+2026-04-03T15:22:30.502134Z	Fetching jekyll-theme-time-machine 0.2.0
+2026-04-03T15:22:30.52549Z	Fetching jekyll-titles-from-headings 0.5.3
+2026-04-03T15:22:30.538054Z	Fetching jemoji 0.13.0
+2026-04-03T15:22:30.55798Z	Fetching kramdown-parser-gfm 1.1.0
+2026-04-03T15:22:30.579455Z	Fetching minima 2.5.1
+2026-04-03T15:22:30.585767Z	Fetching unicode-display_width 1.8.0
+2026-04-03T15:22:30.611414Z	Fetching terminal-table 1.8.0
+2026-04-03T15:22:30.619602Z	Fetching github-pages 232
+2026-04-03T15:22:30.656539Z	Installing base64 0.3.0
+2026-04-03T15:22:30.691747Z	Installing connection_pool 3.0.2
+2026-04-03T15:22:30.707084Z	Installing concurrent-ruby 1.3.6
+2026-04-03T15:22:30.724409Z	Installing drb 2.2.3
+2026-04-03T15:22:30.766423Z	Installing i18n 1.14.8
+2026-04-03T15:22:30.891012Z	Installing logger 1.7.0
+2026-04-03T15:22:30.933789Z	Installing minitest 6.0.3
+2026-04-03T15:22:31.00629Z	Installing securerandom 0.4.1
+2026-04-03T15:22:31.02254Z	Installing tzinfo 2.0.6
+2026-04-03T15:22:31.046219Z	Installing uri 1.1.1
+2026-04-03T15:22:31.100122Z	Installing activesupport 8.1.3
+2026-04-03T15:22:31.131105Z	Installing public_suffix 5.1.1
+2026-04-03T15:22:31.16602Z	Installing addressable 2.8.9
+2026-04-03T15:22:31.193642Z	Installing coffee-script-source 1.12.2
+2026-04-03T15:22:31.206977Z	Installing execjs 2.10.1
+2026-04-03T15:22:31.24945Z	Installing coffee-script 2.4.1
+2026-04-03T15:22:31.262236Z	Installing colorator 1.1.0
+2026-04-03T15:22:31.286509Z	Installing csv 3.3.5
+2026-04-03T15:22:31.375391Z	Installing simpleidn 0.2.3
+2026-04-03T15:22:31.410234Z	Installing dnsruby 1.73.1
+2026-04-03T15:22:31.74001Z	Installing em-websocket 0.5.3
+2026-04-03T15:22:31.768655Z	Installing ffi 1.17.4 (x86_64-linux-gnu)
+2026-04-03T15:22:31.848638Z	Installing ethon 0.18.0
+2026-04-03T15:22:31.960254Z	Installing net-http 0.9.1
+2026-04-03T15:22:32.000488Z	Installing faraday-net_http 3.4.2
+2026-04-03T15:22:32.02053Z	Installing faraday 2.14.1
+2026-04-03T15:22:32.147866Z	Installing forwardable-extended 2.6.0
+2026-04-03T15:22:32.1682Z	Installing gemoji 4.1.0
+2026-04-03T15:22:32.183588Z	Installing sawyer 0.9.3
+2026-04-03T15:22:32.195437Z	Installing octokit 4.25.1
+2026-04-03T15:22:32.224249Z	Installing typhoeus 1.6.0
+2026-04-03T15:22:32.319448Z	Installing github-pages-health-check 1.18.2
+2026-04-03T15:22:32.378872Z	Installing rb-fsevent 0.11.2
+2026-04-03T15:22:32.410817Z	Installing rb-inotify 0.11.1
+2026-04-03T15:22:32.446507Z	Installing sass-listen 4.0.0
+2026-04-03T15:22:32.454937Z	Installing sass 3.7.4
+2026-04-03T15:22:32.529201Z	Installing jekyll-sass-converter 1.5.2
+2026-04-03T15:22:32.547804Z	Installing listen 3.10.0
+2026-04-03T15:22:32.63836Z	Installing jekyll-watch 2.2.1
+2026-04-03T15:22:32.660662Z	Installing rexml 3.4.4
+2026-04-03T15:22:32.725676Z	Installing kramdown 2.4.0
+2026-04-03T15:22:32.798114Z	Installing liquid 4.0.4
+2026-04-03T15:22:33.005059Z	Installing mercenary 0.3.6
+2026-04-03T15:22:33.064801Z	Installing pathutil 0.16.2
+2026-04-03T15:22:33.088438Z	Installing rouge 3.30.0
+2026-04-03T15:22:33.698429Z	Installing safe_yaml 1.0.5
+2026-04-03T15:22:33.802712Z	Installing webrick 1.9.2
+2026-04-03T15:22:33.933002Z	Installing jekyll 3.10.0
+2026-04-03T15:22:33.953062Z	Installing jekyll-avatar 0.8.0
+2026-04-03T15:22:33.967373Z	Installing jekyll-coffeescript 1.2.2
+2026-04-03T15:22:33.982677Z	Installing jekyll-commonmark 1.4.0
+2026-04-03T15:22:33.999082Z	Installing jekyll-commonmark-ghpages 0.5.1
+2026-04-03T15:22:34.031678Z	Installing jekyll-default-layout 0.1.5
+2026-04-03T15:22:34.045654Z	Installing jekyll-feed 0.17.0
+2026-04-03T15:22:34.075229Z	Installing jekyll-gist 1.5.0
+2026-04-03T15:22:34.119042Z	Installing jekyll-github-metadata 2.16.1
+2026-04-03T15:22:34.145789Z	Installing jekyll-include-cache 0.2.1
+2026-04-03T15:22:34.162984Z	Installing html-pipeline 2.14.3
+2026-04-03T15:22:34.180574Z	Installing nokogiri 1.19.2 (x86_64-linux-gnu)
+2026-04-03T15:22:34.228666Z	Installing jekyll-mentions 1.6.0
+2026-04-03T15:22:34.238418Z	Installing jekyll-optional-front-matter 0.3.2
+2026-04-03T15:22:34.253595Z	Installing jekyll-paginate 1.1.0
+2026-04-03T15:22:34.307893Z	Installing jekyll-readme-index 0.3.0
+2026-04-03T15:22:34.321934Z	Installing jekyll-redirect-from 0.16.0
+2026-04-03T15:22:34.409845Z	Installing jekyll-relative-links 0.6.1
+2026-04-03T15:22:34.421866Z	Installing rubyzip 2.4.1
+2026-04-03T15:22:34.511979Z	Installing jekyll-remote-theme 0.4.3
+2026-04-03T15:22:34.530472Z	Installing jekyll-seo-tag 2.8.0
+2026-04-03T15:22:34.598547Z	Installing jekyll-sitemap 1.4.0
+2026-04-03T15:22:34.614328Z	Installing jekyll-swiss 1.0.0
+2026-04-03T15:22:34.674053Z	Installing jekyll-theme-architect 0.2.0
+2026-04-03T15:22:34.711616Z	Installing jekyll-theme-cayman 0.2.0
+2026-04-03T15:22:34.718315Z	Installing jekyll-theme-dinky 0.2.0
+2026-04-03T15:22:34.740988Z	Installing jekyll-theme-hacker 0.2.0
+2026-04-03T15:22:34.750706Z	Installing jekyll-theme-leap-day 0.2.0
+2026-04-03T15:22:34.780929Z	Installing jekyll-theme-merlot 0.2.0
+2026-04-03T15:22:34.851533Z	Installing jekyll-theme-midnight 0.2.0
+2026-04-03T15:22:34.88726Z	Installing jekyll-theme-minimal 0.2.0
+2026-04-03T15:22:34.958655Z	Installing jekyll-theme-modernist 0.2.0
+2026-04-03T15:22:34.986161Z	Installing jekyll-theme-primer 0.6.0
+2026-04-03T15:22:34.99351Z	Installing jekyll-theme-slate 0.2.0
+2026-04-03T15:22:35.024546Z	Installing jekyll-theme-tactile 0.2.0
+2026-04-03T15:22:35.054795Z	Installing jekyll-theme-time-machine 0.2.0
+2026-04-03T15:22:35.090198Z	Installing jekyll-titles-from-headings 0.5.3
+2026-04-03T15:22:35.094396Z	Installing jemoji 0.13.0
+2026-04-03T15:22:35.100997Z	Installing kramdown-parser-gfm 1.1.0
+2026-04-03T15:22:35.104787Z	Installing minima 2.5.1
+2026-04-03T15:22:35.146545Z	Installing unicode-display_width 1.8.0
+2026-04-03T15:22:35.167358Z	Installing terminal-table 1.8.0
+2026-04-03T15:22:35.168521Z	Installing github-pages 232
+2026-04-03T15:22:43.642885Z	Bundle complete! 2 Gemfile dependencies, 97 gems now installed.
+2026-04-03T15:22:43.643677Z	Gems in the groups 'development' and 'test' were not installed.
+2026-04-03T15:22:43.643825Z	Use `bundle info [gemname]` to see where a bundled gem is installed.
+2026-04-03T15:22:43.643898Z	Post-install message from dnsruby:
+2026-04-03T15:22:43.643946Z	Installing dnsruby...
+2026-04-03T15:22:43.64403Z	  For issues and source code: https://github.com/alexdalitz/dnsruby
+2026-04-03T15:22:43.644089Z	  For general discussion (please tell us how you use dnsruby): https://groups.google.com/forum/#!forum/dnsruby
+2026-04-03T15:22:43.644182Z	Post-install message from sass:
+2026-04-03T15:22:43.644223Z
+2026-04-03T15:22:43.644257Z	Ruby Sass has reached end-of-life and should no longer be used.
+2026-04-03T15:22:43.644302Z
+2026-04-03T15:22:43.644335Z	* If you use Sass as a command-line tool, we recommend using Dart Sass, the new
+2026-04-03T15:22:43.64438Z	  primary implementation: https://sass-lang.com/install
+2026-04-03T15:22:43.644441Z
+2026-04-03T15:22:43.644488Z	* If you use Sass as a plug-in for a Ruby web framework, we recommend using the
+2026-04-03T15:22:43.644526Z	  sassc gem: https://github.com/sass/sassc-ruby#readme
+2026-04-03T15:22:43.644566Z
+2026-04-03T15:22:43.644632Z	* For more details, please refer to the Sass blog:
+2026-04-03T15:22:43.644689Z	  https://sass-lang.com/blog/posts/7828841
+2026-04-03T15:22:43.644762Z
+2026-04-03T15:22:43.644837Z	Post-install message from html-pipeline:
+2026-04-03T15:22:43.644921Z	-------------------------------------------------
+2026-04-03T15:22:43.645034Z	Thank you for installing html-pipeline!
+2026-04-03T15:22:43.645098Z	You must bundle Filter gem dependencies.
+2026-04-03T15:22:43.645156Z	See html-pipeline README.md for more details.
+2026-04-03T15:22:43.64521Z	https://github.com/jch/html-pipeline#dependencies
+2026-04-03T15:22:43.645308Z	-------------------------------------------------
+2026-04-03T15:22:43.645375Z	Post-install message from rubyzip:
+2026-04-03T15:22:43.645428Z	RubyZip 3.0 is coming!
+2026-04-03T15:22:43.645483Z	**********************
+2026-04-03T15:22:43.64554Z
+2026-04-03T15:22:43.645595Z	The public API of some Rubyzip classes has been modernized to use named
+2026-04-03T15:22:43.645658Z	parameters for optional arguments. Please check your usage of the
+2026-04-03T15:22:43.645758Z	following classes:
+2026-04-03T15:22:43.645826Z	  * `Zip::File`
+2026-04-03T15:22:43.645903Z	  * `Zip::Entry`
+2026-04-03T15:22:43.646041Z	  * `Zip::InputStream`
+2026-04-03T15:22:43.646207Z	  * `Zip::OutputStream`
+2026-04-03T15:22:43.646349Z	  * `Zip::DOSTime`
+2026-04-03T15:22:43.646411Z
+2026-04-03T15:22:43.646472Z	Run your test suite with the `RUBYZIP_V3_API_WARN` environment
+2026-04-03T15:22:43.646531Z	variable set to see warnings about usage of the old API. This will
+2026-04-03T15:22:43.646585Z	help you to identify any changes that you need to make to your code.
+2026-04-03T15:22:43.64667Z	See https://github.com/rubyzip/rubyzip/wiki/Updating-to-version-3.x for
+2026-04-03T15:22:43.646719Z	more information.
+2026-04-03T15:22:43.646763Z
+2026-04-03T15:22:43.646902Z	Please ensure that your Gemfiles and .gemspecs are suitably restrictive
+2026-04-03T15:22:43.646968Z	to avoid an unexpected breakage when 3.0 is released (e.g. ~> 2.3.0).
+2026-04-03T15:22:43.647024Z	See https://github.com/rubyzip/rubyzip for details. The Changelog also
+2026-04-03T15:22:43.647088Z	lists other enhancements and bugfixes that have been implemented since
+2026-04-03T15:22:43.647224Z	version 2.3.0.
+2026-04-03T15:22:43.70855Z	Executing user command: LANG=C.UTF-8 LC_ALL=C.UTF-8 bundle exec jekyll build
+2026-04-03T15:22:44.984835Z	Configuration file: /opt/buildhome/repo/_config.yml
+2026-04-03T15:22:45.126899Z	To use retry middleware with Faraday v2.0+, install `faraday-retry` gem
+2026-04-03T15:22:45.427769Z	            Source: /opt/buildhome/repo
+2026-04-03T15:22:45.428205Z	       Destination: /opt/buildhome/repo/_site
+2026-04-03T15:22:45.430198Z	 Incremental build: disabled. Enable with --incremental
+2026-04-03T15:22:45.430311Z	      Generating...
+2026-04-03T15:22:46.989441Z	                    done in 1.562 seconds.
+2026-04-03T15:22:46.989721Z	 Auto-regeneration: disabled. Use --watch to enable.
+2026-04-03T15:22:47.019612Z	Finished
+2026-04-03T15:22:47.716609Z	Checking for configuration in a Wrangler configuration file (BETA)
+2026-04-03T15:22:47.717061Z
+2026-04-03T15:22:48.808653Z	No Wrangler configuration file found. Continuing.
+2026-04-03T15:22:48.809564Z	Note: No functions dir at /functions found. Skipping.
+2026-04-03T15:22:48.809797Z	Validating asset output directory
+2026-04-03T15:22:51.370401Z	Deploying your site to Cloudflare's global network...
+2026-04-03T15:22:52.862806Z	Uploading... (0/37)
+2026-04-03T15:22:53.280269Z	Uploading... (12/37)
+2026-04-03T15:22:53.422731Z	Uploading... (25/37)
+2026-04-03T15:22:53.550545Z	Uploading... (37/37)
+2026-04-03T15:22:53.550811Z	✨ Success! Uploaded 37 files (1.11 sec)
+2026-04-03T15:22:53.550871Z
+2026-04-03T15:22:53.85271Z	✨ Upload complete!
+2026-04-03T15:22:55.987974Z	Success: Assets published!
+2026-04-03T15:22:58.393199Z	Success: Your site was deployed!
