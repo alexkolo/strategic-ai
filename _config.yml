@@ -20,9 +20,11 @@ exclude:
   - flattened/.flatten_ignore
   - docs/notes.md
   - docs/local_build.md
+  - docs/cloudflare_pages.md
   - Gemfile
   - Gemfile.lock
   - Makefile
+  - .ruby-version
   - vendor
   - .bundle
   - .jekyll-cache
