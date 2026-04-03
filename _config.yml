@@ -23,4 +23,10 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - Makefile
+  - vendor
+  - .bundle
+  - .jekyll-cache
+  - .sass-cache
+  - _site
+  - .codex
 lang: en
